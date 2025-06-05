@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>Pincy</string>
+	<string>Riverla</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
@@ -19,7 +19,7 @@
 		<string>zh_CN</string>
 	</array>
 	<key>CFBundleName</key>
-	<string>Pincy</string>
+	<string>Riverla</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -91,18 +91,8 @@
 	<string>To record audio, we need access to your microphone. This will help you create voice messages and record videos. We will not upload your personal information to the server, protecting your privacy and security.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>To store and share photos and videos, we need access to your photo library. This will help you easily save and share beautiful moments. We will not upload your personal information to the server, protecting your privacy and security.</string>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>audio</string>
-		<string>fetch</string>
-		<string>remote-notification</string>
-	</array>
 	<key>UIFileSharingEnabled</key>
 	<true/>
-	<key>UIRequiredDeviceCapabilities</key>
-	<array>
-		<string>armv7</string>
-	</array>
 	<key>UIRequiresPersistentWiFi</key>
 	<true/>
 	<key>UIStatusBarStyle</key>

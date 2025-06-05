@@ -93,7 +93,7 @@ enum RefreshType
 - (void)addBlankAvatarView
 {
     self.blankView = [[NIMContactSelectAvatarView alloc]init];
-    [self.blankView setImage:[UIImage imageNamed:@"contact_head_selected.png"]];
+    [self.blankView setImage:[UIImage imageNamed:@"contact_head_selected"]];
     [self.blankView setFrame:CGRectMake(self.currentPos, topBlank, avatarWidth, avatarWidth)];
     self.blankView.userId = @"";
     [self.scrollView addSubview:self.blankView];

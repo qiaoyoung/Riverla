@@ -165,7 +165,7 @@ CGFloat SNNavBarHeight(void) {
     
     transactionBlock(self);
     
-    [_actionButton setImage:[UIImage imageNamed:@"lead_close.png"] forState:(UIControlStateNormal)];
+    [_actionButton setImage:[UIImage imageNamed:@"lead_close"] forState:(UIControlStateNormal)];
         
     // 设置 action button 的 frame
     {
