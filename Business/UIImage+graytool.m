@@ -73,7 +73,7 @@
     UIImage *image = [UIImage imageNamed:imageName];
 
     if (image) {
-        return [image imageWithColor:RGB_COLOR_String(@"#B391FF")];
+        return [image imageWithColor:ThemeColor];
     }
     
     return nil;

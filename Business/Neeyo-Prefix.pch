@@ -102,9 +102,8 @@
 
 
 //颜色
-#define ThemeColor                  RGB_COLOR_String(@"#B391FF")
-#define Nav_Color                   RGB_COLOR_String(@"866343")  //导航栏通用颜色
-#define Tabbar_Color                RGB_COLOR_String(@"ffffff")  //tabbar通用颜色
+#define ThemeColor                  RGB_COLOR_String(@"#B391FF")  // 主题色
+#define DeepBtnColor                RGB_COLOR_String(@"#009ADC")  // 按钮厚度色
 #define CommonBGView_Color          RGB_COLOR_String(@"#F6F7FA")  //view通用背景色
 #define TableSeparatorLineColor     RGB_COLOR_String(@"eeeeee")
 #define ImageViewBackColor          RGB_COLOR_String(@"f2f2f2")
@@ -113,7 +112,6 @@
 # define PlaceHolder_GrayColor [UIColor colorWithInt:0xffc4c4c4]
 
 //字体颜色
-#define kCommonColor     RGB_COLOR_String(@"A148FF")  //主题色
 #define kTextColor_2c3042     RGB_COLOR_String(@"#2C3042")  //通用字体颜色：深黑色
 #define TextColor_2     RGB_COLOR_String(@"#5D5F66")  //通用字体颜色：浅黑色
 #define TextColor_3     RGB_COLOR_String(@"#999999")  //通用字体颜色：浅浅黑色

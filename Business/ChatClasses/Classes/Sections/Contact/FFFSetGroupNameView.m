@@ -129,7 +129,7 @@
         _subtitleLabel = [[UILabel alloc] init];
         _subtitleLabel.font = [UIFont systemFontOfSize:12.f];
         _subtitleLabel.textAlignment = NSTextAlignmentCenter;
-        _subtitleLabel.textColor = RGB_COLOR_String(@"#2BBCFB");
+        _subtitleLabel.textColor = ThemeColor;
         _subtitleLabel.text = LangKey(@"Required");
     }
     return _subtitleLabel;

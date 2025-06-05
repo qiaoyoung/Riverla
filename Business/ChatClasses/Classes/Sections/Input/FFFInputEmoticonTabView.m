@@ -119,7 +119,7 @@ const CGFloat NIMInputLineBoarder = .5f;
         btn.selected = i == index;
         if(btn.selected){
             btn.layer.borderWidth = 1.5;
-            btn.layer.borderColor = [UIColor colorWithRed:43/255.0 green:188/255.0 blue:251/255.0 alpha:1].CGColor;
+            btn.layer.borderColor = ThemeColor.CGColor;
         }
     }
 }

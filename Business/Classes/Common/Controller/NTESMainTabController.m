@@ -77,7 +77,7 @@ typedef NS_ENUM(NSInteger,NTESMainTabType) {
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(languageChanged:) name:KEKENotificationLanguageChanged object:nil];
     
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB_COLOR_String(@"#A3A3A3")} forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB_COLOR_String(@"#B391FF")} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:ThemeColor} forState:UIControlStateSelected];
   
     if (@available(iOS 18, *)) {
         self.delegate = self;
@@ -122,7 +122,7 @@ typedef NS_ENUM(NSInteger,NTESMainTabType) {
     [super viewWillAppear:animated];
 
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB_COLOR_String(@"#A3A3A3")} forState:UIControlStateNormal];
-    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:RGB_COLOR_String(@"#B391FF")} forState:UIControlStateSelected];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:ThemeColor} forState:UIControlStateSelected];
  
 
 }

@@ -1860,7 +1860,7 @@
     if (!_btnAudio) {
         _btnAudio = [UIButton buttonWithType:UIButtonTypeCustom];
         _btnAudio.frame = CGRectMake(12, SCREEN_SAFE_HEIGHT-SCREEN_BOTTOM_HEIGHT-40, 40, 40);
-        _btnAudio.backgroundColor = RGB_COLOR_String(@"#B391FF");
+        _btnAudio.backgroundColor = ThemeColor;
         [_btnAudio setImage:[UIImage imageNamed:@"icon_toolview_voice_normal"] forState:UIControlStateNormal];
         _btnAudio.layer.cornerRadius = 20;
         [_btnAudio addTarget:self action:@selector(handleAudioBtn) forControlEvents:UIControlEventTouchUpInside];
@@ -1925,7 +1925,7 @@
         
         UIButton *btnAlbum = [UIButton buttonWithType:UIButtonTypeCustom];
         btnAlbum.frame = CGRectMake(0, 0, 120, 78);
-//        btnAlbum.backgroundColor = RGB_COLOR_String(@"#B391FF");
+//        btnAlbum.backgroundColor = ThemeColor;
         [btnAlbum setImage:[UIImage imageNamed:@"icon_toolview_album"] forState:UIControlStateNormal];
 //        btnAlbum.layer.cornerRadius = 20;
         [btnAlbum addTarget:self action:@selector(handleAlbumBtn) forControlEvents:UIControlEventTouchUpInside];
@@ -1937,7 +1937,7 @@
         
         UIButton *btnShot = [UIButton buttonWithType:UIButtonTypeCustom];
         btnShot.frame = CGRectMake(120, 0, 120, 78);
-//        btnShot.backgroundColor = RGB_COLOR_String(@"#B391FF");
+//        btnShot.backgroundColor = ThemeColor;
         [btnShot setImage:[UIImage imageNamed:@"icon_toolview_camera"] forState:UIControlStateNormal];
 //        btnShot.layer.cornerRadius = 20;
         [btnShot addTarget:self action:@selector(handleShotBtn) forControlEvents:UIControlEventTouchUpInside];

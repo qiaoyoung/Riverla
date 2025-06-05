@@ -133,7 +133,7 @@
     [self.view addSubview:_loginButton];
     _loginButton.backgroundColor = ThemeColor;
     _loginButton.layer.cornerRadius = 24;
-//    _loginButton.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+//    _loginButton.layer.shadowColor = DeepBtnColor.CGColor;
 //    _loginButton.layer.shadowOffset = CGSizeMake(0,3);
 //    _loginButton.layer.shadowOpacity = 1;
 //    _loginButton.layer.shadowRadius = 0;

@@ -132,9 +132,9 @@
         [_sureBtn setTitle:LangKey(@"activity_qrcode_save_code") forState:UIControlStateNormal];
         [_sureBtn setImage:[UIImage imageNamed:@"ic_down"] forState:UIControlStateNormal];
         [_sureBtn layoutButtonWithEdgeInsetsStyle:(MKButtonEdgeInsetsStyleLeft) imageTitleSpace:10];
-        _sureBtn.backgroundColor = [UIColor colorWithRed:43/255.0 green:188/255.0 blue:251/255.0 alpha:1];
+        _sureBtn.backgroundColor = ThemeColor;
         _sureBtn.layer.cornerRadius = 10;
-        _sureBtn.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+        _sureBtn.layer.shadowColor = DeepBtnColor.CGColor;
         _sureBtn.layer.shadowOffset = CGSizeMake(0,3);
         _sureBtn.layer.shadowOpacity = 1;
         _sureBtn.layer.shadowRadius = 0;

@@ -33,7 +33,7 @@
         [self setBackgroundColor:[UIColor whiteColor]];
         
         _voiceButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//        _voiceButton.backgroundColor = RGB_COLOR_String(@"#B391FF");
+//        _voiceButton.backgroundColor = ThemeColor;
 //        _voiceButton.layer.cornerRadius = 14;
         [_voiceButton setImage:[UIImage imageNamed:@"icon_toolview_keyboard_normal"] forState:UIControlStateNormal];
         [self addSubview:_voiceButton];
