@@ -1259,7 +1259,6 @@
 		429D409B299A79F500354206 /* FFFCardOperationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFCardOperationItem.h; sourceTree = "<group>"; };
 		429D409C299A79F500354206 /* FFFTeamCardRowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFTeamCardRowItem.h; sourceTree = "<group>"; };
 		429D409D299A79F500354206 /* FFFTeamCardMemberItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFTeamCardMemberItem.h; sourceTree = "<group>"; };
-		429D409E299A79F500354206 /* FFFCardDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFCardDataSourceProtocol.h; sourceTree = "<group>"; };
 		429D409F299A79F500354206 /* FFFTeamInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFTeamInfoData.m; sourceTree = "<group>"; };
 		429D40A0299A79F500354206 /* FFFUsrInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFUsrInfoData.h; sourceTree = "<group>"; };
 		429D40A1299A79F500354206 /* FFFMembersFetchOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFMembersFetchOption.m; sourceTree = "<group>"; };
@@ -1669,6 +1668,7 @@
 		B16ECAB82DF18DDD00BEEBFD /* SSZipArchiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSZipArchiveManager.m; sourceTree = "<group>"; };
 		B16ECAB92DF18DDD00BEEBFD /* UIImage+ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZipArchive.h"; sourceTree = "<group>"; };
 		B16ECABA2DF18DDD00BEEBFD /* UIImage+ZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZipArchive.m"; sourceTree = "<group>"; };
+		B16ECABD2DF1975D00BEEBFD /* FFFCardDataSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFCardDataSourceProtocol.h; sourceTree = "<group>"; };
 		B808E73C26F23E3D00E302F6 /* NTESUserQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESUserQRCodeViewController.h; sourceTree = "<group>"; };
 		B808E73D26F23E3D00E302F6 /* NTESUserQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESUserQRCodeViewController.m; sourceTree = "<group>"; };
 		B808E74D26F48B1000E302F6 /* LCQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQRCodeUtil.h; sourceTree = "<group>"; };
@@ -3014,7 +3014,6 @@
 				429D4097299A79F500354206 /* FFFTeamCardRowItem.m */,
 				429D40A0299A79F500354206 /* FFFUsrInfoData.h */,
 				429D409A299A79F500354206 /* FFFUsrInfoData.m */,
-				429D409E299A79F500354206 /* FFFCardDataSourceProtocol.h */,
 				429D4098299A79F500354206 /* FFFTeamInfoData.h */,
 				429D409F299A79F500354206 /* FFFTeamInfoData.m */,
 				429D4099299A79F500354206 /* FFFMembersFetchOption.h */,
@@ -3399,6 +3398,7 @@
 				42AC19FC2A63ADC400BA1584 /* SAMKeychain.m */,
 				42AC19FB2A63ADC400BA1584 /* SAMKeychainQuery.h */,
 				42AC19F92A63ADC400BA1584 /* SAMKeychainQuery.m */,
+				B16ECABD2DF1975D00BEEBFD /* FFFCardDataSourceProtocol.h */,
 			);
 			path = COKeychain;
 			sourceTree = "<group>";

@@ -7,29 +7,7 @@
 //
 
 #import "SNLeadCompleteInfo.h"
-
-
-#define BACKGROUND_COLOR    [UIColor colorWithRed:231/255.0 green:184/255.0 blue:108/255.0 alpha:1.0];
-#define TIP_TEXT_COLOR      [UIColor blackColor]
-#define SHADOW_RADIUS       8
-
-#define kSCREEN_BOUNDS [UIScreen mainScreen].bounds
-#define kSCREEN_WIDTH  [UIScreen mainScreen].bounds.size.width
-#define kSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
-#define kIs_iphone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
-
-#define kIs_iPhoneX kSCREEN_WIDTH >=375.0f && kSCREEN_HEIGHT >=812.0f&& kIs_iphone
-/*底部安全区域远离高度*/
-#define kBottomSafeHeight (CGFloat)(kIs_iPhoneX?(34.0):(0))
-/*TabBar高度*/
-#define kTabBarHeight (CGFloat)(kIs_iPhoneX?(49.0 + 34.0):(49.0))
-
-// 判断是否是iPhone5
-#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)]\
-? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size)\
-|| CGSizeEqualToSize(CGSizeMake(1136, 640), [[UIScreen mainScreen] currentMode].size) : NO)
-
-
+ 
 static NSAttributedString *NSAttributedStringFromTitle(__unsafe_unretained NSString *title)
 {
     if (nil == title) {
@@ -38,7 +16,7 @@ static NSAttributedString *NSAttributedStringFromTitle(__unsafe_unretained NSStr
     
     UIFont *font = [UIFont systemFontOfSize:11];
     
-    NSDictionary *attributes = @{NSForegroundColorAttributeName: TIP_TEXT_COLOR,
+    NSDictionary *attributes = @{NSForegroundColorAttributeName: [UIColor blackColor],
                                  NSFontAttributeName: font};
     NSAttributedString *as = [[NSAttributedString alloc] initWithString:title attributes:attributes];
     return as;
@@ -125,7 +103,7 @@ CGFloat SNNavBarHeight(void) {
         self.layer.masksToBounds = YES;
         self.userInteractionEnabled = YES;
         {
-            self.leftwardMarqueeView = [[UUMarqueeView alloc] initWithFrame:CGRectMake(54, 0, kSCREEN_WIDTH- 54 - 30 - 10, 46) direction:UUMarqueeViewDirectionLeftward];
+            self.leftwardMarqueeView = [[UUMarqueeView alloc] initWithFrame:CGRectMake(54, 0, [UIScreen mainScreen].bounds.size.width- 54 - 30 - 10, 46) direction:UUMarqueeViewDirectionLeftward];
             _leftwardMarqueeView.delegate = self;
             _leftwardMarqueeView.timeIntervalPerScroll = 3.0f;
             _leftwardMarqueeView.scrollSpeed = 40.0f;
