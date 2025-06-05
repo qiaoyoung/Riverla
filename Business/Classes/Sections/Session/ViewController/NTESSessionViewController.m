@@ -367,7 +367,7 @@ NTESReportHisNextDelegate>
     self.header.delegate = self;
     [self.view addSubview:self.header];
     
-    NSInteger step = ((FFFAppDelegate*)([UIApplication sharedApplication].delegate)).loginStep;
+    NSInteger step = ((AppDelegate*)([UIApplication sharedApplication].delegate)).loginStep;
     [self.header refreshWithType:ListHeaderTypeNetStauts value:@(step)];
 }
 

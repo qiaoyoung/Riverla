@@ -7,7 +7,7 @@
 //
 
 #import "NTESMainTabController.h"
-#import "FFFAppDelegate.h"
+#import "AppDelegate.h"
 #import "NTESSessionListViewController.h"
 #import "UIImage+NTESColor.h"
 #import "NTESCustomNotificationDB.h"
@@ -56,7 +56,7 @@ typedef NS_ENUM(NSInteger,NTESMainTabType) {
 @implementation NTESMainTabController
 
 + (instancetype)instance{
-    FFFAppDelegate *delegete = (FFFAppDelegate *)[UIApplication sharedApplication].delegate;
+    AppDelegate *delegete = (AppDelegate *)[UIApplication sharedApplication].delegate;
     UIViewController *vc = delegete.window.rootViewController;
     if ([vc isKindOfClass:[NTESMainTabController class]]) {
         return (NTESMainTabController *)vc;

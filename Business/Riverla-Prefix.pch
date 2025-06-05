@@ -10,7 +10,7 @@
 #define NIMDemo_NIMDemo_Prefix_pch
 
 #ifdef __OBJC__
-#import "FFFAppDelegate.h"
+#import "AppDelegate.h"
 #import "FFFConfig.h"
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>

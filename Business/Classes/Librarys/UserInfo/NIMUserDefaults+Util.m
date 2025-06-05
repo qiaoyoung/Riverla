@@ -54,7 +54,7 @@
     
     [[NSNotificationCenter defaultCenter] postNotificationName:KEKENotificationLanguageChanged object:nil];
     
-    FFFAppDelegate *delegate = (FFFAppDelegate *)[UIApplication sharedApplication].delegate;
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     if (delegate.deviceToken) {
         [[NIMSDK sharedSDK] updateApnsToken:delegate.deviceToken
                            customContentKey:lang];

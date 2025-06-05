@@ -563,7 +563,7 @@
 		A14A89242022E88C00718366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A14A89232022E88C00718366 /* Foundation.framework */; };
 		AE2AA6851A7CD35C00CFF013 /* UIView+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2AA6841A7CD35C00CFF013 /* UIView+NTES.m */; };
 		AE5882EB1A6F47E10070536A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5882EA1A6F47E10070536A /* main.m */; };
-		AE5882EE1A6F47E10070536A /* FFFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5882ED1A6F47E10070536A /* FFFAppDelegate.m */; };
+		AE5882EE1A6F47E10070536A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5882ED1A6F47E10070536A /* AppDelegate.m */; };
 		AE5882F61A6F47E10070536A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5882F51A6F47E10070536A /* Images.xcassets */; };
 		AE58995A1A6FA7AC0070536A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5899591A6FA7AC0070536A /* SystemConfiguration.framework */; };
 		AEA87FE11A81CAD600ACC3BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA87FE01A81CAD500ACC3BA /* AVFoundation.framework */; };
@@ -1655,8 +1655,8 @@
 		AE2AA6841A7CD35C00CFF013 /* UIView+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIView+NTES.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AE5882E51A6F47E10070536A /* Riverla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riverla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5882EA1A6F47E10070536A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE5882EC1A6F47E10070536A /* FFFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFAppDelegate.h; sourceTree = "<group>"; };
-		AE5882ED1A6F47E10070536A /* FFFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFFAppDelegate.m; sourceTree = "<group>"; };
+		AE5882EC1A6F47E10070536A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE5882ED1A6F47E10070536A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE5882F51A6F47E10070536A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE5899591A6FA7AC0070536A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AEA87FE01A81CAD500ACC3BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -3420,8 +3420,8 @@
 			children = (
 				429D400C299A79F400354206 /* ChatClasses */,
 				61F728281A7B23A40076C096 /* Classes */,
-				AE5882EC1A6F47E10070536A /* FFFAppDelegate.h */,
-				AE5882ED1A6F47E10070536A /* FFFAppDelegate.m */,
+				AE5882EC1A6F47E10070536A /* AppDelegate.h */,
+				AE5882ED1A6F47E10070536A /* AppDelegate.m */,
 				879C572E228444DB00F09955 /* FFFConfig.h */,
 				879C572F228444DC00F09955 /* FFFConfig.m */,
 				AEB8367F1A772C2F00E7493E /* Riverla-Prefix.pch */,
@@ -5448,7 +5448,7 @@
 				BC2676CF2C58E85000ED339D /* FFFGroupEditTableViewCell.m in Sources */,
 				042874E62D8D4BF800DA9BD1 /* FUInsetsLabel.m in Sources */,
 				E48988EE1DE4263D001CF6C5 /* NTESChatroomTextContentConfig.m in Sources */,
-				AE5882EE1A6F47E10070536A /* FFFAppDelegate.m in Sources */,
+				AE5882EE1A6F47E10070536A /* AppDelegate.m in Sources */,
 				61E4713A1B7D963E00F4A1BF /* NTESSearchMessageEntraceCell.m in Sources */,
 				BC99AF952C57993900D66AC8 /* ZMONSetGroupNameView.m in Sources */,
 				410E272023628C8700C97467 /* NTESAVPlayerView.m in Sources */,

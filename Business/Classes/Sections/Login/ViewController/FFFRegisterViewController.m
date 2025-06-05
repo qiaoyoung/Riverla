@@ -18,7 +18,7 @@
 #import "FFFRegisterViewController.h"
 #import "NTESRegistConfigManager.h"
 #import "FFFGlobalMacro.h"
-#import "FFFAppDelegate.h"
+#import "AppDelegate.h"
 #import "CCCAutoLoginManager.h"
 #import "SNDevice.h"
 #import "RegisterInfoViewController.h"

@@ -19,7 +19,7 @@
 #import "NTESRegistConfigManager.h"
 #import <CoreTelephony/CTCellularData.h>
 #import "FFFGlobalMacro.h"
-#import "FFFAppDelegate.h"
+#import "AppDelegate.h"
 #import "CCCAutoLoginManager.h"
 #import "SNDevice.h"
 #import "ZMONPolicyPrivacyViewController.h"
@@ -120,7 +120,7 @@
                 userDefaults.language = lang;
                 [[FFFLanguageManager shareInstance] setLanguagre:lang];
                 [[NSNotificationCenter defaultCenter] postNotificationName:@"NTESNotificationLogout" object:nil];
-                FFFAppDelegate *delegate = (FFFAppDelegate *)[UIApplication sharedApplication].delegate;
+                AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
                 if (delegate.deviceToken) {
                     [[NIMSDK sharedSDK] updateApnsToken:delegate.deviceToken
                                        customContentKey:lang];
@@ -222,7 +222,7 @@
                 NTESMainTabController * mainTab = [[NTESMainTabController alloc] initWithNibName:nil bundle:nil];
                 [UIApplication sharedApplication].windows.firstObject.rootViewController = mainTab;
                 
-//                FFFAppDelegate *delegate = (FFFAppDelegate *)[UIApplication sharedApplication].delegate;
+//                AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
 //                [delegate setupRTCCallKit];
             }];
             
