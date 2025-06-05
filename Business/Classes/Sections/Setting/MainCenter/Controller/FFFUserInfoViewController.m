@@ -1,9 +1,9 @@
 //
 //  FFFUserInfoViewController.m
-//  Neeyo
+//  Riverla
 //
 //  Created by Yan Wang on 2024/12/30.
-//  Copyright © 2024 Neeyo. All rights reserved.
+//  Copyright © 2024 Riverla. All rights reserved.
 //
 
 #import "FFFUserInfoViewController.h"

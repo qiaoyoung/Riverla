@@ -9,7 +9,7 @@
 #import "FFFContactDefines.h"
 @class FFFKitInfo;
 
-@interface NeeyoUsrInfo : NSObject <NIMGroupMemberProtocol>
+@interface RiverlaUsrInfo : NSObject <NIMGroupMemberProtocol>
 
 @property (nonatomic,strong) FFFKitInfo *info;
 

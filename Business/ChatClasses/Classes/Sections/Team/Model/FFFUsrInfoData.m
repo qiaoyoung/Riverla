@@ -10,7 +10,7 @@
 #import "FFFSpellingCenter.h"
 #import "MyUserKit.h"
 
-@implementation NeeyoUsrInfo
+@implementation RiverlaUsrInfo
 
 - (BOOL)isFriend {
     NSArray *friends = [NIMSDK sharedSDK].userManager.myFriends;

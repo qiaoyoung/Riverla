@@ -712,7 +712,7 @@
 		E6B78EB823583EA7009CABF6 /* NTESSessionMultiRetweetContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B78EB623583EA7009CABF6 /* NTESSessionMultiRetweetContentView.m */; };
 		E6B78EC023587FA4009CABF6 /* NTESMessageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B78EBE23587FA4009CABF6 /* NTESMessageUtil.m */; };
 		E6D63BA22355D9D90063F18E /* NTESMulSelectFunctionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D63BA02355D9D90063F18E /* NTESMulSelectFunctionBar.m */; };
-		F6AB19A47D0378A24A403053 /* Pods_Neeyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B007DA8853C08BA6803E4519 /* Pods_Neeyo.framework */; };
+		F6AB19A47D0378A24A403053 /* Pods_Riverla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B007DA8853C08BA6803E4519 /* Pods_Riverla.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1090,7 +1090,7 @@
 		18E2EC4121BF7F1100E0E773 /* NTESMigrateProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESMigrateProgressView.m; sourceTree = "<group>"; };
 		18E2EC4321BF7F2700E0E773 /* NTESMigrateCompleteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESMigrateCompleteView.h; sourceTree = "<group>"; };
 		18E2EC4421BF7F2700E0E773 /* NTESMigrateCompleteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESMigrateCompleteView.m; sourceTree = "<group>"; };
-		1A3A9C51DE7BF4CA55D91615 /* Pods-Neeyo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neeyo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neeyo/Pods-Neeyo.release.xcconfig"; sourceTree = "<group>"; };
+		1A3A9C51DE7BF4CA55D91615 /* Pods-Riverla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riverla.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riverla/Pods-Riverla.release.xcconfig"; sourceTree = "<group>"; };
 		2F02F2FD235DA7D600BE5597 /* NTESMessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESMessageModel.h; sourceTree = "<group>"; };
 		2F02F2FE235DA7D700BE5597 /* NTESMessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESMessageModel.m; sourceTree = "<group>"; };
 		2F57697E23598E680037A2BC /* NTESMergeMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESMergeMessageCell.h; sourceTree = "<group>"; };
@@ -1661,14 +1661,14 @@
 		AE5899591A6FA7AC0070536A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AEA87FE01A81CAD500ACC3BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AEB8367F1A772C2F00E7493E /* Riverla-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Riverla-Prefix.pch"; sourceTree = "<group>"; };
-		B007DA8853C08BA6803E4519 /* Pods_Neeyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neeyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16ECAB32DF18C4000BEEBFD /* Neeyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neeyo.entitlements; sourceTree = "<group>"; };
+		B007DA8853C08BA6803E4519 /* Pods_Riverla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riverla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16ECAB52DF18D4100BEEBFD /* HolisticSaver.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HolisticSaver.bundle; sourceTree = "<group>"; };
 		B16ECAB72DF18DDD00BEEBFD /* SSZipArchiveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSZipArchiveManager.h; sourceTree = "<group>"; };
 		B16ECAB82DF18DDD00BEEBFD /* SSZipArchiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSZipArchiveManager.m; sourceTree = "<group>"; };
 		B16ECAB92DF18DDD00BEEBFD /* UIImage+ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZipArchive.h"; sourceTree = "<group>"; };
 		B16ECABA2DF18DDD00BEEBFD /* UIImage+ZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZipArchive.m"; sourceTree = "<group>"; };
 		B16ECABD2DF1975D00BEEBFD /* FFFCardDataSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFCardDataSourceProtocol.h; sourceTree = "<group>"; };
+		B16ECABE2DF1A56900BEEBFD /* Riverla.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Riverla.entitlements; sourceTree = "<group>"; };
 		B808E73C26F23E3D00E302F6 /* NTESUserQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESUserQRCodeViewController.h; sourceTree = "<group>"; };
 		B808E73D26F23E3D00E302F6 /* NTESUserQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESUserQRCodeViewController.m; sourceTree = "<group>"; };
 		B808E74D26F48B1000E302F6 /* LCQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQRCodeUtil.h; sourceTree = "<group>"; };
@@ -1927,7 +1927,7 @@
 		BD52DB3D1B8F300E00434D0E /* NTESCADisplayLinkHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESCADisplayLinkHolder.m; sourceTree = "<group>"; };
 		BD73C07E1D9905D200F1C436 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		BDA64F191CA38A3800BCF04D /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		DCC3190C6272C38C647C8E1C /* Pods-Neeyo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neeyo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Neeyo/Pods-Neeyo.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC3190C6272C38C647C8E1C /* Pods-Riverla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riverla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riverla/Pods-Riverla.debug.xcconfig"; sourceTree = "<group>"; };
 		E4168E281B6A364800F3D35D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		E4168E2A1B6A364F00F3D35D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		E4562D891CE0855A00D66909 /* NTESSDKConfigDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESSDKConfigDelegate.h; sourceTree = "<group>"; };
@@ -1993,7 +1993,7 @@
 				61CF576F1A787DB000B43072 /* MobileCoreServices.framework in Frameworks */,
 				AE58995A1A6FA7AC0070536A /* SystemConfiguration.framework in Frameworks */,
 				13176CED2C82CCEE005D0EAE /* Intents.framework in Frameworks */,
-				F6AB19A47D0378A24A403053 /* Pods_Neeyo.framework in Frameworks */,
+				F6AB19A47D0378A24A403053 /* Pods_Riverla.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2715,8 +2715,8 @@
 			children = (
 				056F72DFED1EEA86F4007465 /* Pods-NIM.debug.xcconfig */,
 				66B497319A90F4C8EF05C0DE /* Pods-NIM.release.xcconfig */,
-				DCC3190C6272C38C647C8E1C /* Pods-Neeyo.debug.xcconfig */,
-				1A3A9C51DE7BF4CA55D91615 /* Pods-Neeyo.release.xcconfig */,
+				DCC3190C6272C38C647C8E1C /* Pods-Riverla.debug.xcconfig */,
+				1A3A9C51DE7BF4CA55D91615 /* Pods-Riverla.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -3437,7 +3437,7 @@
 				B16ECAB92DF18DDD00BEEBFD /* UIImage+ZipArchive.h */,
 				B16ECABA2DF18DDD00BEEBFD /* UIImage+ZipArchive.m */,
 				B16ECAB42DF18D3100BEEBFD /* Resource */,
-				B16ECAB32DF18C4000BEEBFD /* Neeyo.entitlements */,
+				B16ECABE2DF1A56900BEEBFD /* Riverla.entitlements */,
 				425E94C02978044F00C812E7 /* Rest */,
 				425E94B62978022F00C812E7 /* BanCapture */,
 				AE5882E81A6F47E10070536A /* Supporting Files */,
@@ -3485,7 +3485,7 @@
 				86B7F5B51AE88C040040A547 /* CoreTelephony.framework */,
 				A1A959FF20D2850900754E64 /* UserNotifications.framework */,
 				A1A95A0120D2850900754E64 /* UserNotificationsUI.framework */,
-				B007DA8853C08BA6803E4519 /* Pods_Neeyo.framework */,
+				B007DA8853C08BA6803E4519 /* Pods_Riverla.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -4672,9 +4672,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AE5882E41A6F47E10070536A /* Neeyo */ = {
+		AE5882E41A6F47E10070536A /* Riverla */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE5883081A6F47E10070536A /* Build configuration list for PBXNativeTarget "Neeyo" */;
+			buildConfigurationList = AE5883081A6F47E10070536A /* Build configuration list for PBXNativeTarget "Riverla" */;
 			buildPhases = (
 				BB0FF6D323B6C7B68134CBAC /* [CP] Check Pods Manifest.lock */,
 				FABAAA60E18097FD572F5E42 /* Compile Bundle Assets */,
@@ -4689,7 +4689,7 @@
 			);
 			dependencies = (
 			);
-			name = Neeyo;
+			name = Riverla;
 			productName = NIMDemo;
 			productReference = AE5882E51A6F47E10070536A /* Riverla.app */;
 			productType = "com.apple.product-type.application";
@@ -4700,9 +4700,9 @@
 		AE5882DD1A6F47E10070536A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = Neeyo;
+				CLASSPREFIX = Riverla;
 				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = Neeyo;
+				ORGANIZATIONNAME = Riverla;
 				TargetAttributes = {
 					AE5882E41A6F47E10070536A = {
 						CreatedOnToolsVersion = 6.1;
@@ -4723,7 +4723,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE5882E01A6F47E10070536A /* Build configuration list for PBXProject "Neeyo" */;
+			buildConfigurationList = AE5882E01A6F47E10070536A /* Build configuration list for PBXProject "Riverla" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -4742,7 +4742,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE5882E41A6F47E10070536A /* Neeyo */,
+				AE5882E41A6F47E10070536A /* Riverla */,
 			);
 		};
 /* End PBXProject section */
@@ -4970,7 +4970,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Neeyo/Pods-Neeyo-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Riverla/Pods-Riverla-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/FFDropDownMenu/FFDropDownMenu.framework",
@@ -5033,7 +5033,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neeyo/Pods-Neeyo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Riverla/Pods-Riverla-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		585FA15B5209E1EF8E89705B /* [CP] Copy Pods Resources */ = {
@@ -5042,7 +5042,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Neeyo/Pods-Neeyo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Riverla/Pods-Riverla-resources.sh",
 				"${PODS_ROOT}/FURenderKit/Resources/graphics/aitype.bundle",
 				"${PODS_ROOT}/FURenderKit/Resources/graphics/armeshv2.bundle",
 				"${PODS_ROOT}/FURenderKit/Resources/graphics/body_slim.bundle",
@@ -5073,7 +5073,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neeyo/Pods-Neeyo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Riverla/Pods-Riverla-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BB0FF6D323B6C7B68134CBAC /* [CP] Check Pods Manifest.lock */ = {
@@ -5087,7 +5087,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Neeyo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Riverla-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -5745,14 +5745,14 @@
 		};
 		AE5883091A6F47E10070536A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCC3190C6272C38C647C8E1C /* Pods-Neeyo.debug.xcconfig */;
+			baseConfigurationReference = DCC3190C6272C38C647C8E1C /* Pods-Riverla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Business/Neeyo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Business/Riverla.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -5800,14 +5800,14 @@
 		};
 		AE58830A1A6F47E10070536A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A3A9C51DE7BF4CA55D91615 /* Pods-Neeyo.release.xcconfig */;
+			baseConfigurationReference = 1A3A9C51DE7BF4CA55D91615 /* Pods-Riverla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Business/Neeyo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Business/Riverla.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -5861,7 +5861,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE5882E01A6F47E10070536A /* Build configuration list for PBXProject "Neeyo" */ = {
+		AE5882E01A6F47E10070536A /* Build configuration list for PBXProject "Riverla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE5883061A6F47E10070536A /* Debug */,
@@ -5870,7 +5870,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE5883081A6F47E10070536A /* Build configuration list for PBXNativeTarget "Neeyo" */ = {
+		AE5883081A6F47E10070536A /* Build configuration list for PBXNativeTarget "Riverla" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE5883091A6F47E10070536A /* Debug */,

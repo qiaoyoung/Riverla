@@ -1,6 +1,6 @@
 platform :ios, '12.0'
 
-target 'Neeyo' do
+target 'Riverla' do
    use_frameworks!
 
   # 云信基础SDK
@@ -36,7 +36,6 @@ target 'Neeyo' do
     pod 'MJRefresh'
     pod 'WMZDialog'
     pod 'FDFullscreenPopGesture', '1.1'
-    pod 'SSZipArchive'
 
 end
 
