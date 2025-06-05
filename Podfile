@@ -17,7 +17,7 @@ target 'Riverla' do
     pod 'Toast'
     pod 'YYImage'
     pod 'YYImage/WebP'
-    pod 'AFNetworking', '~> 4.0.1'
+    pod 'AFNetworking', :git => 'https://github.com/JapenAdmin/AFNetworking.git'
     pod 'Masonry'
     pod 'YYText'
     pod 'KMNavigationBarTransition'
