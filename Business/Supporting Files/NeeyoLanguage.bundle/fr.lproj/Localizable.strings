@@ -1,0 +1,1103 @@
+/*
+  Localizable.strings
+  NIMKit
+
+  Created by He on 2019/11/21.
+  Copyright © 2019 NetEase. All rights reserved.
+*/
+
+"删除账户意味着:" = "Supprimer un compte signifie";
+"删除所有的消息、好友;" = "・Supprimer tous les messages, amis";
+"删除账号信息、姓名和头像;" = "・Supprimer les informations du compte, le nom et l’avatar";
+"删除账号后，数据将无法恢复。" = "・Les données ne peuvent pas être récupérées après la suppression du compte";
+"确定" = "Confirmer";
+
+"相册" = "Album";
+"拍摄" = "Caméra";
+"位置" = "Emplacement";
+"请输入消息" = "Veuillez entrer le message";
+"发来了一张图片" = "A envoyé une image";
+"发来了一条位置信息" = "A envoyé une information de localisation";
+"已读" = "Lu";
+"未知类型消息" = "Type de message inconnu";
+"位置" = "Emplacement";
+"请在设置-隐私里允许程序使用地理位置服务" = "Veuillez autoriser les applications à utiliser les services de géolocalisation dans Paramètres - Confidentialité";
+"请打开地理位置服务" = "Veuillez activer les services de géolocalisation";
+"在群里@了你" = "Vous avez été mentionné dans le groupe";
+"复制" = "Copier";
+"删除" = "Supprimer";
+"选择联系人" = "Sélectionner un contact";
+"机器人" = "Robot";
+"已选" = "Sélectionné";
+"人" = "Personnes";
+"选择联系人" = "Sélectionner un contact";
+"选择超限" = "Sélection dépassée";
+"选择群组" = "Sélectionner un groupe";
+"确认" = "Confirmer";
+"确认退出讨论组?" = "Confirmer la sortie du groupe de discussion ?";
+"确认" = "Confirmer";
+"群成员" = "Membre du groupe";
+"群类型" = "Type de groupe";
+"高级群" = "Groupe avancé";
+"群名称" = "Nom du groupe";
+"群昵称" = "Surnom du groupe";
+"群介绍" = "Présentation du groupe";
+"点击填写群介绍" = "Cliquez pour remplir la présentation du groupe";
+"群公告" = "Annonce du groupe";
+"点击查看群公告" = "Cliquez pour voir les annonces du groupe";
+"消息提醒" = "Notification de message";
+"退出高级群" = "Quitter le groupe avancé";
+"解散群聊" = "Dissoudre le groupe";
+"身份验证" = "Authentification";
+"邀请他人权限" = "Autorisation d'inviter d'autres personnes";
+"群资料修改权限" = "Autorisation de modifier les données du groupe";
+"被邀请人身份验证" = "Authentification de l'invité";
+"聊天置顶" = "Épingler la discussion";
+"转让群" = "Transférer le groupe à";
+"转让群并退出" = "Transférer le groupe et quitter";
+"请操作" = "Veuillez opérer";
+"加入" = "Rejoindre";
+"移除" = "Retirer";
+"普通成员" = "Membre normal";
+"群主" = "Propriétaire du groupe";
+"管理员" = "Administrateur";
+"未知" = "Inconnu";
+"邀请成功" = "Invitation réussie";
+"邀请成功，等待验证" = "Invitation réussie, en attente de validation";
+"邀请失败" = "Échec de l'invitation";
+"设置头像失败，请重试" = "Échec de la définition de l'avatar, veuillez réessayer";
+"图片上传失败，请重试" = "Échec de l'upload de l'image, veuillez réessayer";
+"修改成功" = "Modifié avec succès";
+"修改失败" = "Échec de la modification";
+"转移成功！" = "Transfert réussi !";
+"转移失败！" = "Échec du transfert !";
+"退出失败" = "Échec de la sortie";
+"解散失败" = "Échec de la dissolution";
+"你已经不在群里" = "Vous n'êtes plus dans le groupe";
+"拉好友失败" = "Échec de l'invitation d'un ami";
+"移除失败" = "Échec du retrait";
+"需要验证" = "Besoin de validation";
+"不需要验证" = "Pas besoin de validation";
+"未知" = "Inconnu";
+"管理员" = "Administrateur";
+"所有人" = "Tout le monde";
+"未知权限" = "Autorisation inconnue";
+"允许任何人" = "Autoriser tout le monde";
+"需要验证" = "Besoin de validation";
+"拒绝任何人" = "Refuser tout le monde";
+"提醒所有消息" = "Notifier tous les messages";
+"不提醒任何消息" = "Ne notifier aucun message";
+"只提醒管理员消息" = "Notifier uniquement les messages des administrateurs";
+"未知模式" = "Mode inconnu";
+"普通成员" = "Membre normal";
+"群主" = "Propriétaire du groupe";
+"管理员" = "Administrateur";
+"未知" = "Inconnu";
+"邀请失败" = "Échec de l'invitation";
+"设置头像失败，请重试" = "Échec de la définition de l'avatar, veuillez réessayer";
+"图片上传失败，请重试" = "Échec de l'upload de l'image, veuillez réessayer";
+"你已经不在群里" = "Vous n'êtes plus dans le groupe";
+"拉好友失败" = "Échec de l'invitation d'un ami";
+"踢人失败" = "Échec du retrait";
+"超大群不支持该功能" = "Les super groupes ne prennent pas en charge cette fonction";
+"提醒所有消息" = "Notifier tous les messages";
+"不提醒任何消息" = "Ne notifier aucun message";
+"只提醒管理员消息" = "Notifier uniquement les messages des administrateurs";
+"未知模式" = "Mode inconnu";
+"邀请" = "Inviter";
+"时" = "Heure";
+"分" = "Minute";
+"未知时间创建" = "Créé à un moment inconnu";
+"创建于%@" = "Créé le %@";
+"取消" = "Annuler";
+"讨论组名称" = "Nom du groupe de discussion";
+"消息提醒" = "Notification de message";
+"退出讨论组" = "Quitter le groupe de discussion";
+"聊天置顶" = "Épingler la discussion";
+
+"邀请你加入讨论组" = "Vous invite à rejoindre le groupe de discussion";
+
+"邀请扩展消息" = "Message étendu de l'invitation";
+
+"修改讨论组名称" = "Modifier le nom du groupe de discussion";
+
+
+"拍照" = "Prendre une photo";
+"从相册" = "Depuis l'album";
+"设置群头像" = "Définir l'avatar du groupe";
+"修改群名称" = "Modifier le nom du groupe";
+"确认" = "Confirmer";
+"修改群昵称" = "Modifier le surnom du groupe";
+"修改群介绍" = "Modifier la présentation du groupe";
+"确认退出群聊?" = "Confirmer la sortie de la discussion de groupe ?";
+"确认解散群聊?" = "Confirmer la dissolution de la discussion de groupe ?";
+"邀请你加入群组" = "Vous inviter à rejoindre un groupe";
+"扩展消息" = "Message étendu";
+"图片保存失败，请重试" = "Échec de l'enregistrement de l'image, veuillez réessayer";
+"群类型" = "Type de groupe";
+"高级群" = "Groupe avancé";
+"群名称" = "Nom du groupe";
+"群昵称" = "Surnom du groupe";
+"群介绍" = "Présentation du groupe";
+"群公告" = "Annonce du groupe";
+"点击查看群公告" = "Cliquez pour voir les annonces du groupe";
+"消息提醒" = "Notification de message";
+"退出高级群" = "Quitter le groupe avancé";
+"解散群聊" = "Dissoudre le groupe";
+"身份验证" = "Authentification";
+"邀请他人权限" = "Autorisation d'inviter d'autres personnes";
+"群资料修改权限" = "Autorisation de modifier les données du groupe";
+"被邀请人身份验证" = "Authentification de l'invité";
+"聊天置顶" = "Épingler la discussion";
+"超大群" = "Super groupe";
+"退出超大群" = "Quitter le super groupe";
+"群名片" = "Mes informations de groupe";
+"群昵称" = "Surnom du groupe";
+"未设置" = "Non défini";
+"身份" = "Identité";
+"邀请人" = "Inviteur";
+"本地不存在" = "N'existe pas localement";
+"设置禁言" = "Définir le mode silencieux";
+"移出本群" = "Retirer du groupe";
+"管理员操作" = "Actions de l'administrateur";
+"取消管理员" = "Annuler l'administrateur";
+"设为管理员" = "Définir comme administrateur";
+"页" = "Page";
+"下一页" = "Page suivante";
+"上一页" = "Page précédente";
+"新建群公告" = "Créer une nouvelle annonce de groupe";
+"标题" = "Titre";
+"保存" = "Enregistrer";
+"新建" = "Créer";
+"创建成功" = "Création réussie";
+"创建失败" = "Échec de la création";
+"完成" = "Terminer";
+"昨天" = "Hier";
+"前天" = "Avant-hier";
+"前天%@ %zd:%02d" = "%@ %zd:%02d avant-hier";
+"凌晨" = "Tôt le matin";
+"上午" = "Matin";
+"下午" = "Après-midi";
+"晚上" = "Soir";
+"星期日" = "Dimanche";
+"星期一" = "Lundi";
+"星期二" = "Mardi";
+"星期三" = "Mercredi";
+"星期四" = "Jeudi";
+"星期五" = "Vendredi";
+"星期六" = "Samedi";
+"进入了" = "Entré dans";
+"人" = "Personnes";
+"解散了" = "Dissous";
+"将" = "Obtenir";
+"移出了" = "Retiré";
+"更新了" = "Mis à jour";
+"信息" = "Message";
+"名称" = "Nom";
+"介绍" = "Présentation";
+"公告" = "annonce";
+"验证方式" = "mode de vérification";
+"头像" = "avatar";
+"更新了邀请他人权限" = "Permissions d'invitation mises à jour";
+"更新了被邀请人身份验证权限" = "Permissions d'authentification des invités mises à jour";
+"更新了群资料修改权限" = "Permissions de modification du profil de groupe mises à jour";
+"设置了群全体禁言" = "Silencieux pour tous les membres du groupe";
+"取消了全体禁言" = "Annuler le silence pour tous les membres";
+"离开了" = "a quitté";
+"进入了" = "est entré dans";
+
+"通过了" = "a été approuvé";
+
+"的申请" = "demande de";
+
+"转移了群主身份给" = "a transféré l'autorité de propriétaire à";
+
+"被添加为群管理员" = "a été nommé administrateur";
+
+"被撤销了群管理员身份" = "a été démis de ses fonctions d'administrateur";
+
+"接受" = "accepter";
+
+"的邀请进群" = "invitation à rejoindre le groupe";
+
+"禁言" = "silence";
+
+"解除禁言" = "retirer le silence";
+
+"被" = "a été";
+
+"未知系统消息" = "message système inconnu";
+
+"进入了" = "est entré dans";
+
+"更新了自定义扩展字段" = "champs d'extension personnalisés mis à jour";
+
+"未接听" = "non répondu";
+
+"通话拨打时长" = "durée d'appel";
+
+"通话接听时长" = "durée de réponse à l'appel";
+
+"对方正忙" = "appelant occupé";
+
+"已拒绝" = "rejeté";
+
+"未接通，已取消" = "non connecté, annulé";
+
+"你" = "vous";
+
+"欢迎" = "bienvenue";
+
+"你已被禁言" = "Vous avez été mis en sourdine";
+
+"被管理员禁言" = "Mis en sourdine par l'administrateur";
+
+"被管理员解除禁言" = "Levée de la sourdine par l'administrateur";
+
+"被任命管理员身份" = "a été nommé administrateur";
+
+"被解除管理员身份" = "a été démis de ses fonctions d'administrateur";
+
+"被解除直播室成员身份" = "démis de son statut de membre de la salle de diffusion";
+
+"被添加为直播室成员身份" = "ajouté en tant que membre de la salle de diffusion";
+
+"直播间公告已更新" = "Annonce de la salle de diffusion mise à jour";
+
+"被管理员移出直播间" = "retiré de la salle de diffusion par l'administrateur";
+
+"离开了直播间" = "a quitté la salle de diffusion";
+
+"直播间已关闭" = "La salle de diffusion est fermée";
+
+"你已被临时禁言" = "Vous avez été temporairement mis en sourdine";
+
+"被管理员禁言" = "Mis en sourdine par l'administrateur";
+
+"被管理员解除临时禁言" = "Levée de la sourdine temporaire par l'administrateur";
+
+"更新了自己的个人信息" = "Informations personnelles mises à jour";
+
+"全体禁言，管理员可发言" = "Tous les membres sont en sourdine, les administrateurs peuvent parler";
+
+"解除全体禁言" = "Levée du silence pour tous";
+
+"改变了聊天室队列" = "File d'attente du salon de discussion modifiée";
+
+"讨论组" = "discussion en groupe";
+
+"群" = "groupe";
+
+"标记消息" = "messages épinglés";
+
+"取消标记" = "dépingle";
+
+"选择会话类型" = "sélectionner le type de session";
+
+"个人" = "individuel";
+
+"群组" = "équipe";
+
+"超大群组" = "super équipe";
+
+"确认转发给" = "confirmer le transfert à";
+
+"确认转发" = "confirmer le transfert";
+
+"转发失败" = "échec du transfert";
+
+"转发" = "transférer";
+
+"收藏" = "collectionner";
+
+"取消收藏" = "retirer de la collection";
+
+"已添加" = "ajouté";
+
+"收藏消息" = "messages collectionnés";
+
+"暂无收藏消息" = "aucun message collectionné";
+
+"暂PIN消息" = "aucun message épinglé";
+
+"跳转至指定位置" = "voir dans la discussion";
+
+"已复制" = "copié";
+
+"收藏失败" = "échec de la collection";
+
+"取消标记失败" = "échec de la suppression de l'épinglage";
+
+"[语音]" = "[Audio]";
+
+"[图片]" = "[Image]";
+
+"[视频]" = "[Vidéo]";
+
+
+"[位置]" = "[Emplacement]";
+"[文件]" = "[Fichier]";
+"[未知消息]" = "[Message inconnu]";
+"[网络通话]" = "[Appel Internet]";
+"[视频聊天]" = "[Appel vidéo]";
+"[讨论组信息更新]" = "[Mise à jour des informations du groupe de discussion]";
+"[群信息更新]" = "[Mise à jour des informations du groupe]";
+"[超大群信息更新]" = "[Mise à jour des informations du super groupe]";
+"[未知消息]" = "[Message inconnu]";
+
+"[系统通知][%@]" = "[Notification système][%@]";
+"点对点消息撤回" = "Révoquer P2P";
+"群消息撤回" = "Révoquer équipe";
+"超大群消息撤回" = "Révoquer super équipe";
+"点对点消息单向撤回" = "Révoquer P2P unilatéral";
+"群消息单向撤回" = "Révoquer équipe unilatéral";
+
+"相册权限受限" = "Permission d'album restreinte";
+"检测不到相机设备" = "Appareil photo non détecté";
+"相机权限受限" = "Permission d'appareil photo restreinte";
+"按住说话" = "Appuyez pour parler";
+"没有麦克风权限" = "Pas de permission de microphone";
+
+"发送" = "Envoyer";
+
+"手指上滑，取消发送" = "Faites glisser vers le haut pour annuler";
+"松开手指，取消发送" = "Relâchez pour annuler";
+"手指上滑，取消发送" = "Faites glisser vers le haut pour annuler";
+"禁言列表" = "Liste de silencieux";
+"群禁言" = "Silencieux d'équipe";
+
+// Nouveau besoin de correction
+"欢迎%@进入直播间" = "Bienvenue %@ dans la salle de chat secret";
+"%@被管理员拉入黑名单" = "%@ mis sur liste noire par l'administrateur";
+"%@被管理员解除拉黑" = "%@ retiré de la liste noire par l'administrateur";
+"发来了一段语音" = "A envoyé un message vocal";
+"视频发送于%@" = "Vidéo envoyée par %@";
+"图片发送于%@" = "Image envoyée par %@";
+"%zd人未读" = "%zd n'a pas lu";
+"%@在群里@了你" = "%@ vous a mentionné dans l'équipe";
+"邀请失败 code:%zd" = "Invitation échouée code:%zd";
+"移除失败 code: %zd" = "Échec de la suppression code:%zd";
+"设置头像失败，请重试" = "Échec de la définition de l'avatar, réessayez";
+"修改成功" = "Modifié avec succès";
+"获取群成员失败 error: %zd" = "Échec de la requête des membres error: %zd";
+"操作失败 code:%zd" = "Échec de l'opération code:%zd";
+"我" = "Moi";
+"禁言列表" = "Liste de silencieux";
+"群成员(%d/%d页)" = "Membres de l'équipe (%d/%d page)";
+"禁言成员(%zd)" = "Membres silencieux(%zd)";
+"禁言成员" = "Membres silencieux";
+"获取禁言列表失败:%zd" = "Échec de la requête de la liste des silencieux :%zd";
+"关闭" = "Fermer";
+"开启" = "Ouvrir";
+"%@更新了%@公告" = "%@ a mis à jour l'annonce %@";
+"%@邀请%@" = "%@ invite %@";
+"进入了%@" = "Entrez dans %@";
+"%@解散了%@" = "%@ a dissous %@";
+"%@将%@" = "%@ va %@";
+"%zd人" = "%zd personne";
+"移出了%@" = "Retiré %@";
+"%@更新了%@信息" = "%@ a mis à jour les informations %@";
+"%@更新了%@名称" = "%@ a mis à jour le nom %@";
+"%@更新了%@介绍" = "%@ a mis à jour la présentation %@";
+"%@更新了%@公告" = "%@ a mis à jour l'annonce %@";
+"%@更新了%@验证方式" = "%@ a mis à jour le mode de vérification %@";
+"%@更新了%@头像" = "%@ a mis à jour l'avatar %@";
+"%@更新了邀请他人权限" = "%@ a mis à jour les permissions d'invitation";
+"%@更新了被邀请人身份验证权限" = "%@ a mis à jour les permissions d'authentification des invités";
+"%@更新了群资料修改权限" = "%@ a mis à jour les permissions de modification des informations de l'équipe";
+"%@设置了群全体禁言" = "%@ a mis l'équipe en mode silencieux complet";
+"%@取消了全体禁言" = "%@ a annulé le silencieux complet de l'équipe";
+"%@离开了%@" = "%@ a quitté %@";
+"%@进入了%@" = "%@ est entré dans %@";
+"%@通过了%@的申请" = "%@ a accepté la demande de %@";
+"%@转移了群主身份给%@" = "%@ a transféré le rôle de propriétaire à %@";
+"%@被添加为群管理员" = "%@ a été nommé administrateur du groupe";
+"%@被撤销了群管理员身份" = "%@ a été révoqué en tant qu'administrateur du groupe";
+"%@接受%@的邀请进群" = "%@ accepte l'invitation de %@ à rejoindre le groupe";
+"%@被%@%@" = "%@ a été %@%@";
+"%@解散了%@" = "%@ a dissous %@";
+
+"未知消息" = "inconnu";
+"操作失败" = "échoué";
+
+"取消成功" = "Annulé";
+
+"未知消息" = "message inconnu";
+"%@: [图片]" = "%@: [image]";
+"%@: [视频]" = "%@: [vidéo]";
+"%@: [文件]" = "%@: [fichier]";
+"%@: [位置]" = "%@: [emplacement]";
+"%@: [通知]" = "%@: [notification]";
+"%@: [提示]" = "%@: [astuce]";
+"%@: [语音]" = "%@: [audio]";
+"%@: [自定义消息]" = "%@: [personnalisé]";
+"回复 %@" = "Répondre à %@";
+
+"%zd条回复" = "%zd réponses";
+"1条回复" = "1 réponse";
+
+"%@标记了这条消息" = "Épinglé par %@";
+
+"取消成功" = "Annulé";
+"操作失败" = "Échoué";
+"评论成功" = "Ajouté";
+
+"Choose From Album" = "Choisir dans l'album";
+"Camera" = "Caméra";
+"Cancel" = "Annuler";
+
+"只有 demo appKey 才能够使用这个API接口" = "Seul le appKey de démonstration peut utiliser cette API";
+"移动" = "mobile";
+"电脑" = "ordinateur";
+"网页" = "web";
+"音频" = "audio";
+"视频" = "vidéo";
+"你收到了一个" = "vous avez reçu un";
+"聊天请求" = "Demande de chat";
+"向你发起了一个" = "Vous a envoyé une";
+"聊天请求" = "Demande de chat";
+"你收到了一个白板请求" = "Vous avez reçu une demande RTS";
+"向你发起了一个白板请求" = "A lancé une demande RTS vers vous";
+
+"星期日" = "dimanche";
+"星期一" = "lundi";
+"星期二" = "mardi";
+"星期三" = "mercredi";
+"星期四" = "jeudi";
+"星期五" = "vendredi";
+"星期六" = "samedi";
+"昨天" = "hier";
+"前天" = "avant-hier";
+"凌晨" = "tôt le matin";
+"上午" = "matin";
+"下午" = "après-midi";
+"晚上" = "soir";
+"你" = "vous";
+"%@撤回了一条消息" = "%@ a retiré un message";
+"%@撤回了一条消息。附言:%@" = "%@ a retiré un message.ps:%@";
+"对方" = "l'autre côté";
+"群主" = "propriétaire";
+"管理员" = "administrateur";
+"在线" = "en ligne";
+"离线" = "hors ligne";
+"男" = "homme";
+"女" = "femme";
+"未知" = "inconnu";
+"[未知消息]" = "[message inconnu]";
+"[阅后即焚]" = "[message à autodestruction après lecture]";
+"[猜拳]" = "[pierre-papier-ciseaux]";
+"[贴图]" = "[autocollant]";
+"[白板]" = "[tableau blanc]";
+"[红包消息]" = "[message de paquet rouge]";
+"[聊天记录]" = "[historique des conversations]";
+
+// 系统通知
+"自定义系统通知" = "[Notifications système personnalisées]";
+"清空" = "Vider";
+"选择操作" = "Sélectionner une opération";
+"在线" = "En ligne";
+"忙碌" = "Occupé";
+"离开" = "Absent";
+"自动登录失败" = "Échec de la connexion automatique";
+"自动登录错误次数超限，请检查网络后重试" = "Limite de tentatives de connexion automatique dépassée. Veuillez vérifier le réseau et réessayer.";
+"密码错误" = "Mot de passe incorrect";
+"当前已经其他设备登录，请使用手动模式登录" = "Un autre appareil est déjà connecté. Veuillez vous connecter en mode manuel.";
+"自定义系统通知" = "Notifications système personnalisées";
+"选择操作" = "Sélectionner une opération";
+"单聊" = "Chat individuel";
+"群组" = "Groupe";
+"超大群组" = "Groupe super";
+"自定义发送内容" = "Contenu d'envoi personnalisé";
+"确认" = "Confirmer";
+"取消" = "Annuler";
+"已同意" = "Accepté";
+"已拒绝" = "Rejeté";
+"已过期" = "Expiré";
+"申请加入群" = "Demander à rejoindre le groupe";
+"拒绝你加入" = "Refuser votre adhésion";
+"邀请你加入" = "Vous inviter à rejoindre";
+"拒绝了群" = "Refuser le groupe";
+"邀请" = "Inviter";
+"未知请求" = "Demande inconnue";
+"已添加你为好友" = "Vous a ajouté en tant qu'ami";
+"请求添加你为好友" = "Demander à vous ajouter en tant qu'ami";
+"通过了你的好友请求" = "Accepter votre demande d'ami";
+"拒绝了你的好友请求" = "Refuser votre demande d'ami";
+"验证消息" = "Message de vérification";
+"载入更多" = "Charger plus";
+"同意成功" = "Acceptation réussie";
+"网络问题，请重试" = "Problème de réseau, veuillez réessayer.";
+"接受成功" = "Acceptation réussie";
+"群不存在" = "Le groupe n'existe pas";
+"拒绝成功" = "Refus réussi";
+"验证成功" = "Vérification réussie";
+"验证失败，请重试" = "Échec de la vérification, veuillez réessayer.";
+"正在直播" = "En direct";
+"万" = "Dix mille";
+"主播" = "Animateur";
+"暂无公告" = "Aucune annonce";
+"直播公告" = "Annonce de direct";
+"直播互动" = "Interaction de direct";
+"在线成员" = "Membre en ligne";
+"石头剪刀布" = "Pierre-papier-ciseaux";
+"请求失败" = "Échec de la demande";
+"进入失败" = "Échec d'entrée";
+"你被踢出聊天室" = "Vous êtes expulsé du salon de discussion";
+"直播间成员获取失败" = "Échec de l'obtention des membres du direct";
+"解除拉黑" = "Supprimer de la liste noire";
+"拉黑" = "Bloquer";
+"解除禁言" = "Retirer le mutisme";
+"禁言" = "Mettre en sourdine";
+"解除管理员" = "Annuler l'administrateur";
+"任命管理员" = "Nommer administrateur";
+"踢出" = "Expulser";
+"帐号" = "Compte";
+"昵称" = "Surnom";
+"加入群组" = "Rejoindre le groupe";
+"该群无法申请加入" = "Impossible de demander à rejoindre ce groupe.";
+"群号" = "Numéro de groupe";
+"输入验证信息" = "Entrer les informations de vérification";
+"确定" = "Confirmer";
+"申请成功，等待验证" = "Demande réussie, en attente de vérification.";
+"已经在群里" = "Déjà dans le groupe";
+"群申请失败" = "Échec de la demande de groupe";
+"搜索加入群组" = "Rechercher et rejoindre un groupe";
+"超大群组" = "Groupe super";
+"高级群组" = "Groupe avancé";
+"讨论组" = "Discussion de groupe";
+"个人名片" = "Carte de visite personnelle";
+"编辑" = "Éditer";
+
+
+"备注名" = "Nom de remarque";
+"生日" = "Anniversaire";
+"手机" = "Téléphone portable";
+"邮箱" = "Boîte aux lettres";
+"签名" = "Signature";
+"消息提醒" = "Notification de message";
+"黑名单" = "Liste noire";
+"聊天" = "Chats";
+"删除好友" = "Supprimer un ami";
+"添加好友" = "Ajouter un ami";
+"拉黑成功" = "Bloquer avec succès";
+"拉黑失败" = "Échec du blocage";
+"移除黑名单成功" = "Suppression de la liste noire réussie";
+"移除黑名单失败" = "Échec de la suppression de la liste noire";
+"跪求通过" = "Supplier pour être accepté";
+"添加成功" = "Ajout réussi";
+"请求成功" = "Demande réussie";
+"添加失败" = "Échec de l'ajout";
+"请求失败" = "Échec de la demande";
+"删除好友" = "Supprimer un ami";
+"删除好友后，将同时解除双方的好友关系" = "Supprimer un ami signifie mettre fin à la relation amicale pour les deux parties.";
+"删除成功" = "Suppression réussie";
+"删除失败" = "Échec de la suppression";
+"个人信息" = "Informations personnelles";
+"确定" = "Confirmer";
+// NTESSessionCardViewController
+"聊天信息" = "Information de chat";
+"消息提醒" = "Notification de message";
+"聊天置顶" = "Mettre en haut le chat";
+"创建讨论组" = "Créer une discussion de groupe";
+"操作失败" = "Échec de l'opération";
+"讨论组" = "Discussion de groupe";
+"创建讨论组失败" = "Échec de la création de la discussion de groupe";
+//NTESCustomSysNotificationSender
+"群组" = "Groupe";
+"正在呼叫您" = "Vous appelle";
+//NTESContactViewController
+"通讯录" = "Annuaire";
+"验证消息" = "Message de vérification";
+"超大群" = "Groupe super";
+"高级群" = "Groupe avancé";
+"讨论组" = "Discussion de groupe";
+"黑名单" = "Liste noire";
+"我的电脑" = "Mon ordinateur";
+"选择操作" = "Sélectionner une opération";
+"添加好友" = "Ajouter un ami";
+"取消" = "Annuler";
+"创建高级群" = "Créer un groupe avancé";
+"创建讨论组" = "Créer une discussion de groupe";
+"搜索高级群" = "Rechercher un groupe avancé";
+"高级群" = "Groupe avancé";
+"邀请你加入群组" = "Vous invite à rejoindre un groupe";
+"创建失败" = "Échec de la création";
+"讨论组" = "Discussion de groupe";
+"创建失败" = "Échec de la création";
+"删除好友" = "Supprimer un ami";
+"删除好友后，将同时解除双方的好友关系" = "Supprimer un ami signifie mettre fin à la relation amicale pour les deux parties.";
+"确定" = "Confirmer";
+"删除失败" = "Échec de la suppression";
+"点我干嘛 我是" = "Pourquoi me touchez? Je suis...";
+//NTESContactAddFriendViewController
+"添加好友" = "Ajouter un ami";
+"请输入帐号" = "Veuillez entrer votre compte";
+"注册" = "S'inscrire";
+"该用户不存在" = "Cet utilisateur n'existe pas";
+"请检查你输入的帐号是否正确" = "Veuillez vérifier si le numéro de compte que vous avez entré est correct.";
+"确定" = "Confirmer";
+//CCCBlackListViewController
+"你不会接收到列表中联系人的任何消息" = "Vous ne recevrez aucun message des contacts de la liste.";
+"黑名单" = "Liste noire";
+"删除失败" = "Échec de la suppression";
+"操作成功！" = "Opération réussie!";
+"操作失败！" = "Échec de l'opération!";
+//FFFLoginViewController
+"请输入帐号" = "Veuillez entrer votre compte";
+"请输入密码" = "Veuillez entrer votre mot de passe";
+"完成" = "Terminer";
+"查看 SDK 日志" = "Voir les journaux SDK";
+"查看 Demo 日志" = "Voir les journaux Demo";
+"取消" = "Annuler";
+"登录" = "Se connecter";
+//NTESRegisterViewController
+"帐号：限 20 位字母或者数字" = "Compte : limité à 20 lettres ou chiffres";
+"昵称：限 10 位汉字、字母或者数字" = "Surnom : limité à 10 caractères chinois, lettres ou chiffres";
+"密码：6~20 位字母或者数字" = "Mot de passe : 6 à 20 lettres ou chiffres";
+"完成" = "Terminer";
+"注册成功" = "Inscription réussie";
+"注册失败" = "Échec de l'inscription";
+"注册" = "S'inscrire";
+"账号长度有误" = "Longueur du compte incorrecte";
+"密码长度有误" = "Longueur du mot de passe incorrecte";
+"昵称长度有误" = "Longueur du surnom incorrecte";
+//NTESMergeMessageDataSource
+"文件解码错误。" = "Erreur de décodage du fichier.";
+"附件下载错误。" = "Erreur de téléchargement de l'annexe.";
+"文件解码错误。" = "Erreur de décodage du fichier.";
+//NTESWhiteboardAttachment
+"我发起了白板演示" = "J'ai lancé une démonstration de tableau blanc.";
+"白板演示已结束" = "La démonstration de tableau blanc est terminée.";
+//NTESRedPacketTipAttachment
+"你领取了自己的红包，你的红包已被领完" = "Vous avez ouvert votre propre enveloppe rouge et toutes vos enveloppes rouges ont été ouvertes.";
+"你领取了自己的红包" = "Vous avez ouvert votre propre enveloppe rouge.";
+"你领取了" = "Vous avez ouvert";
+"红包" = "enveloppe rouge";
+"领取了自己的红包，你的红包已被领完" = "Vous avez ouvert votre propre enveloppe rouge et toutes vos enveloppes rouges ont été ouvertes.";
+"领取了自己的红包" = "Vous avez ouvert votre propre enveloppe rouge.";
+//NTESMultiRetweetAttachment
+"聊天记录" = "Historique des conversations";
+//NTESRedPacketManager
+"不在群中，无法发送红包" = "Pas dans le groupe, impossible d'envoyer une enveloppe rouge.";
+"密聊 红包" = "Chat secret, enveloppe rouge";
+//NTESSessionMsgConverter
+"图片发送于" = "Image envoyée depuis";
+"发来了一段语音" = "Envoyé un message vocal";
+"视频发送于" = "Vidéo envoyée depuis";
+"发来了一段视频" = "Envoyé une vidéo";
+"发来了猜拳信息" = "Envoyé un message de pierre-papier-ciseaux";
+"发来了阅后即焚" = "Envoyé un message à autodestruction après lecture";
+"发来了一个文件" = "Envoyé un fichier";
+"[贴图]" = "[Autocollant]";
+"发来了一个红包" = "Envoyé une enveloppe rouge";
+"发来一段聊天记录" = "Envoyé un historique de conversations";
+//NTESDbExceptionHandler
+"数据库损坏" = "Base de données endommagée";
+"错误" = "Erreur";
+"信息" = "Information";
+"路径" = "Chemin";
+"发起了视频通话" = "Lancé un appel vidéo";
+"发起了音频通话" = "Lancé un appel audio";
+
+
+//FFFSessionConfig
+"石头剪刀布" = "Pierre-papier-ciseaux";
+"文件传输" = "Transfert de fichier";
+"提示消息" = "Message d'alerte";
+"实时语音" = "Appel vocal en temps réel";
+"视频聊天" = "Chat vidéo";
+"视频通话" = "Appel vidéo";
+"阅后即焚" = "Snapchat";
+"白板" = "Tableau blanc";
+"红包" = "Enveloppe rouge";
+"已读回执" = "Accusé de réception lu";
+//NTESSessionSnapchatContentView
+"按住查看" = "Maintenez pour voir";
+"查看红包" = "Voir l'enveloppe rouge";
+"领取红包" = "Ouvrir l'enveloppe rouge";
+"转发" = "Transmettre";
+"选择会话类型" = "Sélectionner le type de conversation";
+"确认转发" = "Confirmer la transmission";
+"转发失败" = "Échec de la transmission";
+"已发送" = "Envoyé";
+"发送" = "Envoyer";
+"本地消息迁移" = "Migration des messages locaux";
+"本地消息导出" = "Exportation des messages locaux";
+"本地消息导入" = "Importation des messages locaux";
+"确定导出本地消息？" = "Confirmer l'exportation des messages locaux?";
+"(DATA 传输)" = "Transfert de données";
+"本地消息将存至云端，会耗费较长时间" = "Les messages locaux seront stockés dans le cloud, ce qui prendra du temps.";
+"返回" = "Retour";
+"继续导出" = "Continuer l'exportation";
+"发生了错误" = "Une erreur s'est produite";
+"未找到消息备份。请先在旧设备上导出消息记录" = "Aucune sauvegarde de message trouvée. Veuillez exporter l'historique des messages sur l'ancien appareil d'abord.";
+"导出本地消息需要较长时间，请耐心等待" = "L'exportation des messages locaux prend du temps. Veuillez patienter.";
+"取消导出" = "Annuler l'exportation";
+"继续导出" = "Continuer l'exportation";
+"确定要取消导出？" = "Êtes-vous sûr de vouloir annuler l'exportation?";
+"导出失败！" = "Échec de l'exportation!";
+"本地消息格式化导出失败" = "Échec de l'exportation formatée des messages locaux";
+"返回" = "Retour";
+"重新导出" = "Réexporter";
+"可导出的消息记录总数为空" = "Le nombre total d'historique de messages exportables est nul.";
+"恭喜你" = "Félicitations";
+"本地消息导出成功，请在新设备上点击导入吧" = "L'exportation des messages locaux a réussi. Veuillez cliquer surImporter sur le nouvel appareil.";
+"返回" = "Retour";
+"正在转换" = "En cours de conversion";
+"转换文件上传失败" = "Échec du téléchargement du fichier converti";
+"转换失败" = "Échec de la conversion";
+"用其他应用程序打开" = "Ouvrir avec une autre application";
+"下载文件" = "Télécharger le fichier";
+"取消下载" = "Annuler le téléchargement";
+"用其他应用程序打开" = "Ouvrir avec une autre application";
+"下载失败，点击重新下载" = "Échec du téléchargement, cliquez pour télécharger à nouveau";
+"未找到打开该应用的程序" = "Aucun programme trouvé pour ouvrir cette application.";
+"文件列表" = "Liste de fichiers";
+"加载中" = "En cours de chargement";
+"传输" = "Transmission";
+"保存至相册" = "Enregistrer dans l'album";
+"没有开启权限，请开启权限" = "Aucune autorisation activée. Veuillez activer l'autorisation.";
+"保存图片失败" = "Échec de l'enregistrement de l'image";
+"错误" = "Erreur";
+"保存图片成功" = "L'image a été enregistrée avec succès";
+"下载图片失败" = "Échec du téléchargement de l'image";
+"已开启" = "Activé";
+"密聊" = "Chat secret";
+"图片和视频" = "Images et vidéos";
+"本周" = "Cette semaine";
+"年" = "Année";
+"月" = "Mois";
+"无结果" = "Aucun résultat";
+"搜索" = "Rechercher";
+"点击加载更多" = "Cliquez pour charger plus";
+"云消息记录" = "Historique des messages cloud";
+"获取消息失败" = "Échec de l'obtention des messages";
+"标记已读" = "Marquer comme lu";
+"删除会话" = "Supprimer la conversation";
+"正在输入" = "En train de taper";
+"我的电脑" = "Mon ordinateur";
+"本地反垃圾失败" = "Échec de l'anti-spam local";
+"该消息被屏蔽" = "Ce message est bloqué";
+"请选择" = "Veuillez choisir";
+"从相册中选取" = "Choisir dans l'album";
+"拍照" = "Prendre une photo";
+"请选择" = "Veuillez choisir";
+"从相册中选取" = "Choisir dans l'album";
+"白板演示" = "Démonstration de tableau blanc";
+"输入提醒" = "Entrer un rappel";
+"消息已发送，但对方拒收" = "Le message a été envoyé, mais l'autre partie a refusé";
+"录音失败" = "Échec de l'enregistrement";
+"录音时间太短" = "Le temps d'enregistrement est trop court";
+"云消息记录" = "Historique des messages cloud";
+"搜索本地消息记录" = "Rechercher l'historique des messages locaux";
+"清空本地聊天记录" = "Vider l'historique des conversations locales";
+"清空远端聊天记录" = "Vider l'historique des conversations distantes";
+"查看标记消息" = "Voir les messages épinglés";
+"确定清空聊天记录？" = "Confirmer la suppression de l'historique des conversations?";
+"确定删除？" = "Confirmer la suppression?";
+"选择操作" = "Sélectionner une opération";
+"转发" = "Transmettre";
+"多选" = "Sélection multiple";
+"撤回" = "Rétracter";
+"转文字" = "Transformer en texte";
+"取消上传" = "Annuler le téléchargement";
+"消息合并转发失败" = "Échec de la transmission groupée des messages";
+"选择会话类型" = "Sélectionner le type de conversation";
+"发送时间超过 2 分钟的消息，不能被撤回" = "Les messages envoyés il y a plus de 2 minutes ne peuvent pas être retirés.";
+"消息撤回失败，请重试" = "Échec du retrait du message. Veuillez réessayer.";
+"确认转发给" = "Confirmer la transmission à";
+"确认转发" = "Confirmer la transmission";
+"转发失败" = "Échec de la transmission";
+"已发送" = "Envoyé";
+"请检查网络" = "Veuillez vérifier le réseau";
+"不能和自己通话哦" = "Vous ne pouvez pas parler à vous-même.";
+"无法发起，群人数少于 2 人" = "Impossible de lancer, le nombre de personnes dans le groupe est inférieur à 2.";
+"正在邀请对方，请稍后" = "En train d'inviter l'autre partie, veuillez patienter.";
+"对方发起白板演示" = "L'autre partie a lancé une démonstration de tableau blanc.";
+"关闭了声音" = "Son désactivé";
+"打开了声音" = "Son activé";
+"退出后，你将不再接收白板演示的消息内容" = "Après la sortie, vous ne recevrez plus le contenu des messages de la démonstration de tableau blanc.";
+"对方拒绝了本次请求" = "L'autre partie a refusé cette demande.";
+"对方已离开" = "L'autre partie a quitté.";
+"已在其他端" = "Géré sur l'autre appareil";
+"接受" = "Accepter";
+"拒绝" = "Refuser";
+
+"已断开连接" = "Déconnecté";
+"已断开音频服务" = "Service audio déconnecté";
+"对方未接受请求" = "L'autre partie n'a pas accepté la demande";
+"白板请求扩展信息" = "Informations étendues de la demande de tableau blanc";
+"邀请你加入白板会话" = "Vous êtes invité à rejoindre une session de tableau blanc";
+"对方不在线" = "L'autre partie est hors ligne";
+"发起失败" = "Échec du lancement";
+"接听失败" = "Échec de la réponse";
+"数据发送失败" = "Échec de l'envoi des données";
+"视频短片" = "Clip vidéo";
+"下载失败，请检查网络" = "Échec du téléchargement, veuillez vérifier le réseau";
+"播放失败" = "Échec de la lecture";
+"正在呼叫，请稍候" = "Appel en cours, veuillez patienter";
+"来电" = "Appel entrant";
+"正在连接对方...请稍后..." = "En train de se connecter à l'autre partie... Veuillez patienter...";
+"已发送转换请求，请等待对方应答..." = "Demande de conversion envoyée, veuillez attendre la réponse de l'autre partie...";
+"对方拒绝切换到视频模式" = "L'autre partie refuse de passer en mode vidéo";
+"对方请求切换为视频模式" = "L'autre partie demande de passer en mode vidéo";
+"音视频请求扩展信息" = "Informations étendues de la demande audio-visuelle";
+"网络通话" = "Appel internet";
+"视频聊天" = "Chat vidéo";
+"连接失败" = "Échec de la connexion";
+"请求" = "Demande";
+"通话失败" = "Échec de l'appel";
+"语音对话开始失败" = "Échec du démarrage de la conversation vocale";
+"自己音视频开始失败" = "Échec du démarrage de mon audio-visuel";
+"自己音视频开始失败" = "Échec du démarrage de mon audio-visuel";
+"自己音频开始失败" = "Échec du démarrage de mon audio";
+"自己音频开始失败" = "Échec du démarrage de mon audio";
+"对方音视频开始失败" = "Échec du démarrage de l'audio-visuel de l'autre partie";
+"对方音视频开始失败" = "Échec du démarrage de l'audio-visuel de l'autre partie";
+"对方音频开始失败" = "Échec du démarrage de l'audio de l'autre partie";
+"对方音频开始失败" = "Échec du démarrage de l'audio de l'autre partie";
+"开始录制失败" = "Échec du démarrage de l'enregistrement";
+"自己音视频结束失败" = "Échec de la fin de mon audio-visuel";
+"自己音频结束失败" = "Échec de la fin de mon audio";
+"对方音视频结束失败" = "Échec de la fin de l'audio-visuel de l'autre partie";
+"对方音频结束失败" = "Échec de la fin de l'audio de l'autre partie";
+"结束录制失败" = "Échec de la fin de l'enregistrement";
+"对方开始了录制" = "L'autre partie a commencé l'enregistrement";
+"对方结束了录制" = "L'autre partie a terminé l'enregistrement";
+"对方拒绝接听" = "L'autre partie a refusé de répondre";
+"已在其他端处理" = "Géré sur l'autre appareil";
+"录制发生错误" = "Erreur d'enregistrement";
+"接听超时" = "Délai d'attente de réponse dépassé";
+"相机权限受限,无法视频聊天" = "Permissions de la caméra restreintes, impossible de démarrer un chat vidéo";
+"麦克风权限受限,无法聊天" = "Permissions du microphone restreintes, impossible de démarrer un chat";
+"保存失败,没有相册权限" = "Échec de l'enregistrement, pas de permission d'album";
+"你的手机内存不足，录制已结束" = "Votre téléphone n'a pas assez de mémoire, l'enregistrement est terminé";
+"录制已结束" = "Enregistrement terminé";
+"保存至系统相册失败" = "Échec de l'enregistrement dans l'album système";
+"保存图片失败, 错误" = "Échec de l'enregistrement de l'image, erreur";
+"录制文件已保存至系统相册" = "Le fichier enregistré a été enregistré dans l'album système";
+"正在呼叫，请稍候..." = "Appel en cours, veuillez patienter...";
+"来电" = "Appel entrant";
+"正在连接对方...请稍后..." = "En train de se connecter à l'autre partie... Veuillez patienter...";
+"语音模式" = "Mode vocal";
+"对方关闭了摄像头" = "L'autre partie a fermé la caméra";
+"对方开启了摄像头" = "L'autre partie a ouvert la caméra";
+"连接断开，请检查网络设置" = "La connexion est interrompue, veuillez vérifier les paramètres du réseau";
+"无人接听，请重试" = "Aucune réponse, veuillez réessayer";
+"呼叫失败" = "Échec de l'appel";
+"加入视频聊天失败" = "Échec de la connexion au chat vidéo";
+"%@发起了视频聊天" = "%@ a lancé un chat vidéo";
+"相机权限受限,无法视频聊天" = "Permissions de la caméra restreintes, impossible de démarrer un chat vidéo";
+"麦克风权限受限,无法聊天" = "Permissions du microphone restreintes, impossible de démarrer un chat";
+"相机权限受限,无法视频聊天" = "Permissions de la caméra restreintes, impossible de démarrer un chat vidéo";
+"麦克风权限受限,无法聊天" = "Permissions du microphone restreintes, impossible de démarrer un chat";
+"视频通话" = "Appel vidéo";
+"接听超时" = "Délai d'attente de réponse dépassé";
+"屏蔽音频" = "Bloquer l'audio";
+"完成" = "Terminé";
+"网络正常:" = "Réseau normal :";
+"网络一般:" = "Réseau moyen :";
+"网络差:" = "Réseau faible :";
+"选择录制内容" = "Sélectionner le contenu à enregistrer";
+"录制的内容会被单独保存" = "Le contenu enregistré sera enregistré séparément";
+"语音对话" = "Conversation vocale";
+"我的音视频" = "Mon audio-visuel";
+"我的音频" = "Mon audio";
+"对方音视频" = "L'audio-visuel de l'autre partie";
+"对方音频" = "L'audio de l'autre partie";
+"开始录制" = "Démarrer l'enregistrement";
+"未接通" = "Non connecté";
+"已挂断" = "Raccroché";
+"已读回执" = "Accusé de réception lu";
+"消息已读详情" = "Détails des messages lus";
+"未读" = "Non lu";
+"已读" = "Lu";
+"请求失败请重试" = "Échec de la demande, veuillez réessayer";
+"发送已读回执消息" = "Envoyer un message d'accusé de réception lu";
+"请输入内容" = "Veuillez entrer le contenu";
+"已发送" = "Envoyé";
+"正在使用密聊" = "En train d'utiliser le chat secret";
+"正在使用密聊未知版本" = "En train d'utiliser une version inconnue du chat secret";
+"当前网络不可用，请检查网络设置" = "Le réseau actuel est indisponible, veuillez vérifier les paramètres du réseau";
+"登录失败" = "Échec de la connexion";
+"网络正在切换,识别中...." = "Le réseau est en train de changer, en cours d'identification...";
+"当前网络不可用" = "Le réseau actuel est indisponible";
+"多端登录管理" = "Gestion de la connexion multi-terminaux";
+"踢出失败" = "Échec de l'expulsion";
+"已没有其他设备连接" = "Aucun autre appareil n'est connecté";
+"还没有会话，在通讯录中找个人聊聊吧" = "Aucune conversation, trouvez quelqu'un dans vos contacts pour discuter.";
+"标记所有消息为已读" = "Marquer tous les messages comme lus";
+"清理所有消息" = "Nettoyer tous les messages";
+"(未连接)" = "(Non connecté)";
+"(连接中)" = "(En cours de connexion)";
+"(同步数据)" = "(Synchronisation des données)";
+"麦克风" = "Microphone pour";
+"扬声器" = "haut-parleur";
+
+"群消息同步完成" = "Synchronisation des messages de groupe terminée";
+"取消置顶" = "Désactiver le positionnement en haut";
+"置顶" = "Positionner en haut";
+"删除" = "Supprimer";
+"收藏" = "Collecter";
+"标记" = "Épingler";
+"取消标记" = "Désépingler";
+"有人" = "Quelqu'un";
+"你" = "Vous";
+"音视频网络探测" = "Détection du réseau audio-visuel";
+"退出" = "Quitter";
+"探测" = "Détecter";
+"昵称" = "Surnom";
+"完成" = "Terminé";
+"昵称不能为空" = "Le surnom ne peut pas être vide";
+"昵称过长" = "Le surnom est trop long";
+"昵称设置成功" = "Réglage du surnom réussi";
+"昵称设置失败，请重试" = "Échec du réglage du surnom, veuillez réessayer";
+"好的昵称可以让你的朋友更容易记住你" = "Un bon surnom permet à vos amis de vous retenir plus facilement";
+"个人信息" = "Informations personnelles";
+"未设置" = "Non défini";
+"性别" = "Sexe";
+"生日" = "Anniversaire";
+"手机" = "Téléphone portable";
+"邮箱" = "Boîte aux lettres";
+"签名" = "Signature";
+"设置头像" = "Définir un avatar";
+"拍照" = "Prendre une photo";
+"从相册" = "Depuis l'album";
+"设置头像失败，请重试" = "Échec de la définition de l'avatar, veuillez réessayer";
+"图片上传失败，请重试" = "Échec du téléchargement de l'image, veuillez réessayer";
+"图片保存失败，请重试" = "Échec de l'enregistrement de l'image, veuillez réessayer";
+"其他" = "Autre";
+"性别设置成功" = "Réglage du sexe réussi";
+"性别设置失败，请重试" = "Échec du réglage du sexe, veuillez réessayer";
+"选择出生日期" = "Sélectionner la date de naissance";
+"生日设置成功" = "Réglage de l'anniversaire réussi";
+"生日设置失败，请重试" = "Échec du réglage de l'anniversaire, veuillez réessayer";
+"手机号码" = "Numéro de téléphone portable";
+"手机号码过长" = "Le numéro de téléphone portable est trop long";
+"手机设置成功" = "Réglage du téléphone portable réussi";
+"手机设置失败，请重试" = "Échec du réglage du téléphone portable, veuillez réessayer";
+"设置邮箱" = "Définir une adresse e-mail";
+"邮箱过长" = "L'adresse e-mail est trop longue";
+"邮箱设置成功" = "Réglage de l'adresse e-mail réussi";
+"邮箱设置失败，请重试" = "Échec du réglage de l'adresse e-mail, veuillez réessayer";
+"设置签名" = "Définir une signature";
+"签名" = "Signature";
+"签名过长" = "La signature est trop longue";
+"签名设置成功" = "Réglage de la signature réussi";
+"签名设置失败，请重试" = "Échec du réglage de la signature, veuillez réessayer";
+"备注名" = "Nom d'annotation";
+"备注名过长" = "Le nom d'annotation est trop long";
+"备注名设置成功" = "Réglage du nom d'annotation réussi";
+"备注名设置失败，请重试" = "Échec du réglage du nom d'annotation, veuillez réessayer";
+"免打扰设置" = "Réglage de non-disturbance";
+"免打扰" = "Non-disturbance";
+"从" = "De";
+"至" = "À";
+"在设定的时间段内密聊消息将不再提醒。" = "Les messages de chat secret ne seront plus rappelés pendant la période définie.";
+"结束时间不能与开始时间一致" = "L'heure de fin ne peut pas être identique à l'heure de début.";
+"免打扰设置更新失败" = "Échec de la mise à jour du réglage de non-disturbance";
+"关于" = "À propos";
+"版本号" = "Numéro de version";
+"服务端时间查询失败" = "Échec de la requête du temps du serveur";
+"自定义系统通知" = "Notifications système personnalisées";
+"我的收藏" = "Mes collections";
+"我的钱包" = "Mon porte-monnaie";
+"消息提醒" = "Notification de message";
+//"在 iPhone 的“设置 - 通知中心”功能，找到应用程序“密聊”，可以更改密聊新消息提醒设置" = "Dans la fonction "Paramètres → Centre de notifications" de l'iPhone, trouvez l'application "Chat secret" et vous pouvez modifier les paramètres de notification des nouveaux messages de chat secret.";
+"通知显示详情" = "Afficher les détails des notifications";
+"免打扰" = "Non-disturbance";
+"到" = "À";
+"未开启" = "Non activé";
+"查看日志" = "Voir les journaux";
+"上传日志" = "Télécharger les journaux";
+"清理缓存" = "Nettoyer le cache";
+"音视频网络探测" = "Détection du réseau audio-visuel";
+"本地消息迁移" = "Migration des messages locaux";
+"关于" = "À propos";
+"注销" = "Se déconnecter";
+"更新失败" = "Échec de la mise à jour";
+"查看日志" = "Voir les journaux";
+"查看 DEMO 配置" = "Voir la configuration de la démonstration";
+"查看 SDK 日志" = "Voir les journaux du SDK";
+"查看网络通话日志" = "Voir les journaux des appels réseau";
+"查看网络探测日志" = "Voir les journaux de détection réseau";
+"查看 Demo 日志" = "Voir les journaux de la démonstration";
+"上传日志失败" = "Échec du téléchargement des journaux";
+"上传日志成功,URL 已复制到剪切板中" = "Téléchargement des journaux réussi. L'URL a été copiée dans le presse-papiers.";
+"清除后，图片、视频等多媒体消息需要重新下载查看。确定清除？" = "Après la suppression, les messages multimédias tels que les images et les vidéos doivent être téléchargés et consultés à nouveau. Êtes-vous sûr de vouloir supprimer?";
+"清除失败！" = "Échec de la suppression!";
+"成功清理了" = "Nettoyage réussi.";
+"磁盘空间" = "Espace disque";
+"退出当前帐号？" = "Se déconnecter du compte actuel?";
+"年" = "Année";
+"月" = "Mois";
+"日" = "Jour";
+"帐号" = "Compte";
+"直播间" = "Salle de diffusion en direct";
+"设置" = "Réglages";
+"下拉加载" = "Tirez vers le bas pour charger";
+"松开刷新..." = "Relâchez pour rafraîchir...";
+"加载中..." = "En cours de chargement...";
+"请开启推送功能否则无法收到推送通知" = "Veuillez activer la fonction de notification push sinon vous ne recevrez pas de notifications push.";
+"你被踢下线" = "Vous êtes déconnecté.";
+"你的帐号被踢出下线，请注意帐号信息安全" = "Votre compte a été déconnecté. Veuillez prêter attention à la sécurité de votre compte.";
+"你的帐号被" = "Votre compte est";
+"端踢出下线，请注意帐号信息安全" = "déconnecté. Veuillez prêter attention à la sécurité de votre compte.";
+"你被服务器踢下线" = "Vous êtes déconnecté par le serveur.";
+"下线通知" = "Notification de déconnexion";
+"自动登录失败" = "Échec de la connexion automatique";
+"重试" = "Réessayer";
+"[有人@你]" = "[Quelqu'un vous a mentionné]";
+
+// 新增加
+"清除" = "Effacer";
+"注册" = "S'inscrire";
+"已有帐号？直接登录" = "Avez-vous déjà un compte? Connectez-vous directement";
+"搜索高级群" = "Rechercher un groupe avancé";
+
+"查看云端会话" = "Voir les conversations en nuage";
+"云端会话列表" = "Liste des conversations en nuage";
+"没有更多会话了" = "Plus de conversations";
+"加载更多" = "Charger plus";
+"搜索联系人" = "Rechercher des contacts";
+"群" = "Groupe";
+
+"搜索最近会话" = "Rechercher les conversations récentes";
+"搜索关键字:\"%@\"" = "Mot-clé de recherche:\"%@\"";
+"个人" = "Individuel";
+"的来电" = "appel de";
+"群组不存在" = "Groupe inexistant";
+"回复" = "Répondre";
+"复制" = "Copier";
+
+"回复详情" = "Détails de la réponse";
+"父消息不存在" = "Message parent manquant";
+"裁切" = "Couper";
+"请稍后..." = "Veuillez patienter...";
+"输入不能为空" = "L'entrée ne peut pas être vide";
+"连接错误，无法播放" = "Erreur de connexion, impossible de jouer";
+"系统不允许注册" = "Le système ne permet pas l'inscription";
+"请阅读并同意协议" = "Veuillez lire et accepter l'accord";
+"余额：¥0.00，全部提取" = "Solde : ¥0.00, retrait total";
+"《隐私协议》" = "Accord de confidentialité";
+"全部提取" = "Retrait total";
+"充值申请成功" = "Demande de recharge réussie";
+"密码不能为空" = "Le mot de passe ne peut pas être vide";
+"账号不能为空" = "Le numéro de compte ne peut pas être vide";
+
+"您没有权限，请联系管理员" = "Vous n'avez pas la permission. Veuillez contacter l'administrateur";
+"测试.icns" = "test.icns";
+"测试.mpq" = "test.mpq";
+"测试.ttf" = "test.ttf";
+"测试.txt" = "test.txt";
+"测试2.txt" = "test2.txt";
+
+"原密码" = "Mot de passe original";
+"新密码" = "Nouveau mot de passe";
+"确认密码" = "Confirmer le mot de passe";
+"确认修改" = "Confirmer la modification";
+
+
+
+
+

@@ -1,0 +1,6 @@
+framework module Pods_Neeyo {
+  umbrella header "Pods-Neeyo-umbrella.h"
+
+  export *
+  module * { export * }
+}
