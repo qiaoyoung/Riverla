@@ -1,0 +1,123 @@
+
+#import <Foundation/Foundation.h>
+
+NSString *StringFromRoadAddData(Byte *data);
+
+
+//: render_lighting_mon
+Byte kStr_planningData[] = {79, 19, 10, 94, 146, 8, 125, 215, 13, 205, 110, 111, 109, 95, 103, 110, 105, 116, 104, 103, 105, 108, 95, 114, 101, 100, 110, 101, 114, 172};
+
+
+//: render_lighting_sun
+Byte kStr_bishopValue[] = {76, 19, 4, 17, 110, 117, 115, 95, 103, 110, 105, 116, 104, 103, 105, 108, 95, 114, 101, 100, 110, 101, 114, 43};
+
+// __DEBUG__
+// __CLOSE_PRINT__
+//
+//  MarginView.m
+//  FULiveDemo
+//
+//  Created by L on 2018/9/20.
+//  Copyright © 2018年 L. All rights reserved.
+//
+
+// __M_A_C_R_O__
+//: #import "FULightingView.h"
+#import "MarginView.h"
+
+//: @interface FULightingView()
+@interface MarginView()
+//: @property (strong, nonatomic) UIImageView *sunImage;
+@property (strong, nonatomic) UIImageView *sunImage;
+//: @property (strong, nonatomic) UIImageView *monImage;
+@property (strong, nonatomic) UIImageView *monImage;
+//: @end
+@end
+
+//: @implementation FULightingView
+@implementation MarginView
+
+//: -(instancetype)initWithFrame:(CGRect)frame{
+-(instancetype)initWithFrame:(CGRect)frame{
+    //: if (self = [super initWithFrame:frame]) {
+    if (self = [super initWithFrame:frame]) {
+        //: [self setupSubView];
+        [self viewFrom];
+    }
+    //: return self;
+    return self;
+}
+
+//: -(void)setupSubView{
+-(void)viewFrom{
+    //: self.monImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"render_lighting_mon"]];
+    self.monImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:StringFromRoadAddData(kStr_planningData)]];
+    //: self.monImage.frame = CGRectMake(10, 0, 20, 20);
+    self.monImage.frame = CGRectMake(10, 0, 20, 20);
+    //: [self addSubview:self.monImage];
+    [self addSubview:self.monImage];
+    //: self.sunImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"render_lighting_sun"]];
+    self.sunImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:StringFromRoadAddData(kStr_bishopValue)]];
+    //: self.sunImage.frame = CGRectMake(self.frame.size.width - 30, 0, 20, 20);
+    self.sunImage.frame = CGRectMake(self.frame.size.width - 30, 0, 20, 20);
+    //: [self addSubview:self.sunImage];
+    [self addSubview:self.sunImage];
+
+    //: self.slider = [[FULightingSlider alloc] initWithFrame:CGRectMake(40, 0, self.frame.size.width - 80, 20)];
+    self.slider = [[TotalerrelateSlider alloc] initWithFrame:CGRectMake(40, 0, self.frame.size.width - 80, 20)];
+    //: [self.slider addTarget:self action:@selector(sliderValueChange:) forControlEvents:UIControlEventValueChanged];
+    [self.slider addTarget:self action:@selector(naturalEventChange:) forControlEvents:UIControlEventValueChanged];
+    //: [self addSubview:self.slider];
+    [self addSubview:self.slider];
+
+    //: self.monImage.transform = CGAffineTransformMakeRotation(1.57079632679489661923132169163975144);
+    self.monImage.transform = CGAffineTransformMakeRotation(1.57079632679489661923132169163975144);
+    //: self.sunImage.transform = CGAffineTransformMakeRotation(1.57079632679489661923132169163975144);
+    self.sunImage.transform = CGAffineTransformMakeRotation(1.57079632679489661923132169163975144);
+}
+
+
+//: -(void)awakeFromNib {
+-(void)awakeFromNib {
+    //: [super awakeFromNib];
+    [super awakeFromNib];
+    //: [self setupSubView];
+    [self viewFrom];
+
+}
+
+//: -(void)sliderValueChange:(FULightingSlider *)sender {
+-(void)naturalEventChange:(TotalerrelateSlider *)sender {
+    //: float value = sender.value;
+    float value = sender.value;
+    //: if ([self.delegate respondsToSelector:@selector(lightingViewValueDidChange:)]) {
+    if ([self.delegate respondsToSelector:@selector(changeLightingViewNumericalCount:)]) {
+        //: [self.delegate lightingViewValueDidChange:value];
+        [self.delegate changeLightingViewNumericalCount:value];
+    }
+}
+
+
+//: @end
+@end
+
+Byte * RoadAddDataToCache(Byte *data) {
+    int ratRace = data[0];
+    int entry = data[1];
+    int linkFeat = data[2];
+    if (!ratRace) return data + linkFeat;
+    for (int i = 0; i < entry / 2; i++) {
+        int begin = linkFeat + i;
+        int end = linkFeat + entry - i - 1;
+        Byte temp = data[begin];
+        data[begin] = data[end];
+        data[end] = temp;
+    }
+    data[0] = 0;
+    data[linkFeat + entry] = 0;
+    return data + linkFeat;
+}
+
+NSString *StringFromRoadAddData(Byte *data) {
+    return [NSString stringWithUTF8String:(char *)RoadAddDataToCache(data)];
+}  
