@@ -1,6 +1,6 @@
 //
 //  FFFMessageCell.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -16,10 +16,10 @@
 #import "UIViewNimKit.h"
 #import "FFFKitDependency.h"
 #import "M80AttributedLabel.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFSessionUnknowContentView.h"
 #import "FFFKitConfig.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFSessionTextContentView.h"
 
 @interface FFFMessageCell()<NIMPlayAudioUIDelegate,NIMMessageContentViewDelegate>
@@ -93,17 +93,17 @@
     _nameLabel = [[UILabel alloc] init];
     _nameLabel.backgroundColor = [UIColor clearColor];
     _nameLabel.opaque = YES;
-    _nameLabel.font   = [NeeyoKit sharedKit].config.nickFont;
-    _nameLabel.textColor = [NeeyoKit sharedKit].config.nickColor;
+    _nameLabel.font   = [MyUserKit sharedKit].config.nickFont;
+    _nameLabel.textColor = [MyUserKit sharedKit].config.nickColor;
     [_nameLabel setHidden:YES];
     [self.contentView addSubview:_nameLabel];
     
     //readlabel
     _readButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _readButton.opaque = YES;
-    _readButton.titleLabel.font   = [NeeyoKit sharedKit].config.receiptFont;
-    [_readButton setTitleColor:[NeeyoKit sharedKit].config.receiptColor forState:UIControlStateNormal];
-    [_readButton setTitleColor:[NeeyoKit sharedKit].config.receiptColor forState:UIControlStateHighlighted];
+    _readButton.titleLabel.font   = [MyUserKit sharedKit].config.receiptFont;
+    [_readButton setTitleColor:[MyUserKit sharedKit].config.receiptColor forState:UIControlStateNormal];
+    [_readButton setTitleColor:[MyUserKit sharedKit].config.receiptColor forState:UIControlStateHighlighted];
     [_readButton setHidden:YES];
     [_readButton addTarget:self action:@selector(onPressReadButton:) forControlEvents:UIControlEventTouchUpInside];
     [self.contentView addSubview:_readButton];
@@ -182,7 +182,7 @@
     [self addContentViewIfNotExist];
     [self addUserCustomViews];
     
-//    self.backgroundColor = [NeeyoKit sharedKit].config.cellBackgroundColor;
+//    self.backgroundColor = [MyUserKit sharedKit].config.cellBackgroundColor;
     self.backgroundColor = [UIColor clearColor];
     
     if ([self needShowSelectButton]) {
@@ -235,7 +235,7 @@
     if (self.model.message.messageType == NIMMessageTypeImage || self.model.message.messageType == NIMMessageTypeVideo) {
         _bubblesBackgroundView.hidden = YES;
     }else{
-        _bubblesBackgroundView.hidden = ![[NeeyoKit sharedKit].layoutConfig shouldDisplayBubbleBackground:self.model];
+        _bubblesBackgroundView.hidden = ![[MyUserKit sharedKit].layoutConfig shouldDisplayBubbleBackground:self.model];
         if (self.model.shouldShowLeft){
             _bubblesBackgroundView.backgroundColor = RGB_COLOR_String(@"ffffff");
         }else{
@@ -299,7 +299,7 @@
 //    {
 //        if (!_replyedBubbleView)
 //        {
-//            id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+//            id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
 //            NSString *contentStr = [layoutConfig replyContent:self.model];
 //            NSAssert([contentStr length] > 0, @"should offer cell content class name");
 //            Class clazz = NSClassFromString(contentStr);
@@ -322,7 +322,7 @@
     {
         if (!_replyedBubbleView)
         {
-            id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+            id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
             NSString *contentStr = [layoutConfig replyContent:self.model];
             NSAssert([contentStr length] > 0, @"should offer cell content class name");
             Class clazz = NSClassFromString(contentStr);
@@ -347,7 +347,7 @@
 {
     if (_bubbleView == nil)
     {
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         NSString *contentStr = [layoutConfig cellContent:self.model];
         NSAssert([contentStr length] > 0, @"should offer cell content class name");
         Class clazz = NSClassFromString(contentStr);
@@ -371,7 +371,7 @@
     for (UIView *view in self.customViews) {
         [view removeFromSuperview];
     }
-    id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+    id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
     self.customViews = [layoutConfig customViews:self.model];
 
     for (UIView *view in self.customViews) {
@@ -667,7 +667,7 @@
 - (UIImage *)chatBubbleImageForState:(UIControlState)state
 {
     
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:self.model.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:self.model.message];
     if (state == UIControlStateNormal)
     {
         return setting.normalBackgroundImage;
@@ -722,7 +722,7 @@
 
 - (BOOL)retryButtonHidden
 {
-    id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+    id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
     BOOL disable = NO;
     if ([layoutConfig respondsToSelector:@selector(disableRetryButton:)])
     {

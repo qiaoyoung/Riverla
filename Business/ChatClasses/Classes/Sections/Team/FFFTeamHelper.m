@@ -1,6 +1,6 @@
 //
 //  FFFTeamHelper.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/12/11.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -8,8 +8,8 @@
 
 #import "FFFTeamHelper.h"
 #import "FFFTeamCardRowItem.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 
 static NSString *const kTeamHelperText = @"kTeamHelperText";
 static NSString *const kTeamHelperValue = @"kTeamHelperValue";

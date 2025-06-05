@@ -1,6 +1,6 @@
 //
 //  NIMSessionAudioCententView.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 Netease. All rights reserved.

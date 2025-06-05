@@ -48,7 +48,7 @@
 
 - (UIEdgeInsets)contentViewInsets:(NIMMessage *)message
 {
-    return [[NeeyoKit sharedKit].config setting:message].contentInsets;
+    return [[MyUserKit sharedKit].config setting:message].contentInsets;
 }
 
 - (BOOL)canBeForwarded

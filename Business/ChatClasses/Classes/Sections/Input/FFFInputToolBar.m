@@ -1,6 +1,6 @@
 //
 //  FFFInputToolBar.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "FFFInputToolBar.h"
 #import "UIViewNimKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFInputBarItemType.h"
 #import "FFFInputEmoticonManager.h"
 #import "YYText.h"

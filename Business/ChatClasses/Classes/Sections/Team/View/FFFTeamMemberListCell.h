@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <NIMSDK/NIMSDK.h>
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 extern NSString *const kTeamMember;
 extern NSString *const kTeamMemberInfo;

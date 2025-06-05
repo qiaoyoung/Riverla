@@ -8,7 +8,7 @@
 
 #import "FFFLanguageManager.h"
 #import "FFFXMLReader.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "SSZipArchiveManager.h"
 
 @interface FFFLanguageManager ()<NSXMLParserDelegate>

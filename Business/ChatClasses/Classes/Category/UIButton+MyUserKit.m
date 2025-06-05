@@ -1,15 +1,15 @@
 //
 //  UIButton+NIMKit.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by 丁文超 on 2020/4/16.
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
-#import "UIButton+NeeyoKit.h"
+#import "UIButton+MyUserKit.h"
 #import "UIViewNimKit.h"
 
-@implementation UIButton (NeeyoKit)
+@implementation UIButton (MyUserKit)
 
 - (void)nim_verticalCenterImageAndTitleWithSpacing:(CGFloat)spacing
 {

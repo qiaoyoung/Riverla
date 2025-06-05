@@ -10,7 +10,7 @@
 #import "UIViewNimKit.h"
 #import "FFFGlobalMacro.h"
 #import "FFFKitKeyboardInfo.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "UITextView+Util.h"
 
 @interface FFFCreateTeamAnnouncement () <UITextFieldDelegate, UITextViewDelegate>

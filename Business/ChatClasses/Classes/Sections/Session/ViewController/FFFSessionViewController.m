@@ -1,13 +1,13 @@
 //
 //  FFFSessionViewController.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by NetEase.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
 #import "FFFSessionConfigurateProtocol.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFMessageCellProtocol.h"
 #import "FFFMessageModel.h"
 #import "FFFKitUtil.h"
@@ -911,7 +911,7 @@
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = self.session;
         
-        NSString *me = [[NeeyoKit sharedKit].provider infoByUser:[NIMSDK sharedSDK].loginManager.currentAccount option:option].showName;
+        NSString *me = [[MyUserKit sharedKit].provider infoByUser:[NIMSDK sharedSDK].loginManager.currentAccount option:option].showName;
         apnsOption.apnsContent = [NSString stringWithFormat:@"%@在群里@了你".nim_localized, me];
         message.apnsMemberOption = apnsOption;
     }
@@ -952,7 +952,7 @@
     
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.message = replymessage;
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:replymessage.from option:option];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:replymessage.from option:option];
     
     NSDictionary *dic = @{
             @"type": type,//type:TEXT、IMAGE、VIDEO
@@ -972,7 +972,7 @@
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = self.session;
         
-        NSString *me = [[NeeyoKit sharedKit].provider infoByUser:[NIMSDK sharedSDK].loginManager.currentAccount option:option].showName;
+        NSString *me = [[MyUserKit sharedKit].provider infoByUser:[NIMSDK sharedSDK].loginManager.currentAccount option:option].showName;
         apnsOption.apnsContent = [NSString stringWithFormat:@"%@在群里@了你".nim_localized, me];
         message.apnsMemberOption = apnsOption;
     }
@@ -1046,7 +1046,7 @@
 - (void)onSelectChartlet:(NSString *)chartletId
                  catalog:(NSString *)catalogId
 {
-//    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//    NSBundle *bundle = [MyUserKit sharedKit].emoticonBundle;
 //    NSData *imageData = [NSData dataWithContentsOfFile:[bundle pathForResource:chartletId ofType:nil inDirectory:NEEKIT_EmojiPath]];
     NSString *emojiPath = [[SSZipArchiveManager sharedManager] getEmojiPath];
     NSString *imagePath = [emojiPath stringByAppendingPathComponent:chartletId];
@@ -1087,7 +1087,7 @@
 //    [_sessionInputView endEditing:YES];
     
     NIMAudioType type = [self recordAudioType];
-    NSTimeInterval duration = [NeeyoKit sharedKit].config.recordMaxDuration;
+    NSTimeInterval duration = [MyUserKit sharedKit].config.recordMaxDuration;
     
     [[NIMSDK sharedSDK].mediaManager addDelegate:self];
     
@@ -1815,7 +1815,7 @@
     NSArray *items;
     if (!self.sessionConfig)
     {
-        items = [[NeeyoKit sharedKit].config defaultMenuItemsWithMessage:message];
+        items = [[MyUserKit sharedKit].config defaultMenuItemsWithMessage:message];
     }
     else if([self.sessionConfig respondsToSelector:@selector(menuItemsWithMessage:)])
     {

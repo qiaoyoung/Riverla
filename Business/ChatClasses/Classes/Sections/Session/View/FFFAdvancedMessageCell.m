@@ -1,6 +1,6 @@
 //
 //  FFFAdvancedMessageCell.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/4/10.
 //  Copyright © 2020 NetEase. All rights reserved.
@@ -9,18 +9,18 @@
 #import "FFFAdvancedMessageCell.h"
 #import "UIViewNimKit.h"
 #import "FFFMessageModel.h"
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 #import "FFFQuickCommentCell.h"
 #import "FFFSessionMessageContentView.h"
 #import "FFFAvatarImageView.h"
 #import "M80AttributedLabel.h"
 #import "FFFKitUtil.h"
 #import "FFFKitQuickCommentUtil.h"
-#import "UIColor+NeeyoKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIColor+MyUserKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFCollectionViewLeftAlignedLayout.h"
 #import "M80AttributedLabel.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 
 static NSString * const kNIMListCellReuseID = @"FFFQuickCommentCell";
 static const CGFloat kNIMAdvancedBackgroundPadding = 5;

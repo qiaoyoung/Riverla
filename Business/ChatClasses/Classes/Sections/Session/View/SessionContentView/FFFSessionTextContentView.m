@@ -1,17 +1,17 @@
 //
 //  FFFSessionTextContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
 #import "FFFSessionTextContentView.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFMessageModel.h"
 #import "FFFGlobalMacro.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFTextView.h"
 #import "FFFSessionConfig.h"
 #import "NTESSessionViewController.h"
@@ -108,7 +108,7 @@ NSString *const NIMTextMessageLabelLinkData = @"NIMTextMessageLabelLinkData";
     [super refresh:data];
  
     NSString *text = self.model.message.text;
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:data.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:data.message];
     self.textView.textColor = setting.textColor;
     self.textView.font = setting.font;
     [self.textView nim_setText:text];
@@ -161,7 +161,7 @@ NSString *const NIMTextMessageLabelLinkData = @"NIMTextMessageLabelLinkData";
     {
         text = [NSString stringWithFormat:@"%@\n%@",text,[message.localExt objectForKey:@"NTESMessageTranslate"]];
     }
-    self.textView.font = [[NeeyoKit sharedKit].config setting:message].font;
+    self.textView.font = [[MyUserKit sharedKit].config setting:message].font;
     [self.textView nim_setText:text];
     CGFloat msgBubbleMaxWidth    = (cellWidth - 130);
     CGFloat bubbleLeftToContent  = 14;

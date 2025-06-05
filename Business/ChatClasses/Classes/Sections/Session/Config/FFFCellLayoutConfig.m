@@ -1,6 +1,6 @@
 //
 //  NIMSessionDefaultConfig.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -9,12 +9,12 @@
 #import "FFFCellLayoutConfig.h"
 #import "FFFSessionMessageContentView.h"
 #import "FFFSessionUnknowContentView.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFKitUtil.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFMessageModel.h"
 #import "FFFBaseSessionContentConfig.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @interface FFFCellLayoutConfig()
 
@@ -103,7 +103,7 @@
 
 - (BOOL)shouldShowAvatar:(FFFMessageModel *)model
 {
-    return [[NeeyoKit sharedKit].config setting:model.message].showAvatar;
+    return [[MyUserKit sharedKit].config setting:model.message].showAvatar;
 }
 
 
@@ -157,7 +157,7 @@
     
     if (model.message.session.sessionType == NIMSessionTypeTeam)
     {
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         BOOL left = [layoutConfig shouldShowLeft:model];
         if (!left) {
             NSString *userID = [NIMSDK sharedSDK].loginManager.currentAccount;
@@ -169,7 +169,7 @@
     }
     else if (model.message.session.sessionType == NIMSessionTypeSuperTeam)
     {
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         BOOL left = [layoutConfig shouldShowLeft:model];
         if (!left) {
             NSString *userID = [NIMSDK sharedSDK].loginManager.currentAccount;

@@ -99,7 +99,7 @@
 //    [_avatarImageView sd_setImageWithURL:[NSURL URLWithString:data.imageUrl] placeholderImage:nil];
 //    self.labName.text = data.nickname;
     
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:data.userId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:data.userId option:nil];
     self.labName.text = info.showName;
     [self.avatarImageView sd_setImageWithURL:[NSURL URLWithString:info.avatarUrlString] placeholderImage:[UIImage imageNamed:@"head_default"]];
 }

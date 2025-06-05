@@ -326,7 +326,7 @@ NSString *NTESCustomNotificationCountChanged = @"NTESCustomNotificationCountChan
 - (NSString *)textByCaller:(NSString *)caller
 {
     NSString *text = @"你收到了一个白板请求".ntes_localized;
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:caller option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:caller option:nil];
     if ([info.showName length])
     {
         text = [NSString stringWithFormat:@"%@%@",

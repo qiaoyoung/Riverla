@@ -1,6 +1,6 @@
 //
 //  FFFMessageUtil.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Netease on 2019/10/17.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -10,8 +10,8 @@
 #import <NIMSDK/NIMSDK.h>
 #import "FFFGlobalMacro.h"
 #import "FFFKitUtil.h"
-#import "NeeyoKit.h"
-#import "NSDictionary+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "NSDictionary+MyUserKit.h"
 
 @implementation FFFMessageUtil
 

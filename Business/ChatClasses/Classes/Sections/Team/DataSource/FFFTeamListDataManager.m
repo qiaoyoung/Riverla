@@ -1,6 +1,6 @@
 //
 //  FFFTeamListDataManager.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Netease on 2019/6/17.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "FFFTeamListDataManager.h"
 #import "FFFGlobalMacro.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 NSString *const kNIMTeamListDataTeamInfoUpdate = @"kNIMTeamListDataTeamInfoUpdate";
 NSString *const kNIMTeamListDataTeamMembersChanged = @"kNIMTeamListDataTeamMembersChanged";

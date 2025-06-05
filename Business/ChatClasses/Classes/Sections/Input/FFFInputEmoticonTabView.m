@@ -1,6 +1,6 @@
 //
 //  FFFInputEmoticonTabView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -9,7 +9,7 @@
 #import "FFFInputEmoticonTabView.h"
 #import "FFFInputEmoticonManager.h"
 #import "UIViewNimKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFGlobalMacro.h"
 
 const NSInteger FFFInputEmoticonTabViewHeight = 44;

@@ -9,9 +9,9 @@
 #import "FFFCardHeaderCell.h"
 #import "FFFAvatarImageView.h"
 #import "UIViewNimKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFTeamHelper.h"
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 
 @interface FFFCardHeaderCell()
 

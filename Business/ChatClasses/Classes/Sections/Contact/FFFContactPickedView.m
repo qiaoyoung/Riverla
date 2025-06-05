@@ -7,9 +7,9 @@
 //
 
 #import "FFFContactPickedView.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFAvatarImageView.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 
 #define avatarWidth 48
 #define blank 10

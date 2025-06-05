@@ -23,7 +23,7 @@
     self = [super init];
     if (self) {
         _userId = userId;
-        _info = [[NeeyoKit sharedKit] infoByUser:userId option:nil];
+        _info = [[MyUserKit sharedKit] infoByUser:userId option:nil];
     }
     return self;
 }
@@ -78,7 +78,7 @@
         _userId = userId;
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = session;
-        _info = [[NeeyoKit sharedKit] infoByUser:userId option:option];
+        _info = [[MyUserKit sharedKit] infoByUser:userId option:option];
     }
     return self;
 }
@@ -130,9 +130,9 @@
     if (self) {
         _teamId = teamId;
         if (teamType == NIMKitTeamTypeNomal) {
-            _info = [[NeeyoKit sharedKit] infoByTeam:teamId option:nil];
+            _info = [[MyUserKit sharedKit] infoByTeam:teamId option:nil];
         } else if (teamType == NIMKitTeamTypeSuper) {
-            _info = [[NeeyoKit sharedKit] infoBySuperTeam:teamId option:nil];
+            _info = [[MyUserKit sharedKit] infoBySuperTeam:teamId option:nil];
         }
     }
     return self;

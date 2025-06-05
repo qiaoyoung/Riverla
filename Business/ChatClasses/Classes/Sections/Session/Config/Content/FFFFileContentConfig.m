@@ -1,13 +1,13 @@
 //
 //  FFFFileContentConfig.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by amao on 9/15/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.
 //
 
 #import "FFFFileContentConfig.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @implementation FFFFileContentConfig
 
@@ -23,7 +23,7 @@
 
 - (UIEdgeInsets)contentViewInsets:(NIMMessage *)message
 {
-    return [[NeeyoKit sharedKit].config setting:message].contentInsets;
+    return [[MyUserKit sharedKit].config setting:message].contentInsets;
 }
 
 

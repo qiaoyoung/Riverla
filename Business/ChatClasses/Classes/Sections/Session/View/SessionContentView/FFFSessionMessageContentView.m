@@ -1,6 +1,6 @@
 //
 //  FFFSessionMessageContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 Netease. All rights reserved.
@@ -8,9 +8,9 @@
 
 #import "FFFSessionMessageContentView.h"
 #import "FFFMessageModel.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @interface FFFSessionMessageContentView()
 
@@ -74,7 +74,7 @@
 - (UIImage *)chatBubbleImageForState:(UIControlState)state outgoing:(BOOL)outgoing
 {
     
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:self.model.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:self.model.message];
     if (state == UIControlStateNormal)
     {
         return setting.normalBackgroundImage;

@@ -1,5 +1,5 @@
 //
-//  Neeyo-Prefix.pch
+//  Riverla-Prefix.pch
 //  NIMDemo
 //
 //  Created by ght on 15-1-27.
@@ -16,7 +16,7 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 #import "NTESGlobalMacro.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "NSString+NTES.h"
 #import "ZCHttpManager.h"
 #import "ZCHttpManager+Addtionals.h"
@@ -59,7 +59,7 @@
 #import <SDWebImage/SDWebImage.h>
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "ZCHttpInterfacedConst.h"
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 #import "SNWeakStrongMacro.h"
 #import "NSDictionaryExtend.h"
 #import "UIDevice+VGAddition.h"

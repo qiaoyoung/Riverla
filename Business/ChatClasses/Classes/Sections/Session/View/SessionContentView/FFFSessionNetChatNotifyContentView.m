@@ -1,17 +1,17 @@
 //
 //  FFFSessionNetChatNotifyContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/5/8.
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
 #import "FFFSessionNetChatNotifyContentView.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFMessageModel.h"
 #import "FFFKitUtil.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @implementation FFFSessionNetChatNotifyContentView
 
@@ -33,7 +33,7 @@
     [super refresh:data];
     NSString *text = [FFFKitUtil messageTipContent:data.message];
    
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:data.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:data.message];
     self.textLabel.textColor = setting.textColor;;
     self.textLabel.font      = setting.font;
     

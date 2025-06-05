@@ -7,7 +7,7 @@
 //
 
 #import "NTESChatroomTextContentConfig.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFGlobalMacro.h"
 
 @interface NTESChatroomTextContentConfig()

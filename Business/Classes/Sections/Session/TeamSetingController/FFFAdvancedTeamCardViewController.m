@@ -89,7 +89,7 @@ NIMTeamAnnouncementListVCDelegate,NTESCustomUIAlertDelegate,UINavigationControll
         FFFTeamCardMemberItem *obj = self.teamListManager.members[i];
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = self.teamListManager.session;
-        FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:obj.userId option:option];
+        FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:obj.userId option:option];
         
         NSMutableDictionary *dic = [NSMutableDictionary dictionary];
         dic[kTeamMember] = obj;

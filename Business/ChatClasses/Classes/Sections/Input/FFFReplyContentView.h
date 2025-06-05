@@ -1,6 +1,6 @@
 //
 //  FFFReplyContentView.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/4/3.
 //  Copyright © 2020 NetEase. All rights reserved.

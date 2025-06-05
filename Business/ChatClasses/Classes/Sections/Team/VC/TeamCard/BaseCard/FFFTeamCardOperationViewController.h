@@ -1,6 +1,6 @@
 //
 //  FFFTeamCardOperationViewController.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/12/12.
 //  Copyright © 2019 NetEase. All rights reserved.

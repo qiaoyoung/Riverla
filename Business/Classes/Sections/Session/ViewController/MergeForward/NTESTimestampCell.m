@@ -22,7 +22,7 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         [self.timeBGView removeFromSuperview];
-        self.timeLabel.textColor = [NeeyoKit sharedKit].config.nickColor;
+        self.timeLabel.textColor = [MyUserKit sharedKit].config.nickColor;
         self.backgroundColor = UIColorFromRGB(0xfefefe);
         [self.contentView addSubview:self.lineLeft];
         [self.contentView addSubview:self.lineRight];

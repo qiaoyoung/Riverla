@@ -1,6 +1,6 @@
 //
-//  NSDictionary+NeeyoKit.h
-// NeeyoKit
+//  NSDictionary+MyUserKit.h
+// MyUserKit
 //
 //  Created by chris on 2017/6/27.
 //  Copyright © 2017年 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDictionary (NeeyoKit)
+@interface NSDictionary (MyUserKit)
 
 - (NSString *)nimkit_jsonString: (NSString *)key;
 

@@ -1,6 +1,6 @@
 //
 //  UIViewNimKit.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (NeeyoKit)
+@interface UIView (MyUserKit)
 
 @property (nonatomic) CGFloat nim_left;
 

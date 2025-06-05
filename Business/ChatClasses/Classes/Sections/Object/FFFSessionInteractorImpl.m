@@ -1,6 +1,6 @@
 //
 //  NIMSessionInteraciton.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 2016/11/7.
 //  Copyright © 2016年 NetEase. All rights reserved.
@@ -759,7 +759,7 @@ dispatch_queue_t NTESMessageDataPrepareQueue()
    
 }
 
-- (void)onSendLocation:(NeeyoKitLocationPoint *)locationPoint{ 
+- (void)onSendLocation:(MyUserKitLocationPoint *)locationPoint{ 
   
 }
 

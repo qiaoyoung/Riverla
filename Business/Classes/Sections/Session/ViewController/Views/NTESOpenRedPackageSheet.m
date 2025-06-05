@@ -258,7 +258,7 @@
 
 -(void)reloadHeader:(NSString *)userID{
     NIMUser *me = [[NIMSDK sharedSDK].userManager userInfo:userID];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:userID option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:userID option:nil];
     NSString *headerUrl = me.userInfo.avatarUrl;
     UIImage *placeholderImage = info.avatarImage;
     [_headerImageView sd_setImageWithURL:[NSURL URLWithString:headerUrl] placeholderImage:placeholderImage];

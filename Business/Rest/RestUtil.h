@@ -10,7 +10,7 @@
 
 //#import "TYLSercetChatConfig.h"
 
-//#define RestApi(api) [[NeeyoKit sharedKit].webHost stringByAppendingString:api]
+//#define RestApi(api) [[MyUserKit sharedKit].webHost stringByAppendingString:api]
 UIKIT_EXTERN NSString * RestApi(NSString *api);
 
 

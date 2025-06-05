@@ -60,8 +60,8 @@
         _timeLab = [[UILabel alloc] init];
         _timeLab.backgroundColor = [UIColor clearColor];
         _timeLab.opaque = YES;
-        _timeLab.font   = [NeeyoKit sharedKit].config.nickFont;
-        _timeLab.textColor = [NeeyoKit sharedKit].config.nickColor;
+        _timeLab.font   = [MyUserKit sharedKit].config.nickFont;
+        _timeLab.textColor = [MyUserKit sharedKit].config.nickColor;
         _timeLab.text = @"00:00";
         [_timeLab sizeToFit];
         _timeLab.width += 8.0;

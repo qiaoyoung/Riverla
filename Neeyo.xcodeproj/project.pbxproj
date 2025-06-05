@@ -321,7 +321,7 @@
 		428015032B2C2B99004CC433 /* TZTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 428015012B2C2B99004CC433 /* TZTestCell.m */; };
 		428016162B1849A6003A9CAD /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428016152B1849A6003A9CAD /* Photos.framework */; };
 		429D418B299A79F500354206 /* FFFContactSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D401A299A79F400354206 /* FFFContactSelectViewController.m */; };
-		429D418C299A79F500354206 /* FFFNeeyoGroupedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D401D299A79F400354206 /* FFFNeeyoGroupedData.m */; };
+		429D418C299A79F500354206 /* UserGroupedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D401D299A79F400354206 /* UserGroupedData.m */; };
 		429D418D299A79F500354206 /* FFFGroupedUsrInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D401E299A79F400354206 /* FFFGroupedUsrInfo.m */; };
 		429D418E299A79F500354206 /* FFFContactDataCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4022299A79F400354206 /* FFFContactDataCell.m */; };
 		429D418F299A79F500354206 /* FFFContactPickedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4025299A79F400354206 /* FFFContactPickedView.m */; };
@@ -434,18 +434,18 @@
 		429D4205299A79F500354206 /* UUMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4134299A79F500354206 /* UUMarqueeView.m */; };
 		429D4207299A79F500354206 /* FFFSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D413C299A79F500354206 /* FFFSessionViewController.m */; };
 		429D4208299A79F500354206 /* LEEAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D413F299A79F500354206 /* LEEAlert.m */; };
-		429D420A299A79F500354206 /* NSDictionary+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4144299A79F500354206 /* NSDictionary+NeeyoKit.m */; };
-		429D420B299A79F500354206 /* UIImage+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4145299A79F500354206 /* UIImage+NeeyoKit.m */; };
-		429D420C299A79F500354206 /* NSBundle+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4146299A79F500354206 /* NSBundle+NeeyoKit.m */; };
+		429D420A299A79F500354206 /* NSDictionary+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4144299A79F500354206 /* NSDictionary+MyUserKit.m */; };
+		429D420B299A79F500354206 /* UIImage+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4145299A79F500354206 /* UIImage+MyUserKit.m */; };
+		429D420C299A79F500354206 /* NSBundle+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4146299A79F500354206 /* NSBundle+MyUserKit.m */; };
 		429D420D299A79F500354206 /* UIView+FFFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D414B299A79F500354206 /* UIView+FFFToast.m */; };
-		429D420F299A79F500354206 /* AVAsset+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D414E299A79F500354206 /* AVAsset+NeeyoKit.m */; };
-		429D4210299A79F500354206 /* NSString+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D414F299A79F500354206 /* NSString+NeeyoKit.m */; };
+		429D420F299A79F500354206 /* AVAsset+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D414E299A79F500354206 /* AVAsset+MyUserKit.m */; };
+		429D4210299A79F500354206 /* NSString+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D414F299A79F500354206 /* NSString+MyUserKit.m */; };
 		429D4211299A79F500354206 /* UITableView+NIMScrollToBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4153299A79F500354206 /* UITableView+NIMScrollToBottom.m */; };
 		429D4212299A79F500354206 /* FFFExtensionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4154299A79F500354206 /* FFFExtensionHelper.m */; };
-		429D4213299A79F500354206 /* UIButton+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4155299A79F500354206 /* UIButton+NeeyoKit.m */; };
+		429D4213299A79F500354206 /* UIButton+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4155299A79F500354206 /* UIButton+MyUserKit.m */; };
 		429D4214299A79F500354206 /* UIViewNimKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4157299A79F500354206 /* UIViewNimKit.m */; };
-		429D4215299A79F500354206 /* M80AttributedLabel+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4159299A79F500354206 /* M80AttributedLabel+NeeyoKit.m */; };
-		429D4216299A79F500354206 /* UIColor+NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D415A299A79F500354206 /* UIColor+NeeyoKit.m */; };
+		429D4215299A79F500354206 /* M80AttributedLabel+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4159299A79F500354206 /* M80AttributedLabel+MyUserKit.m */; };
+		429D4216299A79F500354206 /* UIColor+MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D415A299A79F500354206 /* UIColor+MyUserKit.m */; };
 		429D4217299A79F500354206 /* FFFKitProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4168299A79F500354206 /* FFFKitProgressHUD.m */; };
 		429D4218299A79F500354206 /* FFFKitDataProviderImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4169299A79F500354206 /* FFFKitDataProviderImpl.m */; };
 		429D4219299A79F500354206 /* FFFKitSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D416A299A79F500354206 /* FFFKitSetting.m */; };
@@ -456,7 +456,7 @@
 		429D421E299A79F500354206 /* FFFKitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4176299A79F500354206 /* FFFKitConfig.m */; };
 		429D421F299A79F500354206 /* FFFKitColorButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4178299A79F500354206 /* FFFKitColorButtonCell.m */; };
 		429D4220299A79F500354206 /* FFFKitIndependentModeExtraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D417A299A79F500354206 /* FFFKitIndependentModeExtraInfo.m */; };
-		429D4221299A79F500354206 /* NeeyoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D417E299A79F500354206 /* NeeyoKit.m */; };
+		429D4221299A79F500354206 /* MyUserKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D417E299A79F500354206 /* MyUserKit.m */; };
 		429D4222299A79F500354206 /* FFFLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4182299A79F500354206 /* FFFLanguageManager.m */; };
 		429D4223299A79F500354206 /* FFFXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D4183299A79F500354206 /* FFFXMLReader.m */; };
 		42A310FA2B1D80EC005ADF0D /* FFFBubbleButtonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A310F62B1D80EC005ADF0D /* FFFBubbleButtonModel.m */; };
@@ -1153,9 +1153,9 @@
 		429D4019299A79F400354206 /* FFFContactSelectTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFContactSelectTabView.h; sourceTree = "<group>"; };
 		429D401A299A79F400354206 /* FFFContactSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFContactSelectViewController.m; sourceTree = "<group>"; };
 		429D401C299A79F400354206 /* FFFGroupedUsrInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFGroupedUsrInfo.h; sourceTree = "<group>"; };
-		429D401D299A79F400354206 /* FFFNeeyoGroupedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFNeeyoGroupedData.m; sourceTree = "<group>"; };
+		429D401D299A79F400354206 /* UserGroupedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGroupedData.m; sourceTree = "<group>"; };
 		429D401E299A79F400354206 /* FFFGroupedUsrInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFGroupedUsrInfo.m; sourceTree = "<group>"; };
-		429D401F299A79F400354206 /* FFFNeeyoGroupedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFNeeyoGroupedData.h; sourceTree = "<group>"; };
+		429D401F299A79F400354206 /* UserGroupedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGroupedData.h; sourceTree = "<group>"; };
 		429D4020299A79F400354206 /* FFFContactSelectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFContactSelectConfig.h; sourceTree = "<group>"; };
 		429D4022299A79F400354206 /* FFFContactDataCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFContactDataCell.m; sourceTree = "<group>"; };
 		429D4023299A79F400354206 /* FFFContactDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFContactDefines.h; sourceTree = "<group>"; };
@@ -1388,30 +1388,30 @@
 		429D413F299A79F500354206 /* LEEAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEEAlert.m; sourceTree = "<group>"; };
 		429D4140299A79F500354206 /* LEEAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEEAlert.h; sourceTree = "<group>"; };
 		429D4143299A79F500354206 /* UITableView+NIMScrollToBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NIMScrollToBottom.h"; sourceTree = "<group>"; };
-		429D4144299A79F500354206 /* NSDictionary+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NeeyoKit.m"; sourceTree = "<group>"; };
-		429D4145299A79F500354206 /* UIImage+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NeeyoKit.m"; sourceTree = "<group>"; };
-		429D4146299A79F500354206 /* NSBundle+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+NeeyoKit.m"; sourceTree = "<group>"; };
-		429D4147299A79F500354206 /* UIButton+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+NeeyoKit.h"; sourceTree = "<group>"; };
+		429D4144299A79F500354206 /* NSDictionary+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MyUserKit.m"; sourceTree = "<group>"; };
+		429D4145299A79F500354206 /* UIImage+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MyUserKit.m"; sourceTree = "<group>"; };
+		429D4146299A79F500354206 /* NSBundle+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MyUserKit.m"; sourceTree = "<group>"; };
+		429D4147299A79F500354206 /* UIButton+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MyUserKit.h"; sourceTree = "<group>"; };
 		429D4148299A79F500354206 /* FFFExtensionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFExtensionHelper.h; sourceTree = "<group>"; };
-		429D4149299A79F500354206 /* UIColor+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NeeyoKit.h"; sourceTree = "<group>"; };
+		429D4149299A79F500354206 /* UIColor+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MyUserKit.h"; sourceTree = "<group>"; };
 		429D414A299A79F500354206 /* UIViewNimKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewNimKit.h; sourceTree = "<group>"; };
 		429D414B299A79F500354206 /* UIView+FFFToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FFFToast.m"; sourceTree = "<group>"; };
-		429D414C299A79F500354206 /* M80AttributedLabel+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "M80AttributedLabel+NeeyoKit.h"; sourceTree = "<group>"; };
-		429D414E299A79F500354206 /* AVAsset+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+NeeyoKit.m"; sourceTree = "<group>"; };
-		429D414F299A79F500354206 /* NSString+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NeeyoKit.m"; sourceTree = "<group>"; };
-		429D4150299A79F500354206 /* NSBundle+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+NeeyoKit.h"; sourceTree = "<group>"; };
-		429D4151299A79F500354206 /* NSDictionary+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NeeyoKit.h"; sourceTree = "<group>"; };
-		429D4152299A79F500354206 /* UIImage+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NeeyoKit.h"; sourceTree = "<group>"; };
+		429D414C299A79F500354206 /* M80AttributedLabel+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "M80AttributedLabel+MyUserKit.h"; sourceTree = "<group>"; };
+		429D414E299A79F500354206 /* AVAsset+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVAsset+MyUserKit.m"; sourceTree = "<group>"; };
+		429D414F299A79F500354206 /* NSString+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyUserKit.m"; sourceTree = "<group>"; };
+		429D4150299A79F500354206 /* NSBundle+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MyUserKit.h"; sourceTree = "<group>"; };
+		429D4151299A79F500354206 /* NSDictionary+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MyUserKit.h"; sourceTree = "<group>"; };
+		429D4152299A79F500354206 /* UIImage+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MyUserKit.h"; sourceTree = "<group>"; };
 		429D4153299A79F500354206 /* UITableView+NIMScrollToBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NIMScrollToBottom.m"; sourceTree = "<group>"; };
 		429D4154299A79F500354206 /* FFFExtensionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFExtensionHelper.m; sourceTree = "<group>"; };
-		429D4155299A79F500354206 /* UIButton+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NeeyoKit.m"; sourceTree = "<group>"; };
+		429D4155299A79F500354206 /* UIButton+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MyUserKit.m"; sourceTree = "<group>"; };
 		429D4157299A79F500354206 /* UIViewNimKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewNimKit.m; sourceTree = "<group>"; };
 		429D4158299A79F500354206 /* UIView+FFFToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FFFToast.h"; sourceTree = "<group>"; };
-		429D4159299A79F500354206 /* M80AttributedLabel+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "M80AttributedLabel+NeeyoKit.m"; sourceTree = "<group>"; };
-		429D415A299A79F500354206 /* UIColor+NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NeeyoKit.m"; sourceTree = "<group>"; };
-		429D415B299A79F500354206 /* NSString+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NeeyoKit.h"; sourceTree = "<group>"; };
-		429D415C299A79F500354206 /* AVAsset+NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAsset+NeeyoKit.h"; sourceTree = "<group>"; };
-		429D415D299A79F500354206 /* NeeyoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeeyoKit.h; sourceTree = "<group>"; };
+		429D4159299A79F500354206 /* M80AttributedLabel+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "M80AttributedLabel+MyUserKit.m"; sourceTree = "<group>"; };
+		429D415A299A79F500354206 /* UIColor+MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MyUserKit.m"; sourceTree = "<group>"; };
+		429D415B299A79F500354206 /* NSString+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MyUserKit.h"; sourceTree = "<group>"; };
+		429D415C299A79F500354206 /* AVAsset+MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVAsset+MyUserKit.h"; sourceTree = "<group>"; };
+		429D415D299A79F500354206 /* MyUserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUserKit.h; sourceTree = "<group>"; };
 		429D415F299A79F500354206 /* FFFChatUIManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFChatUIManagerProtocol.h; sourceTree = "<group>"; };
 		429D4160299A79F500354206 /* FFFInputProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFInputProtocol.h; sourceTree = "<group>"; };
 		429D4161299A79F500354206 /* FFFCellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFCellConfig.h; sourceTree = "<group>"; };
@@ -1442,7 +1442,7 @@
 		429D417B299A79F500354206 /* FFFCommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFCommonTableViewCell.h; sourceTree = "<group>"; };
 		429D417C299A79F500354206 /* FFFKitDependency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFKitDependency.h; sourceTree = "<group>"; };
 		429D417D299A79F500354206 /* FFFCommonTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFCommonTableData.h; sourceTree = "<group>"; };
-		429D417E299A79F500354206 /* NeeyoKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeeyoKit.m; sourceTree = "<group>"; };
+		429D417E299A79F500354206 /* MyUserKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUserKit.m; sourceTree = "<group>"; };
 		429D4180299A79F500354206 /* FFFLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFLanguageManager.h; sourceTree = "<group>"; };
 		429D4181299A79F500354206 /* FFFXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFXMLReader.h; sourceTree = "<group>"; };
 		429D4182299A79F500354206 /* FFFLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFLanguageManager.m; sourceTree = "<group>"; };
@@ -1660,7 +1660,7 @@
 		AE5882F51A6F47E10070536A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AE5899591A6FA7AC0070536A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AEA87FE01A81CAD500ACC3BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		AEB8367F1A772C2F00E7493E /* Neeyo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Neeyo-Prefix.pch"; sourceTree = "<group>"; };
+		AEB8367F1A772C2F00E7493E /* Riverla-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Riverla-Prefix.pch"; sourceTree = "<group>"; };
 		B007DA8853C08BA6803E4519 /* Pods_Neeyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neeyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16ECAB32DF18C4000BEEBFD /* Neeyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neeyo.entitlements; sourceTree = "<group>"; };
 		B16ECAB52DF18D4100BEEBFD /* HolisticSaver.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HolisticSaver.bundle; sourceTree = "<group>"; };
@@ -2801,8 +2801,8 @@
 		429D401B299A79F400354206 /* ContactGroup */ = {
 			isa = PBXGroup;
 			children = (
-				429D401F299A79F400354206 /* FFFNeeyoGroupedData.h */,
-				429D401D299A79F400354206 /* FFFNeeyoGroupedData.m */,
+				429D401F299A79F400354206 /* UserGroupedData.h */,
+				429D401D299A79F400354206 /* UserGroupedData.m */,
 				429D401C299A79F400354206 /* FFFGroupedUsrInfo.h */,
 				429D401E299A79F400354206 /* FFFGroupedUsrInfo.m */,
 			);
@@ -3147,8 +3147,8 @@
 		429D40E2299A79F500354206 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				429D415D299A79F500354206 /* NeeyoKit.h */,
-				429D417E299A79F500354206 /* NeeyoKit.m */,
+				429D415D299A79F500354206 /* MyUserKit.h */,
+				429D417E299A79F500354206 /* MyUserKit.m */,
 				429D40E3299A79F500354206 /* FFFChatUIManager.h */,
 				429D40E4299A79F500354206 /* FFFChatUIManager.m */,
 			);
@@ -3295,28 +3295,28 @@
 				BC833B072C3B94B80029B2D4 /* YYAnimatedImageView+iOS14.m */,
 				429D4143299A79F500354206 /* UITableView+NIMScrollToBottom.h */,
 				429D4153299A79F500354206 /* UITableView+NIMScrollToBottom.m */,
-				429D4151299A79F500354206 /* NSDictionary+NeeyoKit.h */,
-				429D4144299A79F500354206 /* NSDictionary+NeeyoKit.m */,
+				429D4151299A79F500354206 /* NSDictionary+MyUserKit.h */,
+				429D4144299A79F500354206 /* NSDictionary+MyUserKit.m */,
 				429D4148299A79F500354206 /* FFFExtensionHelper.h */,
 				429D4154299A79F500354206 /* FFFExtensionHelper.m */,
 				429D4158299A79F500354206 /* UIView+FFFToast.h */,
 				429D414B299A79F500354206 /* UIView+FFFToast.m */,
-				429D414C299A79F500354206 /* M80AttributedLabel+NeeyoKit.h */,
-				429D4159299A79F500354206 /* M80AttributedLabel+NeeyoKit.m */,
-				429D415C299A79F500354206 /* AVAsset+NeeyoKit.h */,
-				429D414E299A79F500354206 /* AVAsset+NeeyoKit.m */,
-				429D415B299A79F500354206 /* NSString+NeeyoKit.h */,
-				429D414F299A79F500354206 /* NSString+NeeyoKit.m */,
-				429D4150299A79F500354206 /* NSBundle+NeeyoKit.h */,
-				429D4146299A79F500354206 /* NSBundle+NeeyoKit.m */,
-				429D4152299A79F500354206 /* UIImage+NeeyoKit.h */,
-				429D4145299A79F500354206 /* UIImage+NeeyoKit.m */,
-				429D4147299A79F500354206 /* UIButton+NeeyoKit.h */,
-				429D4155299A79F500354206 /* UIButton+NeeyoKit.m */,
+				429D414C299A79F500354206 /* M80AttributedLabel+MyUserKit.h */,
+				429D4159299A79F500354206 /* M80AttributedLabel+MyUserKit.m */,
+				429D415C299A79F500354206 /* AVAsset+MyUserKit.h */,
+				429D414E299A79F500354206 /* AVAsset+MyUserKit.m */,
+				429D415B299A79F500354206 /* NSString+MyUserKit.h */,
+				429D414F299A79F500354206 /* NSString+MyUserKit.m */,
+				429D4150299A79F500354206 /* NSBundle+MyUserKit.h */,
+				429D4146299A79F500354206 /* NSBundle+MyUserKit.m */,
+				429D4152299A79F500354206 /* UIImage+MyUserKit.h */,
+				429D4145299A79F500354206 /* UIImage+MyUserKit.m */,
+				429D4147299A79F500354206 /* UIButton+MyUserKit.h */,
+				429D4155299A79F500354206 /* UIButton+MyUserKit.m */,
 				429D414A299A79F500354206 /* UIViewNimKit.h */,
 				429D4157299A79F500354206 /* UIViewNimKit.m */,
-				429D4149299A79F500354206 /* UIColor+NeeyoKit.h */,
-				429D415A299A79F500354206 /* UIColor+NeeyoKit.m */,
+				429D4149299A79F500354206 /* UIColor+MyUserKit.h */,
+				429D415A299A79F500354206 /* UIColor+MyUserKit.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -3424,7 +3424,7 @@
 				AE5882ED1A6F47E10070536A /* FFFAppDelegate.m */,
 				879C572E228444DB00F09955 /* FFFConfig.h */,
 				879C572F228444DC00F09955 /* FFFConfig.m */,
-				AEB8367F1A772C2F00E7493E /* Neeyo-Prefix.pch */,
+				AEB8367F1A772C2F00E7493E /* Riverla-Prefix.pch */,
 				6195CD3E1A8C74DB00F3E239 /* NTESGlobalMacro.h */,
 				4278082C2C12BA7C00C18684 /* SNGradientHelper.h */,
 				4278082D2C12BA7C00C18684 /* SNGradientHelper.m */,
@@ -5121,7 +5121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				429D420A299A79F500354206 /* NSDictionary+NeeyoKit.m in Sources */,
+				429D420A299A79F500354206 /* NSDictionary+MyUserKit.m in Sources */,
 				BC4DF4FA2C54CF7C00FBD937 /* SGScanView.m in Sources */,
 				429D41F3299A79F500354206 /* FFFSessionNotificationContentView.m in Sources */,
 				04DF85672D8D4126007C5044 /* FULandmarkManager.m in Sources */,
@@ -5167,7 +5167,7 @@
 				BC569A1B2C536D9E00E7E7E3 /* FFFRegisterNickNameViewController.m in Sources */,
 				B855FBB42884035000EB2A5F /* UIDevice+VGAddition.m in Sources */,
 				BC5B608A2C2A9252000853EF /* FFFInputAudioView.m in Sources */,
-				429D4210299A79F500354206 /* NSString+NeeyoKit.m in Sources */,
+				429D4210299A79F500354206 /* NSString+MyUserKit.m in Sources */,
 				BC0447872D536A2300C7E9E5 /* ZMONDeactivateAccountView.m in Sources */,
 				834DC5CD1F1C9F2A00C9E0B3 /* NTESSessionMsgConverter.m in Sources */,
 				61518A4A1CA233390061C4A9 /* NTESNavigationAnimator.m in Sources */,
@@ -5192,7 +5192,7 @@
 				429D41D9299A79F500354206 /* FFFAudioContentConfig.m in Sources */,
 				42AC19FF2A63ADC400BA1584 /* SAMKeychain.m in Sources */,
 				042874F12D8D4C0500DA9BD1 /* FUTipHUD.m in Sources */,
-				429D420C299A79F500354206 /* NSBundle+NeeyoKit.m in Sources */,
+				429D420C299A79F500354206 /* NSBundle+MyUserKit.m in Sources */,
 				429D41BC299A79F500354206 /* FFFTeamAnnouncementListViewController.m in Sources */,
 				427DB4BE2B1F1EC500FE9CB8 /* NSObject+tyl_internalIdentifier.m in Sources */,
 				8709BBDD2442FFFD00FC2EAF /* NTESThreadSessionConfig.m in Sources */,
@@ -5262,7 +5262,7 @@
 				B847789E26E5B98300838CB8 /* NSDictionary+KIAdditions.m in Sources */,
 				429D4194299A79F500354206 /* FFFKitAuthorizationTool.m in Sources */,
 				61E471931B7D96AA00F4A1BF /* NTESNotificationCenter.m in Sources */,
-				429D4213299A79F500354206 /* UIButton+NeeyoKit.m in Sources */,
+				429D4213299A79F500354206 /* UIButton+MyUserKit.m in Sources */,
 				834DC5D31F1CD66B00C9E0B3 /* NTESRedPacketTipAttachment.m in Sources */,
 				429D41CC299A79F500354206 /* FFFTimestampModel.m in Sources */,
 				B16ECABB2DF18DDD00BEEBFD /* SSZipArchiveManager.m in Sources */,
@@ -5289,7 +5289,7 @@
 				429D4204299A79F500354206 /* SNLeadCompleteManager.m in Sources */,
 				87E9754D23A9F29200336165 /* NTESKeyWordMessageCell.m in Sources */,
 				BC99AF9B2C579F5100D66AC8 /* ZMONAlartView.m in Sources */,
-				429D4221299A79F500354206 /* NeeyoKit.m in Sources */,
+				429D4221299A79F500354206 /* MyUserKit.m in Sources */,
 				B8A65E3D2700149100384960 /* NTESCardVerificationCell.m in Sources */,
 				B8A019542701619300597152 /* NTESCardGroupCell.m in Sources */,
 				B847789B26E5B3DE00838CB8 /* NTESRegistConfigManager.m in Sources */,
@@ -5338,7 +5338,7 @@
 				045B1F0E2DBB37A3006985F1 /* FUBeautyImageRenderViewController.m in Sources */,
 				B89B23482712F0CD00F7C772 /* NTESOpenRedPackageSheet.m in Sources */,
 				429D41E3299A79F500354206 /* FFFSessionTableAdapter.m in Sources */,
-				429D4216299A79F500354206 /* UIColor+NeeyoKit.m in Sources */,
+				429D4216299A79F500354206 /* UIColor+MyUserKit.m in Sources */,
 				429D41E8299A79F500354206 /* FFFSessionInteractorImpl.m in Sources */,
 				61B2AEFD1BB9530F0093F532 /* NTESCardPortraitCell.m in Sources */,
 				429D41DE299A79F500354206 /* FFFImageContentConfig.m in Sources */,
@@ -5373,7 +5373,7 @@
 				61E4713C1B7D963E00F4A1BF /* NTESSessionJankenponContentView.m in Sources */,
 				BC4DF4F92C54CF7C00FBD937 /* SGScanViewConfigure.m in Sources */,
 				429D41C0299A79F500354206 /* FFFTeamCardMemberItem.m in Sources */,
-				429D420B299A79F500354206 /* UIImage+NeeyoKit.m in Sources */,
+				429D420B299A79F500354206 /* UIImage+MyUserKit.m in Sources */,
 				61E471971B7D96AA00F4A1BF /* NTESPinyinConverter.m in Sources */,
 				042875042D8D51CC00DA9BD1 /* FUBeautyViewController.m in Sources */,
 				429D41DD299A79F500354206 /* FFFTextContentConfig.m in Sources */,
@@ -5439,7 +5439,7 @@
 				8343827A1EFCB9D30052254A /* NTESSystemNotificationCell.m in Sources */,
 				B89A93FB26E710AD007C1DE6 /* KIImageCropperViewController.m in Sources */,
 				B89A942226E8F9E7007C1DE6 /* NTESMainCenterViewController.m in Sources */,
-				429D4215299A79F500354206 /* M80AttributedLabel+NeeyoKit.m in Sources */,
+				429D4215299A79F500354206 /* M80AttributedLabel+MyUserKit.m in Sources */,
 				834DC5CC1F1C9F2A00C9E0B3 /* NTESSearchLocalHistoryObject.m in Sources */,
 				429D41C2299A79F500354206 /* FFFUsrInfoData.m in Sources */,
 				BC2D87D92C5CCD42003E6A4A /* YasicClipAreaLayer.m in Sources */,
@@ -5530,7 +5530,7 @@
 				B89A93FD26E710AD007C1DE6 /* KICropImageView.m in Sources */,
 				429D420D299A79F500354206 /* UIView+FFFToast.m in Sources */,
 				429D4219299A79F500354206 /* FFFKitSetting.m in Sources */,
-				429D420F299A79F500354206 /* AVAsset+NeeyoKit.m in Sources */,
+				429D420F299A79F500354206 /* AVAsset+MyUserKit.m in Sources */,
 				18E2EC4221BF7F1100E0E773 /* NTESMigrateProgressView.m in Sources */,
 				043BFF292D9A2B9A00784741 /* DisCorveyViewController.m in Sources */,
 				E48988EB1DE42391001CF6C5 /* NTESSessionCustomContentConfig.m in Sources */,
@@ -5545,7 +5545,7 @@
 				427808312C12EDC700C18684 /* UIImage+graytool.m in Sources */,
 				B89A93FE26E710AD007C1DE6 /* KIImageCropperView.m in Sources */,
 				834DC5D91F1CD84700C9E0B3 /* NTESSessionRedPacketTipContentView.m in Sources */,
-				429D418C299A79F500354206 /* FFFNeeyoGroupedData.m in Sources */,
+				429D418C299A79F500354206 /* UserGroupedData.m in Sources */,
 				BD52DB3E1B8F300E00434D0E /* NTESCADisplayLinkHolder.m in Sources */,
 				429D41E0299A79F500354206 /* FFFCellLayoutConfig.m in Sources */,
 				42097AAF2A470A4F004B400D /* CCCAutoLoginManager.m in Sources */,
@@ -5765,7 +5765,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Business/Classes/Librarys/NEBeauty/Resource/FUBeauty",
 				);
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Business/Neeyo-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Business/Riverla-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -5819,7 +5819,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Business/Classes/Librarys/NEBeauty/Resource/FUBeauty",
 				);
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Business/Neeyo-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Business/Riverla-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",

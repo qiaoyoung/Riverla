@@ -1,6 +1,6 @@
 //
-//  NSBundle+NeeyoKit.h
-// NeeyoKit
+//  NSBundle+MyUserKit.h
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/11/14.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSBundle (NeeyoKit)
+@interface NSBundle (MyUserKit)
 
 + (NSBundle *)nim_defaultEmojiBundle;
 

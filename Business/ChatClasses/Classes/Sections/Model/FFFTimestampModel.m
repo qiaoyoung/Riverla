@@ -1,13 +1,13 @@
 //
 //  FFFTimestampModel.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
 #import "FFFTimestampModel.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFKitUtil.h"
 
 @implementation FFFTimestampModel

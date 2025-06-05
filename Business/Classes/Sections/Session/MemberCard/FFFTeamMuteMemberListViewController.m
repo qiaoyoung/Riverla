@@ -1,6 +1,6 @@
 //
 //  FFFTeamMuteMemberListViewController.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/12/13.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -12,7 +12,7 @@
 #import "FFFTeamCardMemberItem.h"
 #import "FFFKitDependency.h"
 #import "FFFKitProgressHUD.h"
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 #import "NTESContactDataMember.h"
 #import "SVProgressHUD.h"
 #import "NTESBlackListTableViewCell.h"

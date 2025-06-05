@@ -50,7 +50,7 @@
     label.autoDetectLinks = NO;
     label.numberOfLines = 0;
     
-    CGFloat padding = [NeeyoKit sharedKit].config.maxNotificationTipPadding;
+    CGFloat padding = [MyUserKit sharedKit].config.maxNotificationTipPadding;
     CGSize size = [label sizeThatFits:CGSizeMake(width - 2 * padding, CGFLOAT_MAX)];
     CGFloat cellPadding = 11.f;
     CGSize contentSize = CGSizeMake(messageWidth, size.height + 2 * cellPadding);;
@@ -78,7 +78,7 @@
     }
     else if ([currentUserId isEqualToString:self.openPacketId])
     {
-        FFFKitInfo * sendUserInfo = [[NeeyoKit sharedKit] infoByUser:self.sendPacketId option:option];
+        FFFKitInfo * sendUserInfo = [[MyUserKit sharedKit] infoByUser:self.sendPacketId option:option];
         NSString * name = sendUserInfo.showName;
         showContent = [NSString stringWithFormat:@"%@%@%@",
                        @"你领取了".ntes_localized,
@@ -89,7 +89,7 @@
     // 他人领取你的红包
     else if ([currentUserId isEqualToString:self.sendPacketId])
     {
-        FFFKitInfo * openUserInfo = [[NeeyoKit sharedKit] infoByUser:self.openPacketId option:option];
+        FFFKitInfo * openUserInfo = [[MyUserKit sharedKit] infoByUser:self.openPacketId option:option];
         NSString * name = openUserInfo.showName;
         
         if ([self.isGetDone boolValue])

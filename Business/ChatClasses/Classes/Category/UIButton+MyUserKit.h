@@ -1,6 +1,6 @@
 //
-//  UIButton+NeeyoKit.h
-// NeeyoKit
+//  UIButton+MyUserKit.h
+// MyUserKit
 //
 //  Created by 丁文超 on 2020/4/16.
 //  Copyright © 2020 NetEase. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIButton (NeeyoKit)
+@interface UIButton (MyUserKit)
 
 /**
 *  垂直居中按钮 image 和 title

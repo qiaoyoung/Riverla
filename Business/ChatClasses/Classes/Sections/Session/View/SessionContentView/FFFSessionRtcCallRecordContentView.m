@@ -1,14 +1,14 @@
 //
 //  FFFSessionRtcCallRecordContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Wenchao Ding on 2020/11/7.
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
 #import "FFFSessionRtcCallRecordContentView.h"
-#import "NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import "FFFKitUtil.h"
 
 @implementation FFFSessionRtcCallRecordContentView
@@ -30,7 +30,7 @@
 
 - (void)refresh:(FFFMessageModel *)data {
     [super refresh:data];
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:data.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:data.message];
     self.textLabel.textColor = setting.textColor;
     self.textLabel.font = setting.font;
     self.textLabel.text = [FFFKitUtil messageTipContent:data.message];

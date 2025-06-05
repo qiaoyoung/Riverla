@@ -1111,7 +1111,7 @@ NTESReportHisNextDelegate>
         option.session = self.session;
         option.forbidaAlias = YES;
         
-        NSString *nick = [[NeeyoKit sharedKit].provider infoByUser:userId option:option].showName;
+        NSString *nick = [[MyUserKit sharedKit].provider infoByUser:userId option:option].showName;
         NSString *text = [NSString stringWithFormat:@"%@%@%@",NIMInputAtStartChar,nick,NIMInputAtEndChar];
         
         NIMInputAtItem *item = [[NIMInputAtItem alloc] init];
@@ -1677,13 +1677,13 @@ NTESReportHisNextDelegate>
     if (session.sessionType == NIMSessionTypeP2P) {
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = session;
-        name = [[NeeyoKit sharedKit] infoByUser:session.sessionId option:option].showName;
+        name = [[MyUserKit sharedKit] infoByUser:session.sessionId option:option].showName;
     }
     else if (session.sessionType == NIMSessionTypeTeam) {
-        name = [[NeeyoKit sharedKit] infoByTeam:session.sessionId option:nil].showName;
+        name = [[MyUserKit sharedKit] infoByTeam:session.sessionId option:nil].showName;
     }
     else if (session.sessionType == NIMSessionTypeSuperTeam) {
-        name = [[NeeyoKit sharedKit] infoBySuperTeam:session.sessionId option:nil].showName;
+        name = [[MyUserKit sharedKit] infoBySuperTeam:session.sessionId option:nil].showName;
     }
     else {
     }

@@ -1,14 +1,14 @@
 //
 //  NSDictionary+NIMKit.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 2017/6/27.
 //  Copyright © 2017年 NetEase. All rights reserved.
 //
 
-#import "NSDictionary+NeeyoKit.h"
+#import "NSDictionary+MyUserKit.h"
 
-@implementation NSDictionary (NeeyoKit)
+@implementation NSDictionary (MyUserKit)
 
 - (NSString *)nimkit_jsonString: (NSString *)key
 {

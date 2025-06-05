@@ -9,7 +9,7 @@
 #import "NTESSessionRedPacketTipContentView.h"
 #import "NTESRedPacketTipAttachment.h"
 #import "UIView+NTES.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "NTESCustomAttachmentDefines.h"
 
 @interface NTESSessionRedPacketTipContentView()<M80AttributedLabelDelegate>

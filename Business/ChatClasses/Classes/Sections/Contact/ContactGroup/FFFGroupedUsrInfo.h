@@ -7,7 +7,7 @@
 //
 
 #import "FFFContactDefines.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @interface NIMGroupUser:NSObject<NIMGroupMemberProtocol>
 

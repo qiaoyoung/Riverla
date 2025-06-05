@@ -1,6 +1,6 @@
 //
 //  FFFContactSelectConfig.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/9/14.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -9,8 +9,8 @@
 #import "FFFContactSelectConfig.h"
 #import <NIMSDK/NIMSDK.h>
 #import "FFFGlobalMacro.h"
-#import "FFFNeeyoGroupedData.h"
-#import "NeeyoKit.h"
+#import "UserGroupedData.h"
+#import "MyUserKit.h"
 #import "FFFKitInfoFetchOption.h"
 #import "FFFKitInfo.h"
 
@@ -37,7 +37,7 @@
 }
 
 - (void)getContactData:(NIMContactDataProviderHandler)handler {
-    FFFNeeyoGroupedData *groupedData = [[FFFNeeyoGroupedData alloc] init];
+    UserGroupedData *groupedData = [[UserGroupedData alloc] init];
     NSMutableArray *myFriendArray = @[].mutableCopy;
     NSMutableArray *data = [NIMSDK sharedSDK].userManager.myFriends.mutableCopy;
     NSMutableArray *members = @[].mutableCopy;
@@ -72,7 +72,7 @@
 
 - (FFFKitInfo *)getInfoById:(NSString *)selectedId {
     FFFKitInfo *info = nil;
-    info = [[NeeyoKit sharedKit] infoByUser:selectedId option:nil];
+    info = [[MyUserKit sharedKit] infoByUser:selectedId option:nil];
     return info;
 }
 
@@ -139,7 +139,7 @@
 - (void)didProcessTeamId:(NSString *)teamId
                     uids:(NSMutableArray *)uids
                  handler:(NIMContactDataProviderHandler)handler {
-    FFFNeeyoGroupedData *groupedData = [[FFFNeeyoGroupedData alloc] init];
+    UserGroupedData *groupedData = [[UserGroupedData alloc] init];
     NSMutableArray *membersArr = @[].mutableCopy;
     NSArray *member_uids = [self filterData:uids];
     for (NSString *uid in member_uids) {
@@ -177,7 +177,7 @@
     FFFKitInfo *info = nil;
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.session = _session;
-    info = [[NeeyoKit sharedKit] infoByUser:selectedId option:option];
+    info = [[MyUserKit sharedKit] infoByUser:selectedId option:option];
     return info;
 }
 
@@ -224,7 +224,7 @@
         return;
     }
     
-    FFFNeeyoGroupedData *groupedData = [[FFFNeeyoGroupedData alloc] init];
+    UserGroupedData *groupedData = [[UserGroupedData alloc] init];
     NSMutableArray <id <NIMGroupMemberProtocol>>*members = @[].mutableCopy;
     for (NSString *tid in tids) {
         NIMGroupTeam *team = [[NIMGroupTeam alloc] initWithTeamId:tid teamType:_teamType];
@@ -253,9 +253,9 @@
 - (FFFKitInfo *)getInfoById:(NSString *)selectedId {
     FFFKitInfo *info = nil;
     if (_teamType == NIMKitTeamTypeNomal) {
-        info = [[NeeyoKit sharedKit] infoByTeam:selectedId option:nil];
+        info = [[MyUserKit sharedKit] infoByTeam:selectedId option:nil];
     } else if (_teamType == NIMKitTeamTypeSuper) {
-        info = [[NeeyoKit sharedKit] infoBySuperTeam:selectedId option:nil];
+        info = [[MyUserKit sharedKit] infoBySuperTeam:selectedId option:nil];
     }
     return info;
 }

@@ -1,6 +1,6 @@
 //
 //  FFFTeamCardViewController.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Netease on 2019/6/11.
 //  Copyright © 2019 NetEase. All rights reserved.

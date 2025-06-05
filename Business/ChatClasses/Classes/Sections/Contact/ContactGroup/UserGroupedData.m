@@ -1,12 +1,12 @@
 //
-//  FFFNeeyoGroupedData.m
-// NeeyoKit
+//  UserGroupedData.m
+// MyUserKit
 //
 //  Created by emily on 2017/7/26.
 //  Copyright © 2017年 NetEase. All rights reserved.
 //
 
-#import "FFFNeeyoGroupedData.h"
+#import "UserGroupedData.h"
 
 @interface NIMKitPair : NSObject
 
@@ -28,7 +28,7 @@
 
 @end
 
-@interface FFFNeeyoGroupedData ()
+@interface UserGroupedData ()
 
 @property(nonatomic, strong) NSMutableOrderedSet *groupTtiles;
 @property(nonatomic, strong) NSMutableOrderedSet *groups;
@@ -38,7 +38,7 @@
 
 @end
 
-@implementation FFFNeeyoGroupedData
+@implementation UserGroupedData
 
 - (instancetype)init {
     if (self = [super init]) {

@@ -1,13 +1,13 @@
 //
 //  FFFKitSetting.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 2017/10/30.
 //  Copyright © 2017年 NetEase. All rights reserved.
 //
 
 #import "FFFKitSetting.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 
 @implementation FFFKitSetting
 

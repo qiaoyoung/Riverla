@@ -8,7 +8,7 @@
 
 #import "FFFUsrInfoData.h"
 #import "FFFSpellingCenter.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @implementation NeeyoUsrInfo
 

@@ -1,6 +1,6 @@
 //
 //  FFFExtensionHelper.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by amao on 4/25/16.
 //  Copyright © 2016 NetEase. All rights reserved.

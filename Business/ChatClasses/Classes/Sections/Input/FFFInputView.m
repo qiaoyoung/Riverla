@@ -1,6 +1,6 @@
 //
 //  FFFInputView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -14,15 +14,15 @@
 #import "FFFInputEmoticonDefine.h"
 #import "FFFInputEmoticonManager.h"
 #import "FFFInputToolBar.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFGlobalMacro.h"
 #import "FFFContactSelectViewController.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitInfoFetchOption.h"
 #import "FFFKitKeyboardInfo.h"
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 #import "FFFReplyContentView.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import <YYText.h>
 #import "FFFTextHighlight.h"
 #import "PhotoContainerView.h"
@@ -147,7 +147,7 @@
     }
     [self addSubview:_toolBar];
     //设置placeholder
-//        NSString *placeholder = [NeeyoKit sharedKit].config.placeholder;
+//        NSString *placeholder = [MyUserKit sharedKit].config.placeholder;
 //        [_toolBar setPlaceHolder:placeholder];
     [_toolBar setPlaceHolder:LangKey(@"message_please_enter_content")];
     //设置input bar 上的按钮
@@ -175,7 +175,7 @@
     //    [_toolBar.recordButton setHidden:YES];
     
     //设置最大输入字数
-    NSInteger textInputLength = [NeeyoKit sharedKit].config.inputMaxLength;
+    NSInteger textInputLength = [MyUserKit sharedKit].config.inputMaxLength;
     self.maxTextLength = textInputLength;
     
     [self refreshStatus:NIMInputStatusText];
@@ -296,11 +296,11 @@
 
 - (void)refreshReplyedContent:(NIMMessage *)message
 {
-    NSString *text = [NSString stringWithFormat:@"%@", [[NeeyoKit sharedKit] replyedContentWithMessage:message]];
+    NSString *text = [NSString stringWithFormat:@"%@", [[MyUserKit sharedKit] replyedContentWithMessage:message]];
     
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.message = message;
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:message.from option:option];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:message.from option:option];
     self.replyedContent.fromUser.text = [NSString stringWithFormat:@"%@%@",LangKey(@"回复"),info.showName];
     self.replyedContent.label.text = text;
 //    [self.replyedContent.label nim_setText:text];
@@ -706,7 +706,7 @@
     option.session = self.session;
     option.forbidaAlias = YES;
     for (NSString *uid in selectedContacts) {
-        NSString *nick = [[NeeyoKit sharedKit].provider infoByUser:uid option:option].showName;
+        NSString *nick = [[MyUserKit sharedKit].provider infoByUser:uid option:option].showName;
         [str appendString:nick];
         [str appendString:NIMInputAtEndChar];
         if (![selectedContacts.lastObject isEqualToString:uid]) {
@@ -971,7 +971,7 @@
     self.toolBar.inputTextView.text = nil;
     self.toolBar.inputTextView.attributedText = nil;
     
-    NSString *placeholder = [NeeyoKit sharedKit].config.placeholder;
+    NSString *placeholder = [MyUserKit sharedKit].config.placeholder;
     [_toolBar setPlaceHolder:placeholder];
     
     if ([self.actionDelegate respondsToSelector:@selector(didReplyCancelled)])

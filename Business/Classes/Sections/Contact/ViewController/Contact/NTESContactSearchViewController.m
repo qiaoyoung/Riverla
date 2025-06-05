@@ -223,7 +223,7 @@
 }
 
 - (NSMutableAttributedString *)showNameWithUser:(NIMUser *)user {
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:user.userId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:user.userId option:nil];
     NSMutableAttributedString *ret = [[NSMutableAttributedString alloc] init];
     
     NSString *src = info.showName;

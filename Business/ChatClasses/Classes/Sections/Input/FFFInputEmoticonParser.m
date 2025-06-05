@@ -1,6 +1,6 @@
 //
 //  NIMEmoticonParser.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015 Netease. All rights reserved.

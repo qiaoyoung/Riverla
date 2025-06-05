@@ -220,7 +220,7 @@
     NSMutableArray *list = [[NSMutableArray alloc] init];
     for (NIMUser *user in [NIMSDK sharedSDK].userManager.myBlackList) {
         NTESContactDataMember *member = [[NTESContactDataMember alloc] init];
-        FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:user.userId option:nil];
+        FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:user.userId option:nil];
         member.info = info;
         [list addObject:member];
     }

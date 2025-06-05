@@ -11,7 +11,7 @@
 #import "NTESSnapchatAttachment.h"
 #import "NTESJanKenPonAttachment.h"
 #import "UIImage+NTES.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "NTESSnapchatAttachment.h"
 #import "NTESWhiteboardAttachment.h"
 #import "FFFKitInfoFetchOption.h"
@@ -120,7 +120,7 @@ static NSString *const NTESRecentSessionTopMark = @"NTESRecentSessionTopMark";
         nickname = member.nickname;
     }
     if (!nickname.length) {
-        FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:uid option:nil];
+        FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:uid option:nil];
         nickname = info.showName;
     }
     return nickname;
@@ -291,7 +291,7 @@ static NSString *const NTESRecentSessionTopMark = @"NTESRecentSessionTopMark";
         NIMSession *session = notification.session;
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = session;
-        FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:(revokeBySender ? fromUid : operatorUid) option:option];
+        FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:(revokeBySender ? fromUid : operatorUid) option:option];
         
         // 别人撤回自己的
         if (revokeBySender) {

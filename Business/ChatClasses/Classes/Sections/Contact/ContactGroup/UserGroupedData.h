@@ -1,6 +1,6 @@
 //
-//  FFFNeeyoGroupedData.h
-// NeeyoKit
+//  UserGroupedData.h
+// MyUserKit
 //
 //  Created by emily on 2017/7/26.
 //  Copyright © 2017年 NetEase. All rights reserved.
@@ -11,7 +11,7 @@
 #import "FFFContactDefines.h"
 
 
-@interface FFFNeeyoGroupedData : NSObject
+@interface UserGroupedData : NSObject
 
 @property(nonatomic, strong) NSArray *members;
 

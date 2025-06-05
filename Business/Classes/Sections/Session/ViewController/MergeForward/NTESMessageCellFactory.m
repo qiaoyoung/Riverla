@@ -12,7 +12,7 @@
 
 - (NTESMergeMessageCell *)ntesCellInTable:(UITableView*)tableView
                          forMessageMode:(FFFMessageModel *)model {
-    id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+    id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
     NSString *identity = [[layoutConfig cellContent:model] stringByAppendingString:@"_ntes"];
     FFFMessageCell *cell = [tableView dequeueReusableCellWithIdentifier:identity];
     if (!cell) {

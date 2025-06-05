@@ -117,11 +117,11 @@ typedef void(^NTESMergeForwardTaskResult)(uint64_t identifier, NSError * _Nonnul
                 FFFKitInfo *info = nil;
                 if (fromSession.sessionType == NIMSessionTypeP2P) {
                     NSString *userId = [[NIMSDK sharedSDK].loginManager currentAccount];
-                    info = [[NeeyoKit sharedKit].provider infoByUser:userId option:option];
+                    info = [[MyUserKit sharedKit].provider infoByUser:userId option:option];
                 } else if (fromSession.sessionType == NIMSessionTypeTeam){
-                    info = [[NeeyoKit sharedKit].provider infoByTeam:fromSession.sessionId option:option];
+                    info = [[MyUserKit sharedKit].provider infoByTeam:fromSession.sessionId option:option];
                 } else if (fromSession.sessionType == NIMSessionTypeSuperTeam) {
-                    info = [[NeeyoKit sharedKit].provider infoBySuperTeam:fromSession.sessionId option:option];
+                    info = [[MyUserKit sharedKit].provider infoBySuperTeam:fromSession.sessionId option:option];
                 }
                 attach.sessionName = info.showName ?: @"null";
                 attach.sessionId = fromSession.sessionId;

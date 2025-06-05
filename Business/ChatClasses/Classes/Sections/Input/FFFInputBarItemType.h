@@ -1,6 +1,6 @@
 //
 //  FFFInputBarItemType.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/12/14.
 //  Copyright © 2015年 NetEase. All rights reserved.

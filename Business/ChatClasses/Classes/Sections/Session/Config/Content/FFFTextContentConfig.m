@@ -1,14 +1,14 @@
 //
 //  FFFTextContentConfig.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by amao on 9/15/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.
 //
 
 #import "FFFTextContentConfig.h"
-#import "M80AttributedLabel+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
+#import "MyUserKit.h"
 
 @interface FFFTextContentConfig()
 
@@ -28,7 +28,7 @@
 //        text = [NSString stringWithFormat:@"%@\n%@",text,[message.localExt objectForKey:@"NTESMessageTranslate"]];
 //    }
     
-    self.label.font = [[NeeyoKit sharedKit].config setting:message].font;
+    self.label.font = [[MyUserKit sharedKit].config setting:message].font;
     
     [self.label nim_setText:text];    
     CGFloat msgBubbleMaxWidth    = (cellWidth - 130);
@@ -46,7 +46,7 @@
 
 - (UIEdgeInsets)contentViewInsets:(NIMMessage *)message
 {
-    return [[NeeyoKit sharedKit].config setting:message].contentInsets;
+    return [[MyUserKit sharedKit].config setting:message].contentInsets;
 }
 
 

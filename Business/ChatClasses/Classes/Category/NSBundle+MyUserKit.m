@@ -1,20 +1,20 @@
 //
 //  NSBundle+NIMKit.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/11/14.
 //  Copyright © 2019 NetEase. All rights reserved.
 //
 
-#import "NSBundle+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "NSBundle+MyUserKit.h"
+#import "MyUserKit.h"
 #import "FFFInputEmoticonDefine.h"
 #import "SSZipArchiveManager.h"
 
-@implementation NSBundle (NeeyoKit)
+@implementation NSBundle (MyUserKit)
 
 + (NSBundle *)nim_defaultEmojiBundle {
-    NSBundle *bundle = [NSBundle bundleForClass:[NeeyoKit class]];
+    NSBundle *bundle = [NSBundle bundleForClass:[MyUserKit class]];
     NSURL *url = [bundle URLForResource:kHolisticSaver withExtension:@"bundle"];
     NSBundle *emojiBundle = [NSBundle bundleWithURL:url];
     return emojiBundle;
@@ -51,7 +51,7 @@
         return plistPath;
     }
     return @"";
-//    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//    NSBundle *bundle = [MyUserKit sharedKit].emoticonBundle;
 //    NSString *filepath = [bundle pathForResource:@"emoji_ios" ofType:@"plist" inDirectory:NEEKIT_EmojiPath];
 //    return filepath;
 }
@@ -64,7 +64,7 @@
         return plistPath;
     }
     return @"";
-//    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//    NSBundle *bundle = [MyUserKit sharedKit].emoticonBundle;
 //    NSString *filepath = [bundle pathForResource:@"emoji" ofType:@"plist" inDirectory:NEEKIT_EmojiPath];
 //    return filepath;
 }

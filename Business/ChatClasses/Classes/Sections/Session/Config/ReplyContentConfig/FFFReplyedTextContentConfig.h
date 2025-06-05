@@ -1,6 +1,6 @@
 //
 //  FFFReplyedTextContentConfig.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/3/25.
 //  Copyright © 2020 NetEase. All rights reserved.

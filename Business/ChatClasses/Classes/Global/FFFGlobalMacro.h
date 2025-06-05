@@ -1,6 +1,6 @@
 //
 //  FFFGlobalMacro.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 Netease. All rights reserved.
@@ -9,7 +9,7 @@
 #ifndef NEEKIT_GlobalMacro_h
 #define NEEKIT_GlobalMacro_h
 
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 
 #define NEEKIT_IOS11            ([[[UIDevice currentDevice] systemVersion] doubleValue] >= 11.0)
 #define NEEKIT_UIScreenWidth   [UIScreen mainScreen].bounds.size.width

@@ -1,6 +1,6 @@
 //
 //  FFFReplyContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/4/3.
 //  Copyright © 2020 NetEase. All rights reserved.
@@ -8,8 +8,8 @@
 
 #import "FFFReplyContentView.h"
 #import "UIViewNimKit.h"
-#import "UIColor+NeeyoKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIColor+MyUserKit.h"
+#import "UIImage+MyUserKit.h"
 
 @interface FFFReplyContentView ()
 

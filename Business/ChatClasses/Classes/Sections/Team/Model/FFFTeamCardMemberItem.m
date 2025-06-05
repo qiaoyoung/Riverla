@@ -8,7 +8,7 @@
 
 #import "FFFTeamCardMemberItem.h"
 #import "FFFKitUtil.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @interface NIMCardMemberItem ()
 
@@ -35,7 +35,7 @@
 }
 
 - (UIImage *)imageNormal{
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:self.userId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.userId option:nil];
     return info.avatarImage;
 }
 
@@ -45,7 +45,7 @@
 }
 
 - (NSString *)imageUrl{
-    return [[NeeyoKit sharedKit] infoByUser:self.userId option:nil].avatarUrlString;
+    return [[MyUserKit sharedKit] infoByUser:self.userId option:nil].avatarUrlString;
 }
 
 - (NSString *)inviterAccid {
@@ -128,7 +128,7 @@
 }
 
 - (UIImage *)imageNormal{
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:self.userId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.userId option:nil];
     return info.avatarImage;
 }
 
@@ -147,7 +147,7 @@
 }
 
 - (NSString *)imageUrl{
-    return [[NeeyoKit sharedKit] infoByUser:self.userId option:nil].avatarUrlString;
+    return [[MyUserKit sharedKit] infoByUser:self.userId option:nil].avatarUrlString;
 }
 
 - (NSString *)inviterAccid {

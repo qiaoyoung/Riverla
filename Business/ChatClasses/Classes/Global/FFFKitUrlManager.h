@@ -1,6 +1,6 @@
 //
 //  FFFKitUrlManager.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Netease on 2019/7/15.
 //  Copyright © 2019 NetEase. All rights reserved.

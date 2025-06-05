@@ -1,6 +1,6 @@
 //
 //  FFFTeamMuteMemberListViewController.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/12/13.
 //  Copyright © 2019 NetEase. All rights reserved.

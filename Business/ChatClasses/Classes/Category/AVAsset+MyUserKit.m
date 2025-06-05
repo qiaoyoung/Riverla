@@ -1,14 +1,14 @@
 //
 //  AVAsset+NIMKit.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning on 2020/9/25.
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
-#import "AVAsset+NeeyoKit.h"
+#import "AVAsset+MyUserKit.h"
 
-@implementation AVAsset (NeeyoKit)
+@implementation AVAsset (MyUserKit)
 
 - (AVMutableVideoComposition *)nim_videoComposition {
     AVAssetTrack *videoTrack = [[self tracksWithMediaType:AVMediaTypeVideo] objectAtIndex:0];

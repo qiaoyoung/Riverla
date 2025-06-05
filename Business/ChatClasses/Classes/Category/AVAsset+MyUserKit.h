@@ -1,6 +1,6 @@
 //
-//  AVAsset+NeeyoKit.h
-// NeeyoKit
+//  AVAsset+MyUserKit.h
+// MyUserKit
 //
 //  Created by Genning on 2020/9/25.
 //  Copyright © 2020 NetEase. All rights reserved.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AVAsset (NeeyoKit)
+@interface AVAsset (MyUserKit)
 
 - (AVMutableVideoComposition *)nim_videoComposition;
 

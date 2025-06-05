@@ -1,6 +1,6 @@
 //
 //  FFFMediaItem.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by amao on 8/11/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.

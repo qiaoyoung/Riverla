@@ -13,7 +13,7 @@
 #import "FFFTeamCardMemberItem.h"
 #import "FFFKitUtil.h"
 #import "FFFKitDependency.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "ZMONSetGroupNickNameView.h"
 #import "FFFKitColorButtonCell.h"
 #import "FFFKitSwitcherCell.h"

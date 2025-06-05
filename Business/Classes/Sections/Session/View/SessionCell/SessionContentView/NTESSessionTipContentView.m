@@ -9,7 +9,7 @@
 #import "NTESSessionTipContentView.h"
 #import "NTESCustomAttachmentDefines.h"
 #import "UIView+NTES.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 
 @implementation NTESSessionTipContentView
 

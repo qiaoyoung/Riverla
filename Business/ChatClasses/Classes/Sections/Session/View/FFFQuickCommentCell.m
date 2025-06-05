@@ -1,6 +1,6 @@
 //
 //  NIMListCollectionCell.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/4/13.
 //  Copyright © 2020 NetEase. All rights reserved.
@@ -8,10 +8,10 @@
 
 #import "FFFQuickCommentCell.h"
 #import "FFFKitQuickCommentUtil.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
-#import "UIColor+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "UIColor+MyUserKit.h"
 
 @interface FFFQuickCommentCell ()
 

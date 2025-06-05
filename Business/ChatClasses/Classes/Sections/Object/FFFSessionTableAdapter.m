@@ -1,6 +1,6 @@
 //
 //  NIMSessionTableDelegate.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 2016/11/7.
 //  Copyright © 2016年 NetEase. All rights reserved.
@@ -11,7 +11,7 @@
 #import "FFFMessageCellFactory.h"
 #import "UIViewNimKit.h"
 #import "M80AttributedLabel.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 @interface FFFSessionTableAdapter()
 
 @property (nonatomic,strong) FFFMessageCellFactory *cellFactory;

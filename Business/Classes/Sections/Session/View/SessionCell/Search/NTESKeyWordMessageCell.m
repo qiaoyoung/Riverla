@@ -68,11 +68,11 @@
         NIMSession * session = message.session;
         if (session.sessionType == NIMSessionTypeP2P)
         {
-           info = [[NeeyoKit sharedKit] infoByUser:session.sessionId option:nil];
+           info = [[MyUserKit sharedKit] infoByUser:session.sessionId option:nil];
         }
         else
         {
-            info = [[NeeyoKit sharedKit] infoByTeam:session.sessionId option:nil];
+            info = [[MyUserKit sharedKit] infoByTeam:session.sessionId option:nil];
         }
         
         if (info.avatarUrlString.length)

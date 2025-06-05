@@ -1,19 +1,19 @@
 //
 //  UIImage+NIMKit.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFInputEmoticonDefine.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitDevice.h"
-#import "NSBundle+NeeyoKit.h"
+#import "NSBundle+MyUserKit.h"
 #import "SSZipArchiveManager.h"
 
-@implementation UIImage (NeeyoKit)
+@implementation UIImage (MyUserKit)
 
 + (UIImage *)nim_fetchChartlet:(NSString *)imageName chartletId:(NSString *)chartletId{
     if ([chartletId isEqualToString:NEEKIT_EmojiCatalog]) {

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITableView (NeeyoKit)
+@interface UITableView (MyUserKit)
 
 - (void)nim_scrollToBottom:(BOOL)animation;
 @end

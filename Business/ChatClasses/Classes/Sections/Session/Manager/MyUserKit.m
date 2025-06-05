@@ -1,26 +1,26 @@
 //
-// NeeyoKit.m
-// NeeyoKit
+// MyUserKit.m
+// MyUserKit
 //
 //  Created by amao on 8/14/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.
 //
 
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitTimerHolder.h"
 #import "FFFKitNotificationFirer.h"
 #import "FFFKitDataProviderImpl.h"
 #import "FFFCellLayoutConfig.h"
 #import "FFFKitInfoFetchOption.h"
-#import "NSBundle+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "NSBundle+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import "FFFChatUIManager.h"
 
 extern NSString *const NIMKitUserInfoHasUpdatedNotification;
 extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
 
 
-@interface NeeyoKit(){
+@interface MyUserKit(){
     NSRegularExpression *_urlRegex;
 }
 @property (nonatomic,strong)    FFFKitNotificationFirer *firer;
@@ -28,12 +28,12 @@ extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
 @end
 
 
-@implementation NeeyoKit
+@implementation MyUserKit
 - (instancetype)init
 {
     if (self = [super init]) {
         _firer = [[FFFKitNotificationFirer alloc] init];
-        _provider = [[FFFKitDataProviderImpl alloc] init];   //默认使用 NeeyoKit 的实现
+        _provider = [[FFFKitDataProviderImpl alloc] init];   //默认使用 MyUserKit 的实现
         _layoutConfig = [[FFFCellLayoutConfig alloc] init];
         [self preloadNIMKitBundleResource];
     }
@@ -42,10 +42,10 @@ extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
 
 + (instancetype)sharedKit
 {
-    static NeeyoKit *instance = nil;
+    static MyUserKit *instance = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [[NeeyoKit alloc] init];
+        instance = [[MyUserKit alloc] init];
     });
     return instance;
 }
@@ -88,7 +88,7 @@ extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
 
 - (FFFKitConfig *)config
 {
-    //不要放在 NeeyoKit 初始化里面，因为 UIConfig 初始化会使用 NIMKit, 防止死循环
+    //不要放在 MyUserKit 初始化里面，因为 UIConfig 初始化会使用 NIMKit, 防止死循环
     if (!_config)
     {
         _config = [[FFFKitConfig alloc] init];

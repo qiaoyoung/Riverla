@@ -1,15 +1,15 @@
 //
 //  UIColor+NIMKit.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/4/15.
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
-#import "UIColor+NeeyoKit.h"
+#import "UIColor+MyUserKit.h"
 
 
-@implementation UIColor (NeeyoKit)
+@implementation UIColor (MyUserKit)
 + (instancetype)colorWithHex:(NSInteger)rgbValue alpha:(CGFloat)alphaValue
 {
    return [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0

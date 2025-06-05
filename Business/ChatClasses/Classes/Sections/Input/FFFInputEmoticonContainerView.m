@@ -1,6 +1,6 @@
 //
 //  FFFInputEmoticonContainerView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -13,7 +13,7 @@
 #import "FFFInputEmoticonManager.h"
 #import "FFFInputEmoticonTabView.h"
 #import "FFFInputEmoticonDefine.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFMessageMaker.h"
 
 

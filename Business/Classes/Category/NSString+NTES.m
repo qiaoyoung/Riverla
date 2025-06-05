@@ -69,7 +69,7 @@ NSString * emptyString(NSString *anMaybeEmptyString) {
 }
 
 - (NSString *)ntes_localized {
-    NSString * result = [self nim_localizedWithTable:[NeeyoKit sharedKit].languageTable];
+    NSString * result = [self nim_localizedWithTable:[MyUserKit sharedKit].languageTable];
     return result;
 //    return [self nim_localized];
 //    return NSLocalizedString(self, nil);

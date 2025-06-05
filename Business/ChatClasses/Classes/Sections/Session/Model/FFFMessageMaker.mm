@@ -1,14 +1,14 @@
 //
 //  FFFMessageMaker.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
 #import "FFFMessageMaker.h"
-#import "NSString+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "NSString+MyUserKit.h"
+#import "MyUserKit.h"
 #import "FFFInputAtCache.h"
 
 NSString * generateUUID(void) {

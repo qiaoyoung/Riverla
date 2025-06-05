@@ -1,5 +1,5 @@
 //
-//  M80AttributedLabel+NeeyoKit.h
+//  M80AttributedLabel+MyUserKit.h
 //  NIM
 //
 //  Created by chris.
@@ -8,6 +8,6 @@
 
 #import "FFFKitDependency.h"
 
-@interface M80AttributedLabel (NeeyoKit)
+@interface M80AttributedLabel (MyUserKit)
 - (void)nim_setText:(NSString *)text;
 @end

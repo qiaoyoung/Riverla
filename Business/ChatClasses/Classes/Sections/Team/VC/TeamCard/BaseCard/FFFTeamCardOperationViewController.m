@@ -1,6 +1,6 @@
 //
 //  FFFTeamCardOperationViewController.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/12/12.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -9,8 +9,8 @@
 #import "FFFTeamCardOperationViewController.h"
 #import "FFFKitProgressHUD.h"
 #import "FFFKitDependency.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import "NTESSessionMsgConverter.h"
 
 #define NIMTeamInfoCardShowMaxMember (10)  //这个页面显示10个已经够了

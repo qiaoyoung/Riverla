@@ -1,6 +1,6 @@
 //
 //  FFFTeamCardHeaderView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Netease on 2019/6/10.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -10,7 +10,7 @@
 #import "FFFAvatarImageView.h"
 #import "FFFKitUtil.h"
 #import "UIViewNimKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 
 #define CardHeaderHeight 89
 #define AvatarLeft 20

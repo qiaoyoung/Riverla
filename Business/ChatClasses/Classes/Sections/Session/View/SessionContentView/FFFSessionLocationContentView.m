@@ -1,6 +1,6 @@
 //
 //  FFFSessionLocationContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/2/28.
 //  Copyright (c) 2015年 Netease. All rights reserved.
@@ -9,8 +9,8 @@
 #import "FFFSessionLocationContentView.h"
 #import "FFFMessageModel.h"
 #import "UIViewNimKit.h"
-#import "UIImage+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "MyUserKit.h"
 
 @interface FFFSessionLocationContentView()
 
@@ -52,7 +52,7 @@
     NIMLocationObject * locationObject = (NIMLocationObject*)self.model.message.messageObject;
     self.titleLabel.text = locationObject.title;
     
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:data.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:data.message];
 
     self.titleLabel.textColor  = setting.textColor;
     self.titleLabel.font       = setting.font;
