@@ -20,8 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSString *)nim_EmojiGifPlistFile;
 
-+ (NSString *)nim_EmojiImage:(NSString *)imageName;
-
 @end
 
 NS_ASSUME_NONNULL_END

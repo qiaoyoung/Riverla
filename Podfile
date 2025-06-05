@@ -31,13 +31,13 @@ target 'Neeyo' do
     pod 'Reachability'
     pod 'SVProgressHUD'
     pod 'YYModel'
-    pod 'LookinServer', :configurations => ['Debug']
     pod 'UCZProgressView'
     pod 'FLAnimatedImage'
     pod 'MJRefresh'
     pod 'WMZDialog'
     pod 'FDFullscreenPopGesture', '1.1'
-    
+    pod 'SSZipArchive'
+
 end
 
 post_install do |installer|

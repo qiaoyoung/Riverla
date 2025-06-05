@@ -20,6 +20,7 @@
 #import "ZMONDeactivateAccountSuccessView.h"
 #import "ZMONAccountPolicyViewController.h"
 #import "DeleteAccountTipView.h"
+#import "SSZipArchiveManager.h"
 
 
 @interface NTESSafetySetingController ()<UITableViewDataSource,UITableViewDelegate,NTESDeactivateAccountDelegate,NTESDeleteAccountDelegate,NTESDeleteAccountTIPDelegate>
@@ -227,7 +228,8 @@
 //    [self.policyView animationShow];
     
     ZMONAccountPolicyViewController *vc = [[ZMONAccountPolicyViewController alloc]init];
-    vc.urlString = @"Policy.html";
+    NSString *htmlFilePath = [[[SSZipArchiveManager sharedManager] getHtml_filePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"PrivacyPolicy.html"]];
+    vc.urlString = htmlFilePath;
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -245,19 +247,20 @@
     ZMONAccountPolicyViewController *vc = [[ZMONAccountPolicyViewController alloc]init];
         NSString *langType = emptyString([NIMUserDefaults standardUserDefaults].language);
     
+    NSString *fileName = @"AccountDeletion_en.html";
         if ([langType containsString:@"ja"]){
-            vc.urlString = @"AccountDeletion_ja.html";
+            fileName = @"AccountDeletion_ja.html";
         }else if ([langType containsString:@"ko"]){
-            vc.urlString = @"AccountDeletion_ko.html";
+            fileName = @"AccountDeletion_ko.html";
         }else if ([langType containsString:@"hant"]){
-            vc.urlString = @"AccountDeletion_hant.html";
+            fileName = @"AccountDeletion_hant.html";
         }else{
-            vc.urlString = @"AccountDeletion_en.html";
+            fileName = @"AccountDeletion_en.html";
         }
-    
+    NSString *htmlFilePath = [[[SSZipArchiveManager sharedManager] getHtml_filePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@", fileName]];
+    vc.urlString = htmlFilePath;
     [self.navigationController pushViewController:vc animated:YES];
 }
-
 
 - (void)blacklist {
     CCCBlackListViewController *vc = [[CCCBlackListViewController alloc] init];

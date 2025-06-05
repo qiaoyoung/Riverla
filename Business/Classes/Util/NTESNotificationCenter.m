@@ -20,7 +20,7 @@
 #import "NTESSessionUtil.h"
 #import "NTESAVNotifier.h"
 #import "NTESRedPacketTipAttachment.h"
-
+#import "SSZipArchiveManager.h"
 
 
 NSString *NTESCustomNotificationCountChanged = @"NTESCustomNotificationCountChanged";
@@ -51,8 +51,11 @@ NSString *NTESCustomNotificationCountChanged = @"NTESCustomNotificationCountChan
 - (instancetype)init {
     self = [super init];
     if(self) {
-        NSURL *url = [[NSBundle mainBundle] URLForResource:@"message" withExtension:@"wav"];
-        _player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+        NSString *voicePath = [[[SSZipArchiveManager sharedManager] getVoicePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"message.wav"]];
+        if ([[NSFileManager defaultManager] fileExistsAtPath:voicePath]) {
+            NSURL *url = [NSURL fileURLWithPath:voicePath];
+            _player = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+        }
         _notifier = [[NTESAVNotifier alloc] init];
         
         [[NIMSDK sharedSDK].systemNotificationManager addDelegate:self];

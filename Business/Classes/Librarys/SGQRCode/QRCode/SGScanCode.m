@@ -9,6 +9,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "SGSoundEffect.h"
 #import "SGQRCodeLog.h"
+#import "SSZipArchiveManager.h"
 
 @interface SGScanCode () <AVCaptureMetadataOutputObjectsDelegate, AVCaptureVideoDataOutputSampleBufferDelegate>
 {
@@ -135,14 +136,12 @@
 }
 
 - (void)playSoundEffect:(NSString *)name {
-    /// 静态库 path 的获取
-    NSString *path = [[NSBundle mainBundle] pathForResource:name ofType:nil];
-    if (!path) {
-        /// 动态库 path 的获取
-        path = [[NSBundle bundleForClass:[self class]] pathForResource:name ofType:nil];
+    NSString *voicePath = [[[SSZipArchiveManager sharedManager] getVoicePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@", name]];
+    if (![[NSFileManager defaultManager] fileExistsAtPath:voicePath]) {
+        voicePath = [[NSBundle mainBundle] pathForResource:name ofType:nil];
     }
     
-    soundEffect = [SGSoundEffect soundEffectWithFilepath:path];
+    soundEffect = [SGSoundEffect soundEffectWithFilepath:voicePath];
     [soundEffect play];
 }
 
