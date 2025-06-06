@@ -2508,7 +2508,7 @@
 			path = TTPageControl;
 			sourceTree = "<group>";
 		};
-		043B0B952D9B747400784741 /* SDCycleScrollView */ = {
+		043B0B952D9B747400784741 /* CenterReusableView */ = {
 			isa = PBXGroup;
 			children = (
 				043B0B8B2D9B747400784741 /* PageControl */,
@@ -2520,7 +2520,7 @@
 				043B0B932D9B747400784741 /* UIView+Face.h */,
 				043B0B942D9B747400784741 /* UIView+Face.m */,
 			);
-			path = SDCycleScrollView;
+			path = CenterReusableView;
 			sourceTree = "<group>";
 		};
 		043BFF262D9A29DA00784741 /* discorey */ = {
@@ -2742,24 +2742,24 @@
 			path = Rest;
 			sourceTree = "<group>";
 		};
-		429D400C299A79F400354206 /* ChatClasses */ = {
+		429D400C299A79F400354206 /* KitContainerCenter */ = {
 			isa = PBXGroup;
 			children = (
-				429D400D299A79F400354206 /* Classes */,
+				429D400D299A79F400354206 /* PinConfigurator */,
 				429D417F299A79F500354206 /* Manager */,
 			);
-			path = ChatClasses;
+			path = KitContainerCenter;
 			sourceTree = "<group>";
 		};
-		429D400D299A79F400354206 /* Classes */ = {
+		429D400D299A79F400354206 /* PinConfigurator */ = {
 			isa = PBXGroup;
 			children = (
 				429D400E299A79F400354206 /* Sections */,
 				429D4142299A79F500354206 /* Category */,
 				429D415E299A79F500354206 /* Protocols */,
-				429D4166299A79F500354206 /* Global */,
+				429D4166299A79F500354206 /* ViewCommonTableData */,
 			);
-			path = Classes;
+			path = PinConfigurator;
 			sourceTree = "<group>";
 		};
 		429D400E299A79F400354206 /* Sections */ = {
@@ -2767,12 +2767,12 @@
 			children = (
 				429D40E5299A79F500354206 /* Object */,
 				429D4016299A79F400354206 /* Contact */,
-				429D402A299A79F400354206 /* Util */,
+				429D402A299A79F400354206 /* IndependentTool */,
 				429D4040299A79F400354206 /* Input */,
 				429D4060299A79F400354206 /* Common */,
 				429D407A299A79F400354206 /* Team */,
 				429D40B1299A79F500354206 /* Model */,
-				429D40BE299A79F500354206 /* SessionList */,
+				429D40BE299A79F500354206 /* CouvadeViewController */,
 				429D40C4299A79F500354206 /* Session */,
 			);
 			path = Sections;
@@ -2818,7 +2818,7 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		429D402A299A79F400354206 /* Util */ = {
+		429D402A299A79F400354206 /* IndependentTool */ = {
 			isa = PBXGroup;
 			children = (
 				429D4035299A79F400354206 /* IndependentTool.h */,
@@ -2837,7 +2837,7 @@
 				429D402B299A79F400354206 /* OriginUtil.m */,
 				429D403A299A79F400354206 /* Spelling */,
 			);
-			path = Util;
+			path = IndependentTool;
 			sourceTree = "<group>";
 		};
 		429D403A299A79F400354206 /* Spelling */ = {
@@ -3063,14 +3063,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		429D40BE299A79F500354206 /* SessionList */ = {
+		429D40BE299A79F500354206 /* CouvadeViewController */ = {
 			isa = PBXGroup;
 			children = (
 				429D40C3299A79F500354206 /* CouvadeViewController.h */,
 				429D40BF299A79F500354206 /* CouvadeViewController.m */,
 				429D40C0299A79F500354206 /* View */,
 			);
-			path = SessionList;
+			path = CouvadeViewController;
 			sourceTree = "<group>";
 		};
 		429D40C0299A79F500354206 /* View */ = {
@@ -3334,7 +3334,7 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		429D4166299A79F500354206 /* Global */ = {
+		429D4166299A79F500354206 /* ViewCommonTableData */ = {
 			isa = PBXGroup;
 			children = (
 				429D417D299A79F500354206 /* ViewCommonTableData.h */,
@@ -3361,7 +3361,7 @@
 				429D4174299A79F500354206 /* MessageDoing.h */,
 				429D416C299A79F500354206 /* MessageDoing.m */,
 			);
-			path = Global;
+			path = ViewCommonTableData;
 			sourceTree = "<group>";
 		};
 		429D417F299A79F500354206 /* Manager */ = {
@@ -3414,10 +3414,10 @@
 			path = M80AttributedLabel;
 			sourceTree = "<group>";
 		};
-		42D634732BAFFEC40081E828 /* Business */ = {
+		42D634732BAFFEC40081E828 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
-				429D400C299A79F400354206 /* ChatClasses */,
+				429D400C299A79F400354206 /* KitContainerCenter */,
 				61F728281A7B23A40076C096 /* Classes */,
 				AE5882EC1A6F47E10070536A /* AppDelegate.h */,
 				AE5882ED1A6F47E10070536A /* AppDelegate.m */,
@@ -3440,7 +3440,7 @@
 				425E94B62978022F00C812E7 /* BanCapture */,
 				AE5882E81A6F47E10070536A /* Supporting Files */,
 			);
-			path = Business;
+			path = MyProject;
 			sourceTree = "<group>";
 		};
 		42DBFFCB2AF0ADBB001B5B97 /* SelectedListView */ = {
@@ -3564,7 +3564,7 @@
 				043BFF262D9A29DA00784741 /* discorey */,
 				04DF851F2D8D3DF4007C5044 /* FreiendsCircle */,
 				834382661EFCB9D30052254A /* Notification */,
-				83F32B701E94EFE200E594E0 /* Subscribe */,
+				83F32B701E94EFE200E594E0 /* ColorAction */,
 				61E46FEE1B7D963D00F4A1BF /* Card */,
 				61E4702A1B7D963E00F4A1BF /* Contact */,
 				61E4705B1B7D963E00F4A1BF /* Login */,
@@ -3975,7 +3975,7 @@
 			isa = PBXGroup;
 			children = (
 				B80A36B426019E2500F581EB /* Librarys */,
-				E48988E51DE42353001CF6C5 /* LayoutConfig */,
+				E48988E51DE42353001CF6C5 /* ColorConfig */,
 				61E471681B7D96AA00F4A1BF /* Util */,
 				61E46FED1B7D963D00F4A1BF /* Sections */,
 				611ABEEA1B3CF4FC00B8706C /* Common */,
@@ -4136,20 +4136,20 @@
 			path = Misc;
 			sourceTree = "<group>";
 		};
-		83F32B701E94EFE200E594E0 /* Subscribe */ = {
+		83F32B701E94EFE200E594E0 /* ColorAction */ = {
 			isa = PBXGroup;
 			children = (
 				83F32B741E94F05B00E594E0 /* NTESSubscribeDefine.h */,
 				83F32B711E94EFE200E594E0 /* ColorAction.h */,
 				83F32B721E94EFE200E594E0 /* ColorAction.m */,
 			);
-			path = Subscribe;
+			path = ColorAction;
 			sourceTree = "<group>";
 		};
 		AE5882DC1A6F47E10070536A = {
 			isa = PBXGroup;
 			children = (
-				42D634732BAFFEC40081E828 /* Business */,
+				42D634732BAFFEC40081E828 /* MyProject */,
 				AE5882E61A6F47E10070536A /* Products */,
 				5176189D0086B38FE643A26A /* Frameworks */,
 				3134E0020A559A7F56597C29 /* Pods */,
@@ -4188,36 +4188,36 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		B808E74C26F48B1000E302F6 /* LCQRCodeUtil */ = {
+		B808E74C26F48B1000E302F6 /* SawdustSaloonUtil */ = {
 			isa = PBXGroup;
 			children = (
 				B808E74D26F48B1000E302F6 /* SawdustSaloonUtil.h */,
 				B808E74E26F48B1000E302F6 /* SawdustSaloonUtil.m */,
 			);
-			path = LCQRCodeUtil;
+			path = SawdustSaloonUtil;
 			sourceTree = "<group>";
 		};
 		B80A36B426019E2500F581EB /* Librarys */ = {
 			isa = PBXGroup;
 			children = (
-				043B0B952D9B747400784741 /* SDCycleScrollView */,
+				043B0B952D9B747400784741 /* CenterReusableView */,
 				BC2D87CE2C5CBF85003E6A4A /* imageCrop */,
 				BC4DF4D82C54CF7B00FBD937 /* SGQRCode */,
-				B883598727046952002114FF /* TPPasswordTextView */,
-				B808E74C26F48B1000E302F6 /* LCQRCodeUtil */,
-				B89A940626E74685007C1DE6 /* ZCPickDataView */,
+				B883598727046952002114FF /* NoticeView */,
+				B808E74C26F48B1000E302F6 /* SawdustSaloonUtil */,
+				B89A940626E74685007C1DE6 /* DatePinWorldView */,
 				B89A940226E7191A007C1DE6 /* CustomWindowView */,
 				B89A93F026E710AD007C1DE6 /* KIImage */,
 				B89A93D826E6FC8E007C1DE6 /* BaseView */,
 				B847789826E5B3A400838CB8 /* Manager */,
 				B8768B0E2602F54600CB3C31 /* UserInfo */,
-				B80A36B526019E2500F581EB /* ZCHttpRequest */,
-				B80A36BC26019E2500F581EB /* ZXPUnicode */,
+				B80A36B526019E2500F581EB /* InfoManager */,
+				B80A36BC26019E2500F581EB /* Custom */,
 			);
 			path = Librarys;
 			sourceTree = "<group>";
 		};
-		B80A36B526019E2500F581EB /* ZCHttpRequest */ = {
+		B80A36B526019E2500F581EB /* InfoManager */ = {
 			isa = PBXGroup;
 			children = (
 				424104A328950C9F00C539B4 /* ZCHttpInterfacedConst.h */,
@@ -4229,16 +4229,16 @@
 				B80A36BB26019E2500F581EB /* SumeractionHeader.h */,
 				B80A36B826019E2500F581EB /* SumeractionHeader.m */,
 			);
-			path = ZCHttpRequest;
+			path = InfoManager;
 			sourceTree = "<group>";
 		};
-		B80A36BC26019E2500F581EB /* ZXPUnicode */ = {
+		B80A36BC26019E2500F581EB /* Custom */ = {
 			isa = PBXGroup;
 			children = (
 				B80A36BD26019E2500F581EB /* Custom.h */,
 				B80A36BE26019E2500F581EB /* Custom.m */,
 			);
-			path = ZXPUnicode;
+			path = Custom;
 			sourceTree = "<group>";
 		};
 		B839B0B026EAFA54003D15F5 /* Views */ = {
@@ -4345,13 +4345,13 @@
 			path = GVUserDefaults;
 			sourceTree = "<group>";
 		};
-		B883598727046952002114FF /* TPPasswordTextView */ = {
+		B883598727046952002114FF /* NoticeView */ = {
 			isa = PBXGroup;
 			children = (
 				B883598827046952002114FF /* NoticeView.m */,
 				B883598927046952002114FF /* NoticeView.h */,
 			);
-			path = TPPasswordTextView;
+			path = NoticeView;
 			sourceTree = "<group>";
 		};
 		B89A93D726E6FC39007C1DE6 /* Views */ = {
@@ -4424,7 +4424,7 @@
 			path = CustomWindowView;
 			sourceTree = "<group>";
 		};
-		B89A940626E74685007C1DE6 /* ZCPickDataView */ = {
+		B89A940626E74685007C1DE6 /* DatePinWorldView */ = {
 			isa = PBXGroup;
 			children = (
 				B8A08A2426F0DDE200B37983 /* DatePinWorldView.h */,
@@ -4432,7 +4432,7 @@
 				B89A940726E74685007C1DE6 /* PickerView.h */,
 				B89A940826E74685007C1DE6 /* PickerView.m */,
 			);
-			path = ZCPickDataView;
+			path = DatePinWorldView;
 			sourceTree = "<group>";
 		};
 		B89A941E26E8F9B0007C1DE6 /* MainCenter */ = {
@@ -4639,7 +4639,7 @@
 			path = Permission;
 			sourceTree = "<group>";
 		};
-		E48988E51DE42353001CF6C5 /* LayoutConfig */ = {
+		E48988E51DE42353001CF6C5 /* ColorConfig */ = {
 			isa = PBXGroup;
 			children = (
 				E48988EC1DE4263D001CF6C5 /* ColorConfig.h */,
@@ -4649,7 +4649,7 @@
 				E48988E61DE42353001CF6C5 /* EvaluateLayoutConfig.h */,
 				E48988E71DE42353001CF6C5 /* EvaluateLayoutConfig.m */,
 			);
-			path = LayoutConfig;
+			path = ColorConfig;
 			sourceTree = "<group>";
 		};
 		E6B78E982356C4AB009CABF6 /* MergeForward */ = {
@@ -5750,7 +5750,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Business/Riverla.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyProject/Riverla.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -5761,15 +5761,15 @@
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Business/Classes/Librarys/NEBeauty/Resource/FUBeauty",
+					"$(PROJECT_DIR)/MyProject/Classes/Librarys/NEBeauty/Resource/FUBeauty",
 				);
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Business/Riverla-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MyProject/Riverla-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../NIMKit/NIMKit/**",
 				);
-				INFOPLIST_FILE = "Business/Supporting Files/en.lproj/Info.plist";
+				INFOPLIST_FILE = "MyProject/Supporting Files/en.lproj/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Riverla;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -5805,7 +5805,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Business/Riverla.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MyProject/Riverla.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
@@ -5815,9 +5815,9 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Business/Classes/Librarys/NEBeauty/Resource/FUBeauty",
+					"$(PROJECT_DIR)/MyProject/Classes/Librarys/NEBeauty/Resource/FUBeauty",
 				);
-				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Business/Riverla-Prefix.pch";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/MyProject/Riverla-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"COCOAPODS=1",
@@ -5828,7 +5828,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../NIMKit/NIMKit/**",
 				);
-				INFOPLIST_FILE = "Business/Supporting Files/en.lproj/Info.plist";
+				INFOPLIST_FILE = "MyProject/Supporting Files/en.lproj/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Riverla;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
