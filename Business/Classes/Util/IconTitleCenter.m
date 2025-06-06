@@ -46,8 +46,6 @@ Byte kStr_ankleText[] = {65, 33, 11, 214, 17, 205, 126, 61, 235, 40, 211, 130, 1
 #import "UIView+Toast.h"
 //: #import "NTESCustomSysNotificationSender.h"
 #import "TaproomSender.h"
-//: #import "NTESGlobalMacro.h"
-#import "NTESGlobalMacro.h"
 //: #import <AVFoundation/AVFoundation.h>
 #import <AVFoundation/AVFoundation.h>
 //: #import "NTESSessionMsgConverter.h"

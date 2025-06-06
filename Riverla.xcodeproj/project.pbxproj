@@ -1504,7 +1504,6 @@
 		61839A9A1BF9B60400702DF0 /* MaxMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaxMView.m; sourceTree = "<group>"; };
 		619087071BABE5D400F3A0C7 /* PictureShowDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureShowDevice.h; sourceTree = "<group>"; };
 		619087081BABE5D400F3A0C7 /* PictureShowDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureShowDevice.m; sourceTree = "<group>"; };
-		6195CD3E1A8C74DB00F3E239 /* NTESGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESGlobalMacro.h; sourceTree = "<group>"; };
 		61A1422D1AD7B02E00DCAD88 /* NSDictionary+Enable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Enable.h"; sourceTree = "<group>"; };
 		61A1422E1AD7B02E00DCAD88 /* NSDictionary+Enable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Enable.m"; sourceTree = "<group>"; };
 		61A8EF321BB67F0900033FB8 /* UIResponder+FirstMHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstMHuman.h"; sourceTree = "<group>"; };
@@ -3425,7 +3424,6 @@
 				879C572E228444DB00F09955 /* BirdSEyeViewConfig.h */,
 				879C572F228444DC00F09955 /* BirdSEyeViewConfig.m */,
 				AEB8367F1A772C2F00E7493E /* Riverla-Prefix.pch */,
-				6195CD3E1A8C74DB00F3E239 /* NTESGlobalMacro.h */,
 				4278082C2C12BA7C00C18684 /* MessageTitleHelper.h */,
 				4278082D2C12BA7C00C18684 /* MessageTitleHelper.m */,
 				420C806F2C056F9D0007C618 /* SenseFace.h */,

@@ -24,8 +24,6 @@ Byte kStr_formatTheoryName[] = {83, 8, 95, 6, 47, 63, 210, 200, 217, 196, 182, 2
 // __M_A_C_R_O__
 //: #import "NTESAVNotifier.h"
 #import "CellIndex.h"
-//: #import "NTESGlobalMacro.h"
-#import "NTESGlobalMacro.h"
 
 //: @import AudioToolbox;
 @import AudioToolbox;
