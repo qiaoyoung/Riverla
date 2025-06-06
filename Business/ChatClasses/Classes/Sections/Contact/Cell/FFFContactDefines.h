@@ -16,13 +16,13 @@
 @protocol BoardMemberLayer <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)instance;
+- (NSString *)groupTitle;
 
 //: - (NSString *)memberId;
-- (NSString *)language;
+- (NSString *)memberId;
 
 //: - (NSString *)showName;
-- (NSString *)user;
+- (NSString *)showName;
 
 //: - (NSString *)avatarUrlString;
 - (NSString *)inputTitle;
@@ -31,7 +31,7 @@
 - (UIImage *)denounce;
 
 //: - (id)sortKey;
-- (id)capital;
+- (id)sortKey;
 
 //: @end
 @end

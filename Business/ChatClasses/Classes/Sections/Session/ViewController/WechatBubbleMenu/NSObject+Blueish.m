@@ -18,13 +18,13 @@
 @implementation NSObject (Blueish)
 
 //: - (void)setTyl_internalIdentifier:(NSString *)tyl_internalIdentifier{
-- (void)setTyl_internalIdentifier:(NSString *)Blueish{
+- (void)setBlueish:(NSString *)Blueish {
     //: objc_setAssociatedObject(self, @selector(tyl_internalIdentifier), tyl_internalIdentifier, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(self, @selector(Blueish), Blueish, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 //: - (NSString *)tyl_internalIdentifier{
-- (NSString *)Blueish{
+- (NSString *)Blueish {
     //: return objc_getAssociatedObject(self, _cmd);
     return objc_getAssociatedObject(self, _cmd);
 }

@@ -68,7 +68,7 @@ ShowData kStr_shouldValue = (ShowData){174, (Byte []){224, 250, 235, 253, 237, 1
 }
 
 //: - (NSString *)groupTitle {
-- (NSString *)kit {
+- (NSString *)groupTitle {
     //: NSString *title = [[NTESSpellingCenter sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[PinCenter count] frameDoing:self.info.showName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -85,7 +85,7 @@ ShowData kStr_shouldValue = (ShowData){174, (Byte []){224, 250, 235, 253, 237, 1
 }
 
 //: - (NSString *)userId{
-- (NSString *)maxNormal{
+- (NSString *)userId{
     //: return self.info.infoId;
     return self.info.infoId;
 }
@@ -103,13 +103,13 @@ ShowData kStr_shouldValue = (ShowData){174, (Byte []){224, 250, 235, 253, 237, 1
 }
 
 //: - (NSString *)memberId{
-- (NSString *)touch{
+- (NSString *)memberId{
     //: return self.info.infoId;
     return self.info.infoId;
 }
 
 //: - (NSString *)showName{
-- (NSString *)recordInterval{
+- (NSString *)showName{
     //: return self.info.showName;
     return self.info.showName;
 }
@@ -121,7 +121,7 @@ ShowData kStr_shouldValue = (ShowData){174, (Byte []){224, 250, 235, 253, 237, 1
 }
 
 //: - (id)sortKey {
-- (id)accumulation {
+- (id)sortKey {
     //: return [[NTESSpellingCenter sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[PinCenter count] keepName:self.info.showName].shortSpelling;
 }

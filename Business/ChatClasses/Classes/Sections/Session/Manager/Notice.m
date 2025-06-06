@@ -48,9 +48,9 @@ AloneUponData kStr_magiData = (AloneUponData){29, (Byte []){126, 113, 124, 110, 
 //: #import "FFFChatUIManager.h"
 #import "PresentAction.h"
 
-//: extern NSString *const NIMKitUserInfoHasUpdatedNotification;
+//: extern NSString *const let_windowTeamLabelTitle;
 extern NSString *const let_windowTeamLabelTitle;
-//: extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
+//: extern NSString *const let_textBottomName;
 extern NSString *const let_textBottomName;
 
 
@@ -186,7 +186,7 @@ extern NSString *const let_textBottomName;
         LinkRecent *info = [[LinkRecent alloc] init];
         //: info.session = session;
         info.session = session;
-        //: info.notificationName = NIMKitUserInfoHasUpdatedNotification;
+        //: info.notificationName = let_windowTeamLabelTitle;
         info.notificationName = let_windowTeamLabelTitle;
         //: [self.firer addFireInfo:info];
         [self.firer user:info];
@@ -214,7 +214,7 @@ extern NSString *const let_textBottomName;
         //: info.session = session;
         info.session = session;
     }
-    //: info.notificationName = NIMKitTeamInfoHasUpdatedNotification;
+    //: info.notificationName = let_textBottomName;
     info.notificationName = let_textBottomName;
     //: [self.firer addFireInfo:info];
     [self.firer user:info];
@@ -241,10 +241,10 @@ extern NSString *const let_textBottomName;
         //: info.session = session;
         info.session = session;
     }
-    //: extern NSString *NIMKitTeamMembersHasUpdatedNotification;
-    extern NSString *NIMKitTeamMembersHasUpdatedNotification;
-    //: info.notificationName = NIMKitTeamMembersHasUpdatedNotification;
-    info.notificationName = NIMKitTeamMembersHasUpdatedNotification;
+    //: extern NSString *let_rootContent;
+    extern NSString *let_rootContent;
+    //: info.notificationName = let_rootContent;
+    info.notificationName = let_rootContent;
     //: [self.firer addFireInfo:info];
     [self.firer user:info];
 }

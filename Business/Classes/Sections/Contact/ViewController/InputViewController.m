@@ -700,17 +700,17 @@ LanguageCell> {
             SuppressPerformSelectorLeakWarning([self performSelector:sel withObject:nil]);
         }
         //: else if (contactItem.vcName.length) {
-        else if (contactItem.squeeze.length) {
+        else if (contactItem.vcName.length) {
             //: Class clazz = NSClassFromString(contactItem.vcName);
-            Class clazz = NSClassFromString(contactItem.squeeze);
+            Class clazz = NSClassFromString(contactItem.vcName);
             //: UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             //: [self.navigationController pushViewController:vc animated:YES];
             [self.navigationController pushViewController:vc animated:YES];
         //: }else if([contactItem respondsToSelector:@selector(userId)]){
-        }else if([contactItem respondsToSelector:@selector(maxNormal)]){
+        }else if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.maxNormal;
+            NSString * friendId = contactItem.userId;
             //: [self enterPersonalCard:friendId];
             [self need:friendId];
         }
@@ -1031,9 +1031,9 @@ LanguageCell> {
         //: id<NTESContactItem> contactItem = (id<NTESContactItem>)[_contacts memberOfIndex:indexPath];
         id<CornerTeam> contactItem = (id<CornerTeam>)[_contacts magnitudeervalOf:indexPath];
         //: if([contactItem respondsToSelector:@selector(userId)]){
-        if([contactItem respondsToSelector:@selector(maxNormal)]){
+        if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.maxNormal;
+            NSString * friendId = contactItem.userId;
             //: if ([ids containsObject:friendId]) {
             if ([ids containsObject:friendId]) {
                 //: [indexPaths addObject:indexPath];
@@ -1306,7 +1306,7 @@ LanguageCell> {
 
 }
 //: -(void)groupNotification{
--(void)bubble{
+-(void)groupNotification{
     //: NTESSystemNotificationViewController *vc = [[NTESSystemNotificationViewController alloc] init];
     SystemViewController *vc = [[SystemViewController alloc] init];
     //: vc.filterType = @"2";

@@ -59,8 +59,8 @@ Byte kStr_ankleText[] = {65, 33, 11, 214, 17, 205, 126, 61, 235, 40, 211, 130, 1
 //: #import "SSZipArchiveManager.h"
 #import "ByManager.h"
 
-//: NSString *NTESCustomNotificationCountChanged = @"NTESCustomNotificationCountChanged";
-NSString *let_kitData = @"NTESCustomNotificationCountChanged";
+//: NSString *let_kitData = @"let_kitData";
+NSString *let_kitData = @"let_kitData";
 
 //: @interface NTESNotificationCenter () <NIMSystemNotificationManagerDelegate,NIMChatManagerDelegate,NIMBroadcastManagerDelegate, NIMSignalManagerDelegate,NIMConversationManagerDelegate>
 @interface IconTitleCenter () <NIMSystemNotificationManagerDelegate,NIMChatManagerDelegate,NIMBroadcastManagerDelegate, NIMSignalManagerDelegate,NIMConversationManagerDelegate>
@@ -430,7 +430,7 @@ NSString *let_kitData = @"NTESCustomNotificationCountChanged";
                     }
                     //: if (notification.setting.shouldBeCounted) {
                     if (notification.setting.shouldBeCounted) {
-                        //: [[NSNotificationCenter defaultCenter] postNotificationName:NTESCustomNotificationCountChanged object:nil];
+                        //: [[NSNotificationCenter defaultCenter] postNotificationName:let_kitData object:nil];
                         [[NSNotificationCenter defaultCenter] postNotificationName:let_kitData object:nil];
                     }
                     //: NSString *content = [dict jsonString:@"content"];

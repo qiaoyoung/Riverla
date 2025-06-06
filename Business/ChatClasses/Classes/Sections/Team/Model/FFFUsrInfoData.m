@@ -36,7 +36,7 @@
 }
 
 //: - (NSString *)groupTitle {
-- (NSString *)instance {
+- (NSString *)groupTitle {
     //: NSString *title = [[FFFSpellingCenter sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[TeamIndex table] button:self.info.showName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -53,13 +53,13 @@
 }
 
 //: - (NSString *)memberId{
-- (NSString *)language{
+- (NSString *)memberId{
     //: return self.info.infoId;
     return self.info.infoId;
 }
 
 //: - (NSString *)showName{
-- (NSString *)user{
+- (NSString *)showName{
     //: return self.info.showName;
     return self.info.showName;
 }
@@ -77,7 +77,7 @@
 }
 
 //: - (id)sortKey {
-- (id)capital {
+- (id)sortKey {
     //: return [[FFFSpellingCenter sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[TeamIndex table] imageName:self.info.showName].shortSpelling;
 }

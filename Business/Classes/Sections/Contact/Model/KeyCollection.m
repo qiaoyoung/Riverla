@@ -101,12 +101,12 @@
     //: for (id<NTESGroupMemberProtocol>member in members) {
     for (id<BlueProtocol>member in members) {
         //: if ([[member memberId] isEqualToString:me]) {
-        if ([[member selectId] isEqualToString:me]) {
+        if ([[member memberId] isEqualToString:me]) {
             //: continue;
             continue;
         }
         //: NSString *groupTitle = [member groupTitle];
-        NSString *groupTitle = [member outsideWith];
+        NSString *groupTitle = [member groupTitle];
         //: NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         //: if(!groupedMembers) {
@@ -152,7 +152,7 @@
 - (void)outBlue:(id<BlueProtocol>)member
 {
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member outsideWith];
+    NSString *groupTitle = [member groupTitle];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     //: Pair *pair = [_groups objectAtIndex:groupIndex];
@@ -179,7 +179,7 @@
 //: - (void)removeGroupMember:(id<NTESGroupMemberProtocol>)member{
 - (void)humanBubble:(id<BlueProtocol>)member{
     //: NSString *groupTitle = [member groupTitle];
-    NSString *groupTitle = [member outsideWith];
+    NSString *groupTitle = [member groupTitle];
     //: NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     NSInteger groupIndex = [_groupTtiles indexOfObject:groupTitle];
     //: Pair *pair = [_groups objectAtIndex:groupIndex];
@@ -287,7 +287,7 @@
         //: for (id<NTESGroupMemberProtocol> member in members) {
         for (id<BlueProtocol> member in members) {
             //: if ([[member memberId] isEqualToString:uid]) {
-            if ([[member selectId] isEqualToString:uid]) {
+            if ([[member memberId] isEqualToString:uid]) {
                 //: return member;
                 return member;
             }
@@ -361,7 +361,7 @@
         //: [groupedMembers sortUsingComparator:^NSComparisonResult(id<NTESGroupMemberProtocol> member1, id<NTESGroupMemberProtocol> member2) {
         [groupedMembers sortUsingComparator:^NSComparisonResult(id<BlueProtocol> member1, id<BlueProtocol> member2) {
             //: return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
-            return _groupMemberComparator([member1 link], [member2 link]);
+            return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
         //: }];
         }];
     //: }];

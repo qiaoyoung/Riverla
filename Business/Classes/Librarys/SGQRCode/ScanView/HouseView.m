@@ -479,7 +479,7 @@
 }
 
 //: - (void)updateUI {
-- (void)name {
+- (void)updateUI {
     //: CGRect frame = self.scanlineImgView.frame;
     CGRect frame = self.scanlineImgView.frame;
     //: CGFloat contentViewHeight = CGRectGetHeight(self.contentView.frame);

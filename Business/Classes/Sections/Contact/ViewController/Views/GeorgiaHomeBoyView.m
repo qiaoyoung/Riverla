@@ -303,7 +303,7 @@ Byte kStr_pressTapText[] = {27, 7, 2, 8, 162, 223, 6, 67, 33, 54, 53, 51, 68, 68
             //: if (self.delegate && [self.delegate respondsToSelector:@selector(friendNotification)]) {
             if (self.delegate && [self.delegate respondsToSelector:@selector(eigenvalueOfAMatrixKit)]) {
                 //: [self.delegate groupNotification];
-                [self.delegate menu];
+                [self.delegate groupNotification];
             }
         }
             //: break;

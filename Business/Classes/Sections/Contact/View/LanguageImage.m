@@ -64,13 +64,13 @@
 }
 
 //: - (NSString *)groupTitle {
-- (NSString *)outsideWith {
+- (NSString *)groupTitle {
     //: return nil;
     return nil;
 }
 
 //: - (NSString *)memberId{
-- (NSString *)selectId{
+- (NSString *)memberId{
     //: return self.userId;
     return self.userId;
 }
@@ -82,7 +82,7 @@
 }
 
 //: - (id)sortKey {
-- (id)link {
+- (id)sortKey {
     //: return nil;
     return nil;
 }

@@ -39,7 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 //: -(void)friendNotification;
 -(void)eigenvalueOfAMatrixKit;
 //: -(void)groupNotification;
--(void)menu;
+-(void)groupNotification;
 //: -(void)deviceList;
 -(void)notCan;
 //: -(void)blackFriendList;

@@ -112,9 +112,9 @@ Byte kStr_heritageAbsenceName[] = {22, 6, 30, 6, 208, 86, 132, 84, 132, 84, 132,
 //: - (void)refreshItem:(id<NIMGroupMemberProtocol>)member {
 - (void)title:(id<BoardMemberLayer>)member {
     //: [self refreshTitle:member.showName];
-    [self status:member.user];
+    [self status:member.showName];
     //: self.memberId = member.memberId;
-    self.memberId = member.language;
+    self.memberId = member.memberId;
     //: NSURL *url = member.avatarUrlString ? [NSURL URLWithString:member.avatarUrlString] : nil;
     NSURL *url = member.inputTitle ? [NSURL URLWithString:member.inputTitle] : nil;
     //: [_avatarImageView nim_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"head_default"] options:SDWebImageRetryFailed];
@@ -124,9 +124,9 @@ Byte kStr_heritageAbsenceName[] = {22, 6, 30, 6, 208, 86, 132, 84, 132, 84, 132,
 //: - (void)refreshUser:(id<NIMGroupMemberProtocol>)member{
 - (void)multi:(id<BoardMemberLayer>)member{
     //: [self refreshTitle:member.showName];
-    [self status:member.user];
+    [self status:member.showName];
     //: self.memberId = [member memberId];
-    self.memberId = [member language];
+    self.memberId = [member memberId];
     //: FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.memberId option:nil];
     OriginBy *info = [[Notice fullKit] value:self.memberId manager:nil];
     //: [self refreshAvatar:info];

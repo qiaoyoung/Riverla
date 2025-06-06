@@ -386,7 +386,7 @@ MastheadScale,ColorWith,UINavigationControllerDelegate,UIImagePickerControllerDe
         //: FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         Option *option = [[Option alloc] init];
         //: option.session = self.teamListManager.session;
-        option.session = self.teamListManager.view;
+        option.session = self.teamListManager.session;
         //: FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:obj.userId option:option];
         OriginBy *info = [[Notice fullKit] value:obj.userId manager:option];
 
@@ -1192,7 +1192,7 @@ MastheadScale,ColorWith,UINavigationControllerDelegate,UIImagePickerControllerDe
     //: NIMContactTeamMemberSelectConfig *config = [[NIMContactTeamMemberSelectConfig alloc] init];
     AppLength *config = [[AppLength alloc] init];
     //: config.session = self.teamListManager.session;
-    config.session = self.teamListManager.view;
+    config.session = self.teamListManager.session;
     //: config.teamType = NIMKitTeamTypeNomal;
     config.teamType = NIMKitTeamTypeNomal;
     //: config.teamId = self.teamListManager.team.teamId;
@@ -1229,7 +1229,7 @@ MastheadScale,ColorWith,UINavigationControllerDelegate,UIImagePickerControllerDe
             //: options.removeOtherClients = YES;
             options.removeOtherClients = YES;
             //: [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
-            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.view options:options completion:^(NSError * _Nullable error) {
+            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
                 //: if (error) {
                 if (error) {
                     //: return;

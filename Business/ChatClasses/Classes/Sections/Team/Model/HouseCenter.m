@@ -44,7 +44,7 @@ Byte kStr_approachViewValue[] = {56, 20, 97, 12, 255, 50, 204, 193, 185, 190, 62
 }
 
 //: - (NSString *)groupTitle{
-- (NSString *)instance{
+- (NSString *)groupTitle{
     //: NSString *title = [[FFFSpellingCenter sharedCenter] firstLetter:self.teamName].capitalizedString;
     NSString *title = [[TeamIndex table] button:self.teamName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -62,13 +62,13 @@ Byte kStr_approachViewValue[] = {56, 20, 97, 12, 255, 50, 204, 193, 185, 190, 62
 }
 
 //: - (NSString *)memberId{
-- (NSString *)language{
+- (NSString *)memberId{
     //: return self.teamId;
     return self.teamId;
 }
 
 //: - (id)sortKey{
-- (id)capital{
+- (id)sortKey{
     //: return [[FFFSpellingCenter sharedCenter] spellingForString:self.teamName].shortSpelling;
     return [[TeamIndex table] imageName:self.teamName].shortSpelling;
 }
@@ -86,7 +86,7 @@ Byte kStr_approachViewValue[] = {56, 20, 97, 12, 255, 50, 204, 193, 185, 190, 62
 }
 
 //: - (NSString *)showName{
-- (NSString *)user{
+- (NSString *)showName{
     //: return self.teamName;
     return self.teamName;
 }

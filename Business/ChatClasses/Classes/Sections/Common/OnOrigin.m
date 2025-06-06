@@ -21,20 +21,20 @@ Byte kStr_brokeDonTapName[] = {20, 33, 4, 130, 100, 97, 101, 114, 104, 116, 32, 
 //: #import "FFFKitNotificationFirer.h"
 #import "OnOrigin.h"
 
-//: NSString *const NIMKitUserInfoHasUpdatedNotification = @"NIMKitUserInfoHasUpdatedNotification";
-NSString *const let_windowTeamLabelTitle = @"NIMKitUserInfoHasUpdatedNotification";
-//: NSString *const NIMKitTeamInfoHasUpdatedNotification = @"NIMKitTeamInfoHasUpdatedNotification";
-NSString *const let_textBottomName = @"NIMKitTeamInfoHasUpdatedNotification";
+//: NSString *const let_windowTeamLabelTitle = @"let_windowTeamLabelTitle";
+NSString *const let_windowTeamLabelTitle = @"let_windowTeamLabelTitle";
+//: NSString *const let_textBottomName = @"let_textBottomName";
+NSString *const let_textBottomName = @"let_textBottomName";
 
 //: NSString *const NIMKitUserBlackListHasUpdatedNotification = @"NIMKitUserBlackListHasUpdatedNotification";
 NSString *const let_domainContent = @"NIMKitUserBlackListHasUpdatedNotification";
 //: NSString *const NIMKitUserMuteListHasUpdatedNotification = @"NIMKitUserMuteListHasUpdatedNotification";
 NSString *const let_reverseAssetValue = @"NIMKitUserMuteListHasUpdatedNotification";
 
-//: NSString *const NIMKitTeamMembersHasUpdatedNotification = @"NIMKitTeamMembersHasUpdatedNotification";
-NSString *const let_rootContent = @"NIMKitTeamMembersHasUpdatedNotification";
+//: NSString *const let_rootContent = @"let_rootContent";
+NSString *const let_rootContent = @"let_rootContent";
 
-//: NSString *const FFFKitInfoKey = @"InfoId";
+//: NSString *const let_errorModelHeightContent = @"InfoId";
 NSString *const let_errorModelHeightContent = @"InfoId";
 
 //: @implementation FFFKitNotificationFirer
@@ -97,7 +97,7 @@ NSString *const let_errorModelHeightContent = @"InfoId";
 
     //: for (NSString *notificationName in dict) {
     for (NSString *notificationName in dict) {
-        //: NSDictionary *userInfo = dict[notificationName]? @{ FFFKitInfoKey:dict[notificationName] } : nil;
+        //: NSDictionary *userInfo = dict[notificationName]? @{ let_errorModelHeightContent:dict[notificationName] } : nil;
         NSDictionary *userInfo = dict[notificationName]? @{ let_errorModelHeightContent:dict[notificationName] } : nil;
         //: [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil userInfo:userInfo];
         [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil userInfo:userInfo];

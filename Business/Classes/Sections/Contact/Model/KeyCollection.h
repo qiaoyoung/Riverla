@@ -16,11 +16,11 @@
 @protocol BlueProtocol <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)outsideWith;
+- (NSString *)groupTitle;
 //: - (NSString *)memberId;
-- (NSString *)selectId;
+- (NSString *)memberId;
 //: - (id)sortKey;
-- (id)link;
+- (id)sortKey;
 
 //: @end
 @end

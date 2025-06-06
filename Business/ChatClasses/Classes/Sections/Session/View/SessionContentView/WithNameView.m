@@ -219,7 +219,7 @@ NSString *const let_contextMakeData = @"NIMTextMessageLabelLinkData";
                 //: self.textView.actionDelegate = vc;
                 self.textView.actionDelegate = vc;
                 //: self.textView.config = vc.sessionConfig;
-                self.textView.config = vc.viewDay;
+                self.textView.config = vc.sessionConfig;
             }
         //: }];
         }];

@@ -145,7 +145,7 @@
  *  会话页详细配置
  */
 //: - (id<FFFSessionConfig>)sessionConfig;
-- (id<BlueConfig>)viewDay;
+- (id<BlueConfig>)sessionConfig;
 
 
 //: #pragma mark - 消息接口

@@ -402,7 +402,7 @@ Byte kStr_neutralName[] = {98, 30, 89, 10, 118, 133, 203, 200, 90, 187, 198, 186
 
 
     //: if (self.config.showSelectHeaderview) {
-    if (self.config.version) {
+    if (self.config.showSelectHeaderview) {
 
         //: [self.view addSubview:self.setGroupnameView];
         [self.view addSubview:self.setGroupnameView];
@@ -597,7 +597,7 @@ Byte kStr_neutralName[] = {98, 30, 89, 10, 118, 133, 203, 200, 90, 187, 198, 186
     //: cell.accessoryBtn.hidden = NO;
     cell.accessoryBtn.hidden = NO;
     //: cell.accessoryBtn.selected = [_selectecContacts containsObject:[contactItem memberId]];
-    cell.accessoryBtn.selected = [_selectecContacts containsObject:[contactItem language]];
+    cell.accessoryBtn.selected = [_selectecContacts containsObject:[contactItem memberId]];
     //: [cell refreshItem:contactItem];
     [cell title:contactItem];
     //: return cell;
@@ -630,7 +630,7 @@ Byte kStr_neutralName[] = {98, 30, 89, 10, 118, 133, 203, 200, 90, 187, 198, 186
     id<BoardMemberLayer> member = arr[indexPath.row];
 
     //: NSString *memberId = [(id<NIMGroupMemberProtocol>)member memberId];
-    NSString *memberId = [(id<BoardMemberLayer>)member language];
+    NSString *memberId = [(id<BoardMemberLayer>)member memberId];
     //: FFFContactDataCell *cell = (FFFContactDataCell *)[tableView cellForRowAtIndexPath:indexPath];
     LanguageViewCell *cell = (LanguageViewCell *)[tableView cellForRowAtIndexPath:indexPath];
     //: FFFKitInfo *info;

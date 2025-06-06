@@ -39,11 +39,11 @@
 @required
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 //: - (NSString*)vcName;
-- (NSString*)squeeze;
+- (NSString*)vcName;
 
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 //: - (NSString*)userId;
-- (NSString*)maxNormal;
+- (NSString*)userId;
 
 //返回行高
 //: - (CGFloat)uiHeight;

@@ -188,20 +188,20 @@ Byte kStr_itsShoveData[] = {6, 6, 5, 160, 183, 116, 99, 101, 106, 101, 114, 131}
     //: [[NIMSDK sharedSDK].loginManager addDelegate:self];
     [[NIMSDK sharedSDK].loginManager addDelegate:self];
 
-    //: extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
-    extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
-    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamInfoHasUpdatedNotification:) name:NIMKitTeamInfoHasUpdatedNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(modelsed:) name:NIMKitTeamInfoHasUpdatedNotification object:nil];
+    //: extern NSString *const let_textBottomName;
+    extern NSString *const let_textBottomName;
+    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamInfoHasUpdatedNotification:) name:let_textBottomName object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(modelsed:) name:let_textBottomName object:nil];
 
-    //: extern NSString *const NIMKitTeamMembersHasUpdatedNotification;
-    extern NSString *const NIMKitTeamMembersHasUpdatedNotification;
-    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamMembersHasUpdatedNotification:) name:NIMKitTeamMembersHasUpdatedNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(messaged:) name:NIMKitTeamMembersHasUpdatedNotification object:nil];
+    //: extern NSString *const let_rootContent;
+    extern NSString *const let_rootContent;
+    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamMembersHasUpdatedNotification:) name:let_rootContent object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(messaged:) name:let_rootContent object:nil];
 
-    //: extern NSString *const NIMKitUserInfoHasUpdatedNotification;
-    extern NSString *const NIMKitUserInfoHasUpdatedNotification;
-    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onUserInfoHasUpdatedNotification:) name:NIMKitUserInfoHasUpdatedNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pining:) name:NIMKitUserInfoHasUpdatedNotification object:nil];
+    //: extern NSString *const let_windowTeamLabelTitle;
+    extern NSString *const let_windowTeamLabelTitle;
+    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onUserInfoHasUpdatedNotification:) name:let_windowTeamLabelTitle object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(pining:) name:let_windowTeamLabelTitle object:nil];
 
     //: [self setupSessions];
     [self inputSignal];

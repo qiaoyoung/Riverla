@@ -137,7 +137,7 @@
 - (void)container:(CGFloat)inputViewHeight;
 
 //: - (void)setDelegate:(id<NIMSessionLayoutDelegate>)delegate;
-- (void)setAgnomenDelegate:(id<LayoutCustom>)delegate;
+- (void)setDelegate:(id<LayoutCustom>)delegate;
 
 //: - (void)layoutAfterRefresh;
 - (void)originResolution;

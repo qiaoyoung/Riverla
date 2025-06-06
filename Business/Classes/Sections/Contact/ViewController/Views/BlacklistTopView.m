@@ -134,9 +134,9 @@ Byte kStr_checkTitle[] = {19, 12, 35, 10, 158, 63, 206, 145, 188, 158, 69, 66, 6
 //: - (void)refreshUser:(id<NIMGroupMemberProtocol>)member{
 - (void)color:(id<BoardMemberLayer>)member{
     //: self.titleLabel.text = member.showName;
-    self.titleLabel.text = member.user;
+    self.titleLabel.text = member.showName;
     //: self.memberId = [member memberId];
-    self.memberId = [member language];
+    self.memberId = [member memberId];
     //: FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.memberId option:nil];
     OriginBy *info = [[Notice fullKit] value:self.memberId manager:nil];
     //: NSURL *url = info.avatarUrlString ? [NSURL URLWithString:info.avatarUrlString] : nil;

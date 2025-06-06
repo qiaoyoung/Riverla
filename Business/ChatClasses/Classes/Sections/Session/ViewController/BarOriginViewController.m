@@ -743,7 +743,7 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     if ([self value])
     {
         //: self.sessionInputView = [[FFFInputView alloc] initWithFrame:CGRectMake(0, 0, self.view.nim_width,0) config:self.sessionConfig];
-        self.sessionInputView = [[CellTingView alloc] initWithLabelConfig:CGRectMake(0, 0, self.view.nim_width,0) size:self.viewDay];
+        self.sessionInputView = [[CellTingView alloc] initWithLabelConfig:CGRectMake(0, 0, self.view.nim_width,0) size:self.sessionConfig];
         //: self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         //: [self.sessionInputView setSession:self.session];
@@ -1722,16 +1722,16 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: self.messageForMenu = nil;
     self.messageForMenu = nil;
     //: [self.interactor setReferenceMessage:nil];
-    [self.interactor setRadiogram:nil];
+    [self.interactor setReferenceMessage:nil];
 
     //: if ([self.sessionConfig respondsToSelector:@selector(clearThreadMessageAfterSent)])
-    if ([self.viewDay respondsToSelector:@selector(administrativeDivision)])
+    if ([self.sessionConfig respondsToSelector:@selector(administrativeDivision)])
     {
         //: if ([self.sessionConfig clearThreadMessageAfterSent])
-        if ([self.viewDay administrativeDivision])
+        if ([self.sessionConfig administrativeDivision])
         {
             //: [self.sessionConfig cleanThreadMessage];
-            [self.viewDay input];
+            [self.sessionConfig input];
         }
     }
 }
@@ -1894,7 +1894,7 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setRadiogram:message];
+    [self.interactor setReferenceMessage:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -1923,7 +1923,7 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setRadiogram:message];
+    [self.interactor setReferenceMessage:message];
 
     //: handle = [self shouldShowMenuByMessage:message];
     handle = [self arrayProviderMessage:message];
@@ -1944,7 +1944,7 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setRadiogram:message];
+    [self.interactor setReferenceMessage:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -1965,10 +1965,10 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: BOOL disable = NO;
     BOOL disable = NO;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableAudioPlayedStatusIcon)])
-    if ([self.viewDay respondsToSelector:@selector(sonogramInput)])
+    if ([self.sessionConfig respondsToSelector:@selector(sonogramInput)])
     {
         //: disable = [self.sessionConfig disableAudioPlayedStatusIcon];
-        disable = [self.viewDay sonogramInput];
+        disable = [self.sessionConfig sonogramInput];
     }
     //: return disable;
     return disable;
@@ -2035,7 +2035,7 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
 //: #pragma mark - 配置项
 #pragma mark - 配置项
 //: - (id<FFFSessionConfig>)sessionConfig
-- (id<BlueConfig>)viewDay
+- (id<BlueConfig>)sessionConfig
 {
     //: return nil; 
     return nil; //使用默认配置
@@ -2050,9 +2050,9 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableReceiveNewMessages)]) {
-    if ([self.viewDay respondsToSelector:@selector(openSize)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(openSize)]) {
         //: should = ![self.sessionConfig disableReceiveNewMessages];
-        should = ![self.viewDay openSize];
+        should = ![self.sessionConfig openSize];
     }
     //: return should;
     return should;
@@ -2067,9 +2067,9 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableInputView)]) {
-    if ([self.viewDay respondsToSelector:@selector(backgroundManager)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(backgroundManager)]) {
         //: should = ![self.sessionConfig disableInputView];
-        should = ![self.viewDay backgroundManager];
+        should = ![self.sessionConfig backgroundManager];
     }
     //: return should;
     return should;
@@ -2083,9 +2083,9 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: NIMAudioType type = NIMAudioTypeAAC;
     NIMAudioType type = NIMAudioTypeAAC;
     //: if ([self.sessionConfig respondsToSelector:@selector(recordType)]) {
-    if ([self.viewDay respondsToSelector:@selector(containerLinkType)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(containerLinkType)]) {
         //: type = [self.sessionConfig recordType];
-        type = [self.viewDay containerLinkType];
+        type = [self.sessionConfig containerLinkType];
     }
     //: return type;
     return type;
@@ -2098,9 +2098,9 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: BOOL needProximityMonitor = YES;
     BOOL needProximityMonitor = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableProximityMonitor)]) {
-    if ([self.viewDay respondsToSelector:@selector(individualIcon)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(individualIcon)]) {
         //: needProximityMonitor = !self.sessionConfig.disableProximityMonitor;
-        needProximityMonitor = !self.viewDay.individualIcon;
+        needProximityMonitor = !self.sessionConfig.individualIcon;
     }
     //: return needProximityMonitor;
     return needProximityMonitor;
@@ -2183,7 +2183,7 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
 }
 
 //: - (void)onTapMenuItemCopy:(FFFMediaItem *)item
-- (void)shouldDuplicationCopy:(ChangeMax *)item
+- (void)onTapMenuItemCopy:(ChangeMax *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -2925,16 +2925,16 @@ Byte kStr_fifteenRapData[] = {95, 7, 86, 13, 119, 85, 52, 30, 53, 82, 99, 34, 23
     //: NSArray *items;
     NSArray *items;
     //: if (!self.sessionConfig)
-    if (!self.viewDay)
+    if (!self.sessionConfig)
     {
         //: items = [[MyUserKit sharedKit].config defaultMenuItemsWithMessage:message];
         items = [[Notice fullKit].config greenTextMessage:message];
     }
     //: else if([self.sessionConfig respondsToSelector:@selector(menuItemsWithMessage:)])
-    else if([self.viewDay respondsToSelector:@selector(colorMessage:)])
+    else if([self.sessionConfig respondsToSelector:@selector(colorMessage:)])
     {
         //: items = [self.sessionConfig menuItemsWithMessage:message];
-        items = [self.viewDay colorMessage:message];
+        items = [self.sessionConfig colorMessage:message];
     }
 
     //: [items enumerateObjectsUsingBlock:^(FFFMediaItem *item, NSUInteger idx, BOOL *stop) {

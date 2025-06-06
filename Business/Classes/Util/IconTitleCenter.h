@@ -13,7 +13,7 @@
 //: @class NTESCustomNotificationDB;
 @class ShouldDb;
 
-//: extern NSString *NTESCustomNotificationCountChanged;
+//: extern NSString *let_kitData;
 extern NSString *let_kitData;
 
 //: @interface NTESNotificationCenter : NSObject

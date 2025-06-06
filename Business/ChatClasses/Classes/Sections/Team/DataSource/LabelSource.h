@@ -173,7 +173,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NIMTeam *)countChild;
 
 //: - (NIMSession *)session;
-- (NIMSession *)view;
+- (NIMSession *)session;
 
 //: - (NSInteger)memberNumber;
 - (NSInteger)delay;
