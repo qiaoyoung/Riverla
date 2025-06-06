@@ -34,8 +34,8 @@ Byte kStr_capableName[] = {71, 12, 43, 6, 40, 97, 58, 66, 68, 63, 62, 52, 55, 54
 #import "UIViewNimKit.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Notice.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: const NSInteger FFFInputEmoticonTabViewHeight = 44;
 const NSInteger let_pathData = 44;

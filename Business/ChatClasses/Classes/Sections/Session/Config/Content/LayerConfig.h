@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "ViewBaseSessionContentConfig.h"
+#import "ViewBaseSessionContentConfig.h"
 
 //: @interface FFFUnsupportContentConfig : NSObject<CCCSessionContentConfig>
 @interface LayerConfig : NSObject<ProvenanceConfig>

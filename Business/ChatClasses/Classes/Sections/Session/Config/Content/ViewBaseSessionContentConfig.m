@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFBaseSessionContentConfig.m
+//  ViewBaseSessionContentConfig.m
 // Notice
 //
 //  Created by amao on 9/15/15.
@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "ViewBaseSessionContentConfig.h"
+#import "ViewBaseSessionContentConfig.h"
 //: #import "FFFTextContentConfig.h"
 #import "CustomConfig.h"
 //: #import "FFFImageContentConfig.h"

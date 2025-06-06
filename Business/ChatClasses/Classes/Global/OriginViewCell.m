@@ -30,8 +30,8 @@ Byte kStr_apparentModelActivityTitle[] = {1, 20, 9, 13, 169, 43, 195, 254, 88, 1
 #import "OriginViewCell.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Notice.h"
 

@@ -20,8 +20,8 @@ Byte kStr_brainValue[] = {15, 20, 64, 14, 241, 89, 94, 136, 134, 162, 143, 235, 
 // __M_A_C_R_O__
 //: #import "FFFSessionTimestampCell.h"
 #import "MMaxView.h"
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
+//: #import "ViewCellConfig.h"
+#import "ViewCellConfig.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "FFFTimestampModel.h"

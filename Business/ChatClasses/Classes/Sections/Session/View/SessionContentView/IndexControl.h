@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "FFFSessionMessageContentView.h"
 #import "NoticeBlueView.h"
-//: #import "FFFKitDependency.h"
-#import "FFFKitDependency.h"
+//: #import "ViewKitDependency.h"
+#import "ViewKitDependency.h"
 
 //: @interface FFFSessionNetChatNotifyContentView : FFFSessionMessageContentView
 @interface IndexControl : NoticeBlueView

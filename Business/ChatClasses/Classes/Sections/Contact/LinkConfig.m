@@ -36,8 +36,8 @@ RepresentationData kStr_dualRelativelyName = (RepresentationData){89, (Byte []){
 #import "LinkConfig.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 //: #import "UserGroupedData.h"
 #import "InheritanceData.h"
 //: #import "MyUserKit.h"

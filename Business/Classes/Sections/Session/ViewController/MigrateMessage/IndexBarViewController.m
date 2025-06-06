@@ -72,8 +72,8 @@ Byte kStr_listenName[] = {45, 18, 20, 4, 210, 136, 152, 209, 136, 156, 210, 162,
 // __M_A_C_R_O__
 //: #import "NTESMigrateMessageViewController.h"
 #import "IndexBarViewController.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 //: #import "FFFCommonTableDelegate.h"
 #import "IndexShow.h"
 //: #import "SVProgressHUD.h"

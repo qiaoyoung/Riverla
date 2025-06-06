@@ -36,8 +36,8 @@ Byte kStr_debtData[] = {26, 8, 47, 14, 149, 228, 159, 151, 173, 47, 224, 219, 33
 #import "UIImage+Notice.h"
 //: #import "FFFTeamHelper.h"
 #import "ScaleHelper.h"
-//: #import "FFFCardDataSourceProtocol.h"
-#import "FFFCardDataSourceProtocol.h"
+//: #import "ViewCardDataSourceProtocol.h"
+#import "ViewCardDataSourceProtocol.h"
 
 //: NSString *const kTeamMember = @"kTeamMember";
 NSString *const let_messageName = @"kTeamMember";

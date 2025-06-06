@@ -40,8 +40,8 @@ Byte kStr_minorWhoeverName[] = {5, 27, 90, 13, 231, 115, 240, 11, 11, 156, 38, 1
 // __M_A_C_R_O__
 //: #import "NTESNoticationUtil.h"
 #import "CustomBackUtil.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: @implementation NTESNoticationUtil
 @implementation CustomBackUtil

@@ -28,8 +28,8 @@ FightData kStr_pureData = (FightData){75, (Byte []){5, 31, 14, 24, 8, 35, 42, 63
 #import "ColorConfig.h"
 //: #import "M80AttributedLabel+MyUserKit.h"
 #import "PopScrollView+Notice.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: @interface NTESChatroomTextContentConfig()
 @interface ColorConfig()

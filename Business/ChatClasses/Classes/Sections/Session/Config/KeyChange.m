@@ -23,8 +23,8 @@
 #import "UIImage+Notice.h"
 //: #import "FFFMessageModel.h"
 #import "MaxLink.h"
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "ViewBaseSessionContentConfig.h"
+#import "ViewBaseSessionContentConfig.h"
 //: #import "MyUserKit.h"
 #import "Notice.h"
 

@@ -17,8 +17,8 @@
 #import "UIViewNimKit.h"
 //: #import "FFFLoadProgressView.h"
 #import "IndependencyView.h"
-//: #import "FFFKitDependency.h"
-#import "FFFKitDependency.h"
+//: #import "ViewKitDependency.h"
+#import "ViewKitDependency.h"
 //: #import <YYImage/YYImage.h>
 #import <YYImage/YYImage.h>
 //: #import "UCZProgressView.h"

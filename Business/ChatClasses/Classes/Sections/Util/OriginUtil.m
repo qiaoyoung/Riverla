@@ -82,8 +82,8 @@ Byte kStr_convictText[] = {79, 4, 17, 8, 78, 108, 45, 211, 87, 122, 125, 118, 20
 #import "OriginUtil.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 //: #import "FFFKitUtil.h"
 #import "UtilizerUtil.h"
 //: #import "MyUserKit.h"

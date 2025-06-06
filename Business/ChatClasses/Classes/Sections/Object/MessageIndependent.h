@@ -11,10 +11,10 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFSessionPrivateProtocol.h"
-#import "FFFSessionPrivateProtocol.h"
-//: #import "FFFSessionConfigurateProtocol.h"
-#import "FFFSessionConfigurateProtocol.h"
+//: #import "ViewSessionPrivateProtocol.h"
+#import "ViewSessionPrivateProtocol.h"
+//: #import "ViewSessionConfigurateProtocol.h"
+#import "ViewSessionConfigurateProtocol.h"
 
 //: @interface FFFSessionInteractorImpl : NSObject<NIMSessionInteractor,NIMSessionLayoutDelegate>
 @interface MessageIndependent : NSObject<ShowBlock,LayoutCustom>

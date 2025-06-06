@@ -22,8 +22,8 @@ Byte kStr_furnitureName[] = {88, 14, 13, 10, 120, 182, 46, 134, 185, 59, 64, 64,
 #import "IndexViewCell.h"
 //: #import "FFFAvatarImageView.h"
 #import "ViewControl.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 //: #import "UIView+NTES.h"
 #import "UIView+InfoByMargin.h"
 

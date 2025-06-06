@@ -262,8 +262,8 @@ Byte kStr_responsibilityName[] = {7, 15, 51, 6, 114, 26, 134, 120, 127, 121, 83,
 #import "FaceVideo.h"
 //: #import <CoreTelephony/CTCellularData.h>
 #import <CoreTelephony/CTCellularData.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 //: #import "AppDelegate.h"
 #import "AppDelegate.h"
 //: #import "CCCAutoLoginManager.h"

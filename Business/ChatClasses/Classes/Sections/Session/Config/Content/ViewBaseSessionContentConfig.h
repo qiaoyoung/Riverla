@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFBaseSessionContentConfig.h
+//  ViewBaseSessionContentConfig.h
 // Notice
 //
 //  Created by amao on 9/15/15.
@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: @protocol CCCSessionContentConfig <NSObject>
 @protocol ProvenanceConfig <NSObject>

@@ -24,8 +24,8 @@ Byte kStr_childTitle[] = {66, 25, 21, 5, 175, 76, 78, 95, 84, 97, 84, 95, 100, 7
 // __M_A_C_R_O__
 //: #import "NTESCardVerificationCell.h"
 #import "ColorViewCell.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 
 //: @interface NTESCardVerificationCell ()<UITextViewDelegate>
 @interface ColorViewCell ()<UITextViewDelegate>

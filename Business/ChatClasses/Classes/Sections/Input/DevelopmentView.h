@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import "FFFSessionConfig.h"
 #import "BlueConfig.h"
-//: #import "FFFInputProtocol.h"
-#import "FFFInputProtocol.h"
+//: #import "ViewInputProtocol.h"
+#import "ViewInputProtocol.h"
 //: #import "CustomAlbumPickerView.h"
 #import "OffenseView.h"
 

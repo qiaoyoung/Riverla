@@ -46,8 +46,8 @@ Byte kStr_albumValue[] = {80, 8, 7, 13, 195, 80, 176, 232, 37, 54, 137, 147, 101
 #import "NSBundle+Notice.h"
 //: #import "MyUserKit.h"
 #import "Notice.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+//: #import "ViewInputEmoticonDefine.h"
+#import "ViewInputEmoticonDefine.h"
 //: #import "SSZipArchiveManager.h"
 #import "ByManager.h"
 

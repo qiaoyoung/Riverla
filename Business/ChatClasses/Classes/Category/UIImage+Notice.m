@@ -34,8 +34,8 @@ SkillData kStr_planData = (SkillData){232, (Byte []){140, 141, 142, 137, 157, 13
 // __M_A_C_R_O__
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Notice.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+//: #import "ViewInputEmoticonDefine.h"
+#import "ViewInputEmoticonDefine.h"
 //: #import "MyUserKit.h"
 #import "Notice.h"
 //: #import "FFFKitDevice.h"

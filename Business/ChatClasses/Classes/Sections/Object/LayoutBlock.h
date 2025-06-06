@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "FFFSessionConfigurator.h"
 #import "PinConfigurator.h"
-//: #import "FFFSessionPrivateProtocol.h"
-#import "FFFSessionPrivateProtocol.h"
+//: #import "ViewSessionPrivateProtocol.h"
+#import "ViewSessionPrivateProtocol.h"
 
 //: @interface FFFSessionLayoutImpl : NSObject<NIMSessionLayout>
 @interface LayoutBlock : NSObject<InfoPicture>

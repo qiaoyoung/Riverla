@@ -402,13 +402,13 @@ Byte kStr_messageLeaseData[] = {38, 11, 31, 4, 140, 132, 141, 148, 126, 145, 132
 - (NSArray<NSNumber *> *)upwardsCell{
     //: return @[
     return @[
-//        @(FFFInputBarItemTypeMore),
-//        @(FFFInputBarItemTypeEmoticon),
-//             @(FFFInputBarItemTypeVoice),
-             //: @(FFFInputBarItemTypeTextAndRecord),
-             @(FFFInputBarItemTypeTextAndRecord),
-        //: @(FFFInputBarItemTypeSend),
-        @(FFFInputBarItemTypeSend),
+//        @(ViewInputBarItemTypeMore),
+//        @(ViewInputBarItemTypeEmoticon),
+//             @(ViewInputBarItemTypeVoice),
+             //: @(ViewInputBarItemTypeTextAndRecord),
+             @(ViewInputBarItemTypeTextAndRecord),
+        //: @(ViewInputBarItemTypeSend),
+        @(ViewInputBarItemTypeSend),
             //: ];
             ];
 }

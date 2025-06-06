@@ -11,14 +11,14 @@
 // __M_A_C_R_O__
 //: #import "FFFCommonTableDelegate.h"
 #import "IndexShow.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 //: #import "FFFCommonTableViewCell.h"
 #import "DoingCell.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: static NSString *DefaultTableCell = @"UITableViewCell";
 static NSString *let_contentTapValue = @"UITableViewCell";

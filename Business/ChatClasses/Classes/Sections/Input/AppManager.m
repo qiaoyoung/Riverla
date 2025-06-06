@@ -52,8 +52,8 @@ Byte kStr_utilityValue[] = {89, 3, 8, 29, 243, 190, 12, 255, 102, 105, 103, 16};
 // __M_A_C_R_O__
 //: #import "FFFInputEmoticonManager.h"
 #import "AppManager.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+//: #import "ViewInputEmoticonDefine.h"
+#import "ViewInputEmoticonDefine.h"
 //: #import "NSString+MyUserKit.h"
 #import "NSString+Notice.h"
 //: #import "MyUserKit.h"

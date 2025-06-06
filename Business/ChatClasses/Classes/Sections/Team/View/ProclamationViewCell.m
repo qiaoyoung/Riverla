@@ -44,8 +44,8 @@ Byte kStr_breadImposeValue[] = {65, 11, 16, 9, 172, 189, 184, 153, 56, 61, 61, 2
 // __M_A_C_R_O__
 //: #import "FFFTeamAnnouncementListCell.h"
 #import "ProclamationViewCell.h"
-//: #import "FFFUsrInfoData.h"
-#import "FFFUsrInfoData.h"
+//: #import "ViewUsrInfoData.h"
+#import "ViewUsrInfoData.h"
 //: #import "FFFKitUtil.h"
 #import "UtilizerUtil.h"
 //: #import "M80AttributedLabel.h"

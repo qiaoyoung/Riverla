@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "ViewBaseSessionContentConfig.h"
+#import "ViewBaseSessionContentConfig.h"
 
 //: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN

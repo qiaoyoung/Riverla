@@ -15,10 +15,10 @@
 #import <NIMSDK/NIMSDK.h>
 //: #import "FFFSessionConfig.h"
 #import "BlueConfig.h"
-//: #import "FFFMessageCellProtocol.h"
-#import "FFFMessageCellProtocol.h"
-//: #import "FFFSessionConfigurateProtocol.h"
-#import "FFFSessionConfigurateProtocol.h"
+//: #import "ViewMessageCellProtocol.h"
+#import "ViewMessageCellProtocol.h"
+//: #import "ViewSessionConfigurateProtocol.h"
+#import "ViewSessionConfigurateProtocol.h"
 //: #import "FFFInputView.h"
 #import "CellTingView.h"
 

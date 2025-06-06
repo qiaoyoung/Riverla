@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFExtensionHelper.m
+//  ViewExtensionHelper.m
 // Notice
 //
 //  Created by amao on 4/25/16.
@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFExtensionHelper.h"
-#import "FFFExtensionHelper.h"
+//: #import "ViewExtensionHelper.h"
+#import "ViewExtensionHelper.h"
 //: #import <objc/runtime.h>
 #import <objc/runtime.h>
 

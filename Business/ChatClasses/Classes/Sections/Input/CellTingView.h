@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFInputProtocol.h"
-#import "FFFInputProtocol.h"
+//: #import "ViewInputProtocol.h"
+#import "ViewInputProtocol.h"
 //: #import "FFFSessionConfig.h"
 #import "BlueConfig.h"
 //: #import "FFFInputToolBar.h"

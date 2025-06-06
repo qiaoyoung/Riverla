@@ -20,8 +20,8 @@ Byte kStr_shouldFreedomValue[] = {32, 7, 48, 6, 70, 216, 243, 17, 1, 4, 8, 22, 2
 // __M_A_C_R_O__
 //: #import "FFFKitSwitcherCell.h"
 #import "MailView.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 

@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFGroupedUsrInfo.h"
-#import "FFFGroupedUsrInfo.h"
+//: #import "ViewGroupedUsrInfo.h"
+#import "ViewGroupedUsrInfo.h"
 //: #import "FFFSpellingCenter.h"
 #import "TeamIndex.h"
 //: #import "FFFKitInfoFetchOption.h"

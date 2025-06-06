@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFInputProtocol.h
+//  ViewInputProtocol.h
 // Notice
 //
 //  Created by chris.

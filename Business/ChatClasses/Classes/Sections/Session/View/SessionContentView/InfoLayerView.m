@@ -21,8 +21,8 @@
 #import "Notice.h"
 //: #import "NSString+MyUserKit.h"
 #import "NSString+Notice.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: @interface FFFSessionUnknowContentView()
 @interface InfoLayerView()

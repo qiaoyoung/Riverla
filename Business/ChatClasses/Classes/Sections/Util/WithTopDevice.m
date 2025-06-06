@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "FFFKitDevice.h"
 #import "WithTopDevice.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: @interface FFFKitDevice ()
 @interface WithTopDevice ()

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-//: #import "FFFMessageCellProtocol.h"
-#import "FFFMessageCellProtocol.h"
+//: #import "ViewMessageCellProtocol.h"
+#import "ViewMessageCellProtocol.h"
 //: #import "FFFTimestampModel.h"
 #import "IndexIcon.h"
 

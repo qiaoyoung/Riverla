@@ -11,10 +11,10 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFSessionConfigurateProtocol.h"
-#import "FFFSessionConfigurateProtocol.h"
-//: #import "FFFSessionPrivateProtocol.h"
-#import "FFFSessionPrivateProtocol.h"
+//: #import "ViewSessionConfigurateProtocol.h"
+#import "ViewSessionConfigurateProtocol.h"
+//: #import "ViewSessionPrivateProtocol.h"
+#import "ViewSessionPrivateProtocol.h"
 //: #import "FFFSessionConfig.h"
 #import "BlueConfig.h"
 

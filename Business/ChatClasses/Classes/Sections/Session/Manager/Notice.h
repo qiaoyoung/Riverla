@@ -24,14 +24,14 @@
 #import "MaxLink.h"         //message Wrapper
 //: #import "FFFKitMessageProvider.h"
 #import "OriginMessageLength.h"
-//: #import "FFFCellConfig.h"           //message cell配置协议
-#import "FFFCellConfig.h"           //message cell配置协议
-//: #import "FFFInputProtocol.h"        //输入框回调
-#import "FFFInputProtocol.h"        //输入框回调
+//: #import "ViewCellConfig.h"           //message cell配置协议
+#import "ViewCellConfig.h"           //message cell配置协议
+//: #import "ViewInputProtocol.h"        //输入框回调
+#import "ViewInputProtocol.h"        //输入框回调
 //: #import "FFFKitDataProvider.h"      //APP内容提供器
 #import "ByBackVideo.h"      //APP内容提供器
-//: #import "FFFMessageCellProtocol.h"  //message cell事件回调
-#import "FFFMessageCellProtocol.h"  //message cell事件回调
+//: #import "ViewMessageCellProtocol.h"  //message cell事件回调
+#import "ViewMessageCellProtocol.h"  //message cell事件回调
 //: #import "FFFSessionConfig.h"        //会话页面配置
 #import "BlueConfig.h"        //会话页面配置
 //: #import "FFFKitEvent.h"             //点击事件封装类
@@ -48,8 +48,8 @@
 #import "CouvadeViewController.h"
 //: #import "FFFKitIndependentModeExtraInfo.h"
 #import "ContainerInfo.h"
-//: #import "FFFChatUIManagerProtocol.h"
-#import "FFFChatUIManagerProtocol.h"
+//: #import "ViewChatUIManagerProtocol.h"
+#import "ViewChatUIManagerProtocol.h"
 //: #import "FFFCollectionViewLeftAlignedLayout.h"
 #import "MaxFlowLayout.h"
 //: #import "FFFKitQuickCommentUtil.h"

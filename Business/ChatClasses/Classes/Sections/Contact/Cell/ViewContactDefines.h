@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFContactDefines.h
+//  ViewContactDefines.h
 //  NIM
 //
 //  Created by chris on 15/2/26.

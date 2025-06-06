@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: @interface FFFKitUtil : NSObject
 @interface UtilizerUtil : NSObject

@@ -36,8 +36,8 @@ Byte kStr_roofValue[] = {38, 7, 9, 127, 49, 217, 66, 231, 103, 65, 70, 55, 70, 5
 // __M_A_C_R_O__
 //: #import "FFFTeamCardSelectedViewController.h"
 #import "HeritageViewController.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 //: #import "FFFTeamCartSetTableViewCell.h"
 #import "LineamentViewCell.h"
 

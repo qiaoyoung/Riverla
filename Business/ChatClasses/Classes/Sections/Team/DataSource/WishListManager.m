@@ -64,8 +64,8 @@ Byte kStr_surgeLearnValue[] = {49, 21, 6, 162, 144, 223, 140, 135, 233, 164, 190
 // __M_A_C_R_O__
 //: #import "FFFTeamListDataManager.h"
 #import "WishListManager.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 //: #import "MyUserKit.h"
 #import "Notice.h"
 

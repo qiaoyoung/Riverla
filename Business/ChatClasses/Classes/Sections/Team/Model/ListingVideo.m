@@ -34,8 +34,8 @@ Byte kStr_cottaGratefulTitle[] = {55, 15, 32, 12, 192, 113, 23, 14, 83, 58, 164,
 #import "ListingVideo.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Notice.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 
 //: @interface FFFCardOperationItem()
 @interface ListingVideo()

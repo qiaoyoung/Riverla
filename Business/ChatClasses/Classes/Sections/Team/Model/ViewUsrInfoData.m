@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFUsrInfoData.h"
-#import "FFFUsrInfoData.h"
+//: #import "ViewUsrInfoData.h"
+#import "ViewUsrInfoData.h"
 //: #import "FFFSpellingCenter.h"
 #import "TeamIndex.h"
 //: #import "MyUserKit.h"

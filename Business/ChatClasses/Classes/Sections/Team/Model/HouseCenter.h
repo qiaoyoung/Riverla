@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFUsrInfoData.h"
-#import "FFFUsrInfoData.h"
+//: #import "ViewUsrInfoData.h"
+#import "ViewUsrInfoData.h"
 
 //: @interface FFFTeamInfoData : NSObject<NIMGroupMemberProtocol>
 @interface HouseCenter : NSObject<BoardMemberLayer>

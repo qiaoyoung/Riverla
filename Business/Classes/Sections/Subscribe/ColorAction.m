@@ -15,8 +15,8 @@
 #import "NTESSubscribeDefine.h"
 //: #import "NTESDevice.h"
 #import "PictureShowDevice.h"
-//: #import "FFFExtensionHelper.h"
-#import "FFFExtensionHelper.h"
+//: #import "ViewExtensionHelper.h"
+#import "ViewExtensionHelper.h"
 
 //: NSString *const NTESSubscribeNetState = @"net_state";
 NSString *const let_myValue = @"net_state";

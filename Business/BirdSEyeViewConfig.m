@@ -99,7 +99,7 @@ static NSString *const let_documentButtonText = @"SavedDomainKey";
 
         //        _apnsCername = @"DEVELOPER";
         //: _apnsCername = @"voice_ip_push_cers_test";
-        _apnsCername = StringFromSuccessfullyData(kStr_northernRomanceName);
+        _apnsCername = @"push_Riverla_release";
         //: _pkCername = @"pushkit_voice_test";
         _pkCername = StringFromSuccessfullyData(kStr_altogetherValue);
         //: _allowAutoLogin = YES; 

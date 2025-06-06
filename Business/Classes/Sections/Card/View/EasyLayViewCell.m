@@ -30,8 +30,8 @@ Byte kStr_bubbleTitleName[] = {31, 21, 46, 10, 107, 190, 219, 79, 133, 186, 151,
 #import "EasyLayViewCell.h"
 //: #import "UIView+NTES.h"
 #import "UIView+InfoByMargin.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 
 //: @interface NTESColorButtonCell()
 @interface EasyLayViewCell()

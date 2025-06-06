@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFCardDataSourceProtocol.h"
-#import "FFFCardDataSourceProtocol.h"
+//: #import "ViewCardDataSourceProtocol.h"
+#import "ViewCardDataSourceProtocol.h"
 
 //: typedef void(^NIMTeamCardRowSelectedBlock)(id <FFFKitSelectCardData> item);
 typedef void(^NIMTeamCardRowSelectedBlock)(id <FFFKitSelectCardData> item);

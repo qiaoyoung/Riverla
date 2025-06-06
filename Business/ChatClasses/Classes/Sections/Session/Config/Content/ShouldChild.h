@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "ViewBaseSessionContentConfig.h"
+#import "ViewBaseSessionContentConfig.h"
 
 //: @interface FFFLocationContentConfig : NSObject<CCCSessionContentConfig>
 @interface ShouldChild : NSObject<ProvenanceConfig>

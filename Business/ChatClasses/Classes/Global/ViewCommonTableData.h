@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFCommonTableData.h
+//  ViewCommonTableData.h
 //  NIM
 //
 //  Created by chris on 15/6/26.

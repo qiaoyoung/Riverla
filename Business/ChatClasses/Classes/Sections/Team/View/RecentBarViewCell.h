@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import "MyUserKit.h"
 #import "Notice.h"
-//: #import "FFFCardDataSourceProtocol.h"
-#import "FFFCardDataSourceProtocol.h"
+//: #import "ViewCardDataSourceProtocol.h"
+#import "ViewCardDataSourceProtocol.h"
 
 //: @class FFFAvatarImageView;
 @class ViewControl;

@@ -280,8 +280,8 @@ Byte kStr_taleText[] = {19, 10, 8, 254, 60, 145, 138, 130, 103, 114, 117, 111, 9
 // __M_A_C_R_O__
 //: #import "NTESMainCenterViewController.h"
 #import "MainViewController.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 //: #import "FFFCommonTableDelegate.h"
 #import "IndexShow.h"
 //: #import "SVProgressHUD.h"

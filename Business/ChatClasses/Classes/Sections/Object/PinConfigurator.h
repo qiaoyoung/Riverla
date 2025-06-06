@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "FFFSessionViewController.h"
 #import "BarOriginViewController.h"
-//: #import "FFFSessionConfigurateProtocol.h"
-#import "FFFSessionConfigurateProtocol.h"
+//: #import "ViewSessionConfigurateProtocol.h"
+#import "ViewSessionConfigurateProtocol.h"
 
 //: @class FFFSessionViewController;
 @class BarOriginViewController;

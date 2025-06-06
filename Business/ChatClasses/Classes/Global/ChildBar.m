@@ -108,8 +108,8 @@ Byte kStr_usefulSnakeValue[] = {37, 11, 9, 210, 229, 129, 120, 102, 91, 125, 53,
 // __M_A_C_R_O__
 //: #import "FFFKitConfig.h"
 #import "ChildBar.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 //: #import "FFFMediaItem.h"
 #import "ChangeMax.h"
 //: #import "UIImage+MyUserKit.h"

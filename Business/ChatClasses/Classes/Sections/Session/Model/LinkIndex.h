@@ -15,10 +15,10 @@
 #import "CompartmentInputView.h"
 //: #import "FFFSessionTimestampCell.h"
 #import "MMaxView.h"
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
-//: #import "FFFMessageCellProtocol.h"
-#import "FFFMessageCellProtocol.h"
+//: #import "ViewCellConfig.h"
+#import "ViewCellConfig.h"
+//: #import "ViewMessageCellProtocol.h"
+#import "ViewMessageCellProtocol.h"
 
 //: @interface FFFMessageCellFactory : NSObject
 @interface LinkIndex : NSObject

@@ -42,8 +42,8 @@ Byte kStr_balloonText[] = {16, 7, 57, 6, 199, 218, 92, 122, 106, 109, 113, 127, 
 #import "UIViewNimKit.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Notice.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "ViewGlobalMacro.h"
+#import "ViewGlobalMacro.h"
 //: #import "MyUserKit.h"
 #import "Notice.h"
 

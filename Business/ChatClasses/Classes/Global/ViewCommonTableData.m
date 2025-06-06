@@ -74,7 +74,7 @@ Byte kStr_hairHighwayData[] = {73, 12, 17, 14, 112, 106, 112, 249, 237, 157, 189
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFCommonTableData.m
+//  ViewCommonTableData.m
 //  NIM
 //
 //  Created by chris on 15/6/26.
@@ -82,8 +82,8 @@ Byte kStr_hairHighwayData[] = {73, 12, 17, 14, 112, 106, 112, 249, 237, 157, 189
 //
 
 // __M_A_C_R_O__
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "ViewCommonTableData.h"
+#import "ViewCommonTableData.h"
 
 //: @implementation NIMCommonTableSection
 @implementation UserSection

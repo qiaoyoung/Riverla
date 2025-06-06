@@ -40,8 +40,8 @@ Byte kStr_partVersionTitle[] = {97, 28, 93, 6, 199, 82, 12, 6, 18, 17, 2, 23, 18
 #import "UIViewNimKit.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Notice.h"
-//: #import "FFFInputBarItemType.h"
-#import "FFFInputBarItemType.h"
+//: #import "ViewInputBarItemType.h"
+#import "ViewInputBarItemType.h"
 //: #import "FFFInputEmoticonManager.h"
 #import "AppManager.h"
 //: #import "YYText.h"
@@ -176,13 +176,13 @@ Byte kStr_partVersionTitle[] = {97, 28, 93, 6, 199, 82, 12, 6, 18, 17, 2, 23, 18
 
         //: self.types = @[
         self.types = @[
-//            @(FFFInputBarItemTypeMore),
-//            @(FFFInputBarItemTypeEmoticon),
-//                         @(FFFInputBarItemTypeVoice),
-                         //: @(FFFInputBarItemTypeTextAndRecord),
-                         @(FFFInputBarItemTypeTextAndRecord),
-                         //: @(FFFInputBarItemTypeSend),
-                         @(FFFInputBarItemTypeSend),
+//            @(ViewInputBarItemTypeMore),
+//            @(ViewInputBarItemTypeEmoticon),
+//                         @(ViewInputBarItemTypeVoice),
+                         //: @(ViewInputBarItemTypeTextAndRecord),
+                         @(ViewInputBarItemTypeTextAndRecord),
+                         //: @(ViewInputBarItemTypeSend),
+                         @(ViewInputBarItemTypeSend),
 
                        //: ];
                        ];
@@ -261,7 +261,7 @@ Byte kStr_partVersionTitle[] = {97, 28, 93, 6, 199, 82, 12, 6, 18, 17, 2, 23, 18
 {
 //    CGFloat textViewWidth = 0;
 //    for (NSNumber *type in self.types) {
-//        if (type.integerValue == FFFInputBarItemTypeTextAndRecord) {
+//        if (type.integerValue == ViewInputBarItemTypeTextAndRecord) {
 //            continue;
 //        }
 //        UIView *view = [self subViewForType:type.integerValue];
@@ -338,8 +338,8 @@ Byte kStr_partVersionTitle[] = {97, 28, 93, 6, 199, 82, 12, 6, 18, 17, 2, 23, 18
 //: - (void)adjustTextAndRecordView
 - (void)belowLoad
 {
-    //: if ([self.types containsObject:@(FFFInputBarItemTypeTextAndRecord)])
-    if ([self.types containsObject:@(FFFInputBarItemTypeTextAndRecord)])
+    //: if ([self.types containsObject:@(ViewInputBarItemTypeTextAndRecord)])
+    if ([self.types containsObject:@(ViewInputBarItemTypeTextAndRecord)])
     {
 //        self.inputTextView.center  = self.inputTextBkgImage.center;
 
@@ -538,19 +538,19 @@ Byte kStr_partVersionTitle[] = {97, 28, 93, 6, 199, 82, 12, 6, 18, 17, 2, 23, 18
 
 //: #pragma mark - Get
 #pragma mark - Get
-//: - (UIView *)subViewForType:(FFFInputBarItemType)type{
-- (UIView *)rubric:(FFFInputBarItemType)type{
+//: - (UIView *)subViewForType:(ViewInputBarItemType)type{
+- (UIView *)rubric:(ViewInputBarItemType)type{
     //: if (!_dict) {
     if (!_dict) {
         //: _dict = @{
         _dict = @{
-//                  @(FFFInputBarItemTypeVoice) : self.voiceButton,
-//                  @(FFFInputBarItemTypeTextAndRecord)  : self.inputTextBkgImage,
-                  //: @(FFFInputBarItemTypeEmoticon) : self.emoticonBtn,
-                  @(FFFInputBarItemTypeEmoticon) : self.emoticonBtn,
-//                  @(FFFInputBarItemTypeMore)     : self.moreMediaBtn,
-                  //: @(FFFInputBarItemTypeSend) : self.sendButton,
-                  @(FFFInputBarItemTypeSend) : self.sendButton,
+//                  @(ViewInputBarItemTypeVoice) : self.voiceButton,
+//                  @(ViewInputBarItemTypeTextAndRecord)  : self.inputTextBkgImage,
+                  //: @(ViewInputBarItemTypeEmoticon) : self.emoticonBtn,
+                  @(ViewInputBarItemTypeEmoticon) : self.emoticonBtn,
+//                  @(ViewInputBarItemTypeMore)     : self.moreMediaBtn,
+                  //: @(ViewInputBarItemTypeSend) : self.sendButton,
+                  @(ViewInputBarItemTypeSend) : self.sendButton,
                 //: };
                 };
     }

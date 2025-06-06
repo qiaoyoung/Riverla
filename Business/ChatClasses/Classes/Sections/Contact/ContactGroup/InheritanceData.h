@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFContactDefines.h"
-#import "FFFContactDefines.h"
+//: #import "ViewContactDefines.h"
+#import "ViewContactDefines.h"
 
 //: @interface UserGroupedData : NSObject
 @interface InheritanceData : NSObject
