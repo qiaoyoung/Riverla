@@ -1,6 +1,6 @@
 platform :ios, '12.0'
 
-target 'Riverla' do
+target 'Neeyo' do
    use_frameworks!
 
   # 云信基础SDK
@@ -52,4 +52,3 @@ post_install do |installer|
     end
   end
 end
-

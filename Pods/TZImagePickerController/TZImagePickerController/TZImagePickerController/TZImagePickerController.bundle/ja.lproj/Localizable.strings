@@ -24,3 +24,6 @@
 "Allow %@ to access your album in \"Settings -> Privacy -> Photos\"" = "iPhoneの「設定-プライバシー-写真」のオプションで、r%@の携帯電話のアルバムへのアクセス権限を許可してください。";
 "Please allow %@ to access your camera in \"Settings -> Privacy -> Camera\"" = "iPhoneの「設定-プライバシー-カメラ」で、%@のカメラへのアクセス権限を許可してください。";
 "Selected for %ld seconds" = "%ld 秒間選択されました";
+"Allow %@ to access your all photos" = "%@があなたのすべての写真にアクセスすることを許可する";
+"Add more accessible photos" = "さらにアクセス可能な写真を追加する";
+"Recents" = "最近の写真";
