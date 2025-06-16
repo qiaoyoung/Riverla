@@ -76,7 +76,7 @@
     
     UIImage *image = [UIImage imageNamed:@"icon_receiver_voice_playing_w"];
     _voiceImageView = [[UIImageView alloc] initWithImage:image];
-    NSArray *animateNames = @[@"icon_receiver_voice_playing_001.png",@"icon_receiver_voice_playing_002.png",@"icon_receiver_voice_playing_003.png",@"icon_receiver_voice_playing_004.png",@"icon_receiver_voice_playing_005.png",@"icon_receiver_voice_playing_006.png",@"icon_receiver_voice_playing_007.png",@"icon_receiver_voice_playing_008.png",@"icon_receiver_voice_playing_009.png",@"icon_receiver_voice_playing_010.png"];
+    NSArray *animateNames = @[@"icon_receiver_voice_playing_001",@"icon_receiver_voice_playing_002",@"icon_receiver_voice_playing_003",@"icon_receiver_voice_playing_004",@"icon_receiver_voice_playing_005",@"icon_receiver_voice_playing_006",@"icon_receiver_voice_playing_007",@"icon_receiver_voice_playing_008",@"icon_receiver_voice_playing_009",@"icon_receiver_voice_playing_010"];
     NSMutableArray * animationImages = [[NSMutableArray alloc] initWithCapacity:animateNames.count];
     for (NSString * animateName in animateNames) {
         UIImage * animateImage = [UIImage imageNamed:animateName];
@@ -88,7 +88,7 @@
     _voiceImageView.hidden = YES;
     
     _voiceImageViewleft = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon_receiver_voice_playing"]];
-    NSArray *animateNames2 = @[@"icon_receiver_voice_playing_001.png",@"icon_receiver_voice_playing_002.png",@"icon_receiver_voice_playing_003.png",@"icon_receiver_voice_playing_004.png",@"icon_receiver_voice_playing_005.png",@"icon_receiver_voice_playing_006.png",@"icon_receiver_voice_playing_007.png",@"icon_receiver_voice_playing_008.png",@"icon_receiver_voice_playing_009.png",@"icon_receiver_voice_playing_010.png"];
+    NSArray *animateNames2 = @[@"icon_receiver_voice_playing_001",@"icon_receiver_voice_playing_002",@"icon_receiver_voice_playing_003",@"icon_receiver_voice_playing_004",@"icon_receiver_voice_playing_005",@"icon_receiver_voice_playing_006",@"icon_receiver_voice_playing_007",@"icon_receiver_voice_playing_008",@"icon_receiver_voice_playing_009",@"icon_receiver_voice_playing_010"];
     NSMutableArray *animationImages2 = [[NSMutableArray alloc] initWithCapacity:animateNames2.count];
     for (NSString *animateName2 in animateNames2) {
         UIImage *animateImage2 = [UIImage imageNamed:animateName2];

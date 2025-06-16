@@ -31,7 +31,7 @@
         _doneButton.nim_size = CGSizeMake(MAX(doneButtonNormal.size.width, _doneButton.nim_width + 12.0),
                                           doneButtonNormal.size.height);
         [self addSubview:_doneButton];
-//        self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"contact_bg.png"]];
+//        self.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"contact_bg"]];
         self.backgroundColor = RGB_COLOR_String(@"#ffffff");
         
         UIView *line = [[UIView alloc]initWithFrame:CGRectMake(0, self.nim_height-1, self.nim_width, 1)];

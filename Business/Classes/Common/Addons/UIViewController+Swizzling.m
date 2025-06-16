@@ -29,7 +29,7 @@
 #pragma mark - ViewDidLoad
 - (void)swizzling_viewDidLoad{
     if (self.navigationController) {
-        UIImage *buttonNormal = [[UIImage imageNamed:@"back_white.png"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        UIImage *buttonNormal = [[UIImage imageNamed:@"back_white"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         [self.navigationController.navigationBar setBackIndicatorImage:buttonNormal];
         [self.navigationController.navigationBar setBackIndicatorTransitionMaskImage:buttonNormal];
         UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
