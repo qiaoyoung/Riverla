@@ -660,7 +660,6 @@
 		BC4DF4FE2C54CF7C00FBD937 /* SGQRCodeLog.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DF4E62C54CF7B00FBD937 /* SGQRCodeLog.m */; };
 		BC4DF4FF2C54CF7C00FBD937 /* SGScanCode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DF4E92C54CF7B00FBD937 /* SGScanCode.m */; };
 		BC4DF5002C54CF7C00FBD937 /* SGGenerateQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DF4EC2C54CF7C00FBD937 /* SGGenerateQRCode.m */; };
-		BC4DF5012C54CF7C00FBD937 /* scan_scanline_wc.png in Resources */ = {isa = PBXBuildFile; fileRef = BC4DF4ED2C54CF7C00FBD937 /* scan_scanline_wc.png */; };
 		BC4DF5022C54CF7C00FBD937 /* SGSoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DF4EF2C54CF7C00FBD937 /* SGSoundEffect.m */; };
 		BC4DF5032C54CF7C00FBD937 /* SGPermissionCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DF4F22C54CF7C00FBD937 /* SGPermissionCamera.m */; };
 		BC4DF5042C54CF7C00FBD937 /* SGPermission.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4DF4F32C54CF7C00FBD937 /* SGPermission.m */; };
@@ -1260,7 +1259,6 @@
 		429D409B299A79F500354206 /* FFFCardOperationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFCardOperationItem.h; sourceTree = "<group>"; };
 		429D409C299A79F500354206 /* FFFTeamCardRowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFTeamCardRowItem.h; sourceTree = "<group>"; };
 		429D409D299A79F500354206 /* FFFTeamCardMemberItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFTeamCardMemberItem.h; sourceTree = "<group>"; };
-		429D409E299A79F500354206 /* FFFCardDataSourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFCardDataSourceProtocol.h; sourceTree = "<group>"; };
 		429D409F299A79F500354206 /* FFFTeamInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFTeamInfoData.m; sourceTree = "<group>"; };
 		429D40A0299A79F500354206 /* FFFUsrInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFUsrInfoData.h; sourceTree = "<group>"; };
 		429D40A1299A79F500354206 /* FFFMembersFetchOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFMembersFetchOption.m; sourceTree = "<group>"; };
@@ -1670,6 +1668,7 @@
 		B1F189722E011C6E00E24425 /* SSZipArchiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSZipArchiveManager.m; sourceTree = "<group>"; };
 		B1F189732E011C6E00E24425 /* UIImage+ZipArchive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZipArchive.h"; sourceTree = "<group>"; };
 		B1F189742E011C6E00E24425 /* UIImage+ZipArchive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZipArchive.m"; sourceTree = "<group>"; };
+		B1F189772E01214F00E24425 /* FFFCardDataSourceProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FFFCardDataSourceProtocol.h; sourceTree = "<group>"; };
 		B808E73C26F23E3D00E302F6 /* NTESUserQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESUserQRCodeViewController.h; sourceTree = "<group>"; };
 		B808E73D26F23E3D00E302F6 /* NTESUserQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NTESUserQRCodeViewController.m; sourceTree = "<group>"; };
 		B808E74D26F48B1000E302F6 /* LCQRCodeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCQRCodeUtil.h; sourceTree = "<group>"; };
@@ -1851,7 +1850,6 @@
 		BC4DF4EA2C54CF7C00FBD937 /* SGScanCodeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGScanCodeDelegate.h; sourceTree = "<group>"; };
 		BC4DF4EB2C54CF7C00FBD937 /* SGScanCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGScanCode.h; sourceTree = "<group>"; };
 		BC4DF4EC2C54CF7C00FBD937 /* SGGenerateQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGGenerateQRCode.m; sourceTree = "<group>"; };
-		BC4DF4ED2C54CF7C00FBD937 /* scan_scanline_wc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scan_scanline_wc.png; sourceTree = "<group>"; };
 		BC4DF4EF2C54CF7C00FBD937 /* SGSoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGSoundEffect.m; sourceTree = "<group>"; };
 		BC4DF4F02C54CF7C00FBD937 /* SGSoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGSoundEffect.h; sourceTree = "<group>"; };
 		BC4DF4F22C54CF7C00FBD937 /* SGPermissionCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPermissionCamera.m; sourceTree = "<group>"; };
@@ -3016,7 +3014,6 @@
 				429D4097299A79F500354206 /* FFFTeamCardRowItem.m */,
 				429D40A0299A79F500354206 /* FFFUsrInfoData.h */,
 				429D409A299A79F500354206 /* FFFUsrInfoData.m */,
-				429D409E299A79F500354206 /* FFFCardDataSourceProtocol.h */,
 				429D4098299A79F500354206 /* FFFTeamInfoData.h */,
 				429D409F299A79F500354206 /* FFFTeamInfoData.m */,
 				429D4099299A79F500354206 /* FFFMembersFetchOption.h */,
@@ -3401,6 +3398,7 @@
 				42AC19FC2A63ADC400BA1584 /* SAMKeychain.m */,
 				42AC19FB2A63ADC400BA1584 /* SAMKeychainQuery.h */,
 				42AC19F92A63ADC400BA1584 /* SAMKeychainQuery.m */,
+				B1F189772E01214F00E24425 /* FFFCardDataSourceProtocol.h */,
 			);
 			path = COKeychain;
 			sourceTree = "<group>";
@@ -4565,7 +4563,6 @@
 				BC4DF4E32C54CF7B00FBD937 /* Torch */,
 				BC4DF4E62C54CF7B00FBD937 /* SGQRCodeLog.m */,
 				BC4DF4E72C54CF7B00FBD937 /* QRCode */,
-				BC4DF4ED2C54CF7C00FBD937 /* scan_scanline_wc.png */,
 				BC4DF4EE2C54CF7C00FBD937 /* SoundEffect */,
 				BC4DF4F12C54CF7C00FBD937 /* Permission */,
 				BC4DF4F82C54CF7C00FBD937 /* SGQRCodeLog.h */,
@@ -4747,7 +4744,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC4DF5012C54CF7C00FBD937 /* scan_scanline_wc.png in Resources */,
 				042875E72D8D5C6800DA9BD1 /* fu_zh_fenshu.bundle in Resources */,
 				042875E82D8D5C6800DA9BD1 /* sdx2.bundle in Resources */,
 				042875E92D8D5C6800DA9BD1 /* mu_eyebrow_16.png in Resources */,

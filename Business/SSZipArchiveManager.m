@@ -60,7 +60,7 @@
         return fileResDir;
     }
     
-    NSString *path = [[MyUserKit sharedKit].emoticonBundle pathForResource:kHolisticSaver ofType:@".zip"];
+    NSString *path = [[NeeyoKit sharedKit].emoticonBundle pathForResource:kHolisticSaver ofType:@".zip"];
     if (!path) {
         return @""; // Return empty string if path is nil
     }

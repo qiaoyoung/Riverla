@@ -154,7 +154,7 @@
         
         _btnDelete = [UIButton buttonWithType:UIButtonTypeCustom];
         _btnDelete.frame = CGRectMake(SCREEN_WIDTH-80-40, 16, 24, 24);
-        [_btnDelete addTarget:self action:@selector(handleDeletes:) forControlEvents:UIControlEventTouchUpInside];
+        [_btnDelete addTarget:self action:@selector(showAnimations:) forControlEvents:UIControlEventTouchUpInside];
         [_btnDelete setImage:[UIImage imageNamed:@"icon_accessory_normal"] forState:UIControlStateNormal];
         [_btnDelete setImage:[UIImage imageNamed:@"icon_accessory_selected"] forState:UIControlStateSelected];
         [_deleteView addSubview:_btnDelete];
@@ -167,7 +167,7 @@
     _btnBlock.selected = YES;
     _btnDelete.selected = NO;
 }
-- (void)handleDeletes:(UIButton *)sender{
+- (void)showAnimations:(UIButton *)sender{
     self.type = @"2";
 //    sender.selected = !sender.selected;
     _btnBlock.selected = NO;
@@ -219,7 +219,7 @@
     }
 }
 
-- (void)handleDelete
+- (void)showAnimation
 {
     [self animationClose];
     if ([self.delegate respondsToSelector:@selector(didTouchDeleteButton)]) {
