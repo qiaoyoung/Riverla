@@ -13,6 +13,7 @@
 #import "NeeyoKit.h"
 #import "FFFKitDevice.h"
 #import "NSBundle+NeeyoKit.h"
+#import "SSZipArchiveManager.h"
 
 @implementation FFFInputEmoticonButton
 
@@ -38,8 +39,11 @@
         }
         case NIMEmoticonTypeGif:
         {
-            NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
-            NSData *imageData = [NSData dataWithContentsOfFile:[bundle pathForResource:data.filename ofType:nil inDirectory:NEEKIT_EmojiPath]];
+//            NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//            NSData *imageData = [NSData dataWithContentsOfFile:[bundle pathForResource:data.filename ofType:nil inDirectory:NEEKIT_EmojiPath]];
+            NSString *emojiPath = [[SSZipArchiveManager sharedManager] getEmojiPath];
+            NSString *imagePath = [emojiPath stringByAppendingPathComponent:data.filename];
+            NSData *imageData = [NSData dataWithContentsOfFile:imagePath];
             UIImage *gif = [UIImage sd_imageWithGIFData:imageData];
             [icon setImage:gif forState:UIControlStateNormal];
             [icon setImage:gif forState:UIControlStateHighlighted];

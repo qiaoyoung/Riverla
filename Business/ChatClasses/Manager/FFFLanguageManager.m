@@ -9,6 +9,7 @@
 #import "FFFLanguageManager.h"
 #import "FFFXMLReader.h"
 #import "NeeyoKit.h"
+#import "SSZipArchiveManager.h"
 
 @interface FFFLanguageManager ()<NSXMLParserDelegate>
 @property (nonatomic ,strong) NSString *currentElementName;
@@ -124,13 +125,19 @@ static FFFLanguageManager *shareInstance = nil;
         resourceType = @"ga_strings";
     }
 
-    NSString *xmlFilePath = [[NSBundle mainBundle] pathForResource:resourceType ofType:@"xml"];
+    NSString *xmlFilePath = [[[SSZipArchiveManager sharedManager] getXML_filePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@/%@.xml", langType, resourceType]];
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:xmlFilePath]) {
+        NSLog(@"XML file not found at path: %@", xmlFilePath);
+        return;
+    }
+    
     NSData *xmlData = [NSData dataWithContentsOfFile:xmlFilePath];
-    
-//    NSXMLParser *xmlParser = [[NSXMLParser alloc] initWithData:xmlData];
-//    xmlParser.delegate = self;
-//    [xmlParser parse];
-    
+    if (!xmlData) {
+        NSLog(@"Failed to load XML data from file: %@", xmlFilePath);
+        return;
+    }
+
     NSError *error = nil;
     if (error) {
         NSLog(@"error : %@", error);

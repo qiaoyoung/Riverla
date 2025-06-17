@@ -35,7 +35,7 @@
 #import "FFFTeamCardViewController.h"
 #import "FFFAdvancedTeamCardViewController.h"
 #import "PhotoContainerView.h"
-
+#import "SSZipArchiveManager.h"
 
 @interface FFFSessionViewController ()<NIMMediaManagerDelegate,NIMInputDelegate,FFFTeamCardViewControllerDelegate,NIMConversationManagerDelegate,CustomUISeletePhotosDelegate,UIGestureRecognizerDelegate>
 
@@ -1046,8 +1046,12 @@
 - (void)onSelectChartlet:(NSString *)chartletId
                  catalog:(NSString *)catalogId
 {
-    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
-    NSData *imageData = [NSData dataWithContentsOfFile:[bundle pathForResource:chartletId ofType:nil inDirectory:NEEKIT_EmojiPath]];
+//    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//    NSData *imageData = [NSData dataWithContentsOfFile:[bundle pathForResource:chartletId ofType:nil inDirectory:NEEKIT_EmojiPath]];
+    NSString *emojiPath = [[SSZipArchiveManager sharedManager] getEmojiPath];
+    NSString *imagePath = [emojiPath stringByAppendingPathComponent:chartletId];
+    NSData *imageData = [NSData dataWithContentsOfFile:imagePath];
+
 //    UIImage *gif = [UIImage sd_imageWithGIFData:imageData];
 //
 //    NIMMessage *message = [FFFMessageMaker msgWithImage:gif];

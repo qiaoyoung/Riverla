@@ -9,6 +9,7 @@
 #import "ZMONPolicyPrivacyViewController.h"
 #import <WebKit/WebKit.h>
 #import "FFFRegisterViewController.h"
+#import "SSZipArchiveManager.h"
 
 @interface ZMONPolicyPrivacyViewController ()<WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler> {
     
@@ -115,10 +116,12 @@
 }
 
 - (void)reloadWebView{
+    if (_urlString && _urlString.length > 0) {
+        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:_urlString]];
+        [_webView loadRequest:request];
+        return;
+    }
     
-//    if (_urlString && _urlString.length > 0) {
-//        NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:_urlString]];
-//        [_webView loadRequest:request];
 //    }else{
 //
 //        NSURL * url = [NSURL fileURLWithPath:[[NSBundle mainBundle]bundlePath]];
@@ -129,7 +132,11 @@
 //
 //
 //    }
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"PrivacyPolicy.html" ofType:nil];
+    NSString *htmlFilePath = [[[SSZipArchiveManager sharedManager] getHtml_filePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"PrivacyPolicy.html"]];
+    NSString *path = htmlFilePath;
+    if (![[NSFileManager defaultManager] fileExistsAtPath:path]) {
+        path = [[NSBundle mainBundle] pathForResource:htmlFilePath ofType:nil];
+    }
     NSURL *url = [NSURL fileURLWithPath:path];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [_webView loadRequest:request];

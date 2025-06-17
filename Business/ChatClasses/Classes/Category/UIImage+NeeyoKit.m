@@ -11,6 +11,7 @@
 #import "NeeyoKit.h"
 #import "FFFKitDevice.h"
 #import "NSBundle+NeeyoKit.h"
+#import "SSZipArchiveManager.h"
 
 @implementation UIImage (NeeyoKit)
 
@@ -83,14 +84,17 @@
 }
 
 + (UIImage *)nim_emoticonInKit:(NSString *)imageName {
-    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
-    NSString *name = [NEEKIT_EmojiPath stringByAppendingPathComponent:imageName];
-    
-    UIImage *stateImageh = [UIImage imageNamed:name inBundle:bundle compatibleWithTraitCollection:nil];
-    if (!stateImageh) {
-        stateImageh = [UIImage imageNamed:imageName];
+    if (!imageName) {
+        return nil;
     }
-    return stateImageh;
+    NSString *emojiPath = [[SSZipArchiveManager sharedManager] getEmojiPath];
+    NSString *imagePath = [emojiPath stringByAppendingPathComponent:imageName];
+    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+    if (!image) {
+        image = [[UIImage alloc] init];
+    }
+
+    return image;
 }
 
 - (UIImage *)nim_imageForAvatarUpload

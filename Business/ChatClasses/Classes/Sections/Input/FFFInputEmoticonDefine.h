@@ -10,7 +10,7 @@
 #define NEEKIT_FFFInputEmoticonDefine_h
 
 #define NEEKIT_EmojiCatalog                                @"default"
-#define NEEKIT_EmojiPath                                   @"Emoji"
+//#define NEEKIT_EmojiPath                                   @"Emoji"
 #define NEEKIT_ChartletChartletCatalogPath                 @"Chartlet"
 #define NEEKIT_ChartletChartletCatalogContentPath          @"content"
 #define NEEKIT_ChartletChartletCatalogIconPath             @"icon"

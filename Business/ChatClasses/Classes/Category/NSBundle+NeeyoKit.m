@@ -9,66 +9,63 @@
 #import "NSBundle+NeeyoKit.h"
 #import "NeeyoKit.h"
 #import "FFFInputEmoticonDefine.h"
+#import "SSZipArchiveManager.h"
 
 @implementation NSBundle (NeeyoKit)
 
 + (NSBundle *)nim_defaultEmojiBundle {
     NSBundle *bundle = [NSBundle bundleForClass:[NeeyoKit class]];
-    NSURL *url = [bundle URLForResource:@"NeeyoEmoticon" withExtension:@"bundle"];
+    NSURL *url = [bundle URLForResource:kHolisticSaver withExtension:@"bundle"];
     NSBundle *emojiBundle = [NSBundle bundleWithURL:url];
     return emojiBundle;
 }
 
 + (NSBundle *)nim_defaultLanguageBundle {
-    NSBundle *bundle = [NSBundle bundleForClass:[NeeyoKit class]];
-    NSURL *url = [bundle URLForResource:@"NeeyoLanguage"
-                          withExtension:@"bundle"];
-    
-    NSBundle * languageBundle = nil;
-    if (url)
-    {
-        languageBundle = [NSBundle bundleWithURL:url];
+    // 获取语言资源所在路径
+    NSString *lprojPath = [[SSZipArchiveManager sharedManager] getLprojPath];
+    if (!lprojPath || ![lprojPath length]) {
+        return nil;
     }
     
-    NSURL *projUrl = [languageBundle URLForResource:[self preferredLanguage]
-                                      withExtension:@"lproj"];
-    NSBundle * projBundle = nil;
-    if (projUrl)
-    {
-        projBundle = [NSBundle bundleWithURL:projUrl];
+    // 构建完整的语言资源路径
+    NSString *languageName = [self preferredLanguage];
+    NSString *fullLprojPath = [lprojPath stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.lproj", languageName]];
+    
+    // 检查路径是否存在
+    if (![[NSFileManager defaultManager] fileExistsAtPath:fullLprojPath]) {
+        // 如果指定语言的资源不存在，尝试使用默认语言（英语）
+        fullLprojPath = [lprojPath stringByAppendingPathComponent:@"en.lproj"];
+        if (![[NSFileManager defaultManager] fileExistsAtPath:fullLprojPath]) {
+            return nil;
+        }
     }
-    return projBundle;
+    // 创建并返回语言资源包
+    return [NSBundle bundleWithPath:fullLprojPath];
 }
 
 + (NSString *)nim_EmojiPlistFile {
-    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
-    NSString *filepath = [bundle pathForResource:@"emoji_ios" ofType:@"plist" inDirectory:NEEKIT_EmojiPath];
-    return filepath;
+    NSString *emojiPath = [[SSZipArchiveManager sharedManager] getEmojiPath];
+    NSString *plistPath = [emojiPath stringByAppendingPathComponent:@"emoji_ios.plist"];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
+        return plistPath;
+    }
+    return @"";
+//    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//    NSString *filepath = [bundle pathForResource:@"emoji_ios" ofType:@"plist" inDirectory:NEEKIT_EmojiPath];
+//    return filepath;
 }
 
 
 + (NSString *)nim_EmojiGifPlistFile {
-    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
-    NSString *filepath = [bundle pathForResource:@"emoji" ofType:@"plist" inDirectory:NEEKIT_EmojiPath];
-    return filepath;
-}
-
-+ (NSString *)nim_EmojiImage:(NSString *)imageName {
-    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
-    NSString *ext = [imageName pathExtension];
-    if (ext.length == 0) {
-        ext = @"png";
+    NSString *emojiPath = [[SSZipArchiveManager sharedManager] getEmojiPath];
+    NSString *plistPath = [emojiPath stringByAppendingPathComponent:@"emoji.plist"];
+    if ([[NSFileManager defaultManager] fileExistsAtPath:plistPath]) {
+        return plistPath;
     }
-    NSString *name = [imageName stringByDeletingPathExtension];
-    NSString *doubleImage  = [name stringByAppendingString:@"@2x"];
-    NSString *tribleImage  = [name stringByAppendingString:@"@3x"];
-    NSString *path = nil;
-    if ([UIScreen mainScreen].scale == 3.0) {
-        path = [bundle pathForResource:tribleImage ofType:ext inDirectory:NEEKIT_EmojiPath];
-    }
-    path = path ? path : [bundle pathForResource:doubleImage ofType:ext inDirectory:NEEKIT_EmojiPath]; //取二倍图
-    path = path ? path : [bundle pathForResource:name ofType:ext inDirectory:NEEKIT_EmojiPath]; //实在没了就去取一倍图
-    return path;
+    return @"";
+//    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//    NSString *filepath = [bundle pathForResource:@"emoji" ofType:@"plist" inDirectory:NEEKIT_EmojiPath];
+//    return filepath;
 }
 
 + (NSString *)preferredLanguage
