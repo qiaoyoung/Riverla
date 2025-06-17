@@ -1,9 +1,9 @@
 //
 //  ZMONDeactivateAccountView.h
-//  Neeyo
+//  Riverla
 //
 //  Created by Yan Wang on 2025/2/5.
-//  Copyright © 2025 Neeyo. All rights reserved.
+//  Copyright © 2025 Riverla. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,18 +1,18 @@
 PODS:
-  - AFNetworking (4.0.1):
-    - AFNetworking/NSURLSession (= 4.0.1)
-    - AFNetworking/Reachability (= 4.0.1)
-    - AFNetworking/Security (= 4.0.1)
-    - AFNetworking/Serialization (= 4.0.1)
-    - AFNetworking/UIKit (= 4.0.1)
-  - AFNetworking/NSURLSession (4.0.1):
+  - AFNetworking (4.0.1.1):
+    - AFNetworking/NSURLSession (= 4.0.1.1)
+    - AFNetworking/Reachability (= 4.0.1.1)
+    - AFNetworking/Security (= 4.0.1.1)
+    - AFNetworking/Serialization (= 4.0.1.1)
+    - AFNetworking/UIKit (= 4.0.1.1)
+  - AFNetworking/NSURLSession (4.0.1.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.1)
-  - AFNetworking/Security (4.0.1)
-  - AFNetworking/Serialization (4.0.1)
-  - AFNetworking/UIKit (4.0.1):
+  - AFNetworking/Reachability (4.0.1.1)
+  - AFNetworking/Security (4.0.1.1)
+  - AFNetworking/Serialization (4.0.1.1)
+  - AFNetworking/UIKit (4.0.1.1):
     - AFNetworking/NSURLSession
   - Bugly (2.6.1)
   - FDFullscreenPopGesture (1.1)
@@ -26,9 +26,6 @@ PODS:
   - FURenderKit (8.11.1)
   - IQKeyboardManager (6.5.19)
   - KMNavigationBarTransition (1.1.11)
-  - LookinServer (1.2.8):
-    - LookinServer/Core (= 1.2.8)
-  - LookinServer/Core (1.2.8)
   - Masonry (1.1.0)
   - MJRefresh (3.7.9)
   - NIMSDK_LITE (9.19.11):
@@ -71,7 +68,7 @@ PODS:
   - YYText (1.0.7)
 
 DEPENDENCIES:
-  - AFNetworking (~> 4.0.1)
+  - AFNetworking (from `https://github.com/JapenAdmin/AFNetworking.git`)
   - Bugly
   - FDFullscreenPopGesture (= 1.1)
   - FFDropDownMenu
@@ -80,7 +77,6 @@ DEPENDENCIES:
   - FURenderKit
   - IQKeyboardManager
   - KMNavigationBarTransition
-  - LookinServer
   - Masonry
   - MJRefresh
   - NIMSDK_LITE (= 9.19.11)
@@ -104,7 +100,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - AFNetworking
     - Bugly
     - FDFullscreenPopGesture
     - FFDropDownMenu
@@ -113,7 +108,6 @@ SPEC REPOS:
     - FURenderKit
     - IQKeyboardManager
     - KMNavigationBarTransition
-    - LookinServer
     - Masonry
     - MJRefresh
     - NIMSDK_LITE
@@ -135,8 +129,17 @@ SPEC REPOS:
     - YYModel
     - YYText
 
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/JapenAdmin/AFNetworking.git
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: 24c6af337dc5ad85ada116abfab81b28ef1d755e
+    :git: https://github.com/JapenAdmin/AFNetworking.git
+
 SPEC CHECKSUMS:
-  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  AFNetworking: 2bee62a33a1adf76bc625816b1ae5f3b7f046787
   Bugly: 217ac2ce5f0f2626d43dbaa4f70764c953a26a31
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   FFDropDownMenu: 3dc2b1e47d349687b9d451282a3b6bae3e0e8c7a
@@ -145,7 +148,6 @@ SPEC CHECKSUMS:
   FURenderKit: c9ab24549ad6669ce4cfcdec16a08232af5b2d15
   IQKeyboardManager: c8665b3396bd0b79402b4c573eac345a31c7d485
   KMNavigationBarTransition: f622e909e51f7308fb5b9aa38cceaa9e7c374e9c
-  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   NIMSDK_LITE: d4596d245da4feb9800cb15a7338c9079a8ba2be
@@ -167,6 +169,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 2ea0e7bee84fcaf3f4e1dfb4f352e6255605438c
+PODFILE CHECKSUM: 9a6e244d929fc2ff3e44059b4c4913df33278941
 
 COCOAPODS: 1.16.2

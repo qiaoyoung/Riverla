@@ -10,7 +10,7 @@
 #import "FFFContactSelectTabView.h"
 #import "FFFContactPickedView.h"
 #import "FFFGroupedUsrInfo.h"
-#import "FFFNeeyoGroupedData.h"
+#import "UserGroupedData.h"
 #import "FFFContactDataCell.h"
 #import "UIViewNimKit.h"
 #import "MyUserKit.h"

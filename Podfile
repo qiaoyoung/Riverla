@@ -1,6 +1,6 @@
 platform :ios, '12.0'
 
-target 'Neeyo' do
+target 'Riverla' do
    use_frameworks!
 
   # 云信基础SDK

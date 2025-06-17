@@ -9,7 +9,7 @@
 #import "FFFContactSelectConfig.h"
 #import <NIMSDK/NIMSDK.h>
 #import "FFFGlobalMacro.h"
-#import "FFFNeeyoGroupedData.h"
+#import "UserGroupedData.h"
 #import "MyUserKit.h"
 #import "FFFKitInfoFetchOption.h"
 #import "FFFKitInfo.h"
@@ -37,7 +37,7 @@
 }
 
 - (void)getContactData:(NIMContactDataProviderHandler)handler {
-    FFFNeeyoGroupedData *groupedData = [[FFFNeeyoGroupedData alloc] init];
+    UserGroupedData *groupedData = [[UserGroupedData alloc] init];
     NSMutableArray *myFriendArray = @[].mutableCopy;
     NSMutableArray *data = [NIMSDK sharedSDK].userManager.myFriends.mutableCopy;
     NSMutableArray *members = @[].mutableCopy;
@@ -139,7 +139,7 @@
 - (void)didProcessTeamId:(NSString *)teamId
                     uids:(NSMutableArray *)uids
                  handler:(NIMContactDataProviderHandler)handler {
-    FFFNeeyoGroupedData *groupedData = [[FFFNeeyoGroupedData alloc] init];
+    UserGroupedData *groupedData = [[UserGroupedData alloc] init];
     NSMutableArray *membersArr = @[].mutableCopy;
     NSArray *member_uids = [self filterData:uids];
     for (NSString *uid in member_uids) {
@@ -224,7 +224,7 @@
         return;
     }
     
-    FFFNeeyoGroupedData *groupedData = [[FFFNeeyoGroupedData alloc] init];
+    UserGroupedData *groupedData = [[UserGroupedData alloc] init];
     NSMutableArray <id <NIMGroupMemberProtocol>>*members = @[].mutableCopy;
     for (NSString *tid in tids) {
         NIMGroupTeam *team = [[NIMGroupTeam alloc] initWithTeamId:tid teamType:_teamType];
