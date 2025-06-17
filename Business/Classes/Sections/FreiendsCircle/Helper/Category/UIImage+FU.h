@@ -1,3 +1,5 @@
+// __DEBUG__
+// __CLOSE_PRINT__
 //
 //  UIImage+FU.h
 //  FULiveDemo
@@ -6,24 +8,35 @@
 //  Copyright © 2021 FaceUnity. All rights reserved.
 //
 
+// __M_A_C_R_O__
+//: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
+
+//: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN
 
+//: @interface UIImage (FU)
 @interface UIImage (FU)
 
 /// 压缩图片
 /// @param ratio 宽高压缩倍率
-- (UIImage *)fu_compress:(CGFloat)ratio;
+//: - (UIImage *)fu_compress:(CGFloat)ratio;
+- (UIImage *)red:(CGFloat)ratio;
 
 /// 图片转正
-- (UIImage *)fu_resetImageOrientationToUp;
+//: - (UIImage *)fu_resetImageOrientationToUp;
+- (UIImage *)magnitudeeract;
 
 /// 图片处理
-- (UIImage *)fu_processedImage;
+//: - (UIImage *)fu_processedImage;
+- (UIImage *)of;
 
 /// 获取纯色图片
-+ (UIImage *)imageWithColor:(UIColor *)color;
+//: + (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)mainStyle:(UIColor *)color;
 
+//: @end
 @end
 
+//: NS_ASSUME_NONNULL_END
 NS_ASSUME_NONNULL_END
