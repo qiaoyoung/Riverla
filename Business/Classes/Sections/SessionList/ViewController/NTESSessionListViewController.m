@@ -473,7 +473,7 @@
 #pragma mark - NIMLoginManagerDelegate
 - (void)onLogin:(NIMLoginStep)step {
     
-    ((FFFAppDelegate*)([UIApplication sharedApplication].delegate)).loginStep = step;
+    ((AppDelegate*)([UIApplication sharedApplication].delegate)).loginStep = step;
     
     [super onLogin:step];
     switch (step) {

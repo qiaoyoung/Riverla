@@ -9,7 +9,7 @@
 #import "FFFTextView.h"
 #import "FFFBubbleMenuView.h"
 #import "FFFBubbleButtonModel.h"
-#import "FFFAppDelegate.h"
+#import "AppDelegate.h"
 #import "FFFMediaItem.h"
 
 @interface FFFTextView()<UITextViewDelegate, UITextInputDelegate>
@@ -61,8 +61,8 @@
         resultRect.size.height = endRect.origin.y - startRect.origin.y + endRect.size.height;
     }
     
-    CGRect tempRect = [self convertRect:resultRect toView:((FFFAppDelegate*)([UIApplication sharedApplication].delegate)).window];
-    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((FFFAppDelegate*)([UIApplication sharedApplication].delegate)).window];
+    CGRect tempRect = [self convertRect:resultRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
+    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
     
     [[FFFBubbleMenuView shareMenuView] showViewWithButtonModels:self.selectedAllRangeButtons cursorStartRect:cursorStartRectToWindow selectionTextRectInWindow:tempRect selectBlock:^(FFFMediaItem *item)  {
         
@@ -151,8 +151,8 @@
 //    
 ////    _selectedTopView.frame = resultRect;
 //    
-//    CGRect tempRect = [self convertRect:resultRect toView:((FFFAppDelegate*)([UIApplication sharedApplication].delegate)).window];
-//    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((FFFAppDelegate*)([UIApplication sharedApplication].delegate)).window];
+//    CGRect tempRect = [self convertRect:resultRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
+//    CGRect cursorStartRectToWindow = [self convertRect:startRect toView:((AppDelegate*)([UIApplication sharedApplication].delegate)).window];
 //        
 //    if (textView.selectedRange.length > 0) {
 //        //全部选中的时候内容显示的不一样。

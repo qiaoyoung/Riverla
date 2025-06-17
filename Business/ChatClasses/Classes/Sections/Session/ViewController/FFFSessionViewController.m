@@ -24,7 +24,7 @@
 #import "FFFKitQuickCommentUtil.h"
 #import "FFFBubbleMenuView.h"
 #import "FFFTextView.h"
-#import "FFFAppDelegate.h"
+#import "AppDelegate.h"
 #import "NSObject+tyl_internalIdentifier.h"
 #import "FFFBubbleMenuView.h"
 #import "FFFBubbleButtonModel.h"

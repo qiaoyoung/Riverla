@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
-#import "FFFAppDelegate.h"
+#import "AppDelegate.h"
 #import "FFFLoginViewController.h"
 #import "UIView+Toast.h"
 #import "NTESNotificationCenter.h"
@@ -45,7 +45,7 @@
 #import <Network/Network.h>
 
 NSString *NTESNotificationLogout = @"NTESNotificationLogout";
-@interface FFFAppDelegate ()<NIMLoginManagerDelegate>
+@interface AppDelegate ()<NIMLoginManagerDelegate>
 
 @property (nonatomic,strong) NTESSDKConfigDelegate *sdkConfigDelegate;
 
@@ -56,7 +56,7 @@ NSString *NTESNotificationLogout = @"NTESNotificationLogout";
 
 @end
 
-@implementation FFFAppDelegate
+@implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
