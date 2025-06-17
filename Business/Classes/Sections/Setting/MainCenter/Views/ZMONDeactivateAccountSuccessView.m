@@ -186,11 +186,11 @@
         _sureBtn.titleLabel.font = [UIFont systemFontOfSize:14];
         [_sureBtn setTitleColor:RGB_COLOR_String(@"#ffffff") forState:UIControlStateNormal];
         [_sureBtn setTitle:@"OK" forState:UIControlStateNormal];
-        _sureBtn.backgroundColor = [UIColor colorWithRed:43/255.0 green:188/255.0 blue:251/255.0 alpha:1];
+        _sureBtn.backgroundColor = ThemeColor;
 //        _sureBtn.layer.borderWidth = 0.5;
 //        _sureBtn.layer.borderColor = [UIColor colorWithRed:255/255.0 green:72/255.0 blue:61/255.0 alpha:1].CGColor;
         _sureBtn.layer.cornerRadius = 10;
-        _sureBtn.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+        _sureBtn.layer.shadowColor = DeepBtnColor.CGColor;
         _sureBtn.layer.shadowOffset = CGSizeMake(0,3);
         _sureBtn.layer.shadowOpacity = 1;
         _sureBtn.layer.shadowRadius = 0;

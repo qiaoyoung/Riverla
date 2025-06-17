@@ -186,7 +186,7 @@
         [_sureBtn setTitle:LangKey(@"user_info_avtivity_keep") forState:UIControlStateNormal];
         _sureBtn.backgroundColor =  ThemeColor;
         _sureBtn.layer.cornerRadius = 22;
-//        _sureBtn.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+//        _sureBtn.layer.shadowColor = DeepBtnColor.CGColor;
 //        _sureBtn.layer.shadowOffset = CGSizeMake(0,3);
 //        _sureBtn.layer.shadowOpacity = 1;
 //        _sureBtn.layer.shadowRadius = 0;
@@ -209,7 +209,7 @@
         _searchView.backgroundColor = CommonBGView_Color;
         _searchView.layer.cornerRadius = 26;
 //        _searchView.layer.borderWidth = 1;
-//        _searchView.layer.borderColor = [UIColor colorWithRed:43/255.0 green:188/255.0 blue:251/255.0 alpha:1].CGColor;
+//        _searchView.layer.borderColor = ThemeColor.CGColor;
         
         _searchField = [[UITextField alloc]initWithFrame:CGRectMake(15, 6, SCREEN_WIDTH-80-30, 40)];
         _searchField.placeholder = LangKey(@"activity_my_user_info_nick");

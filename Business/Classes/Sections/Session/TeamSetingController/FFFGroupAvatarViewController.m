@@ -134,7 +134,7 @@
     self.registButton.backgroundColor = ThemeColor;
     self.registButton.layer.masksToBounds = YES;
     self.registButton.layer.cornerRadius = 24;
-//    self.registButton.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+//    self.registButton.layer.shadowColor = DeepBtnColor.CGColor;
 //    self.registButton.layer.shadowOpacity = 1;
 //    self.registButton.layer.shadowRadius = 0;
 //    self.registButton.layer.shadowOffset = CGSizeMake(0,3);

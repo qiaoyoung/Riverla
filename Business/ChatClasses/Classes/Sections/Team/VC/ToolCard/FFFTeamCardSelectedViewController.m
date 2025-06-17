@@ -271,7 +271,7 @@
         [_footView addSubview:btnClear];
         btnClear.backgroundColor = ThemeColor;
         btnClear.layer.cornerRadius = 24;
-//        btnClear.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+//        btnClear.layer.shadowColor = DeepBtnColor.CGColor;
 //        btnClear.layer.shadowOffset = CGSizeMake(0,3);
 //        btnClear.layer.shadowOpacity = 1;
 //        btnClear.layer.shadowRadius = 0;

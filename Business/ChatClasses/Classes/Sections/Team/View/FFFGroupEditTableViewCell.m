@@ -76,7 +76,7 @@
     if (!_contentLabel) {
         _contentLabel = [[UILabel alloc] init];
         _contentLabel.font = [UIFont systemFontOfSize:12.f];
-        _contentLabel.textColor = RGB_COLOR_String(@"#2BBCFB");
+        _contentLabel.textColor = ThemeColor;
         _contentLabel.textAlignment = NSTextAlignmentLeft;
         _contentLabel.numberOfLines = 1;
         _contentLabel.lineBreakMode = NSLineBreakByTruncatingTail;

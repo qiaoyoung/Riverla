@@ -101,10 +101,10 @@
     
     self.registButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.registButton.frame = CGRectMake(20, _usernameView.bottom+20, SCREEN_WIDTH-40, 44);
-    self.registButton.backgroundColor = [UIColor colorWithRed:43/255.0 green:188/255.0 blue:251/255.0 alpha:1];
+    self.registButton.backgroundColor = ThemeColor;
     //    self.registButton.layer.masksToBounds = YES;
     self.registButton.layer.cornerRadius = 10;
-    self.registButton.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+    self.registButton.layer.shadowColor = DeepBtnColor.CGColor;
     self.registButton.layer.shadowOffset = CGSizeMake(0,3);
     self.registButton.layer.shadowOpacity = 1;
     self.registButton.layer.shadowRadius = 0;

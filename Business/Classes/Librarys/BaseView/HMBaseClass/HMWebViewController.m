@@ -62,9 +62,9 @@
     [self.agreeBtn setTitle:@"Agreed" forState:UIControlStateNormal];
 
 //    self.agreeBtn.layer.masksToBounds = YES;
-    self.agreeBtn.backgroundColor = [UIColor colorWithRed:43/255.0 green:188/255.0 blue:251/255.0 alpha:1];
+    self.agreeBtn.backgroundColor = ThemeColor;
     self.agreeBtn.layer.cornerRadius = 10;
-    self.agreeBtn.layer.shadowColor = [UIColor colorWithRed:0/255.0 green:154/255.0 blue:220/255.0 alpha:1].CGColor;
+    self.agreeBtn.layer.shadowColor = DeepBtnColor.CGColor;
     self.agreeBtn.layer.shadowOffset = CGSizeMake(0,3);
     self.agreeBtn.layer.shadowOpacity = 1;
     self.agreeBtn.layer.shadowRadius = 0;

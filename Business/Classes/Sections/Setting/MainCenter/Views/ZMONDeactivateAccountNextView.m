@@ -150,7 +150,7 @@
         img1.image = [UIImage imageNamed:@"safe_success_step"];
         [view1 addSubview:img1];
 //        UIView *numView1 = [[UIView alloc]initWithFrame:CGRectMake((width-20)/2, 0, 20, 20)];
-//        numView1.backgroundColor = RGB_COLOR_String(@"#2BBCFB");
+//        numView1.backgroundColor = ThemeColor;
 //        numView1.layer.cornerRadius = 10;
 //        numView1.layer.masksToBounds = YES;
 //        [view1 addSubview:numView1];
@@ -172,7 +172,7 @@
         UIView *view2 = [[UIView alloc]initWithFrame:CGRectMake(width, 0, width, 54)];
         [_nextBox addSubview:view2];
         UIView *numView2 = [[UIView alloc]initWithFrame:CGRectMake((width-20)/2, 0, 20, 20)];
-        numView2.backgroundColor = RGB_COLOR_String(@"#2BBCFB");
+        numView2.backgroundColor = ThemeColor;
         numView2.layer.cornerRadius = 10;
         numView2.layer.masksToBounds = YES;
         [view2 addSubview:numView2];

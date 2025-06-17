@@ -144,7 +144,7 @@
         [_nextBox addSubview:view1];
         
         UIView *numView1 = [[UIView alloc]initWithFrame:CGRectMake((width-20)/2, 0, 20, 20)];
-        numView1.backgroundColor = RGB_COLOR_String(@"#2BBCFB");
+        numView1.backgroundColor = ThemeColor;
         numView1.layer.cornerRadius = 10;
         numView1.layer.masksToBounds = YES;
         [view1 addSubview:numView1];
@@ -284,8 +284,8 @@
         [tncString addAttribute:NSUnderlineStyleAttributeName
                           value:@(NSUnderlineStyleSingle)
                           range:(NSRange){0,[tncString length]}];
-        [tncString addAttribute:NSForegroundColorAttributeName value:RGB_COLOR_String(@"#2BBCFB")  range:NSMakeRange(0,[tncString length])];
-        [tncString addAttribute:NSUnderlineColorAttributeName value:RGB_COLOR_String(@"#2BBCFB") range:(NSRange){0,[tncString length]}];
+        [tncString addAttribute:NSForegroundColorAttributeName value:ThemeColor  range:NSMakeRange(0,[tncString length])];
+        [tncString addAttribute:NSUnderlineColorAttributeName value:ThemeColor range:(NSRange){0,[tncString length]}];
         labprotocol.attributedText = tncString;
         
         [labprotocol sizeToFit];

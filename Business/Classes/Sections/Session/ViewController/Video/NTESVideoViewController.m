@@ -149,7 +149,7 @@
     self.progressSlider = [[UISlider alloc] initWithFrame:CGRectMake(_btnPlay.right+10, 20, SCREEN_WIDTH-40-60, 30)];
     self.progressSlider.minimumTrackTintColor = [UIColor whiteColor];
     self.progressSlider.maximumTrackTintColor = [UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.2];
-//    self.progressSlider.thumbTintColor = RGB_COLOR_String(@"#2BBCFB");
+//    self.progressSlider.thumbTintColor = ThemeColor;
     [self.progressSlider setThumbImage:[UIImage createImageWithColor:RGB_COLOR_String(@"#ffffff") radius:3.0] forState:UIControlStateNormal];
     self.progressSlider.layer.cornerRadius = 3;
     self.progressSlider.layer.masksToBounds = YES;
