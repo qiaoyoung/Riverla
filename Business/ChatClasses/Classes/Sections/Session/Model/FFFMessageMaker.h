@@ -1,6 +1,6 @@
 //
 //  FFFMessageMaker.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <NIMSDK/NIMSDK.h>
 
-@class NeeyoKitLocationPoint;
+@class MyUserKitLocationPoint;
 
 @interface FFFMessageMaker : NSObject
 

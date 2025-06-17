@@ -28,8 +28,8 @@
 #import "FFFTextHighlight.h"
 #import "FFFInputEmoticonParser.h"
 #import "FFFInputEmoticonManager.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import <objc/runtime.h>
 #import "FFFKitInfoFetchOption.h"
 #import "NTESSystemNotificationViewController.h"
@@ -419,7 +419,7 @@
 {
     FFFKitInfo *info = nil;
     if (recent.session.sessionType == NIMSessionTypeTeam) {
-        info = [[NeeyoKit sharedKit] infoByTeam:recent.session.sessionId option:nil];
+        info = [[MyUserKit sharedKit] infoByTeam:recent.session.sessionId option:nil];
         NIMTeamNotifyState notifyState = [[[NIMSDK sharedSDK] teamManager] notifyStateForNewMsg:info.infoId];
         notifyState = notifyState == NIMTeamNotifyStateAll ? NIMTeamNotifyStateNone: NIMTeamNotifyStateAll;
         
@@ -429,7 +429,7 @@
     } else if (recent.session.sessionType == NIMSessionTypeP2P) {
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = recent.session;
-        info = [[NeeyoKit sharedKit] infoByUser:recent.session.sessionId option:option];
+        info = [[MyUserKit sharedKit] infoByUser:recent.session.sessionId option:option];
 //        isDisnodistrub = [[NIMSDK sharedSDK].userManager notifyForNewMsg:info.infoId];//判断消息是否勿扰
         
         [[NIMSDK sharedSDK].userManager updateNotifyState:!isDis forUser:info.infoId completion:^(NSError *error) {
@@ -587,14 +587,14 @@
     BOOL isDisnodistrub = NO;
     FFFKitInfo *info = nil;
     if (recentSession.session.sessionType == NIMSessionTypeTeam) {
-        info = [[NeeyoKit sharedKit] infoByTeam:recentSession.session.sessionId option:nil];
+        info = [[MyUserKit sharedKit] infoByTeam:recentSession.session.sessionId option:nil];
         NIMTeamNotifyState notifyState = [[[NIMSDK sharedSDK] teamManager] notifyStateForNewMsg:info.infoId];
         isDisnodistrub =  notifyState == NIMTeamNotifyStateAll ? YES: NO ;
         
     } else if (recentSession.session.sessionType == NIMSessionTypeP2P) {
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = recentSession.session;
-        info = [[NeeyoKit sharedKit] infoByUser:recentSession.session.sessionId option:option];
+        info = [[MyUserKit sharedKit] infoByUser:recentSession.session.sessionId option:option];
         isDisnodistrub = [[NIMSDK sharedSDK].userManager notifyForNewMsg:info.infoId];//判断消息是否勿扰
     }
     UIContextualAction *deleteAction3 = [UIContextualAction contextualActionWithStyle:UIContextualActionStyleNormal title:nil handler:^(UIContextualAction * _Nonnull action, __kindof UIView * _Nonnull sourceView, void (^ _Nonnull completionHandler)(BOOL)) {

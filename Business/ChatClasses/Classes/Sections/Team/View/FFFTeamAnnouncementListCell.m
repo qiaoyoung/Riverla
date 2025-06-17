@@ -10,7 +10,7 @@
 #import "FFFUsrInfoData.h"
 #import "FFFKitUtil.h"
 #import "M80AttributedLabel.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 
 @interface FFFTeamAnnouncementListCell ()
 @property (strong, nonatomic) UILabel *titleLabel;

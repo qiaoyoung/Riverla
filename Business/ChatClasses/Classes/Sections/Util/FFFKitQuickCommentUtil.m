@@ -1,17 +1,17 @@
 //
-// NeeyoKitCommentUtil.m
-// NeeyoKit
+// MyUserKitCommentUtil.m
+// MyUserKit
 //
 //  Created by He on 2020/4/14.
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
 #import "FFFKitQuickCommentUtil.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFKitUtil.h"
 #import "UIViewNimKit.h"
 #import "FFFInputEmoticonManager.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitInfoFetchOption.h"
 
 static const CGFloat kHeightPerRow = 25.0;
@@ -183,7 +183,7 @@ NSString  * const NIMKitQuickCommentFormat = @"emoticon_emoji_%02ld";
     NIMSession *session = basicInfo.session;
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.session = session;
-    info = [[NeeyoKit sharedKit] infoByUser:comment.from option:option];
+    info = [[MyUserKit sharedKit] infoByUser:comment.from option:option];
 
     return info.showName;
 }

@@ -1,6 +1,6 @@
 //
-//  UIImage+NeeyoKit.h
-// NeeyoKit
+//  UIImage+MyUserKit.h
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (NeeyoKit)
+@interface UIImage (MyUserKit)
 
 + (UIImage *)nim_fetchChartlet:(NSString *)imageName chartletId:(NSString *)chartletId;
 

@@ -1,16 +1,16 @@
 //
 //  NSString+NIM.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 #import <CommonCrypto/CommonDigest.h>
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
-@implementation NSString (NeeyoKit)
+@implementation NSString (MyUserKit)
 
 - (CGSize)nim_stringSizeWithFont:(UIFont *)font{
     return [self sizeWithAttributes:@{NSFontAttributeName:font}];
@@ -70,12 +70,12 @@
 }
 
 - (NSString *)nim_localized {
-    NSString * result = [self nim_localizedWithTable:[NeeyoKit sharedKit].languageTable];
+    NSString * result = [self nim_localizedWithTable:[MyUserKit sharedKit].languageTable];
     return result;
 }
 
 - (NSString *)nim_localizedWithTable:(NSString *)table {
-    NSBundle * languageBundle = [NeeyoKit sharedKit].languageBundle;
+    NSBundle * languageBundle = [MyUserKit sharedKit].languageBundle;
     return [self nim_localizedByBundle:languageBundle table:table];
 }
 

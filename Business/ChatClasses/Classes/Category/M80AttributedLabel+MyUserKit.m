@@ -6,14 +6,14 @@
 //  Copyright (c) 2015 Netease. All rights reserved.
 //
 
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFInputEmoticonParser.h"
 #import "FFFInputEmoticonManager.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import <objc/runtime.h>
 
-@implementation M80AttributedLabel (NeeyoKit)
+@implementation M80AttributedLabel (MyUserKit)
 - (void)nim_setText:(NSString *)text
 {
     [self setText:@""];

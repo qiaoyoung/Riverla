@@ -1,6 +1,6 @@
 //
 //  FFFTeamMemberCardHeaderCell.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 16/5/10.
 //  Copyright © 2016年 NetEase. All rights reserved.
@@ -10,7 +10,7 @@
 #import "FFFAvatarImageView.h"
 #import "FFFUsrInfoData.h"
 #import "FFFCommonTableData.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "UIViewNimKit.h"
 #import "FFFKitUtil.h"
 

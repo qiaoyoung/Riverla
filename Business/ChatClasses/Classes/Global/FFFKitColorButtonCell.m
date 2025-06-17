@@ -9,7 +9,7 @@
 #import "FFFKitColorButtonCell.h"
 #import "UIViewNimKit.h"
 #import "FFFCommonTableData.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 
 @interface FFFKitColorButtonCell()
 

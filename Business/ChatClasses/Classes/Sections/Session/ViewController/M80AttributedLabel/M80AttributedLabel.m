@@ -7,7 +7,7 @@
 //
 
 #import "M80AttributedLabel.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFTextHighlight.h"
 
 static NSString* const M80EllipsesCharacter = @"\u2026";

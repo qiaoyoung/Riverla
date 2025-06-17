@@ -9,7 +9,7 @@
 #import "NTESSessionMultiRetweetContentView.h"
 #import "NTESMultiRetweetAttachment.h"
 #import "UIView+NTES.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 
 NSString *const NIMDemoEventNameOpenMergeMessage = @"NIMDemoEventNameOpenMergeMessage";
 

@@ -11,8 +11,8 @@
 #import "UIViewNimKit.h"
 #import "FFFTimestampModel.h"
 #import "FFFKitUtil.h"
-#import "UIImage+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "MyUserKit.h"
 
 @interface FFFSessionTimestampCell()
 
@@ -25,7 +25,7 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-//        self.backgroundColor = [NeeyoKit sharedKit].config.cellBackgroundColor;
+//        self.backgroundColor = [MyUserKit sharedKit].config.cellBackgroundColor;
         self.backgroundColor = [UIColor clearColor];
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         _timeBGView = [[UIImageView alloc] initWithFrame:CGRectZero];

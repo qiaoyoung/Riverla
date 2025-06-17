@@ -10,8 +10,8 @@
 #import "NTESSessionUtil.h"
 #import "FFFAvatarImageView.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "UIImage+MyUserKit.h"
 
 @implementation NTESFriendListTableViewCell
 
@@ -67,7 +67,7 @@
 - (void)refreshUser:(id<NIMGroupMemberProtocol>)member{
     self.titleLabel.text = member.showName;
     self.memberId = [member memberId];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:self.memberId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.memberId option:nil];
     NSURL *url = info.avatarUrlString ? [NSURL URLWithString:info.avatarUrlString] : nil;
     
 //    [self.iconImageView nim_setImageWithURL:url placeholderImage:info.avatarImage options:SDWebImageRetryFailed];
@@ -78,7 +78,7 @@
     
     self.titleLabel.text = team.teamName;
     self.memberId = [team teamId];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByTeam:self.memberId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByTeam:self.memberId option:nil];
     NSURL *url = info.avatarUrlString ? [NSURL URLWithString:info.avatarUrlString] : nil;
     [self.iconImageView sd_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"head_default_group"]];
 }

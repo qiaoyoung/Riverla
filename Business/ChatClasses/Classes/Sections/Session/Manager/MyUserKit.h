@@ -1,6 +1,6 @@
 //
-//  NeeyoKit.h
-// NeeyoKit
+//  MyUserKit.h
+// MyUserKit
 //
 //  Created by amao on 8/14/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.
@@ -78,7 +78,7 @@ FOUNDATION_EXPORT const unsigned char NIMKitVersionString[];
 #import "FFFCollectionViewLeftAlignedLayout.h"
 #import "FFFKitQuickCommentUtil.h"
 
-@interface NeeyoKit : NSObject
+@interface MyUserKit : NSObject
 
 + (instancetype)sharedKit;
 

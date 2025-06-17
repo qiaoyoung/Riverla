@@ -41,7 +41,7 @@
     NSString *user_id = [information newStringValueForKey:@"user_id"];
     
     NIMUser *user = [[NIMSDK sharedSDK].userManager userInfo:user_id];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:user_id option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:user_id option:nil];
 
     [_avatar nim_setImageWithURL:[NSURL URLWithString:info.avatarUrlString] placeholderImage:info.avatarImage options:SDWebImageRetryFailed];
     

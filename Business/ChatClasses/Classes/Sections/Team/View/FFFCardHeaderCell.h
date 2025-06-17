@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFCardDataSourceProtocol.h"
 @class FFFAvatarImageView;
 @protocol FFFCardHeaderCellDelegate;

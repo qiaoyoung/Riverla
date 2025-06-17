@@ -39,7 +39,7 @@
 - (void)update{
     NSMutableArray *contacts = [NSMutableArray array];
     for (NIMUser *user in [NIMSDK sharedSDK].userManager.myFriends) {
-        FFFKitInfo *info           = [[NeeyoKit sharedKit] infoByUser:user.userId option:nil];
+        FFFKitInfo *info           = [[MyUserKit sharedKit] infoByUser:user.userId option:nil];
         NTESContactDataMember *contact = [[NTESContactDataMember alloc] init];
         contact.info               = info;
         [contacts addObject:contact];

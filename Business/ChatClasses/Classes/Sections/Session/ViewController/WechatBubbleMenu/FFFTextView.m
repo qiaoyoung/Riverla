@@ -202,7 +202,7 @@
     NSArray *items;
     if (!self.config)
     {
-        items = [[NeeyoKit sharedKit].config defaultMenuItemsWithMessage:message];
+        items = [[MyUserKit sharedKit].config defaultMenuItemsWithMessage:message];
     }
     else if([self.config respondsToSelector:@selector(menuItemsWithMessage:)])
     {

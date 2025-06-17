@@ -48,7 +48,7 @@
 
     NSString *userID = [[NIMSDK sharedSDK].loginManager currentAccount];
     NIMUser *me = [[NIMSDK sharedSDK].userManager userInfo:userID];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:userID option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:userID option:nil];
     
     [_box addSubview:self.iconImageView];
     [self.iconImageView sd_setImageWithURL:[NSURL URLWithString:me.userInfo.avatarUrl] placeholderImage:info.avatarImage];

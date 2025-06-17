@@ -1,6 +1,6 @@
 //
 //  UIView+NIM.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "UIViewNimKit.h"
 
-@implementation UIView (NeeyoKit)
+@implementation UIView (MyUserKit)
 
 - (CGFloat)nim_left {
     return self.frame.origin.x;

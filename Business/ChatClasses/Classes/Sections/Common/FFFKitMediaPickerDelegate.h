@@ -1,6 +1,6 @@
 //
 //  FFFKitMediaPickerDelegate.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning on 2020/9/25.
 //  Copyright © 2020 NetEase. All rights reserved.

@@ -9,10 +9,10 @@
 #import "FFFSessionAudioContentView.h"
 #import "UIViewNimKit.h"
 #import "FFFMessageModel.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFKitAudioCenter.h"
-#import "NeeyoKit.h"
-#import "UIColor+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "UIColor+MyUserKit.h"
 
 @interface FFFSessionAudioContentView()<NIMMediaManagerDelegate>
 
@@ -110,7 +110,7 @@
     NIMAudioObject *object = self.model.message.messageObject;
     self.durationLabel.text = [NSString stringWithFormat:@"%zd\"",(NSInteger)((object.duration+500)/1000)];//四舍五入
     
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:data.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:data.message];
 
     self.durationLabel.font      = setting.font;
     self.durationLabel.textColor = setting.textColor;

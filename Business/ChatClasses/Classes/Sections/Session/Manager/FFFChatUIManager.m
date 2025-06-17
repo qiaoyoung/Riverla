@@ -1,6 +1,6 @@
 //
 //  FFFChatUIManager.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by 丁文超 on 2020/3/19.
 //  Copyright © 2020 NetEase. All rights reserved.
@@ -70,13 +70,13 @@
     if (session.sessionType == NIMSessionTypeP2P) {
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = session;
-        name = [[NeeyoKit sharedKit] infoByUser:session.sessionId option:option].showName;
+        name = [[MyUserKit sharedKit] infoByUser:session.sessionId option:option].showName;
     }
     else if (session.sessionType == NIMSessionTypeTeam) {
-        name = [[NeeyoKit sharedKit] infoByTeam:session.sessionId option:nil].showName;
+        name = [[MyUserKit sharedKit] infoByTeam:session.sessionId option:nil].showName;
     }
     else if (session.sessionType == NIMSessionTypeSuperTeam) {
-        name = [[NeeyoKit sharedKit] infoBySuperTeam:session.sessionId option:nil].showName;
+        name = [[MyUserKit sharedKit] infoBySuperTeam:session.sessionId option:nil].showName;
     }
     NSString *tip = [NSString stringWithFormat:@"%@ %@ ?", NSLocalizedString(@"确认转发给", nil), name];
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"确认转发", nil) message:tip preferredStyle:UIAlertControllerStyleAlert];

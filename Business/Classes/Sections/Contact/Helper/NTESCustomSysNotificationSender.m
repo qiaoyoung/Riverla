@@ -110,7 +110,7 @@
     notification.env = [[NTESBundleSetting sharedConfig] messageEnv];
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.session = [NIMSession session:teamId type:NIMSessionTypeTeam];
-    FFFKitInfo *me = [[NeeyoKit sharedKit] infoByUser:[NIMSDK sharedSDK].loginManager.currentAccount option:option];
+    FFFKitInfo *me = [[MyUserKit sharedKit] infoByUser:[NIMSDK sharedSDK].loginManager.currentAccount option:option];
     
     notification.apnsContent = [NSString stringWithFormat:@"%@%@",me.showName,@"正在呼叫您".ntes_localized];
     NIMCustomSystemNotificationSetting *setting = [[NIMCustomSystemNotificationSetting alloc] init];

@@ -1,6 +1,6 @@
 //
 //  FFFSessionMsgDatasource.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -11,7 +11,7 @@
 #import "FFFMessageModel.h"
 #import "FFFTimestampModel.h"
 #import "FFFGlobalMacro.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitInfoFetchOption.h"
 
 @interface FFFSessionMsgDatasource()
@@ -38,8 +38,8 @@
         _sessionConfig     = sessionConfig;
         id<FFFKitMessageProvider> dataProvider = [_sessionConfig respondsToSelector:@selector(messageDataProvider)] ? [_sessionConfig messageDataProvider] : nil;
         
-        NSInteger limit = [NeeyoKit sharedKit].config.messageLimit;
-        NSTimeInterval showTimestampInterval = [NeeyoKit sharedKit].config.messageInterval;
+        NSInteger limit = [MyUserKit sharedKit].config.messageLimit;
+        NSTimeInterval showTimestampInterval = [MyUserKit sharedKit].config.messageInterval;
         
         _dataProvider      = dataProvider;
         _messageLimit      = limit;
@@ -273,7 +273,7 @@
     __block NSInteger index = 0;
     NIMMessageSearchOption *option = [NIMMessageSearchOption new];
     option.startTime = currentNewestMsg.messageTime - 0.1;
-    option.limit = [NeeyoKit sharedKit].config.messageLimit;
+    option.limit = [MyUserKit sharedKit].config.messageLimit;
     option.allMessageTypes = YES;
     option.order = NIMMessageSearchOrderAsc;
     __weak typeof(self) wself = self;
@@ -296,7 +296,7 @@
             NSString *pinUserID = obj.accountID ?: NIMSDK.sharedSDK.loginManager.currentAccount;
             FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
             option.session = _currentSession;
-            self.pinUsers[obj.messageId] = [NeeyoKit.sharedKit infoByUser:pinUserID option:option].showName;
+            self.pinUsers[obj.messageId] = [MyUserKit.sharedKit infoByUser:pinUserID option:option].showName;
         }];
         if (handler) {
             handler(nil);
@@ -408,7 +408,7 @@
     NSString *accountID = item.accountID ?: NIMSDK.sharedSDK.loginManager.currentAccount;
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.session = message.session;
-    NSString *pinUserName = [NeeyoKit.sharedKit infoByUser:accountID option:option].showName;
+    NSString *pinUserName = [MyUserKit.sharedKit infoByUser:accountID option:option].showName;
     self.pinUsers[message.messageId] = pinUserName;
     !handler ?: handler(nil);
 }

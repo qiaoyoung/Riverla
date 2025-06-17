@@ -175,7 +175,7 @@
     self.timeLabel.text = [FFFKitUtil showTime:self.notification.timestamp showDetail:YES];
 
     NSString *sourceID = self.notification.sourceID;
-    FFFKitInfo *sourceMember = [[NeeyoKit sharedKit] infoByUser:sourceID option:nil];
+    FFFKitInfo *sourceMember = [[MyUserKit sharedKit] infoByUser:sourceID option:nil];
     [self updateSourceMember:sourceMember];
 }
 
@@ -394,7 +394,7 @@
 //
 //
 //    NSString *sourceID = self.notification.sourceID;
-//    FFFKitInfo *sourceMember = [[NeeyoKit sharedKit] infoByUser:sourceID option:nil];
+//    FFFKitInfo *sourceMember = [[MyUserKit sharedKit] infoByUser:sourceID option:nil];
 //    [self updateSourceMember:sourceMember];
 //}
 //

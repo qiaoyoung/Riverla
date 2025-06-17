@@ -1,6 +1,6 @@
 //
-// NeeyoKitPhotoFetcher.m
-// NeeyoKit
+// MyUserKitPhotoFetcher.m
+// MyUserKit
 //
 //  Created by chris on 2016/11/12.
 //  Copyright © 2016年 NetEase. All rights reserved.
@@ -14,9 +14,9 @@
 #import "FFFKitDependency.h"
 #import "TZImageManager.h"
 #import "FFFKitProgressHUD.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFKitMediaPickerController.h"
-#import "AVAsset+NeeyoKit.h"
+#import "AVAsset+MyUserKit.h"
 
 @interface FFFKitMediaFetcher()<FFFKitMediaPickerDelegate,UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 

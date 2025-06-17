@@ -59,7 +59,7 @@
     NSString *uid = rowData.extraInfo;
     if ([uid isKindOfClass:[NSString class]]) {
         NIMUser *user = [[NIMSDK sharedSDK].userManager userInfo:uid];
-        FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:uid option:nil];
+        FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:uid option:nil];
         self.nameLabel.text   = info.showName ;
         NSString *register_avtivity_account = LangKey(@"register_avtivity_account");
         self.accountLabel.text = [NSString stringWithFormat:@"%@：%@",register_avtivity_account, uid];

@@ -1,6 +1,6 @@
 //
 //  FFFSessionShareCardContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by 田玉龙 on 2022/8/22.
 //  Copyright © 2022 NetEase. All rights reserved.
@@ -12,11 +12,11 @@
 #import "FFFLoadProgressView.h"
 #import "FFFKitDependency.h"
 #import <YYImage/YYImage.h>
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitDataProviderImpl.h"
 #import "FFFKitInfoFetchOption.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import <SDWebImage/SDWebImage.h>
 #import <objc/runtime.h>
 #import <objc/message.h>

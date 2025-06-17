@@ -10,7 +10,7 @@
 #import "FFFPageView.h"
 #import "FFFMediaItem.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 NSInteger NIMMaxItemCountInPage = 8;
 NSInteger NIMButtonItemWidth = 75;
@@ -119,7 +119,7 @@ NSInteger NIMButtonBegintLeftX = 11;
     NSArray *items;
     if (!self.config)
     {
-        items = [NeeyoKit sharedKit].config.defaultMediaItems;
+        items = [MyUserKit sharedKit].config.defaultMediaItems;
     }
     else if([self.config respondsToSelector:@selector(mediaItems)])
     {

@@ -9,8 +9,8 @@
 #import "FFFContactDataCell.h"
 #import "FFFAvatarImageView.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "UIImage+MyUserKit.h"
 
 @interface FFFContactDataCell()
 
@@ -62,14 +62,14 @@
 - (void)refreshUser:(id<NIMGroupMemberProtocol>)member{
     [self refreshTitle:member.showName];
     self.memberId = [member memberId];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:self.memberId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.memberId option:nil];
     [self refreshAvatar:info];
 }
 
 - (void)refreshTeam:(NIMTeam *)team; {
     [self refreshTitle:team.teamName];
     self.memberId = [team teamId];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByTeam:self.memberId option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByTeam:self.memberId option:nil];
     [self refreshAvatar:info];
 }
 

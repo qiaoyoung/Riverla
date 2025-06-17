@@ -17,7 +17,7 @@
 #import "NTESCustomAttachmentDecoder.h"
 #import "NTESClientUtil.h"
 #import "NTESNotificationCenter.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "NTESSDKConfigDelegate.h"
 #import "NTESCellLayoutConfig.h"
 #import "NTESSubscribeManager.h"
@@ -689,8 +689,8 @@ NSString *NTESNotificationLogout = @"NTESNotificationLogout";
     //注册自定义消息的解析器
     [NIMCustomObject registerCustomDecoder:[NTESCustomAttachmentDecoder new]];
     
-    //注册 NeeyoKit 自定义排版配置
-    [[NeeyoKit sharedKit] registerLayoutConfig:[NTESCellLayoutConfig new]];
+    //注册 MyUserKit 自定义排版配置
+    [[MyUserKit sharedKit] registerLayoutConfig:[NTESCellLayoutConfig new]];
     
     [[NIMSDKConfig sharedConfig] setTeamReceiptEnabled:YES];
     

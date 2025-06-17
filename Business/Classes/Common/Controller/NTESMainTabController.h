@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 @interface NTESMainTabController : UITabBarController
 
 + (instancetype)instance;

@@ -1,18 +1,18 @@
 //
 //  FFFInputEmoticonButton.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
 #import "FFFInputEmoticonButton.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFInputEmoticonManager.h"
 #import "FFFInputEmoticonDefine.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitDevice.h"
-#import "NSBundle+NeeyoKit.h"
+#import "NSBundle+MyUserKit.h"
 #import "SSZipArchiveManager.h"
 
 @implementation FFFInputEmoticonButton
@@ -39,7 +39,7 @@
         }
         case NIMEmoticonTypeGif:
         {
-//            NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//            NSBundle *bundle = [MyUserKit sharedKit].emoticonBundle;
 //            NSData *imageData = [NSData dataWithContentsOfFile:[bundle pathForResource:data.filename ofType:nil inDirectory:NEEKIT_EmojiPath]];
             NSString *emojiPath = [[SSZipArchiveManager sharedManager] getEmojiPath];
             NSString *imagePath = [emojiPath stringByAppendingPathComponent:data.filename];

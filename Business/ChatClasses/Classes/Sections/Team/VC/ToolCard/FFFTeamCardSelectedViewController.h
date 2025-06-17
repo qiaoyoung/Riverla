@@ -1,6 +1,6 @@
 //
 //  FFFTeamCardSelectedViewController.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Netease on 2019/7/16.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "FFFCardDataSourceProtocol.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

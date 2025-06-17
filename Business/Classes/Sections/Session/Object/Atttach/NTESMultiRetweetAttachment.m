@@ -10,7 +10,7 @@
 #import "NTESFileLocationHelper.h"
 #import "FFFKitInfoFetchOption.h"
 #import "NSDictionary+NTESJson.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "NTESMessageUtil.h"
 #import "FFFInputEmoticonParser.h"
 
@@ -221,7 +221,7 @@
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.session = message.session;
     option.message = message;
-    FFFKitInfo *info = [[NeeyoKit sharedKit].provider infoByUser:message.from option:option];
+    FFFKitInfo *info = [[MyUserKit sharedKit].provider infoByUser:message.from option:option];
     ret.sender = info.showName ?: @"null";
     ret.message = [ret abstract:message];
     return ret;

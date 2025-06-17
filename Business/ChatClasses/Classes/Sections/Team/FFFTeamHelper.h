@@ -1,6 +1,6 @@
 //
 //  FFFTeamHelper.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by Genning-Work on 2019/12/11.
 //  Copyright © 2019 NetEase. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <NIMSDK/NIMSDK.h>
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

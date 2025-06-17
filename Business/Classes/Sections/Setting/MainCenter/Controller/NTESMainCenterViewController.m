@@ -90,7 +90,7 @@
 {
     NSString *userID = [[NIMSDK sharedSDK].loginManager currentAccount];
     NIMUser *me = [[NIMSDK sharedSDK].userManager userInfo:userID];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:userID option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:userID option:nil];
     
     self.titleLabel.text = me.userInfo.nickName;
     self.accountLabel.text = [NSString stringWithFormat:@"%@",emptyString([NIMUserDefaults standardUserDefaults].accountName)];
@@ -192,7 +192,7 @@
     
     NSString *userID = [[NIMSDK sharedSDK].loginManager currentAccount];
     NIMUser *me = [[NIMSDK sharedSDK].userManager userInfo:userID];
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:userID option:nil];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:userID option:nil];
     
     _headerImage = [[UIImageView alloc] initWithFrame:CGRectMake(20,SCREEN_TOP_HEIGHT, 64, 64)];
     [self.view  addSubview:_headerImage];

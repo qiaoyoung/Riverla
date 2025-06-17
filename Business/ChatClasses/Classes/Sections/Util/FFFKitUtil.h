@@ -1,6 +1,6 @@
 //
 //  NIMUtil.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/8/10.
 //  Copyright (c) 2015年 NetEase. All rights reserved.

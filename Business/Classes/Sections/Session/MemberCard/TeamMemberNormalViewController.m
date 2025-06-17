@@ -208,7 +208,7 @@
                 }else if (member.type == NIMTeamMemberTypeOwner){
                     self.owerInfo = member;
                     
-                    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:member.userId option:nil];
+                    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:member.userId option:nil];
                     self.titleLabel.text = info.showName;
                     [self.roleImageView sd_setImageWithURL:[NSURL URLWithString:info.avatarUrlString] placeholderImage:[UIImage imageNamed:@"head_default"]];
                 }

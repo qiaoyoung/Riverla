@@ -1,6 +1,6 @@
 //
 //  FFFKitProgressHUD.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 2017/7/28.
 //  Copyright © 2017年 NetEase. All rights reserved.
@@ -8,8 +8,8 @@
 
 #import "FFFKitProgressHUD.h"
 #import "UIViewNimKit.h"
-#import "NSBundle+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "NSBundle+MyUserKit.h"
+#import "MyUserKit.h"
 
 @interface FFFKitProgressHUD()
 
@@ -92,7 +92,7 @@
         
         CALayer *maskLayer = [CALayer layer];
         
-//        NSString *bundleName = [[NeeyoKit sharedKit] resourceBundleName];
+//        NSString *bundleName = [[MyUserKit sharedKit] resourceBundleName];
 //        NSURL *bundleURL = [[NSBundle bundleForClass:[FFFKitProgressHUD class]] URLForResource:bundleName withExtension:nil];
 //        
 //        if (!bundleURL) // 兼容Pod use_frameworks!下，用户自定义资源文件

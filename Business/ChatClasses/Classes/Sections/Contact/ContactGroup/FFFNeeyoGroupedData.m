@@ -1,6 +1,6 @@
 //
 //  FFFNeeyoGroupedData.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by emily on 2017/7/26.
 //  Copyright © 2017年 NetEase. All rights reserved.

@@ -68,7 +68,7 @@
 //    _hud = [ShowNotice showNoticeTo:self.view animated:YES];
 //    _hud.center = CGPointMake(self.view.width*0.5, self.view.height*0.5);
     
-//    NSBundle *bundle = [NeeyoKit sharedKit].emoticonBundle;
+//    NSBundle *bundle = [MyUserKit sharedKit].emoticonBundle;
 //    NSData *imageData = [NSData dataWithContentsOfFile:[bundle pathForResource:@"emoji_1" ofType:@"gif" inDirectory:@"Emoji"]];
 ////    UIImage *gif = [UIImage sd_imageWithGIFData:imageData];
 ////

@@ -1,15 +1,15 @@
 //
 //  FFFReplyedTextContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/3/25.
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
 #import "FFFReplyedTextContentView.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "UIViewNimKit.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @interface FFFReplyedTextContentView ()<M80AttributedLabelDelegate>
 @end
@@ -144,7 +144,7 @@
         
     }
     
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config repliedSetting:data.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config repliedSetting:data.message];
     self.textLabel.textColor = setting.replyedTextColor;
     self.textLabel.font = setting.replyedFont;
     [self setNeedsLayout];

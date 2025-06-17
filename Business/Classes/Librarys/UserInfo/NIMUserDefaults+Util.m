@@ -50,7 +50,7 @@
     userDefaults.language = lang;
     [[FFFLanguageManager shareInstance] setLanguagre:lang];
     
-    [NeeyoKit sharedKit].languageBundle = nil;
+    [MyUserKit sharedKit].languageBundle = nil;
     
     [[NSNotificationCenter defaultCenter] postNotificationName:KEKENotificationLanguageChanged object:nil];
     

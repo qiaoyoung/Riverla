@@ -1,13 +1,13 @@
 //
 //  FFFUnsupportContentConfig.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by amao on 9/15/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.
 //
 
 #import "FFFUnsupportContentConfig.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @interface FFFUnsupportContentConfig ()
 
@@ -36,7 +36,7 @@
 
 - (NSString *)cellContent:(NIMMessage *)message
 {
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:message];
     self.label.textColor = setting.textColor;
     self.label.font = setting.font;
     
@@ -45,7 +45,7 @@
 
 - (UIEdgeInsets)contentViewInsets:(NIMMessage *)message
 {
-    FFFKitSettings *settings = message.isOutgoingMsg? [NeeyoKit sharedKit].config.rightBubbleSettings : [NeeyoKit sharedKit].config.leftBubbleSettings;
+    FFFKitSettings *settings = message.isOutgoingMsg? [MyUserKit sharedKit].config.rightBubbleSettings : [MyUserKit sharedKit].config.leftBubbleSettings;
     return settings.unsupportSetting.contentInsets;
 }
 

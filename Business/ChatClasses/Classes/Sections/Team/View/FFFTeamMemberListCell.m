@@ -10,8 +10,8 @@
 #import "UIViewNimKit.h"
 #import "FFFAvatarImageView.h"
 #import "FFFKitUtil.h"
-#import "NeeyoKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFTeamHelper.h"
 #import "FFFCardDataSourceProtocol.h"
 

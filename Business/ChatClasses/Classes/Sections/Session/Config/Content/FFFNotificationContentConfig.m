@@ -1,16 +1,16 @@
 //
 //  FFFNotificationContentConfig.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by amao on 9/15/15.
 //  Copyright (c) 2015 NetEase. All rights reserved.
 //
 
 #import "FFFNotificationContentConfig.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "FFFKitUtil.h"
 #import "FFFUnsupportContentConfig.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 
 @implementation FFFNotificationContentConfig
 - (CGSize)contentSize:(CGFloat)cellWidth message:(NIMMessage *)message
@@ -28,9 +28,9 @@
             CGFloat TeamNotificationMessageWidth  = cellWidth;
             UILabel *label = [[UILabel alloc] init];
             label.text  = [FFFKitUtil messageTipContent:message];
-            label.font = [[NeeyoKit sharedKit].config setting:message].font;
+            label.font = [[MyUserKit sharedKit].config setting:message].font;
             label.numberOfLines = 0;
-            CGFloat padding =   [NeeyoKit sharedKit].config.maxNotificationTipPadding;
+            CGFloat padding =   [MyUserKit sharedKit].config.maxNotificationTipPadding;
             CGSize size = [label sizeThatFits:CGSizeMake(cellWidth - 2 * padding, CGFLOAT_MAX)];
             CGFloat cellPadding = 11.f;
             contentSize = CGSizeMake(TeamNotificationMessageWidth, size.height + 2 * cellPadding);
@@ -39,7 +39,7 @@
         case NIMNotificationTypeNetCall:{
             M80AttributedLabel *label = [[M80AttributedLabel alloc] initWithFrame:CGRectZero];
             label.autoDetectLinks = NO;
-            label.font = [[NeeyoKit sharedKit].config setting:message].font;
+            label.font = [[MyUserKit sharedKit].config setting:message].font;
             NSString *text = [FFFKitUtil messageTipContent:message];
             [label nim_setText:text];
             
@@ -82,7 +82,7 @@
 
 - (UIEdgeInsets)contentViewInsets:(NIMMessage *)message
 {
-    return [[NeeyoKit sharedKit].config setting:message].contentInsets;
+    return [[MyUserKit sharedKit].config setting:message].contentInsets;
 }
 
 - (BOOL)enableBackgroundBubbleView:(NIMMessage *)message

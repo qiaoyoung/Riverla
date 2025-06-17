@@ -1,6 +1,6 @@
 //
 //  FFFSessionListViewController.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by NetEase.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
@@ -13,13 +13,13 @@
 #import "FFFAvatarImageView.h"
 #import "FFFMessageUtil.h"
 #import "FFFKitUtil.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import <YYText.h>
 #import "FFFTextHighlight.h"
 #import "FFFInputEmoticonParser.h"
 #import "FFFInputEmoticonManager.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import <objc/runtime.h>
 #import "LEEAlert.h"
 

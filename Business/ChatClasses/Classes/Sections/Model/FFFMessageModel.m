@@ -1,13 +1,13 @@
 //
 //  FFFMessageModel.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by NetEase.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
 #import "FFFMessageModel.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitQuickCommentUtil.h"
 
 @interface FFFMessageModel()
@@ -80,7 +80,7 @@
     if (CGSizeEqualToSize(size, CGSizeZero))
     {
         [self updateLayoutConfig];
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         size = [layoutConfig contentSize:self cellWidth:width];
         [self.contentSizeInfo setObject:[NSValue valueWithCGSize:size] forKey:@(width)];
     }
@@ -91,7 +91,7 @@
 - (UIEdgeInsets)contentViewInsets{
     if (UIEdgeInsetsEqualToEdgeInsets(_contentViewInsets, UIEdgeInsetsZero))
     {
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         _contentViewInsets = [layoutConfig contentViewInsets:self];
     }
     return _contentViewInsets;
@@ -100,7 +100,7 @@
 - (UIEdgeInsets)bubbleViewInsets{
     if (UIEdgeInsetsEqualToEdgeInsets(_bubbleViewInsets, UIEdgeInsetsZero))
     {
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         _bubbleViewInsets = [layoutConfig cellInsets:self];
     }
     return _bubbleViewInsets;
@@ -108,7 +108,7 @@
 
 - (CGSize)replyContentSize:(CGFloat)width
 {
-    id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+    id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
     CGSize size = [layoutConfig replyContentSize:self cellWidth:width];
     return size;
 }
@@ -116,7 +116,7 @@
 - (UIEdgeInsets)replyContentViewInsets{
     if (UIEdgeInsetsEqualToEdgeInsets(_replyContentViewInsets, UIEdgeInsetsZero))
     {
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         _replyContentViewInsets = [layoutConfig replyContentViewInsets:self];
     }
     return _replyContentViewInsets;
@@ -125,7 +125,7 @@
 - (UIEdgeInsets)replyBubbleViewInsets{
     if (UIEdgeInsetsEqualToEdgeInsets(_replyBubbleViewInsets, UIEdgeInsetsZero))
     {
-        id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+        id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
         _replyBubbleViewInsets = [layoutConfig replyCellInsets:self];
     }
     return _replyBubbleViewInsets;
@@ -134,7 +134,7 @@
 
 - (void)updateLayoutConfig
 {
-    id<FFFCellLayoutConfig> layoutConfig = [[NeeyoKit sharedKit] layoutConfig];
+    id<FFFCellLayoutConfig> layoutConfig = [[MyUserKit sharedKit] layoutConfig];
     
     _shouldShowAvatar       = [layoutConfig shouldShowAvatar:self];
     _shouldShowNickName     = _focreShowNickName ? YES : [layoutConfig shouldShowNickName:self];

@@ -1,14 +1,14 @@
 //
 //  FFFReplyedTextContentConfig.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by He on 2020/3/25.
 //  Copyright © 2020 NetEase. All rights reserved.
 //
 
 #import "FFFReplyedTextContentConfig.h"
-#import "M80AttributedLabel+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
+#import "MyUserKit.h"
 
 @interface FFFReplyedTextContentConfig ()
 
@@ -21,8 +21,8 @@
 
 - (CGSize)contentSize:(CGFloat)cellWidth message:(NIMMessage *)message
 {
-    NSString *text = [[NeeyoKit sharedKit] replyedContentWithMessage:message];
-    self.label.font = [[NeeyoKit sharedKit].config repliedSetting:message].replyedFont;
+    NSString *text = [[MyUserKit sharedKit] replyedContentWithMessage:message];
+    self.label.font = [[MyUserKit sharedKit].config repliedSetting:message].replyedFont;
     
     [self.label nim_setText:text];
     
@@ -50,7 +50,7 @@
 
 - (UIEdgeInsets)contentViewInsets:(NIMMessage *)message
 {    
-    return [[NeeyoKit sharedKit].config repliedSetting:message].contentInsets;
+    return [[MyUserKit sharedKit].config repliedSetting:message].contentInsets;
 }
 
 - (NSString *)cellContent:(NIMMessage *)message

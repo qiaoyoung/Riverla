@@ -1,16 +1,16 @@
 //
 //  NIMUtil.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/8/10.
 //  Copyright (c) 2015年 NetEase. All rights reserved.
 //
 
 #import "FFFKitUtil.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitInfoFetchOption.h"
 #import "FFFInputEmoticonManager.h"
-#import "NSDictionary+NeeyoKit.h"
+#import "NSDictionary+MyUserKit.h"
 
 static NSDateComponentsFormatter *_dateComponentsFormatter;
 
@@ -33,7 +33,7 @@ static NSDateComponentsFormatter *_dateComponentsFormatter;
     }
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.message = message;
-    return [[NeeyoKit sharedKit] infoByUser:uid option:option].showName;
+    return [[MyUserKit sharedKit] infoByUser:uid option:option].showName;
 }
 
 + (NSString *)showNick:(NSString*)uid inSession:(NIMSession*)session{
@@ -42,7 +42,7 @@ static NSDateComponentsFormatter *_dateComponentsFormatter;
     }
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.session = session;
-    return [[NeeyoKit sharedKit] infoByUser:uid option:option].showName;
+    return [[MyUserKit sharedKit] infoByUser:uid option:option].showName;
 }
 
 

@@ -1,6 +1,6 @@
 //
 //  FFFSessionListViewController.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by NetEase.
 //  Copyright (c) 2015年 NetEase. All rights reserved.

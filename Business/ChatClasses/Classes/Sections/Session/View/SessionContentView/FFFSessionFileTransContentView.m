@@ -9,8 +9,8 @@
 #import "FFFSessionFileTransContentView.h"
 #import "UIViewNimKit.h"
 #import "FFFMessageModel.h"
-#import "UIImage+NeeyoKit.h"
-#import "NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "MyUserKit.h"
 
 @interface FFFSessionFileTransContentView()
 
@@ -62,11 +62,11 @@
     [super refresh:data];
     NIMFileObject *fileObject = (NIMFileObject *)self.model.message.messageObject;
     
-    self.titleLabel.font = [[NeeyoKit sharedKit].config setting:data.message].font;
+    self.titleLabel.font = [[MyUserKit sharedKit].config setting:data.message].font;
     self.titleLabel.text = fileObject.displayName;
     [self.titleLabel sizeToFit];
     
-    self.sizeLabel.font = [[NeeyoKit sharedKit].config setting:data.message].font;
+    self.sizeLabel.font = [[MyUserKit sharedKit].config setting:data.message].font;
     long long size = fileObject.fileLength/1024;
     self.sizeLabel.text = [NSString stringWithFormat:@"%lldKB",size?: 1LL];
     [self.sizeLabel sizeToFit];

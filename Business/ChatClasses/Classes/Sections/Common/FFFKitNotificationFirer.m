@@ -1,6 +1,6 @@
 //
 //  FFFKitNotificationFirer.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 16/6/13.
 //  Copyright © 2016年 NetEase. All rights reserved.

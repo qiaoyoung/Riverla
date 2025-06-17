@@ -1,17 +1,17 @@
 //
 //  FFFKitDataProviderImpl.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 2016/10/31.
 //  Copyright © 2016年 NetEase. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitDataProviderImpl.h"
 #import "FFFKitInfoFetchOption.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 
 #pragma mark - kit data request
 @interface NIMKitDataRequest : NSObject
@@ -69,7 +69,7 @@
                                             [weakSelf afterReuquest:userIds];
                                             if (!error && users.count)
                                             {
-                                                [[NeeyoKit sharedKit] notfiyUserInfoChanged:userIds];
+                                                [[MyUserKit sharedKit] notfiyUserInfoChanged:userIds];
                                             }
                                             else if ([weakSelf shouldAddToFailedUsers:error])
                                             {
@@ -172,7 +172,7 @@
     NSString *content = @"未知消息".nim_localized;
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.message = replyedMessage;
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:replyedMessage.from option:option];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:replyedMessage.from option:option];
     NSString *from = info.showName;
     switch (messageType) {
         case NIMMessageTypeText:
@@ -367,9 +367,9 @@
         switch (mode) {
             case NIMSDKAuthModeChatroom:
             {
-//                NSAssert([NeeyoKit sharedKit].independentModeExtraInfo, @"in mode NIMSDKAuthModeChatroom , must has independentModeExtraInfo");
-                info.showName        = [NeeyoKit sharedKit].independentModeExtraInfo.myChatroomNickname;
-                info.avatarUrlString = [NeeyoKit sharedKit].independentModeExtraInfo.myChatroomAvatar;
+//                NSAssert([MyUserKit sharedKit].independentModeExtraInfo, @"in mode NIMSDKAuthModeChatroom , must has independentModeExtraInfo");
+                info.showName        = [MyUserKit sharedKit].independentModeExtraInfo.myChatroomNickname;
+                info.avatarUrlString = [MyUserKit sharedKit].independentModeExtraInfo.myChatroomAvatar;
             }
                 break;
             case NIMSDKAuthModeIM:
@@ -440,7 +440,7 @@
 
 
 
-//将个人信息和群组信息变化通知给 NeeyoKit 。
+//将个人信息和群组信息变化通知给 MyUserKit 。
 //如果您的应用不托管个人信息给云信，则需要您自行在上层监听个人信息变动，并将变动通知给 NIMKit。
 
 #pragma mark - NIMUserManagerDelegate
@@ -463,7 +463,7 @@
     }
     else
     {
-        [[NeeyoKit sharedKit] notfiyUserInfoChanged:@[user.userId]];
+        [[MyUserKit sharedKit] notfiyUserInfoChanged:@[user.userId]];
     }
     
 }
@@ -500,10 +500,10 @@
         switch (team.type) {
             case NIMTeamTypeNormal:
             case NIMTeamTypeAdvanced:
-                [[NeeyoKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeNomal];
+                [[MyUserKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeNomal];
                 break;
             case NIMTeamTypeSuper:
-                [[NeeyoKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeSuper];
+                [[MyUserKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeSuper];
                 break;
             default:
                 break;
@@ -522,10 +522,10 @@
         switch (team.type) {
             case NIMTeamTypeNormal:
             case NIMTeamTypeAdvanced:
-                [[NeeyoKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeNomal];
+                [[MyUserKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeNomal];
                 break;
             case NIMTeamTypeSuper:
-                [[NeeyoKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeSuper];
+                [[MyUserKit sharedKit] notifyTeamInfoChanged:team.teamId type:NIMKitTeamTypeSuper];
                 break;
             default:
                 break;
@@ -537,8 +537,8 @@
 - (void)onLogin:(NIMLoginStep)step
 {
     if (step == NIMLoginStepSyncOK) {
-        [[NeeyoKit sharedKit] notifyTeamInfoChanged:nil type:NIMKitTeamTypeNomal];
-        [[NeeyoKit sharedKit] notifyTeamMemebersChanged:nil type:NIMKitTeamTypeNomal];
+        [[MyUserKit sharedKit] notifyTeamInfoChanged:nil type:NIMKitTeamTypeNomal];
+        [[MyUserKit sharedKit] notifyTeamMemebersChanged:nil type:NIMKitTeamTypeNomal];
     }
 }
 

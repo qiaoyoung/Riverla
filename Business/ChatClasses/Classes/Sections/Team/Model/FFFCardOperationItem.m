@@ -7,7 +7,7 @@
 //
 
 #import "FFFCardOperationItem.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFGlobalMacro.h"
 
 @interface FFFCardOperationItem()

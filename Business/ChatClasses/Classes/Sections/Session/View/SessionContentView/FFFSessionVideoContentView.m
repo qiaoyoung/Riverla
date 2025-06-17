@@ -1,6 +1,6 @@
 //
 //  FFFSessionVideoContentView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/4/10.
 //  Copyright (c) 2015年 Netease. All rights reserved.
@@ -9,7 +9,7 @@
 #import "FFFSessionVideoContentView.h"
 #import "FFFMessageModel.h"
 #import "UIViewNimKit.h"
-#import "UIImage+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
 #import "FFFLoadProgressView.h"
 #import "NTESAVMoivePlayerController.h"
 #import <AVFoundation/AVFoundation.h>

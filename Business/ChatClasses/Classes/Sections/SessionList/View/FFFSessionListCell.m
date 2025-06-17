@@ -78,7 +78,7 @@
 
         FFFKitInfo *info = nil;
         if (recent.session.sessionType == NIMSessionTypeTeam) {
-            info = [[NeeyoKit sharedKit] infoByTeam:recent.session.sessionId option:nil];
+            info = [[MyUserKit sharedKit] infoByTeam:recent.session.sessionId option:nil];
             NIMTeamNotifyState notifyState = [[[NIMSDK sharedSDK] teamManager] notifyStateForNewMsg:info.infoId];
             BOOL ishidden = notifyState == NIMTeamNotifyStateAll ? YES: NO ;//判断消息是否勿扰
             self.disnodistrubImg.hidden = ishidden;
@@ -93,7 +93,7 @@
         } else if (recent.session.sessionType == NIMSessionTypeP2P) {
             FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
             option.session = recent.session;
-            info = [[NeeyoKit sharedKit] infoByUser:recent.session.sessionId option:option];
+            info = [[MyUserKit sharedKit] infoByUser:recent.session.sessionId option:option];
 
             BOOL ishidden = [[NIMSDK sharedSDK].userManager notifyForNewMsg:info.infoId];//判断消息是否勿扰
             self.disnodistrubImg.hidden =  ishidden;

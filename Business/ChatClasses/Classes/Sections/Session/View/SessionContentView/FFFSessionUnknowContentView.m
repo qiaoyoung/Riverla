@@ -1,17 +1,17 @@
 //
 //  FFFSessionUnknowContentView.h
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/3/9.
 //  Copyright (c) 2015年 Netease. All rights reserved.
 //
 
 #import "FFFSessionUnknowContentView.h"
-#import "M80AttributedLabel+NeeyoKit.h"
+#import "M80AttributedLabel+MyUserKit.h"
 #import "UIViewNimKit.h"
 #import "FFFMessageModel.h"
-#import "NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import "FFFGlobalMacro.h"
 
 
@@ -38,7 +38,7 @@
     [super refresh:data];
     NSString *text = @"";
 //    NSString *text = @"未知类型消息".nim_localized;
-    FFFKitSetting *setting = [[NeeyoKit sharedKit].config setting:data.message];
+    FFFKitSetting *setting = [[MyUserKit sharedKit].config setting:data.message];
 
     self.label.textColor = setting.textColor;
     self.label.font = setting.font;

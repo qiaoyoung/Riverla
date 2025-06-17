@@ -13,7 +13,7 @@
 #import "FFFKitDependency.h"
 #import "FFFKitProgressHUD.h"
 #import "FFFGlobalMacro.h"
-#import "NSString+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
 #import "FFFTeamListDataManager.h"
 #import "NTESPersonalCardViewController.h"
 #import "NTESContactDataCell.h"
@@ -266,7 +266,7 @@ typedef void(^NIMTeamMemberListFetchDataBlock)(BOOL isCompletion);
     cell.delegate = self;
 
     NSString *uId = _teamListManager.memberIds[indexPath.section];
-    FFFKitInfo *usrInfo = [[NeeyoKit sharedKit] infoByUser:uId option:nil];
+    FFFKitInfo *usrInfo = [[MyUserKit sharedKit] infoByUser:uId option:nil];
 
     [cell reloadWithUserId:uId];
     [cell.roleImageView sd_setImageWithURL:[NSURL URLWithString:usrInfo.avatarUrlString] placeholderImage:usrInfo.avatarImage];

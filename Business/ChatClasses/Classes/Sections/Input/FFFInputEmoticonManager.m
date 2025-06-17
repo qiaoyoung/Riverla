@@ -8,10 +8,10 @@
 
 #import "FFFInputEmoticonManager.h"
 #import "FFFInputEmoticonDefine.h"
-#import "NSString+NeeyoKit.h"
-#import "NeeyoKit.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSBundle+NeeyoKit.h"
+#import "NSString+MyUserKit.h"
+#import "MyUserKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSBundle+MyUserKit.h"
 
 @implementation NIMInputEmoticon
 

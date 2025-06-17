@@ -1,6 +1,6 @@
 //
 //  FFFAvatarImageView.m
-// NeeyoKit
+// MyUserKit
 //
 //  Created by chris on 15/2/10.
 //  Copyright (c) 2015年 Netease. All rights reserved.
@@ -10,7 +10,7 @@
 #import "UIViewNimKit.h"
 #import "objc/runtime.h"
 #import "FFFKitDependency.h"
-#import "NeeyoKit.h"
+#import "MyUserKit.h"
 #import "FFFKitInfoFetchOption.h"
 #import "FFFKitUrlManager.h"
 
@@ -72,7 +72,7 @@
 
 
 - (void)setupRadius{
-    switch ([NeeyoKit sharedKit].config.avatarType)
+    switch ([MyUserKit sharedKit].config.avatarType)
     {
         case NIMKitAvatarTypeNone:
             _cornerRadius = 0;
@@ -127,17 +127,17 @@
 {
     FFFKitInfo *info = nil;
     if (session.sessionType == NIMSessionTypeTeam) {
-        info = [[NeeyoKit sharedKit] infoByTeam:session.sessionId option:nil];
+        info = [[MyUserKit sharedKit] infoByTeam:session.sessionId option:nil];
 //        info.avatarImage = [UIImage grayImageWithName:@"contact_group_header" color:RGB_COLOR_String(kCommonBGColor_All)];
         info.avatarImage = [UIImage imageNamed:@"head_default_group"];
     } else if (session.sessionType == NIMSessionTypeSuperTeam) {
-        info = [[NeeyoKit sharedKit] infoBySuperTeam:session.sessionId option:nil];
+        info = [[MyUserKit sharedKit] infoBySuperTeam:session.sessionId option:nil];
 //        info.avatarImage = [UIImage grayImageWithName:@"contact_group_header" color:RGB_COLOR_String(kCommonBGColor_All)];
         info.avatarImage = [UIImage imageNamed:@"head_default_group"];
     } else {
         FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         option.session = session;
-        info = [[NeeyoKit sharedKit] infoByUser:session.sessionId option:option];
+        info = [[MyUserKit sharedKit] infoByUser:session.sessionId option:option];
     }
     [self setImageWithUrlString:info.avatarUrlString placeholderImage:info.avatarImage options:0];
 }
@@ -147,7 +147,7 @@
     FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
     option.message = message;
     NSString *from = message.from;
-    FFFKitInfo *info = [[NeeyoKit sharedKit] infoByUser:from option:option];
+    FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:from option:option];
     [self setImageWithUrlString:info.avatarUrlString placeholderImage:info.avatarImage options:0];
 }
 

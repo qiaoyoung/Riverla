@@ -23,8 +23,8 @@
 #import "NTESRegistConfigManager.h"
 #import "FFFKitProgressHUD.h"
 #import "FFFKitDependency.h"
-#import "UIImage+NeeyoKit.h"
-#import "NSString+NeeyoKit.h"
+#import "UIImage+MyUserKit.h"
+#import "NSString+MyUserKit.h"
 #import "NSSetAvater.h"
 
 @interface FFFGroupAvatarViewController ()<NTESCustomUIAlertDelegate>

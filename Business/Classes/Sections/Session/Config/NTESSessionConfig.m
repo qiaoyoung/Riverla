@@ -26,7 +26,7 @@
 
 - (NSArray *)mediaItems
 {
-    NSArray *defaultMediaItems = [NeeyoKit sharedKit].config.defaultMediaItems;
+    NSArray *defaultMediaItems = [MyUserKit sharedKit].config.defaultMediaItems;
     
 //    FFFMediaItem *janKenPon = [FFFMediaItem item:@"onTapMediaItemJanKenPon:"
 //                                     normalImage:[UIImage imageNamed:@"icon_jankenpon_normal"]
