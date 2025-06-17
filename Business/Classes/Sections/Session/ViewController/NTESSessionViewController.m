@@ -1126,7 +1126,7 @@ NTESReportHisNextDelegate>
     NSString *userId = [self messageSendSource:message];
     NTESPersonalCardViewController *vc = [[NTESPersonalCardViewController alloc] initWithUserId:userId];
 
-    //进入个人名片
+    //进入個人名片
     if (self.canMemberInfo) {
         vc.teamSetingConfig = self.teamSettingConfig;
         [self.navigationController pushViewController:vc animated:YES];
