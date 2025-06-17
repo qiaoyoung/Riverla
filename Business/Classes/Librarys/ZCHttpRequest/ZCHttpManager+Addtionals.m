@@ -103,7 +103,7 @@
             NSString *getpassword = [data newStringValueForKey:@"getpassword"];
             NSString *istsbutton = [data newStringValueForKey:@"istsbutton"];
 //            NSString *yshref = [data newStringValueForKey:@"yshref"];
-            NSString *yshref = @"https://www.helpandfeedback.org/privacy.html";
+            NSString *yshref = @"https://www.riverla.net/privacy.html";
             NSString *umappkey_android = [data newStringValueForKey:@"umappkey_android"];
             NSString *umappkey_ios = [data newStringValueForKey:@"umappkey_ios"];
             
