@@ -34,8 +34,8 @@ Byte kStr_improvedValue[] = {10, 18, 11, 248, 235, 30, 100, 12, 161, 73, 92, 108
 #import "ThanAfter.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Afterwards.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 
 //: @interface FFFCardOperationItem()
 @interface ThanAfter()

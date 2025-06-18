@@ -262,8 +262,8 @@ Byte kStr_sinCollaborationData[] = {50, 7, 12, 13, 52, 187, 113, 92, 231, 140, 1
 #import "LittlenessManager.h"
 //: #import <CoreTelephony/CTCellularData.h>
 #import <CoreTelephony/CTCellularData.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "AppDelegate.h"
 #import "AppDelegate.h"
 //: #import "CCCAutoLoginManager.h"

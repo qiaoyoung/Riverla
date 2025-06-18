@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFContactDefines.h
+//  UserContactDefines.h
 //  NIM
 //
 //  Created by chris on 15/2/26.
@@ -16,13 +16,13 @@
 @protocol TingProtocol <NSObject>
 
 //: - (NSString *)groupTitle;
-- (NSString *)session;
+- (NSString *)groupTitle;
 
 //: - (NSString *)memberId;
-- (NSString *)roundCell;
+- (NSString *)memberId;
 
 //: - (NSString *)showName;
-- (NSString *)requestShow;
+- (NSString *)showName;
 
 //: - (NSString *)avatarUrlString;
 - (NSString *)team;
@@ -31,7 +31,7 @@
 - (UIImage *)text;
 
 //: - (id)sortKey;
-- (id)push;
+- (id)sortKey;
 
 //: @end
 @end

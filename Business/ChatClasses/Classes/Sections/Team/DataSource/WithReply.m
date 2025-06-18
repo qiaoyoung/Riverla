@@ -64,8 +64,8 @@ Byte kStr_keyOptionContent[] = {47, 12, 19, 9, 86, 41, 216, 188, 188, 214, 111, 
 // __M_A_C_R_O__
 //: #import "FFFTeamListDataManager.h"
 #import "WithReply.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
 

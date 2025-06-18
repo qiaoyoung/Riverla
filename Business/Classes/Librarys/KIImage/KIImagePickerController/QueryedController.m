@@ -196,7 +196,6 @@ Byte kStr_cousinTitle[] = {58, 36, 9, 98, 114, 124, 38, 141, 12, 101, 103, 97, 1
     return _imagePickerController;
 }
 
-//: - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
 - (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex {
     //: if (buttonIndex == 0) {
     if (buttonIndex == 0) {

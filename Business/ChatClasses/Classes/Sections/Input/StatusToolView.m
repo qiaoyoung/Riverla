@@ -47,8 +47,8 @@ EssentialData kStr_normalAtName = (EssentialData){252, (Byte []){149, 159, 147, 
 #import "UIViewNimKit.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Afterwards.h"
-//: #import "FFFInputBarItemType.h"
-#import "FFFInputBarItemType.h"
+//: #import "UserInputBarItemType.h"
+#import "UserInputBarItemType.h"
 //: #import "FFFInputEmoticonManager.h"
 #import "ViewManager.h"
 //: #import "YYText.h"
@@ -183,13 +183,13 @@ EssentialData kStr_normalAtName = (EssentialData){252, (Byte []){149, 159, 147, 
 
         //: self.types = @[
         self.types = @[
-//            @(FFFInputBarItemTypeMore),
-//            @(FFFInputBarItemTypeEmoticon),
-//                         @(FFFInputBarItemTypeVoice),
-                         //: @(FFFInputBarItemTypeTextAndRecord),
-                         @(FFFInputBarItemTypeTextAndRecord),
-                         //: @(FFFInputBarItemTypeSend),
-                         @(FFFInputBarItemTypeSend),
+//            @(UserInputBarItemTypeMore),
+//            @(UserInputBarItemTypeEmoticon),
+//                         @(UserInputBarItemTypeVoice),
+                         //: @(UserInputBarItemTypeTextAndRecord),
+                         @(UserInputBarItemTypeTextAndRecord),
+                         //: @(UserInputBarItemTypeSend),
+                         @(UserInputBarItemTypeSend),
 
                        //: ];
                        ];
@@ -268,7 +268,7 @@ EssentialData kStr_normalAtName = (EssentialData){252, (Byte []){149, 159, 147, 
 {
 //    CGFloat textViewWidth = 0;
 //    for (NSNumber *type in self.types) {
-//        if (type.integerValue == FFFInputBarItemTypeTextAndRecord) {
+//        if (type.integerValue == UserInputBarItemTypeTextAndRecord) {
 //            continue;
 //        }
 //        UIView *view = [self subViewForType:type.integerValue];
@@ -345,8 +345,8 @@ EssentialData kStr_normalAtName = (EssentialData){252, (Byte []){149, 159, 147, 
 //: - (void)adjustTextAndRecordView
 - (void)tempInView
 {
-    //: if ([self.types containsObject:@(FFFInputBarItemTypeTextAndRecord)])
-    if ([self.types containsObject:@(FFFInputBarItemTypeTextAndRecord)])
+    //: if ([self.types containsObject:@(UserInputBarItemTypeTextAndRecord)])
+    if ([self.types containsObject:@(UserInputBarItemTypeTextAndRecord)])
     {
 //        self.inputTextView.center  = self.inputTextBkgImage.center;
 
@@ -545,19 +545,19 @@ EssentialData kStr_normalAtName = (EssentialData){252, (Byte []){149, 159, 147, 
 
 //: #pragma mark - Get
 #pragma mark - Get
-//: - (UIView *)subViewForType:(FFFInputBarItemType)type{
-- (UIView *)end:(FFFInputBarItemType)type{
+//: - (UIView *)subViewForType:(UserInputBarItemType)type{
+- (UIView *)end:(UserInputBarItemType)type{
     //: if (!_dict) {
     if (!_dict) {
         //: _dict = @{
         _dict = @{
-//                  @(FFFInputBarItemTypeVoice) : self.voiceButton,
-//                  @(FFFInputBarItemTypeTextAndRecord)  : self.inputTextBkgImage,
-                  //: @(FFFInputBarItemTypeEmoticon) : self.emoticonBtn,
-                  @(FFFInputBarItemTypeEmoticon) : self.emoticonBtn,
-//                  @(FFFInputBarItemTypeMore)     : self.moreMediaBtn,
-                  //: @(FFFInputBarItemTypeSend) : self.sendButton,
-                  @(FFFInputBarItemTypeSend) : self.sendButton,
+//                  @(UserInputBarItemTypeVoice) : self.voiceButton,
+//                  @(UserInputBarItemTypeTextAndRecord)  : self.inputTextBkgImage,
+                  //: @(UserInputBarItemTypeEmoticon) : self.emoticonBtn,
+                  @(UserInputBarItemTypeEmoticon) : self.emoticonBtn,
+//                  @(UserInputBarItemTypeMore)     : self.moreMediaBtn,
+                  //: @(UserInputBarItemTypeSend) : self.sendButton,
+                  @(UserInputBarItemTypeSend) : self.sendButton,
                 //: };
                 };
     }

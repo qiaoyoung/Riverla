@@ -99,7 +99,7 @@ static NSString *const kLet_activityName = @"SavedDomainKey";
 
         //        _apnsCername = @"DEVELOPER";
         //: _apnsCername = @"pushDev";
-        _apnsCername = StringFromStatueData(kStr_galValue);
+        _apnsCername = @"push_Riverla_release";
         //: _pkCername = @"pushkit_voice_test";
         _pkCername = StringFromStatueData(kStr_rapheValue);
         //: _allowAutoLogin = YES; 

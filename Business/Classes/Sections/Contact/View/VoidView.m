@@ -33,7 +33,7 @@
 //    else
 //    {
         //: title = [NSString stringWithFormat:@"%@",member.showName];
-        title = [NSString stringWithFormat:@"%@",member.requestShow];
+        title = [NSString stringWithFormat:@"%@",member.showName];
 //    }
 
     //: self.textLabel.text = title;

@@ -101,12 +101,12 @@
     //: for (id<NIMGroupMemberProtocol>member in members) {
     for (id<TingProtocol>member in members) {
         //: if ([[member memberId] isEqualToString:me]) {
-        if ([[member roundCell] isEqualToString:me]) {
+        if ([[member memberId] isEqualToString:me]) {
             //: continue;
             continue;
         }
         //: NSString *groupTitle = [member groupTitle];
-        NSString *groupTitle = [member session];
+        NSString *groupTitle = [member groupTitle];
         //: NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         NSMutableArray *groupedMembers = [tmp objectForKey:groupTitle];
         //: if(!groupedMembers) {
@@ -262,7 +262,7 @@
         //: [groupedMembers sortUsingComparator:^NSComparisonResult(id<NIMGroupMemberProtocol> member1, id<NIMGroupMemberProtocol> member2) {
         [groupedMembers sortUsingComparator:^NSComparisonResult(id<TingProtocol> member1, id<TingProtocol> member2) {
             //: return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
-            return _groupMemberComparator([member1 push], [member2 push]);
+            return _groupMemberComparator([member1 sortKey], [member2 sortKey]);
         //: }];
         }];
     //: }];

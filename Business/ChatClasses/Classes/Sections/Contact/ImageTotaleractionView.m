@@ -42,8 +42,8 @@ Byte kStr_withinTitle[] = {45, 21, 15, 5, 92, 120, 114, 126, 125, 110, 114, 116,
 #import "UIViewNimKit.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Afterwards.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
 

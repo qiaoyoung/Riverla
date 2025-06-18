@@ -15,12 +15,11 @@
 //: @protocol NTESGroupMemberProtocol <NSObject>
 @protocol ProtocolStatusDisable <NSObject>
 
-//: - (NSString *)groupTitle;
-- (NSString *)title;
-//: - (NSString *)memberId;
-- (NSString *)marginTing;
-//: - (id)sortKey;
-- (id)user;
+- (NSString *)groupTitle;
+
+- (NSString *)memberId;
+
+- (id)sortKey;
 
 //: @end
 @end

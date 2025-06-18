@@ -112,9 +112,9 @@ Byte kStr_quickEvolutionaryContent[] = {67, 6, 48, 8, 120, 218, 24, 169, 150, 10
 //: - (void)refreshItem:(id<NIMGroupMemberProtocol>)member {
 - (void)nowadays:(id<TingProtocol>)member {
     //: [self refreshTitle:member.showName];
-    [self with:member.requestShow];
+    [self with:member.showName];
     //: self.memberId = member.memberId;
-    self.memberId = member.roundCell;
+    self.memberId = member.memberId;
     //: NSURL *url = member.avatarUrlString ? [NSURL URLWithString:member.avatarUrlString] : nil;
     NSURL *url = member.team ? [NSURL URLWithString:member.team] : nil;
     //: [_avatarImageView nim_setImageWithURL:url placeholderImage:[UIImage imageNamed:@"head_default"] options:SDWebImageRetryFailed];
@@ -124,9 +124,9 @@ Byte kStr_quickEvolutionaryContent[] = {67, 6, 48, 8, 120, 218, 24, 169, 150, 10
 //: - (void)refreshUser:(id<NIMGroupMemberProtocol>)member{
 - (void)show:(id<TingProtocol>)member{
     //: [self refreshTitle:member.showName];
-    [self with:member.requestShow];
+    [self with:member.showName];
     //: self.memberId = [member memberId];
-    self.memberId = [member roundCell];
+    self.memberId = [member memberId];
     //: FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.memberId option:nil];
     MarginThanInfo *info = [[Afterwards blue] put:self.memberId button:nil];
     //: [self refreshAvatar:info];

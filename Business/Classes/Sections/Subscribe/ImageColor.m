@@ -15,8 +15,8 @@
 #import "NTESSubscribeDefine.h"
 //: #import "NTESDevice.h"
 #import "RangeRecent.h"
-//: #import "FFFExtensionHelper.h"
-#import "FFFExtensionHelper.h"
+//: #import "UserExtensionHelper.h"
+#import "UserExtensionHelper.h"
 
 //: NSString *const NTESSubscribeNetState = @"net_state";
 NSString *const kLet_versionName = @"net_state";

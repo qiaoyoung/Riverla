@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <UIKit/UIKit.h>
 #import <UIKit/UIKit.h>
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
+//: #import "UserCellConfig.h"
+#import "UserCellConfig.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
 

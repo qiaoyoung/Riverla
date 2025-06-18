@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "UserBaseSessionContentConfig.h"
+#import "UserBaseSessionContentConfig.h"
 
 //: @interface FFFAudioContentConfig : NSObject<CCCSessionContentConfig>
 @interface ImageConfig : NSObject<ItemConfig>

@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFUsrInfoData.h
+//  UsrInfoData.h
 //  NIM
 //
 //  Created by Xuhui on 15/3/19.
@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFContactDefines.h"
-#import "FFFContactDefines.h"
+//: #import "UserContactDefines.h"
+#import "UserContactDefines.h"
 
 //: @class FFFKitInfo;
 @class MarginThanInfo;

@@ -11,12 +11,12 @@
 #import <Foundation/Foundation.h>
 //: #import "FFFMediaItem.h"
 #import "ImageRecent.h"
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
+//: #import "UserCellConfig.h"
+#import "UserCellConfig.h"
 //: #import "FFFKitMessageProvider.h"
 #import "TitleWireProvider.h"
-//: #import "FFFInputBarItemType.h"
-#import "FFFInputBarItemType.h"
+//: #import "UserInputBarItemType.h"
+#import "UserInputBarItemType.h"
 //: #import "FFFInputEmoticonManager.h"
 #import "ViewManager.h"
 
@@ -28,7 +28,7 @@
 @optional
 
 /**
- *  输入按钮类型，请填入 FFFInputBarItemType 枚举，按顺序排列。不实现则按默认排列。
+ *  输入按钮类型，请填入 UserInputBarItemType 枚举，按顺序排列。不实现则按默认排列。
  */
 //: - (NSArray<NSNumber *> *)inputBarItemTypes;
 - (NSArray<NSNumber *> *)imageLoad;

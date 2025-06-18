@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
+//: #import "UserCellConfig.h"
+#import "UserCellConfig.h"
 
 //: @interface FFFTimestampModel : NSObject
 @interface ModelTimestampSupport : NSObject

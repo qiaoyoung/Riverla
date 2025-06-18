@@ -402,13 +402,13 @@ Byte kStr_tenderTitle[] = {59, 10, 82, 11, 64, 22, 238, 187, 73, 94, 226, 191, 1
 - (NSArray<NSNumber *> *)imageLoad{
     //: return @[
     return @[
-//        @(FFFInputBarItemTypeMore),
-//        @(FFFInputBarItemTypeEmoticon),
-//             @(FFFInputBarItemTypeVoice),
-             //: @(FFFInputBarItemTypeTextAndRecord),
-             @(FFFInputBarItemTypeTextAndRecord),
-        //: @(FFFInputBarItemTypeSend),
-        @(FFFInputBarItemTypeSend),
+//        @(UserInputBarItemTypeMore),
+//        @(UserInputBarItemTypeEmoticon),
+//             @(UserInputBarItemTypeVoice),
+             //: @(UserInputBarItemTypeTextAndRecord),
+             @(UserInputBarItemTypeTextAndRecord),
+        //: @(UserInputBarItemTypeSend),
+        @(UserInputBarItemTypeSend),
             //: ];
             ];
 }

@@ -69,8 +69,8 @@ PrimData kStr_lipHugeValue = (PrimData){171, (Byte []){200, 196, 197, 223, 206, 
 //: #import "SSZipArchiveManager.h"
 #import "ArchiveManager.h"
 
-//: NSString *NTESCustomNotificationCountChanged = @"NTESCustomNotificationCountChanged";
-NSString *kLet_keyText = @"NTESCustomNotificationCountChanged";
+//: NSString *kLet_keyText = @"kLet_keyText";
+NSString *kLet_keyText = @"kLet_keyText";
 
 //: @interface NTESNotificationCenter () <NIMSystemNotificationManagerDelegate,NIMChatManagerDelegate,NIMBroadcastManagerDelegate, NIMSignalManagerDelegate,NIMConversationManagerDelegate>
 @interface BottomRecent () <NIMSystemNotificationManagerDelegate,NIMChatManagerDelegate,NIMBroadcastManagerDelegate, NIMSignalManagerDelegate,NIMConversationManagerDelegate>
@@ -440,7 +440,7 @@ NSString *kLet_keyText = @"NTESCustomNotificationCountChanged";
                     }
                     //: if (notification.setting.shouldBeCounted) {
                     if (notification.setting.shouldBeCounted) {
-                        //: [[NSNotificationCenter defaultCenter] postNotificationName:NTESCustomNotificationCountChanged object:nil];
+                        //: [[NSNotificationCenter defaultCenter] postNotificationName:kLet_keyText object:nil];
                         [[NSNotificationCenter defaultCenter] postNotificationName:kLet_keyText object:nil];
                     }
                     //: NSString *content = [dict jsonString:@"content"];

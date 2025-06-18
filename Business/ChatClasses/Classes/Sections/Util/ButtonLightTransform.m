@@ -82,8 +82,8 @@ Byte kStr_approveName[] = {25, 20, 5, 133, 20, 95, 116, 110, 101, 116, 110, 111,
 #import "ButtonLightTransform.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "FFFKitUtil.h"
 #import "PopUtil.h"
 //: #import "MyUserKit.h"

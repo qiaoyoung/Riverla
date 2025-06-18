@@ -74,7 +74,7 @@ Byte kStr_revelationWindowValue[] = {25, 7, 68, 9, 11, 17, 35, 165, 36, 32, 37, 
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFCommonTableData.m
+//  UserCommonTableData.m
 //  NIM
 //
 //  Created by chris on 15/6/26.
@@ -82,8 +82,8 @@ Byte kStr_revelationWindowValue[] = {25, 7, 68, 9, 11, 17, 35, 165, 36, 32, 37, 
 //
 
 // __M_A_C_R_O__
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 
 //: @implementation NIMCommonTableSection
 @implementation ClearUser

@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import "FFFSessionConfig.h"
 #import "FrameConfig.h"
-//: #import "FFFInputProtocol.h"
-#import "FFFInputProtocol.h"
+//: #import "UserInputProtocol.h"
+#import "UserInputProtocol.h"
 
 //: NS_ASSUME_NONNULL_BEGIN
 NS_ASSUME_NONNULL_BEGIN

@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import "FFFKitInfo.h"
 #import "MarginThanInfo.h"
-//: #import "FFFGroupedUsrInfo.h"
-#import "FFFGroupedUsrInfo.h"
+//: #import "UserGroupedUsrInfo.h"
+#import "UserGroupedUsrInfo.h"
 
 /**
  *  联系人选择器数据回调
@@ -86,7 +86,7 @@ typedef void(^NIMContactDataProviderHandler)(NSDictionary *contentDic, NSArray *
 
 /// 是否显示头部的群头像 群名字headerview
 //: - (BOOL)showSelectHeaderview;
-- (BOOL)searchion;
+- (BOOL)showSelectHeaderview;
 
 //: @end
 @end

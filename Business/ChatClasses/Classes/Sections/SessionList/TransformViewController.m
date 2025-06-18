@@ -195,20 +195,20 @@ FlueData kStr_soleAtBenefitName = (FlueData){16, (Byte []){98, 117, 122, 117, 11
     //: [[NIMSDK sharedSDK].loginManager addDelegate:self];
     [[NIMSDK sharedSDK].loginManager addDelegate:self];
 
-    //: extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
-    extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
-    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamInfoHasUpdatedNotification:) name:NIMKitTeamInfoHasUpdatedNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(putUp:) name:NIMKitTeamInfoHasUpdatedNotification object:nil];
+    //: extern NSString *const kLet_windowUserValue;
+    extern NSString *const kLet_windowUserValue;
+    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamInfoHasUpdatedNotification:) name:kLet_windowUserValue object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(putUp:) name:kLet_windowUserValue object:nil];
 
-    //: extern NSString *const NIMKitTeamMembersHasUpdatedNotification;
-    extern NSString *const NIMKitTeamMembersHasUpdatedNotification;
-    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamMembersHasUpdatedNotification:) name:NIMKitTeamMembersHasUpdatedNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(directioning:) name:NIMKitTeamMembersHasUpdatedNotification object:nil];
+    //: extern NSString *const kLet_topData;
+    extern NSString *const kLet_topData;
+    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTeamMembersHasUpdatedNotification:) name:kLet_topData object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(directioning:) name:kLet_topData object:nil];
 
-    //: extern NSString *const NIMKitUserInfoHasUpdatedNotification;
-    extern NSString *const NIMKitUserInfoHasUpdatedNotification;
-    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onUserInfoHasUpdatedNotification:) name:NIMKitUserInfoHasUpdatedNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(boxTemp:) name:NIMKitUserInfoHasUpdatedNotification object:nil];
+    //: extern NSString *const kLet_borderText;
+    extern NSString *const kLet_borderText;
+    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onUserInfoHasUpdatedNotification:) name:kLet_borderText object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(boxTemp:) name:kLet_borderText object:nil];
 
     //: [self setupSessions];
     [self queryed];

@@ -36,8 +36,8 @@ Byte kStr_currentFleshContent[] = {37, 7, 13, 83, 247, 151, 165, 196, 33, 235, 1
 // __M_A_C_R_O__
 //: #import "FFFTeamCardSelectedViewController.h"
 #import "AchromaticColorViewController.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "FFFTeamCartSetTableViewCell.h"
 #import "TempShowViewCell.h"
 

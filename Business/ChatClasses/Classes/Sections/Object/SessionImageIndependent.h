@@ -11,10 +11,10 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFSessionPrivateProtocol.h"
-#import "FFFSessionPrivateProtocol.h"
-//: #import "FFFSessionConfigurateProtocol.h"
-#import "FFFSessionConfigurateProtocol.h"
+//: #import "UserSessionPrivateProtocol.h"
+#import "UserSessionPrivateProtocol.h"
+//: #import "UserSessionConfigurateProtocol.h"
+#import "UserSessionConfigurateProtocol.h"
 
 //: @interface FFFSessionInteractorImpl : NSObject<NIMSessionInteractor,NIMSessionLayoutDelegate>
 @interface SessionImageIndependent : NSObject<ViewHighMagnitudeeractor,TitleDetail>

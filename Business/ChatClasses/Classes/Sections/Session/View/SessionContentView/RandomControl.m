@@ -21,8 +21,8 @@
 #import "Afterwards.h"
 //: #import "NSString+MyUserKit.h"
 #import "NSString+Afterwards.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 
 //: @interface FFFSessionUnknowContentView()
 @interface RandomControl()

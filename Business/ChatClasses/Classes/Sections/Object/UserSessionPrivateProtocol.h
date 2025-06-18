@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFSessionPrivateProtocol.h
+//  UserSessionPrivateProtocol.h
 // Afterwards
 //
 //  Created by chris on 2016/11/7.
@@ -137,7 +137,7 @@
 - (void)inputSignal:(CGFloat)inputViewHeight;
 
 //: - (void)setDelegate:(id<NIMSessionLayoutDelegate>)delegate;
-- (void)setDoing:(id<TitleDetail>)delegate;
+- (void)setDelegate:(id<TitleDetail>)delegate;
 
 //: - (void)layoutAfterRefresh;
 - (void)rubric;

@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "FFFSessionMessageContentView.h"
 #import "CypherView.h"
-//: #import "FFFKitDependency.h"
-#import "FFFKitDependency.h"
+//: #import "UserKitDependency.h"
+#import "UserKitDependency.h"
 
 //: @interface FFFSessionNetChatNotifyContentView : FFFSessionMessageContentView
 @interface TelephotoView : CypherView

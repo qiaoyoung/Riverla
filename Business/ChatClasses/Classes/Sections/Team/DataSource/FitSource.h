@@ -173,7 +173,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (NIMTeam *)generateQuick;
 
 //: - (NIMSession *)session;
-- (NIMSession *)position;
+- (NIMSession *)session;
 
 //: - (NSInteger)memberNumber;
 - (NSInteger)length;

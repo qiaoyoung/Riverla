@@ -18,7 +18,7 @@
 @implementation NSObject (Spectacles)
 
 //: - (void)setTyl_internalIdentifier:(NSString *)tyl_internalIdentifier{
-- (void)setTyl_internalIdentifier:(NSString *)Spectacles{
+- (void)setSpectacles:(NSString *)Spectacles {
     //: objc_setAssociatedObject(self, @selector(tyl_internalIdentifier), tyl_internalIdentifier, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     objc_setAssociatedObject(self, @selector(Spectacles), Spectacles, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }

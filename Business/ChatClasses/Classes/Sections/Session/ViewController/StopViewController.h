@@ -15,10 +15,10 @@
 #import <NIMSDK/NIMSDK.h>
 //: #import "FFFSessionConfig.h"
 #import "FrameConfig.h"
-//: #import "FFFMessageCellProtocol.h"
-#import "FFFMessageCellProtocol.h"
-//: #import "FFFSessionConfigurateProtocol.h"
-#import "FFFSessionConfigurateProtocol.h"
+//: #import "UserMessageCellProtocol.h"
+#import "UserMessageCellProtocol.h"
+//: #import "UserSessionConfigurateProtocol.h"
+#import "UserSessionConfigurateProtocol.h"
 //: #import "FFFInputView.h"
 #import "DefenceView.h"
 
@@ -145,7 +145,7 @@
  *  会话页详细配置
  */
 //: - (id<FFFSessionConfig>)sessionConfig;
-- (id<FrameConfig>)actinicRayConfig;
+- (id<FrameConfig>)sessionConfig;
 
 
 //: #pragma mark - 消息接口

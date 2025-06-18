@@ -280,8 +280,8 @@ Byte kStr_spectrumValue[] = {96, 8, 38, 14, 202, 64, 239, 119, 13, 206, 206, 74,
 // __M_A_C_R_O__
 //: #import "NTESMainCenterViewController.h"
 #import "EmptyViewController.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 //: #import "FFFCommonTableDelegate.h"
 #import "CalendarWith.h"
 //: #import "SVProgressHUD.h"

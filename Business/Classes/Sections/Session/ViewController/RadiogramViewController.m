@@ -488,8 +488,8 @@ Byte kStr_messageTingKeyValue[] = {32, 5, 32, 10, 225, 67, 128, 101, 138, 79, 82
 #import "PointAction.h"
 //: #import "NTESSessionMultiRetweetContentView.h"
 #import "IndependentControl.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 //: #import "FFFReplyContentView.h"
 #import "OffView.h"
 //: #import "NTESThreadTalkSessionViewController.h"
@@ -1532,7 +1532,7 @@ TransformDelegate>
 //: #pragma mark - 菜单
 #pragma mark - 菜单
 //: - (void)onTapMenuItemReply:(FFFMediaItem *)item
-- (void)dataAction:(ImageRecent *)item
+- (void)onTapMenuItemReply:(ImageRecent *)item
 {
     //: NIMMessage *menuMessage = [self messageForMenu];
     NIMMessage *menuMessage = [self messageForMenu];
@@ -1562,7 +1562,7 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemForword:(FFFMediaItem *)item
-- (void)itemMenuCutAlongForword:(ImageRecent *)item
+- (void)onTapMenuItemForword:(ImageRecent *)item
 {
     //: ZOMNForwardViewController *vc = [[ZOMNForwardViewController alloc]init];
     FogViewController *vc = [[FogViewController alloc]init];
@@ -1573,7 +1573,7 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemMark:(FFFMediaItem *)item
-- (void)edge:(ImageRecent *)item
+- (void)onTapMenuItemMark:(ImageRecent *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -1603,7 +1603,7 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemPin:(FFFMediaItem *)item
-- (void)counterval:(ImageRecent *)item
+- (void)onTapMenuItemPin:(ImageRecent *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -1635,7 +1635,7 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemUnpin:(FFFMediaItem *)item
-- (void)direction:(ImageRecent *)item
+- (void)onTapMenuItemUnpin:(ImageRecent *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -1668,7 +1668,7 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemRevoke:(FFFMediaItem *)item
-- (void)alongViewInfo:(ImageRecent *)item
+- (void)onTapMenuItemRevoke:(ImageRecent *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -1718,7 +1718,7 @@ TransformDelegate>
 
 
 //: - (void)onTapMenuItemReport:(FFFMediaItem *)item
-- (void)afterShow:(ImageRecent *)item
+- (void)onTapMenuItemReport:(ImageRecent *)item
 {
     //: [self.view addSubview:self.translateView];
     [self.view addSubview:self.translateView];
@@ -1727,7 +1727,7 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemTranslation:(FFFMediaItem *)item
-- (void)elite:(ImageRecent *)item
+- (void)onTapMenuItemTranslation:(ImageRecent *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -1982,7 +1982,7 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemDelete:(FFFMediaItem *)item
-- (void)corner:(ImageRecent *)item
+- (void)onTapMenuItemDelete:(ImageRecent *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -2029,14 +2029,14 @@ TransformDelegate>
 }
 
 //: - (void)onTapMenuItemMutiSelect:(FFFMediaItem *)item
-- (void)instrument:(ImageRecent *)item
+- (void)onTapMenuItemMutiSelect:(ImageRecent *)item
 {
     //: [self switchUIWithSessionState:NIMKitSessionStateSelect];
     [self beak:NIMKitSessionStateSelect];
 }
 
 //: - (void)onTapMenuItemAudio2Text:(FFFMediaItem *)item
-- (void)digitizer:(ImageRecent *)item
+- (void)onTapMenuItemAudio2Text:(ImageRecent *)item
 {
 
 }
@@ -2310,7 +2310,7 @@ TransformDelegate>
 //: #pragma mark - Cell Actions
 #pragma mark - Cell Actions
 //: - (void)showImage:(NIMMessage *)message
-- (void)storage:(NIMMessage *)message
+- (void)showImage:(NIMMessage *)message
 {
     //: NIMImageObject *object = message.messageObject;
     NIMImageObject *object = message.messageObject;
@@ -2358,7 +2358,7 @@ TransformDelegate>
 }
 
 //: - (void)showVideo:(NIMMessage *)message
-- (void)adopt:(NIMMessage *)message
+- (void)showVideo:(NIMMessage *)message
 {
     //: NIMVideoObject *object = message.messageObject;
     NIMVideoObject *object = message.messageObject;
@@ -2400,7 +2400,7 @@ TransformDelegate>
 }
 
 //: - (void)showCustom:(NIMMessage *)message
-- (void)britishism:(NIMMessage *)message
+- (void)showCustom:(NIMMessage *)message
 {
    //普通的自定义消息点击事件可以在这里做哦~
 

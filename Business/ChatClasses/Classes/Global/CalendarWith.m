@@ -11,14 +11,14 @@
 // __M_A_C_R_O__
 //: #import "FFFCommonTableDelegate.h"
 #import "CalendarWith.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 //: #import "FFFCommonTableViewCell.h"
 #import "CompartmentCell.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 
 //: static NSString *DefaultTableCell = @"UITableViewCell";
 static NSString *kLet_topText = @"UITableViewCell";

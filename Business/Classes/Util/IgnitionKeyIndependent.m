@@ -40,8 +40,8 @@ Byte kStr_imagineMessageName[] = {84, 21, 13, 6, 108, 85, 218, 177, 151, 217, 16
 // __M_A_C_R_O__
 //: #import "NTESNoticationUtil.h"
 #import "IgnitionKeyIndependent.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 
 //: @implementation NTESNoticationUtil
 @implementation IgnitionKeyIndependent

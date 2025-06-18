@@ -138,12 +138,12 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
 //
 
 // __M_A_C_R_O__
-//: #import "FFFSessionConfigurateProtocol.h"
-#import "FFFSessionConfigurateProtocol.h"
+//: #import "UserSessionConfigurateProtocol.h"
+#import "UserSessionConfigurateProtocol.h"
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
-//: #import "FFFMessageCellProtocol.h"
-#import "FFFMessageCellProtocol.h"
+//: #import "UserMessageCellProtocol.h"
+#import "UserMessageCellProtocol.h"
 //: #import "FFFMessageModel.h"
 #import "StochasticProcessTeam.h"
 //: #import "FFFKitUtil.h"
@@ -166,8 +166,8 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
 #import "OnRecentClose.h"
 //: #import "FFFReplyContentView.h"
 #import "OffView.h"
-//: #import "FFFKitDependency.h"
-#import "FFFKitDependency.h"
+//: #import "UserKitDependency.h"
+#import "UserKitDependency.h"
 //: #import "FFFKitQuickCommentUtil.h"
 #import "ActionUtil.h"
 //: #import "FFFBubbleMenuView.h"
@@ -182,8 +182,7 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
 #import "PitchView.h"
 //: #import "FFFBubbleButtonModel.h"
 #import "FrameModel.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+
 //: #import "FFFInputAudioView.h"
 #import "NumberView.h"
 //: #import "UIView+NTES.h"
@@ -743,7 +742,7 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     if ([self atomicNumber85])
     {
         //: self.sessionInputView = [[FFFInputView alloc] initWithFrame:CGRectMake(0, 0, self.view.nim_width,0) config:self.sessionConfig];
-        self.sessionInputView = [[DefenceView alloc] initWithMessage:CGRectMake(0, 0, self.view.nim_width,0) show:self.actinicRayConfig];
+        self.sessionInputView = [[DefenceView alloc] initWithMessage:CGRectMake(0, 0, self.view.nim_width,0) show:self.sessionConfig];
         //: self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         self.sessionInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
         //: [self.sessionInputView setSession:self.session];
@@ -1722,16 +1721,16 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: self.messageForMenu = nil;
     self.messageForMenu = nil;
     //: [self.interactor setReferenceMessage:nil];
-    [self.interactor setTo:nil];
+    [self.interactor setReferenceMessage:nil];
 
     //: if ([self.sessionConfig respondsToSelector:@selector(clearThreadMessageAfterSent)])
-    if ([self.actinicRayConfig respondsToSelector:@selector(buttonBubble)])
+    if ([self.sessionConfig respondsToSelector:@selector(buttonBubble)])
     {
         //: if ([self.sessionConfig clearThreadMessageAfterSent])
-        if ([self.actinicRayConfig buttonBubble])
+        if ([self.sessionConfig buttonBubble])
         {
             //: [self.sessionConfig cleanThreadMessage];
-            [self.actinicRayConfig visible];
+            [self.sessionConfig visible];
         }
     }
 }
@@ -1895,7 +1894,7 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setTo:message];
+    [self.interactor setReferenceMessage:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -1924,7 +1923,7 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setTo:message];
+    [self.interactor setReferenceMessage:message];
 
     //: handle = [self shouldShowMenuByMessage:message];
     handle = [self picometre:message];
@@ -1945,7 +1944,7 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: _messageForMenu = message;
     _messageForMenu = message;
     //: [self.interactor setReferenceMessage:message];
-    [self.interactor setTo:message];
+    [self.interactor setReferenceMessage:message];
     //: if (![self becomeFirstResponder]) {
     if (![self becomeFirstResponder]) {
         //: handle = NO;
@@ -1966,10 +1965,10 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: BOOL disable = NO;
     BOOL disable = NO;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableAudioPlayedStatusIcon)])
-    if ([self.actinicRayConfig respondsToSelector:@selector(trenchantShadow)])
+    if ([self.sessionConfig respondsToSelector:@selector(trenchantShadow)])
     {
         //: disable = [self.sessionConfig disableAudioPlayedStatusIcon];
-        disable = [self.actinicRayConfig trenchantShadow];
+        disable = [self.sessionConfig trenchantShadow];
     }
     //: return disable;
     return disable;
@@ -2036,7 +2035,7 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
 //: #pragma mark - 配置项
 #pragma mark - 配置项
 //: - (id<FFFSessionConfig>)sessionConfig
-- (id<FrameConfig>)actinicRayConfig
+- (id<FrameConfig>)sessionConfig
 {
     //: return nil; 
     return nil; //使用默认配置
@@ -2051,9 +2050,9 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableReceiveNewMessages)]) {
-    if ([self.actinicRayConfig respondsToSelector:@selector(ironedMessages)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(ironedMessages)]) {
         //: should = ![self.sessionConfig disableReceiveNewMessages];
-        should = ![self.actinicRayConfig ironedMessages];
+        should = ![self.sessionConfig ironedMessages];
     }
     //: return should;
     return should;
@@ -2068,9 +2067,9 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: BOOL should = YES;
     BOOL should = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableInputView)]) {
-    if ([self.actinicRayConfig respondsToSelector:@selector(messageInput)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(messageInput)]) {
         //: should = ![self.sessionConfig disableInputView];
-        should = ![self.actinicRayConfig messageInput];
+        should = ![self.sessionConfig messageInput];
     }
     //: return should;
     return should;
@@ -2084,9 +2083,9 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: NIMAudioType type = NIMAudioTypeAAC;
     NIMAudioType type = NIMAudioTypeAAC;
     //: if ([self.sessionConfig respondsToSelector:@selector(recordType)]) {
-    if ([self.actinicRayConfig respondsToSelector:@selector(hideRemote)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(hideRemote)]) {
         //: type = [self.sessionConfig recordType];
-        type = [self.actinicRayConfig hideRemote];
+        type = [self.sessionConfig hideRemote];
     }
     //: return type;
     return type;
@@ -2099,9 +2098,9 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: BOOL needProximityMonitor = YES;
     BOOL needProximityMonitor = YES;
     //: if ([self.sessionConfig respondsToSelector:@selector(disableProximityMonitor)]) {
-    if ([self.actinicRayConfig respondsToSelector:@selector(viewColor)]) {
+    if ([self.sessionConfig respondsToSelector:@selector(viewColor)]) {
         //: needProximityMonitor = !self.sessionConfig.disableProximityMonitor;
-        needProximityMonitor = !self.actinicRayConfig.viewColor;
+        needProximityMonitor = !self.sessionConfig.viewColor;
     }
     //: return needProximityMonitor;
     return needProximityMonitor;
@@ -2184,7 +2183,7 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
 }
 
 //: - (void)onTapMenuItemCopy:(FFFMediaItem *)item
-- (void)originned:(ImageRecent *)item
+- (void)onTapMenuItemCopy:(ImageRecent *)item
 {
     //: NIMMessage *message = [self messageForMenu];
     NIMMessage *message = [self messageForMenu];
@@ -2928,16 +2927,16 @@ Byte kStr_mustDishData[] = {45, 6, 61, 14, 98, 139, 57, 14, 174, 165, 221, 112, 
     //: NSArray *items;
     NSArray *items;
     //: if (!self.sessionConfig)
-    if (!self.actinicRayConfig)
+    if (!self.sessionConfig)
     {
         //: items = [[MyUserKit sharedKit].config defaultMenuItemsWithMessage:message];
         items = [[Afterwards blue].config of:message];
     }
     //: else if([self.sessionConfig respondsToSelector:@selector(menuItemsWithMessage:)])
-    else if([self.actinicRayConfig respondsToSelector:@selector(customInMessage:)])
+    else if([self.sessionConfig respondsToSelector:@selector(customInMessage:)])
     {
         //: items = [self.sessionConfig menuItemsWithMessage:message];
-        items = [self.actinicRayConfig customInMessage:message];
+        items = [self.sessionConfig customInMessage:message];
     }
 
     //: [items enumerateObjectsUsingBlock:^(FFFMediaItem *item, NSUInteger idx, BOOL *stop) {

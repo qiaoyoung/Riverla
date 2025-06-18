@@ -20,8 +20,8 @@ Byte kStr_apologyUserMessageValue[] = {87, 20, 30, 14, 135, 70, 223, 157, 252, 1
 // __M_A_C_R_O__
 //: #import "FFFSessionTimestampCell.h"
 #import "TitleViewCell.h"
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
+//: #import "UserCellConfig.h"
+#import "UserCellConfig.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "FFFTimestampModel.h"

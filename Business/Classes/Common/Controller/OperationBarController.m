@@ -200,10 +200,10 @@ typedef NS_ENUM(NSInteger,NTESMainTabType) {
     //: [[NIMSDK sharedSDK].conversationManager addDelegate:self];
     [[NIMSDK sharedSDK].conversationManager addDelegate:self];
 
-    //: extern NSString *NTESCustomNotificationCountChanged;
-    extern NSString *NTESCustomNotificationCountChanged;
-    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onCustomNotifyChanged:) name:NTESCustomNotificationCountChanged object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(valued:) name:NTESCustomNotificationCountChanged object:nil];
+    //: extern NSString *kLet_keyText;
+    extern NSString *kLet_keyText;
+    //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onCustomNotifyChanged:) name:kLet_keyText object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(valued:) name:kLet_keyText object:nil];
     //: [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(languageChanged:) name:@"KEKENotificationLanguageChanged" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(elected:) name:StringFromHesitateData(kStr_maxMagnitudeBenefitName) object:nil];
 

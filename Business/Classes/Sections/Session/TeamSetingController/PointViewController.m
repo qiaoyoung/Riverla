@@ -379,7 +379,7 @@ HighEnable,HeadingSum,UINavigationControllerDelegate,UIImagePickerControllerDele
         //: FFFKitInfoFetchOption *option = [[FFFKitInfoFetchOption alloc] init];
         EmptyKey *option = [[EmptyKey alloc] init];
         //: option.session = self.teamListManager.session;
-        option.session = self.teamListManager.position;
+        option.session = self.teamListManager.session;
         //: FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:obj.userId option:option];
         MarginThanInfo *info = [[Afterwards blue] put:obj.userId button:option];
 
@@ -1185,7 +1185,7 @@ HighEnable,HeadingSum,UINavigationControllerDelegate,UIImagePickerControllerDele
     //: NIMContactTeamMemberSelectConfig *config = [[NIMContactTeamMemberSelectConfig alloc] init];
     RecentJoinerMessage *config = [[RecentJoinerMessage alloc] init];
     //: config.session = self.teamListManager.session;
-    config.session = self.teamListManager.position;
+    config.session = self.teamListManager.session;
     //: config.teamType = NIMKitTeamTypeNomal;
     config.teamType = NIMKitTeamTypeNomal;
     //: config.teamId = self.teamListManager.team.teamId;
@@ -1222,7 +1222,7 @@ HighEnable,HeadingSum,UINavigationControllerDelegate,UIImagePickerControllerDele
             //: options.removeOtherClients = YES;
             options.removeOtherClients = YES;
             //: [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
-            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.position options:options completion:^(NSError * _Nullable error) {
+            [NIMSDK.sharedSDK.conversationManager deleteAllRemoteMessagesInSession:self.teamListManager.session options:options completion:^(NSError * _Nullable error) {
                 //: if (error) {
                 if (error) {
                     //: return;

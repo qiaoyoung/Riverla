@@ -134,9 +134,9 @@ Byte kStr_showContent[] = {57, 7, 7, 12, 42, 90, 106, 50, 52, 48, 51, 67, 50, 35
 //: - (void)refreshUser:(id<NIMGroupMemberProtocol>)member{
 - (void)asDomainImage:(id<TingProtocol>)member{
     //: self.titleLabel.text = member.showName;
-    self.titleLabel.text = member.requestShow;
+    self.titleLabel.text = member.showName;
     //: self.memberId = [member memberId];
-    self.memberId = [member roundCell];
+    self.memberId = [member memberId];
     //: FFFKitInfo *info = [[MyUserKit sharedKit] infoByUser:self.memberId option:nil];
     MarginThanInfo *info = [[Afterwards blue] put:self.memberId button:nil];
     //: NSURL *url = info.avatarUrlString ? [NSURL URLWithString:info.avatarUrlString] : nil;

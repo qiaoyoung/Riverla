@@ -700,17 +700,17 @@ ToneSize> {
             SuppressPerformSelectorLeakWarning([self performSelector:sel withObject:nil]);
         }
         //: else if (contactItem.vcName.length) {
-        else if (contactItem.bar.length) {
+        else if (contactItem.vcName.length) {
             //: Class clazz = NSClassFromString(contactItem.vcName);
-            Class clazz = NSClassFromString(contactItem.bar);
+            Class clazz = NSClassFromString(contactItem.vcName);
             //: UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             UIViewController * vc = [[clazz alloc] initWithNibName:nil bundle:nil];
             //: [self.navigationController pushViewController:vc animated:YES];
             [self.navigationController pushViewController:vc animated:YES];
         //: }else if([contactItem respondsToSelector:@selector(userId)]){
-        }else if([contactItem respondsToSelector:@selector(timeWith)]){
+        }else if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.timeWith;
+            NSString * friendId = contactItem.userId;
             //: [self enterPersonalCard:friendId];
             [self eventOf:friendId];
         }
@@ -1031,9 +1031,9 @@ ToneSize> {
         //: id<NTESContactItem> contactItem = (id<NTESContactItem>)[_contacts memberOfIndex:indexPath];
         id<ImageItem> contactItem = (id<ImageItem>)[_contacts index:indexPath];
         //: if([contactItem respondsToSelector:@selector(userId)]){
-        if([contactItem respondsToSelector:@selector(timeWith)]){
+        if([contactItem respondsToSelector:@selector(userId)]){
             //: NSString * friendId = contactItem.userId;
-            NSString * friendId = contactItem.timeWith;
+            NSString * friendId = contactItem.userId;
             //: if ([ids containsObject:friendId]) {
             if ([ids containsObject:friendId]) {
                 //: [indexPaths addObject:indexPath];

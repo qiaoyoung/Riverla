@@ -78,8 +78,8 @@ StackData kStr_currentValue = (StackData){117, (Byte []){147, 233, 217, 144, 233
 // __M_A_C_R_O__
 //: #import "NTESMigrateMessageViewController.h"
 #import "ItemToViewController.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 //: #import "FFFCommonTableDelegate.h"
 #import "CalendarWith.h"
 //: #import "SVProgressHUD.h"

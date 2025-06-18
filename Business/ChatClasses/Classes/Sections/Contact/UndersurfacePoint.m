@@ -30,8 +30,8 @@ Byte kStr_keySateContent[] = {45, 12, 12, 3, 144, 105, 166, 65, 94, 128, 183, 18
 #import "UndersurfacePoint.h"
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "UserGroupedData.h"
 #import "ElementData.h"
 //: #import "MyUserKit.h"

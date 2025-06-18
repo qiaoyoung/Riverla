@@ -24,14 +24,14 @@
 #import "StochasticProcessTeam.h"         //message Wrapper
 //: #import "FFFKitMessageProvider.h"
 #import "TitleWireProvider.h"
-//: #import "FFFCellConfig.h"           //message cell配置协议
-#import "FFFCellConfig.h"           //message cell配置协议
-//: #import "FFFInputProtocol.h"        //输入框回调
-#import "FFFInputProtocol.h"        //输入框回调
+//: #import "UserCellConfig.h"           //message cell配置协议
+#import "UserCellConfig.h"           //message cell配置协议
+//: #import "UserInputProtocol.h"        //输入框回调
+#import "UserInputProtocol.h"        //输入框回调
 //: #import "FFFKitDataProvider.h"      //APP内容提供器
 #import "ViewShowText.h"      //APP内容提供器
-//: #import "FFFMessageCellProtocol.h"  //message cell事件回调
-#import "FFFMessageCellProtocol.h"  //message cell事件回调
+//: #import "UserMessageCellProtocol.h"  //message cell事件回调
+#import "UserMessageCellProtocol.h"  //message cell事件回调
 //: #import "FFFSessionConfig.h"        //会话页面配置
 #import "FrameConfig.h"        //会话页面配置
 //: #import "FFFKitEvent.h"             //点击事件封装类
@@ -48,8 +48,8 @@
 #import "TransformViewController.h"
 //: #import "FFFKitIndependentModeExtraInfo.h"
 #import "SearchedArray.h"
-//: #import "FFFChatUIManagerProtocol.h"
-#import "FFFChatUIManagerProtocol.h"
+//: #import "UserChatUIManagerProtocol.h"
+#import "UserChatUIManagerProtocol.h"
 //: #import "FFFCollectionViewLeftAlignedLayout.h"
 #import "ScaleViewLayout.h"
 //: #import "FFFKitQuickCommentUtil.h"

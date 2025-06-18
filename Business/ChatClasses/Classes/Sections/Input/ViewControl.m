@@ -34,8 +34,8 @@ Byte kStr_viewFrameData[] = {21, 12, 13, 145, 70, 41, 49, 44, 146, 28, 76, 225, 
 #import "UIViewNimKit.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Afterwards.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 
 //: const NSInteger FFFInputEmoticonTabViewHeight = 44;
 const NSInteger kLet_beautyTitle = 44;

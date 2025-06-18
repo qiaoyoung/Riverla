@@ -46,8 +46,7 @@ Byte kStr_writData[] = {75, 7, 8, 163, 151, 23, 178, 183, 116, 108, 117, 97, 102
 #import "ViewManager.h"
 //: #import "FFFInputEmoticonTabView.h"
 #import "ViewControl.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Afterwards.h"
 //: #import "FFFMessageMaker.h"

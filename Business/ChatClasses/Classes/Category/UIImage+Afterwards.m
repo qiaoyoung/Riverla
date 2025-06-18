@@ -28,8 +28,7 @@ Byte kStr_barNimFlueText[] = {21, 8, 5, 244, 157, 116, 101, 108, 116, 114, 97, 1
 // __M_A_C_R_O__
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Afterwards.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
 //: #import "FFFKitDevice.h"

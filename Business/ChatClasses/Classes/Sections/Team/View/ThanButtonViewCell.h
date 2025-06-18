@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
-//: #import "FFFCardDataSourceProtocol.h"
-#import "FFFCardDataSourceProtocol.h"
+//: #import "UserCardDataSourceProtocol.h"
+#import "UserCardDataSourceProtocol.h"
 
 //: @class FFFAvatarImageView;
 @class StatusWithControl;

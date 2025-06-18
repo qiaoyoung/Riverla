@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
+//: #import "UserCellConfig.h"
+#import "UserCellConfig.h"
 
 //: @interface FFFCellLayoutConfig : NSObject<FFFCellLayoutConfig>
 @interface TitleConfig : NSObject<TitleConfig>

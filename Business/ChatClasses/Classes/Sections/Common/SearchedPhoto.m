@@ -30,20 +30,20 @@ RealizeData kStr_representTitle = (RealizeData){42, (Byte []){67, 68, 76, 69, 10
 //: #import "FFFKitNotificationFirer.h"
 #import "SearchedPhoto.h"
 
-//: NSString *const NIMKitUserInfoHasUpdatedNotification = @"NIMKitUserInfoHasUpdatedNotification";
-NSString *const kLet_borderText = @"NIMKitUserInfoHasUpdatedNotification";
-//: NSString *const NIMKitTeamInfoHasUpdatedNotification = @"NIMKitTeamInfoHasUpdatedNotification";
-NSString *const kLet_windowUserValue = @"NIMKitTeamInfoHasUpdatedNotification";
+//: NSString *const kLet_borderText = @"kLet_borderText";
+NSString *const kLet_borderText = @"kLet_borderText";
+//: NSString *const kLet_windowUserValue = @"kLet_windowUserValue";
+NSString *const kLet_windowUserValue = @"kLet_windowUserValue";
 
 //: NSString *const NIMKitUserBlackListHasUpdatedNotification = @"NIMKitUserBlackListHasUpdatedNotification";
 NSString *const kLet_timingOpenTitle = @"NIMKitUserBlackListHasUpdatedNotification";
 //: NSString *const NIMKitUserMuteListHasUpdatedNotification = @"NIMKitUserMuteListHasUpdatedNotification";
 NSString *const kLet_insideValue = @"NIMKitUserMuteListHasUpdatedNotification";
 
-//: NSString *const NIMKitTeamMembersHasUpdatedNotification = @"NIMKitTeamMembersHasUpdatedNotification";
-NSString *const kLet_topData = @"NIMKitTeamMembersHasUpdatedNotification";
+//: NSString *const kLet_topData = @"kLet_topData";
+NSString *const kLet_topData = @"kLet_topData";
 
-//: NSString *const FFFKitInfoKey = @"InfoId";
+//: NSString *const kLet_originData = @"InfoId";
 NSString *const kLet_originData = @"InfoId";
 
 //: @implementation FFFKitNotificationFirer
@@ -106,7 +106,7 @@ NSString *const kLet_originData = @"InfoId";
 
     //: for (NSString *notificationName in dict) {
     for (NSString *notificationName in dict) {
-        //: NSDictionary *userInfo = dict[notificationName]? @{ FFFKitInfoKey:dict[notificationName] } : nil;
+        //: NSDictionary *userInfo = dict[notificationName]? @{ kLet_originData:dict[notificationName] } : nil;
         NSDictionary *userInfo = dict[notificationName]? @{ kLet_originData:dict[notificationName] } : nil;
         //: [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil userInfo:userInfo];
         [[NSNotificationCenter defaultCenter] postNotificationName:notificationName object:nil userInfo:userInfo];

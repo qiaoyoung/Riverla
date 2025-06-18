@@ -31,8 +31,7 @@ static char kLet_touchRequestTitle;
 }
 
 
-//: - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
-- (void)total:(UIAlertView *)alertView text:(NSInteger)buttonIndex
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
     //: AlertBlock block = objc_getAssociatedObject(self, &kUIAlertViewBlockAddress);
     AlertBlock block = objc_getAssociatedObject(self, &kLet_touchRequestTitle);

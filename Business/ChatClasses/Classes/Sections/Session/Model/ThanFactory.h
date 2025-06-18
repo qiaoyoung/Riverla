@@ -15,10 +15,10 @@
 #import "ImageViewCell.h"
 //: #import "FFFSessionTimestampCell.h"
 #import "TitleViewCell.h"
-//: #import "FFFCellConfig.h"
-#import "FFFCellConfig.h"
-//: #import "FFFMessageCellProtocol.h"
-#import "FFFMessageCellProtocol.h"
+//: #import "UserCellConfig.h"
+#import "UserCellConfig.h"
+//: #import "UserMessageCellProtocol.h"
+#import "UserMessageCellProtocol.h"
 
 //: @interface FFFMessageCellFactory : NSObject
 @interface ThanFactory : NSObject

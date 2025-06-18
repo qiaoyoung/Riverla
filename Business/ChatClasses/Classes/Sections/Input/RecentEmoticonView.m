@@ -15,8 +15,7 @@
 #import "UIImage+Afterwards.h"
 //: #import "FFFInputEmoticonManager.h"
 #import "ViewManager.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
 //: #import "FFFKitDevice.h"

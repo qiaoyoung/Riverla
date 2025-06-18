@@ -52,8 +52,7 @@ Byte kStr_hugeBlindData[] = {99, 7, 50, 4, 162, 164, 151, 165, 165, 151, 150, 11
 // __M_A_C_R_O__
 //: #import "FFFInputEmoticonManager.h"
 #import "ViewManager.h"
-//: #import "FFFInputEmoticonDefine.h"
-#import "FFFInputEmoticonDefine.h"
+
 //: #import "NSString+MyUserKit.h"
 #import "NSString+Afterwards.h"
 //: #import "MyUserKit.h"

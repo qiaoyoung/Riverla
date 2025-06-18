@@ -60,8 +60,8 @@ Byte kStr_viewAdditionData[] = {45, 31, 54, 12, 17, 145, 106, 50, 255, 32, 142, 
 #import "ImageTotaleractionView.h"
 //: #import "FFFContactPickedView.h"
 #import "RadiogramView.h"
-//: #import "FFFGroupedUsrInfo.h"
-#import "FFFGroupedUsrInfo.h"
+//: #import "UserGroupedUsrInfo.h"
+#import "UserGroupedUsrInfo.h"
 //: #import "UserGroupedData.h"
 #import "ElementData.h"
 //: #import "FFFContactDataCell.h"
@@ -70,10 +70,10 @@ Byte kStr_viewAdditionData[] = {45, 31, 54, 12, 17, 145, 106, 50, 255, 32, 142, 
 #import "UIViewNimKit.h"
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
-//: #import "FFFKitDependency.h"
-#import "FFFKitDependency.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserKitDependency.h"
+#import "UserKitDependency.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "FFFSetGroupNameView.h"
 #import "AfterClearView.h"
 //: #import "FFFGroupAvatarViewController.h"
@@ -402,7 +402,7 @@ Byte kStr_viewAdditionData[] = {45, 31, 54, 12, 17, 145, 106, 50, 255, 32, 142, 
 
 
     //: if (self.config.showSelectHeaderview) {
-    if (self.config.searchion) {
+    if (self.config.showSelectHeaderview) {
 
         //: [self.view addSubview:self.setGroupnameView];
         [self.view addSubview:self.setGroupnameView];
@@ -597,7 +597,7 @@ Byte kStr_viewAdditionData[] = {45, 31, 54, 12, 17, 145, 106, 50, 255, 32, 142, 
     //: cell.accessoryBtn.hidden = NO;
     cell.accessoryBtn.hidden = NO;
     //: cell.accessoryBtn.selected = [_selectecContacts containsObject:[contactItem memberId]];
-    cell.accessoryBtn.selected = [_selectecContacts containsObject:[contactItem roundCell]];
+    cell.accessoryBtn.selected = [_selectecContacts containsObject:[contactItem memberId]];
     //: [cell refreshItem:contactItem];
     [cell nowadays:contactItem];
     //: return cell;
@@ -630,7 +630,7 @@ Byte kStr_viewAdditionData[] = {45, 31, 54, 12, 17, 145, 106, 50, 255, 32, 142, 
     id<TingProtocol> member = arr[indexPath.row];
 
     //: NSString *memberId = [(id<NIMGroupMemberProtocol>)member memberId];
-    NSString *memberId = [(id<TingProtocol>)member roundCell];
+    NSString *memberId = [(id<TingProtocol>)member memberId];
     //: FFFContactDataCell *cell = (FFFContactDataCell *)[tableView cellForRowAtIndexPath:indexPath];
     BankViewCell *cell = (BankViewCell *)[tableView cellForRowAtIndexPath:indexPath];
     //: FFFKitInfo *info;

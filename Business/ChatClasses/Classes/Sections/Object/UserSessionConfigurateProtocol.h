@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFSessionConfigurateProtocol.h
+//  UserSessionConfigurateProtocol.h
 // Afterwards
 //
 //  Created by chris on 2016/11/7.
@@ -182,7 +182,7 @@ typedef NS_ENUM(NSUInteger, NIMKitSessionState) {
 - (void)setMarkColor:(NIMKitSessionState)sessionState;
 
 //: - (void)setReferenceMessage:(NIMMessage *)message;
-- (void)setTo:(NIMMessage *)message;
+- (void)setReferenceMessage:(NIMMessage *)message;
 
 //: @end
 @end

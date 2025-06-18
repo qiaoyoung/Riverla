@@ -13,7 +13,7 @@
 //: @class NTESCustomNotificationDB;
 @class OpenDb;
 
-//: extern NSString *NTESCustomNotificationCountChanged;
+//: extern NSString *kLet_keyText;
 extern NSString *kLet_keyText;
 
 //: @interface NTESNotificationCenter : NSObject

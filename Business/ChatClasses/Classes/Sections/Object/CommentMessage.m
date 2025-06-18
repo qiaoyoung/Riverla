@@ -19,8 +19,8 @@
 #import "UIViewNimKit.h"
 //: #import "FFFMessageModel.h"
 #import "StochasticProcessTeam.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "FFFSessionInteractorImpl.h"
 #import "SessionImageIndependent.h"
 //: #import "FFFSessionDataSourceImpl.h"
@@ -78,7 +78,7 @@
     //: NIMSession *session = vc.session;
     NIMSession *session = vc.session;
     //: id<FFFSessionConfig> sessionConfig = vc.sessionConfig;
-    id<FrameConfig> sessionConfig = vc.actinicRayConfig;
+    id<FrameConfig> sessionConfig = vc.sessionConfig;
     //: UITableView *tableView = vc.tableView;
     UITableView *tableView = vc.tableView;
     //: FFFInputView *inputView = vc.sessionInputView;
@@ -104,7 +104,7 @@
     _interactor.layout = layout;
 
     //: [layout setDelegate:_interactor];
-    [layout setDoing:_interactor];
+    [layout setDelegate:_interactor];
 
     //: _tableAdapter = [[FFFSessionTableAdapter alloc] init];
     _tableAdapter = [[FixingSelected alloc] init];

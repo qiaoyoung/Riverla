@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "FFFSessionConfigurator.h"
 #import "CommentMessage.h"
-//: #import "FFFSessionPrivateProtocol.h"
-#import "FFFSessionPrivateProtocol.h"
+//: #import "UserSessionPrivateProtocol.h"
+#import "UserSessionPrivateProtocol.h"
 
 //: @interface FFFSessionLayoutImpl : NSObject<NIMSessionLayout>
 @interface EmptyTable : NSObject<UserTing>

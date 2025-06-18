@@ -38,8 +38,8 @@ AlbumData kStr_contentName = (AlbumData){110, (Byte []){7, 13, 1, 0, 49, 13, 11,
 #import "StopView.h"
 //: #import "UIView+NTES.h"
 #import "UIView+Closes.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 
 //: @interface NTESColorButtonCell()
 @interface StopView()

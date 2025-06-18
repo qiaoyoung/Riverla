@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFCellConfig.h
+//  UserCellConfig.h
 // Afterwards
 //
 //  Created by chris.

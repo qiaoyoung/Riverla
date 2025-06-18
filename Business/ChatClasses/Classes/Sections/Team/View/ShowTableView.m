@@ -44,8 +44,8 @@ Byte kStr_levelSignificanceData[] = {14, 7, 15, 4, 84, 96, 95, 101, 86, 95, 101,
 // __M_A_C_R_O__
 //: #import "FFFTeamAnnouncementListCell.h"
 #import "ShowTableView.h"
-//: #import "FFFUsrInfoData.h"
-#import "FFFUsrInfoData.h"
+//: #import "UsrInfoData.h"
+#import "UsrInfoData.h"
 //: #import "FFFKitUtil.h"
 #import "PopUtil.h"
 //: #import "M80AttributedLabel.h"

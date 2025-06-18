@@ -13,8 +13,8 @@
 #import <UIKit/UIKit.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFKitDependency.h"
-#import "FFFKitDependency.h"
+//: #import "UserKitDependency.h"
+#import "UserKitDependency.h"
 
 //: @interface FFFAvatarImageView : UIControl
 @interface StatusWithControl : UIControl

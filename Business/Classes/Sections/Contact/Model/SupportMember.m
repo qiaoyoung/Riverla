@@ -66,7 +66,7 @@ PinData kStr_intervalData = (PinData){189, (Byte []){243, 233, 248, 238, 254, 21
 }
 
 //: - (NSString *)groupTitle {
-- (NSString *)cell {
+- (NSString *)groupTitle {
     //: NSString *title = [[NTESSpellingCenter sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[CommentCenter find] itemKey:self.info.showName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];

@@ -42,8 +42,8 @@ Byte kStr_whenSharedText[] = {59, 18, 4, 146, 112, 117, 111, 114, 103, 95, 116, 
 #import "UIViewNimKit.h"
 //: #import "FFFLoadProgressView.h"
 #import "ProgressLoadPanoramicView.h"
-//: #import "FFFKitDependency.h"
-#import "FFFKitDependency.h"
+//: #import "UserKitDependency.h"
+#import "UserKitDependency.h"
 //: #import <YYImage/YYImage.h>
 #import <YYImage/YYImage.h>
 //: #import "MyUserKit.h"

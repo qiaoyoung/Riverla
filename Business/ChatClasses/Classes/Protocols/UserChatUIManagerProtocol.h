@@ -1,7 +1,7 @@
 // __DEBUG__
 // __CLOSE_PRINT__
 //
-//  FFFChatUIManagerProtocol.h
+//  UserChatUIManagerProtocol.h
 // Afterwards
 //
 //  Created by 丁文超 on 2020/3/19.

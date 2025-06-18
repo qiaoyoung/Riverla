@@ -30,8 +30,8 @@ Byte kStr_lengthPaleFrequentData[] = {46, 21, 34, 12, 16, 142, 95, 183, 16, 212,
 #import "ObstructView.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 //: #import "UIImage+MyUserKit.h"
 #import "UIImage+Afterwards.h"
 

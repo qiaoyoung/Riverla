@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import "FFFKitDevice.h"
 #import "TableDevice.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 
 //: @interface FFFKitDevice ()
 @interface TableDevice ()

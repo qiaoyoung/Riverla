@@ -41,9 +41,9 @@ Byte kStr_atFileName[] = {15, 14, 12, 241, 110, 208, 33, 246, 143, 42, 86, 42, 3
 //: #import "FFFChatUIManager.h"
 #import "TableArrayKey.h"
 
-//: extern NSString *const NIMKitUserInfoHasUpdatedNotification;
+//: extern NSString *const kLet_borderText;
 extern NSString *const kLet_borderText;
-//: extern NSString *const NIMKitTeamInfoHasUpdatedNotification;
+//: extern NSString *const kLet_windowUserValue;
 extern NSString *const kLet_windowUserValue;
 
 
@@ -179,7 +179,7 @@ extern NSString *const kLet_windowUserValue;
         FrameBubblePop *info = [[FrameBubblePop alloc] init];
         //: info.session = session;
         info.session = session;
-        //: info.notificationName = NIMKitUserInfoHasUpdatedNotification;
+        //: info.notificationName = kLet_borderText;
         info.notificationName = kLet_borderText;
         //: [self.firer addFireInfo:info];
         [self.firer videoInfo:info];
@@ -207,7 +207,7 @@ extern NSString *const kLet_windowUserValue;
         //: info.session = session;
         info.session = session;
     }
-    //: info.notificationName = NIMKitTeamInfoHasUpdatedNotification;
+    //: info.notificationName = kLet_windowUserValue;
     info.notificationName = kLet_windowUserValue;
     //: [self.firer addFireInfo:info];
     [self.firer videoInfo:info];
@@ -234,10 +234,10 @@ extern NSString *const kLet_windowUserValue;
         //: info.session = session;
         info.session = session;
     }
-    //: extern NSString *NIMKitTeamMembersHasUpdatedNotification;
-    extern NSString *NIMKitTeamMembersHasUpdatedNotification;
-    //: info.notificationName = NIMKitTeamMembersHasUpdatedNotification;
-    info.notificationName = NIMKitTeamMembersHasUpdatedNotification;
+    //: extern NSString *kLet_topData;
+    extern NSString *kLet_topData;
+    //: info.notificationName = kLet_topData;
+    info.notificationName = kLet_topData;
     //: [self.firer addFireInfo:info];
     [self.firer videoInfo:info];
 }

@@ -36,8 +36,8 @@ Byte kStr_cocaineRationName[] = {6, 8, 31, 6, 40, 135, 40, 83, 80, 86, 81, 64, 4
 #import "UIImage+Afterwards.h"
 //: #import "FFFTeamHelper.h"
 #import "RandomHelper.h"
-//: #import "FFFCardDataSourceProtocol.h"
-#import "FFFCardDataSourceProtocol.h"
+//: #import "UserCardDataSourceProtocol.h"
+#import "UserCardDataSourceProtocol.h"
 
 //: NSString *const kTeamMember = @"kTeamMember";
 NSString *const kLet_keyName = @"kTeamMember";

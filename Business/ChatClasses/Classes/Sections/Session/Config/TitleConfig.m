@@ -23,8 +23,8 @@
 #import "UIImage+Afterwards.h"
 //: #import "FFFMessageModel.h"
 #import "StochasticProcessTeam.h"
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "UserBaseSessionContentConfig.h"
+#import "UserBaseSessionContentConfig.h"
 //: #import "MyUserKit.h"
 #import "Afterwards.h"
 

@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFGroupedUsrInfo.h"
-#import "FFFGroupedUsrInfo.h"
+//: #import "UserGroupedUsrInfo.h"
+#import "UserGroupedUsrInfo.h"
 //: #import "FFFSpellingCenter.h"
 #import "WithCenter.h"
 //: #import "FFFKitInfoFetchOption.h"
@@ -46,7 +46,7 @@
 }
 
 //: - (NSString *)groupTitle{
-- (NSString *)session{
+- (NSString *)groupTitle{
     //: NSString *title = [[FFFSpellingCenter sharedCenter] firstLetter:self.info.showName].capitalizedString;
     NSString *title = [[WithCenter center] headerLetter:self.info.showName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -63,19 +63,19 @@
 }
 
 //: - (NSString *)showName{
-- (NSString *)requestShow{
+- (NSString *)showName{
     //: return self.info.showName;
     return self.info.showName;
 }
 
 //: - (NSString *)memberId{
-- (NSString *)roundCell{
+- (NSString *)memberId{
     //: return self.userId;
     return self.userId;
 }
 
 //: - (id)sortKey{
-- (id)push{
+- (id)sortKey{
     //: return [[FFFSpellingCenter sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[WithCenter center] tap:self.info.showName].shortSpelling;
 }
@@ -133,9 +133,9 @@
 }
 
 //: - (NSString *)groupTitle{
-- (NSString *)session{
+- (NSString *)groupTitle{
     //: NSString *title = [[FFFSpellingCenter sharedCenter] firstLetter:self.showName].capitalizedString;
-    NSString *title = [[WithCenter center] headerLetter:self.requestShow].capitalizedString;
+    NSString *title = [[WithCenter center] headerLetter:self.showName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
     unichar character = [title characterAtIndex:0];
     //: if (character >= 'A' && character <= 'Z') {
@@ -150,19 +150,19 @@
 }
 
 //: - (id)sortKey{
-- (id)push{
+- (id)sortKey{
     //: return [[FFFSpellingCenter sharedCenter] spellingForString:self.showName].shortSpelling;
-    return [[WithCenter center] tap:self.requestShow].shortSpelling;
+    return [[WithCenter center] tap:self.showName].shortSpelling;
 }
 
 //: - (NSString *)showName{
-- (NSString *)requestShow{
+- (NSString *)showName{
     //: return self.info.showName;
     return self.info.showName;
 }
 
 //: - (NSString *)memberId{
-- (NSString *)roundCell{
+- (NSString *)memberId{
     //: return self.userId;
     return self.userId;
 }
@@ -221,9 +221,9 @@
 }
 
 //: - (NSString *)groupTitle{
-- (NSString *)session{
+- (NSString *)groupTitle{
     //: NSString *title = [[FFFSpellingCenter sharedCenter] firstLetter:self.showName].capitalizedString;
-    NSString *title = [[WithCenter center] headerLetter:self.requestShow].capitalizedString;
+    NSString *title = [[WithCenter center] headerLetter:self.showName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
     unichar character = [title characterAtIndex:0];
     //: if (character >= 'A' && character <= 'Z') {
@@ -238,19 +238,19 @@
 }
 
 //: - (id)sortKey{
-- (id)push{
+- (id)sortKey{
     //: return [[FFFSpellingCenter sharedCenter] spellingForString:[self showName]].shortSpelling;
-    return [[WithCenter center] tap:[self requestShow]].shortSpelling;
+    return [[WithCenter center] tap:[self showName]].shortSpelling;
 }
 
 //: - (NSString *)showName{
-- (NSString *)requestShow{
+- (NSString *)showName{
     //: return self.info.showName;
     return self.info.showName;
 }
 
 //: - (NSString *)memberId{
-- (NSString *)roundCell{
+- (NSString *)memberId{
     //: return self.teamId;
     return self.teamId;
 }

@@ -22,8 +22,8 @@ Byte kStr_necessaryValue[] = {92, 27, 6, 7, 63, 119, 174, 84, 90, 75, 89, 73, 11
 #import "CheckedHideShow.h"
 //: #import "M80AttributedLabel+MyUserKit.h"
 #import "ShowTitleView+Afterwards.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 
 //: @interface NTESChatroomTextContentConfig()
 @interface CheckedHideShow()

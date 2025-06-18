@@ -9,8 +9,8 @@
 //
 
 // __M_A_C_R_O__
-//: #import "FFFBaseSessionContentConfig.h"
-#import "FFFBaseSessionContentConfig.h"
+//: #import "UserBaseSessionContentConfig.h"
+#import "UserBaseSessionContentConfig.h"
 
 //: @interface FFFTextContentConfig : NSObject<CCCSessionContentConfig>
 @interface DitheredColourRecent : NSObject<ItemConfig>

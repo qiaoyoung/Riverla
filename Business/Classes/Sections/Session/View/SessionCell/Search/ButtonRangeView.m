@@ -22,8 +22,8 @@ Byte kStr_belowStandingValue[] = {20, 14, 6, 13, 157, 64, 115, 115, 58, 109, 109
 #import "ButtonRangeView.h"
 //: #import "FFFAvatarImageView.h"
 #import "StatusWithControl.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 //: #import "UIView+NTES.h"
 #import "UIView+Closes.h"
 

@@ -44,7 +44,7 @@ Byte kStr_colorFlushName[] = {22, 20, 12, 236, 32, 18, 89, 181, 181, 183, 229, 2
 }
 
 //: - (NSString *)groupTitle{
-- (NSString *)session{
+- (NSString *)groupTitle{
     //: NSString *title = [[FFFSpellingCenter sharedCenter] firstLetter:self.teamName].capitalizedString;
     NSString *title = [[WithCenter center] headerLetter:self.teamName].capitalizedString;
     //: unichar character = [title characterAtIndex:0];
@@ -62,13 +62,13 @@ Byte kStr_colorFlushName[] = {22, 20, 12, 236, 32, 18, 89, 181, 181, 183, 229, 2
 }
 
 //: - (NSString *)memberId{
-- (NSString *)roundCell{
+- (NSString *)memberId{
     //: return self.teamId;
     return self.teamId;
 }
 
 //: - (id)sortKey{
-- (id)push{
+- (id)sortKey{
     //: return [[FFFSpellingCenter sharedCenter] spellingForString:self.teamName].shortSpelling;
     return [[WithCenter center] tap:self.teamName].shortSpelling;
 }
@@ -86,7 +86,7 @@ Byte kStr_colorFlushName[] = {22, 20, 12, 236, 32, 18, 89, 181, 181, 183, 229, 2
 }
 
 //: - (NSString *)showName{
-- (NSString *)requestShow{
+- (NSString *)showName{
     //: return self.teamName;
     return self.teamName;
 }

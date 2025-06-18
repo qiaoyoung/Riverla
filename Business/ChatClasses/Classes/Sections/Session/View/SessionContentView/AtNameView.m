@@ -28,8 +28,8 @@ Byte kStr_hugeDocumentaryData[] = {64, 22, 80, 7, 64, 114, 18, 185, 190, 198, 17
 #import "ShowTitleView+Afterwards.h"
 //: #import "FFFMessageModel.h"
 #import "StochasticProcessTeam.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 //: #import "MyUserKit.h"
@@ -219,7 +219,7 @@ NSString *const kLet_normalData = @"NIMTextMessageLabelLinkData";
                 //: self.textView.actionDelegate = vc;
                 self.textView.actionDelegate = vc;
                 //: self.textView.config = vc.sessionConfig;
-                self.textView.config = vc.actinicRayConfig;
+                self.textView.config = vc.sessionConfig;
             }
         //: }];
         }];

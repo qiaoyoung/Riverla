@@ -20,8 +20,8 @@ Byte kStr_jackText[] = {77, 7, 79, 7, 164, 197, 90, 212, 242, 226, 229, 233, 247
 // __M_A_C_R_O__
 //: #import "FFFKitSwitcherCell.h"
 #import "DetailViewCell.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 //: #import "UIViewNimKit.h"
 #import "UIViewNimKit.h"
 

@@ -24,8 +24,8 @@ Byte kStr_bubbleKeyName[] = {24, 30, 92, 14, 191, 135, 218, 106, 148, 237, 16, 1
 // __M_A_C_R_O__
 //: #import "NTESCardVerificationCell.h"
 #import "ShowTeamView.h"
-//: #import "FFFCommonTableData.h"
-#import "FFFCommonTableData.h"
+//: #import "UserCommonTableData.h"
+#import "UserCommonTableData.h"
 
 //: @interface NTESCardVerificationCell ()<UITextViewDelegate>
 @interface ShowTeamView ()<UITextViewDelegate>

@@ -114,8 +114,8 @@ FogData kStr_improveName = (FogData){247, (Byte []){182, 130, 147, 158, 152, 132
 // __M_A_C_R_O__
 //: #import "FFFKitConfig.h"
 #import "ReplyTable.h"
-//: #import "FFFGlobalMacro.h"
-#import "FFFGlobalMacro.h"
+//: #import "UserGlobalMacro.h"
+#import "UserGlobalMacro.h"
 //: #import "FFFMediaItem.h"
 #import "ImageRecent.h"
 //: #import "UIImage+MyUserKit.h"

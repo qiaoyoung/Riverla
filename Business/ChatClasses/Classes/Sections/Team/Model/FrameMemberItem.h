@@ -11,8 +11,8 @@
 // __M_A_C_R_O__
 //: #import <Foundation/Foundation.h>
 #import <Foundation/Foundation.h>
-//: #import "FFFCardDataSourceProtocol.h"
-#import "FFFCardDataSourceProtocol.h"
+//: #import "UserCardDataSourceProtocol.h"
+#import "UserCardDataSourceProtocol.h"
 
 //: @interface NIMCardMemberItem : NSObject<FFFKitCardHeaderData>
 @interface ItemMessage : NSObject<FFFKitCardHeaderData>

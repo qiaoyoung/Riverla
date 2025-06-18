@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 //: #import <NIMSDK/NIMSDK.h>
 #import <NIMSDK/NIMSDK.h>
-//: #import "FFFUsrInfoData.h"
-#import "FFFUsrInfoData.h"
+//: #import "UsrInfoData.h"
+#import "UsrInfoData.h"
 
 //: @interface FFFTeamInfoData : NSObject<NIMGroupMemberProtocol>
 @interface StatusTitleData : NSObject<TingProtocol>
