@@ -54,8 +54,6 @@ PrimData kStr_lipHugeValue = (PrimData){171, (Byte []){200, 196, 197, 223, 206, 
 #import "UIView+Toast.h"
 //: #import "NTESCustomSysNotificationSender.h"
 #import "KeySender.h"
-//: #import "NTESGlobalMacro.h"
-#import "NTESGlobalMacro.h"
 //: #import <AVFoundation/AVFoundation.h>
 #import <AVFoundation/AVFoundation.h>
 //: #import "NTESSessionMsgConverter.h"

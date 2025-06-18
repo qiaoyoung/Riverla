@@ -15,7 +15,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
-#import "NTESGlobalMacro.h"
 #import "Afterwards.h"
 #import "NSString+Closes.h"
 #import "PhotoManager.h"

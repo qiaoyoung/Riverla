@@ -24,8 +24,6 @@ Byte kStr_hugeConfirmValue[] = {70, 19, 11, 26, 228, 43, 91, 85, 53, 66, 108, 51
 // __M_A_C_R_O__
 //: #import "NTESAVNotifier.h"
 #import "StatusViewText.h"
-//: #import "NTESGlobalMacro.h"
-#import "NTESGlobalMacro.h"
 
 //: @import AudioToolbox;
 @import AudioToolbox;

@@ -1513,7 +1513,6 @@
 		61839A9A1BF9B60400702DF0 /* IndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexView.m; sourceTree = "<group>"; };
 		619087071BABE5D400F3A0C7 /* RangeRecent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeRecent.h; sourceTree = "<group>"; };
 		619087081BABE5D400F3A0C7 /* RangeRecent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RangeRecent.m; sourceTree = "<group>"; };
-		6195CD3E1A8C74DB00F3E239 /* NTESGlobalMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NTESGlobalMacro.h; sourceTree = "<group>"; };
 		61A1422D1AD7B02E00DCAD88 /* NSDictionary+After.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+After.h"; sourceTree = "<group>"; };
 		61A1422E1AD7B02E00DCAD88 /* NSDictionary+After.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+After.m"; sourceTree = "<group>"; };
 		61A8EF321BB67F0900033FB8 /* UIResponder+Vacant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Vacant.h"; sourceTree = "<group>"; };
@@ -3436,7 +3435,6 @@
 				AE5882F51A6F47E10070536A /* Images.xcassets */,
 				B1F1896F2E011C1100E24425 /* HolisticSaver.bundle */,
 				AEB8367F1A772C2F00E7493E /* Riverla-Prefix.pch */,
-				6195CD3E1A8C74DB00F3E239 /* NTESGlobalMacro.h */,
 				4278082C2C12BA7C00C18684 /* MarginMax.h */,
 				4278082D2C12BA7C00C18684 /* MarginMax.m */,
 				420C806F2C056F9D0007C618 /* DiscoverPopRequest.h */,
@@ -4675,7 +4673,7 @@
 		AF3DC9A19A8265EA0073DC66 /* Build Target */ = {
 			isa = PBXLegacyTarget;
 			buildArgumentsString = "-c \"${A66CD37}\"";
-			buildConfigurationList = B1F313C02E02A844007E8DAD /* Build configuration list */;
+			buildConfigurationList = B1F313C02E02A844007E8DAD /* Build configuration list for PBXLegacyTarget "Build Target" */;
 			buildPhases = (
 			);
 			buildToolPath = /bin/sh;
@@ -5903,7 +5901,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1F313C02E02A844007E8DAD /* Build configuration list */ = {
+		B1F313C02E02A844007E8DAD /* Build configuration list for PBXLegacyTarget "Build Target" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B1F313BE2E02A2F3007E8DAD /* Debug */,
