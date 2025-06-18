@@ -2518,7 +2518,7 @@
 			path = TTPageControl;
 			sourceTree = "<group>";
 		};
-		043B0B952D9B747400784741 /* SDCycleScrollView */ = {
+		043B0B952D9B747400784741 /* PhaseAngleView */ = {
 			isa = PBXGroup;
 			children = (
 				043B0B8B2D9B747400784741 /* PageControl */,
@@ -2530,7 +2530,7 @@
 				043B0B932D9B747400784741 /* UIView+With.h */,
 				043B0B942D9B747400784741 /* UIView+With.m */,
 			);
-			path = SDCycleScrollView;
+			path = PhaseAngleView;
 			sourceTree = "<group>";
 		};
 		043BFF262D9A29DA00784741 /* discorey */ = {
@@ -2730,16 +2730,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		425E94B62978022F00C812E7 /* BanCapture */ = {
+		425E94B62978022F00C812E7 /* NSDictionaryExtend */ = {
 			isa = PBXGroup;
 			children = (
 				427FB73C2B16CC6D00C0FA28 /* NSDictionaryExtend.h */,
 				427FB73D2B16CC6D00C0FA28 /* NSDictionaryExtend.m */,
 			);
-			path = BanCapture;
+			path = NSDictionaryExtend;
 			sourceTree = "<group>";
 		};
-		425E94C02978044F00C812E7 /* Rest */ = {
+		425E94C02978044F00C812E7 /* NSDictionaryAdditions */ = {
 			isa = PBXGroup;
 			children = (
 				425E94CA2978044F00C812E7 /* NSDictionaryAdditions.h */,
@@ -2749,19 +2749,19 @@
 				425E94C42978044F00C812E7 /* RecentHelper.h */,
 				425E94C82978044F00C812E7 /* RecentHelper.m */,
 			);
-			path = Rest;
+			path = NSDictionaryAdditions;
 			sourceTree = "<group>";
 		};
-		429D400C299A79F400354206 /* ChatClasses */ = {
+		429D400C299A79F400354206 /* ColorCenter */ = {
 			isa = PBXGroup;
 			children = (
-				429D400D299A79F400354206 /* Classes */,
+				429D400D299A79F400354206 /* CommentMessage */,
 				429D417F299A79F500354206 /* Manager */,
 			);
-			path = ChatClasses;
+			path = ColorCenter;
 			sourceTree = "<group>";
 		};
-		429D400D299A79F400354206 /* Classes */ = {
+		429D400D299A79F400354206 /* CommentMessage */ = {
 			isa = PBXGroup;
 			children = (
 				429D400E299A79F400354206 /* Sections */,
@@ -2769,7 +2769,7 @@
 				429D415E299A79F500354206 /* Protocols */,
 				429D4166299A79F500354206 /* Global */,
 			);
-			path = Classes;
+			path = CommentMessage;
 			sourceTree = "<group>";
 		};
 		429D400E299A79F400354206 /* Sections */ = {
@@ -3427,8 +3427,8 @@
 			isa = PBXGroup;
 			children = (
 				B11C232B2DFFCFFF00E72364 /* Riverla.entitlements */,
-				429D400C299A79F400354206 /* ChatClasses */,
-				61F728281A7B23A40076C096 /* Classes */,
+				429D400C299A79F400354206 /* ColorCenter */,
+				61F728281A7B23A40076C096 /* TransformReusableView */,
 				AE5882EC1A6F47E10070536A /* AppDelegate.h */,
 				AE5882ED1A6F47E10070536A /* AppDelegate.m */,
 				879C572E228444DB00F09955 /* ButtonConfig.h */,
@@ -3447,8 +3447,8 @@
 				B1F189722E011C6E00E24425 /* ArchiveManager.m */,
 				B1F189732E011C6E00E24425 /* UIImage+TextArchive.h */,
 				B1F189742E011C6E00E24425 /* UIImage+TextArchive.m */,
-				425E94C02978044F00C812E7 /* Rest */,
-				425E94B62978022F00C812E7 /* BanCapture */,
+				425E94C02978044F00C812E7 /* NSDictionaryAdditions */,
+				425E94B62978022F00C812E7 /* NSDictionaryExtend */,
 				AE5882E81A6F47E10070536A /* Supporting Files */,
 			);
 			path = Business;
@@ -3982,7 +3982,7 @@
 			path = Spelling;
 			sourceTree = "<group>";
 		};
-		61F728281A7B23A40076C096 /* Classes */ = {
+		61F728281A7B23A40076C096 /* TransformReusableView */ = {
 			isa = PBXGroup;
 			children = (
 				B80A36B426019E2500F581EB /* Librarys */,
@@ -3992,7 +3992,7 @@
 				611ABEEA1B3CF4FC00B8706C /* Common */,
 				61F728291A7B23A40076C096 /* Category */,
 			);
-			path = Classes;
+			path = TransformReusableView;
 			sourceTree = "<group>";
 		};
 		61F728291A7B23A40076C096 /* Category */ = {
@@ -4190,23 +4190,23 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B808E74C26F48B1000E302F6 /* LCQRCodeUtil */ = {
+		B808E74C26F48B1000E302F6 /* ConsumerUtil */ = {
 			isa = PBXGroup;
 			children = (
 				B808E74D26F48B1000E302F6 /* ConsumerUtil.h */,
 				B808E74E26F48B1000E302F6 /* ConsumerUtil.m */,
 			);
-			path = LCQRCodeUtil;
+			path = ConsumerUtil;
 			sourceTree = "<group>";
 		};
 		B80A36B426019E2500F581EB /* Librarys */ = {
 			isa = PBXGroup;
 			children = (
-				043B0B952D9B747400784741 /* SDCycleScrollView */,
+				043B0B952D9B747400784741 /* PhaseAngleView */,
 				BC2D87CE2C5CBF85003E6A4A /* imageCrop */,
 				BC4DF4D82C54CF7B00FBD937 /* SGQRCode */,
 				B883598727046952002114FF /* TPPasswordTextView */,
-				B808E74C26F48B1000E302F6 /* LCQRCodeUtil */,
+				B808E74C26F48B1000E302F6 /* ConsumerUtil */,
 				B89A940626E74685007C1DE6 /* ZCPickDataView */,
 				B89A940226E7191A007C1DE6 /* CustomWindowView */,
 				B89A93F026E710AD007C1DE6 /* KIImage */,
