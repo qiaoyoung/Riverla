@@ -3,7 +3,7 @@
 typedef struct {
     Byte videoElectronicsSin;
     Byte *quantityercommunicate;
-    unsigned int complex;
+    unsigned int complex1;
     bool legalDocumentInstitutional;
 } SingeKeyData;
 
@@ -1193,10 +1193,10 @@ SingeKeyData kStr_murderValue = (SingeKeyData){161, (Byte []){192, 194, 194, 206
 
 Byte *SingeKeyDataToByte(SingeKeyData *data) {
     if (data->legalDocumentInstitutional) return data->quantityercommunicate;
-    for (int i = 0; i < data->complex; i++) {
+    for (int i = 0; i < data->complex1; i++) {
         data->quantityercommunicate[i] ^= data->videoElectronicsSin;
     }
-    data->quantityercommunicate[data->complex] = 0;
+    data->quantityercommunicate[data->complex1] = 0;
     data->legalDocumentInstitutional = true;
     return data->quantityercommunicate;
 }
