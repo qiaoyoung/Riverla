@@ -101,13 +101,13 @@ PinData kStr_intervalData = (PinData){189, (Byte []){243, 233, 248, 238, 254, 21
 }
 
 //: - (NSString *)memberId{
-- (NSString *)attach{
+- (NSString *)memberId{
     //: return self.info.infoId;
     return self.info.infoId;
 }
 
 //: - (NSString *)showName{
-- (NSString *)buttonTing{
+- (NSString *)showName{
     //: return self.info.showName;
     return self.info.showName;
 }
