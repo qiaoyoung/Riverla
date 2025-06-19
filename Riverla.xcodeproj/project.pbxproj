@@ -567,6 +567,7 @@
 		AE5882F61A6F47E10070536A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5882F51A6F47E10070536A /* Images.xcassets */; };
 		AE58995A1A6FA7AC0070536A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5899591A6FA7AC0070536A /* SystemConfiguration.framework */; };
 		AEA87FE11A81CAD600ACC3BA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA87FE01A81CAD500ACC3BA /* AVFoundation.framework */; };
+		B1254D2A2E03EAF500F55443 /* AIAssistantViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1254D292E03EAF500F55443 /* AIAssistantViewController.m */; };
 		B1F189702E011C1100E24425 /* HolisticSaver.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1F1896F2E011C1100E24425 /* HolisticSaver.bundle */; };
 		B1F189752E011C6E00E24425 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F189722E011C6E00E24425 /* ArchiveManager.m */; };
 		B1F189762E011C6E00E24425 /* UIImage+TextArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F189742E011C6E00E24425 /* UIImage+TextArchive.m */; };
@@ -714,16 +715,6 @@
 		E6D63BA22355D9D90063F18E /* MarginView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D63BA02355D9D90063F18E /* MarginView.m */; };
 		F6AB19A47D0378A24A403053 /* Pods_Riverla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B007DA8853C08BA6803E4519 /* Pods_Riverla.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		B1F313BD2E02A2F3007E8DAD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE5882DD1A6F47E10070536A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF3DC9A19A8265EA0073DC66;
-			remoteInfo = "Build Target";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A1A959F920D2837800754E64 /* Embed App Extensions */ = {
@@ -1671,6 +1662,8 @@
 		AEB8367F1A772C2F00E7493E /* Riverla-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Riverla-Prefix.pch"; sourceTree = "<group>"; };
 		B007DA8853C08BA6803E4519 /* Pods_Riverla.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riverla.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11C232B2DFFCFFF00E72364 /* Riverla.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Riverla.entitlements; sourceTree = "<group>"; };
+		B1254D282E03EAF500F55443 /* AIAssistantViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIAssistantViewController.h; sourceTree = "<group>"; };
+		B1254D292E03EAF500F55443 /* AIAssistantViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIAssistantViewController.m; sourceTree = "<group>"; };
 		B1F1896F2E011C1100E24425 /* HolisticSaver.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HolisticSaver.bundle; sourceTree = "<group>"; };
 		B1F189712E011C6E00E24425 /* ArchiveManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchiveManager.h; sourceTree = "<group>"; };
 		B1F189722E011C6E00E24425 /* ArchiveManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchiveManager.m; sourceTree = "<group>"; };
@@ -2539,6 +2532,8 @@
 				043BFF792D9A42DE00784741 /* view */,
 				043BFF272D9A2B9A00784741 /* MarginViewController.h */,
 				043BFF282D9A2B9A00784741 /* MarginViewController.m */,
+				B1254D282E03EAF500F55443 /* AIAssistantViewController.h */,
+				B1254D292E03EAF500F55443 /* AIAssistantViewController.m */,
 				043B0B7D2D9B733B00784741 /* ArrayViewController.h */,
 				043B0B7E2D9B733B00784741 /* ArrayViewController.m */,
 				043B0B9E2D9B7FC500784741 /* RangeMaxViewController.h */,
@@ -4669,22 +4664,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXLegacyTarget section */
-		AF3DC9A19A8265EA0073DC66 /* Build Target */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "-c \"${A66CD37}\"";
-			buildConfigurationList = B1F313C02E02A844007E8DAD /* Build configuration list for PBXLegacyTarget "Build Target" */;
-			buildPhases = (
-			);
-			buildToolPath = /bin/sh;
-			dependencies = (
-			);
-			name = "Build Target";
-			passBuildSettingsInEnvironment = 1;
-			productName = "Build Target";
-		};
-/* End PBXLegacyTarget section */
-
 /* Begin PBXNativeTarget section */
 		AE5882E41A6F47E10070536A /* Riverla */ = {
 			isa = PBXNativeTarget;
@@ -4701,7 +4680,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DB856FACEFFA6CD5EE73DC66 /* PBXTargetDependency */,
 			);
 			name = Riverla;
 			productName = NIMDemo;
@@ -4758,7 +4736,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF3DC9A19A8265EA0073DC66 /* Build Target */,
 				AE5882E41A6F47E10070536A /* Riverla */,
 			);
 		};
@@ -5149,6 +5126,7 @@
 				429D41E4299A79F500354206 /* PointDatasource.m in Sources */,
 				429D41A0299A79F500354206 /* DefenceView.m in Sources */,
 				6118F5A71C5A0FC1009AF01E /* UINavigationController+CoronaSwizzling.m in Sources */,
+				B1254D2A2E03EAF500F55443 /* AIAssistantViewController.m in Sources */,
 				61E4719C1B7D9C8300F4A1BF /* RadiogramViewController.m in Sources */,
 				046080F52D91673700344EA3 /* TrifleViewController.m in Sources */,
 				8351CB721E977D9000DF4866 /* VoidView.m in Sources */,
@@ -5595,14 +5573,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		DB856FACEFFA6CD5EE73DC66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = AF3DC9A19A8265EA0073DC66 /* Build Target */;
-			targetProxy = B1F313BD2E02A2F3007E8DAD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		427B551429F9071C00F6DC42 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -5861,25 +5831,6 @@
 			};
 			name = Release;
 		};
-		B1F313BE2E02A2F3007E8DAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Build Target";
-			};
-			name = Debug;
-		};
-		B1F313BF2E02A2F3007E8DAD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = "Build Target";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5897,15 +5848,6 @@
 			buildConfigurations = (
 				AE5883091A6F47E10070536A /* Debug */,
 				AE58830A1A6F47E10070536A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B1F313C02E02A844007E8DAD /* Build configuration list for PBXLegacyTarget "Build Target" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B1F313BE2E02A2F3007E8DAD /* Debug */,
-				B1F313BF2E02A2F3007E8DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

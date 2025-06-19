@@ -162,6 +162,8 @@ BubbleData kStr_bubbleAtValue = (BubbleData){200, (Byte []){231, 174, 186, 161, 
 #import "TranslateView.h"
 //: #import <MJRefresh/MJRefresh.h>
 #import <MJRefresh/MJRefresh.h>
+#import "AIAssistantViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 //: @interface DisCorveyViewController ()<UITableViewDelegate,UITableViewDataSource,DiscorveyCellDelegate,NTESReportContentDelegate>
 @interface MarginViewController ()<UITableViewDelegate,UITableViewDataSource,TeamColor,AtTitleDelegate>
@@ -247,14 +249,40 @@ BubbleData kStr_bubbleAtValue = (BubbleData){200, (Byte []){231, 174, 186, 161, 
 
     //: UIButton *moreBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     UIButton *moreBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    //: moreBtn.frame = CGRectMake([[UIScreen mainScreen] bounds].size.width-32-15, 10, 32, 32);
-    moreBtn.frame = CGRectMake([[UIScreen mainScreen] bounds].size.width-32-15, 10, 32, 32);
+    //: moreBtn.frame = CGRectMake([[UIScreen mainScreen] bounds].size.width-32-15-40, 10, 32, 32);
+    moreBtn.frame = CGRectMake([[UIScreen mainScreen] bounds].size.width-32-15-40, 10, 32, 32);
     //: [moreBtn addTarget:self action:@selector(gotoUploadPic) forControlEvents:UIControlEventTouchUpInside];
     [moreBtn addTarget:self action:@selector(requestUpload) forControlEvents:UIControlEventTouchUpInside];
     //: [moreBtn setImage:[UIImage imageNamed:@"covery_photo"] forState:UIControlStateNormal];
     [moreBtn setImage:[UIImage imageNamed:StringFromBubbleData(&kStr_pathName)] forState:UIControlStateNormal];
     //: [topview addSubview:moreBtn];
     [topview addSubview:moreBtn];
+    
+    // 添加AI助手按钮
+    UIButton *aiBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    aiBtn.frame = CGRectMake([[UIScreen mainScreen] bounds].size.width-32-15, 10, 32, 32);
+    [aiBtn addTarget:self action:@selector(openAIAssistant) forControlEvents:UIControlEventTouchUpInside];
+    
+    // 创建渐变背景
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.frame = aiBtn.bounds;
+    gradientLayer.colors = @[
+        (id)[UIColor colorWithRed:0.4 green:0.6 blue:1.0 alpha:1.0].CGColor,
+        (id)[UIColor colorWithRed:0.6 green:0.3 blue:1.0 alpha:1.0].CGColor
+    ];
+    gradientLayer.startPoint = CGPointMake(0, 0);
+    gradientLayer.endPoint = CGPointMake(1, 1);
+    gradientLayer.cornerRadius = 16;
+    [aiBtn.layer insertSublayer:gradientLayer atIndex:0];
+    
+    [aiBtn setTitle:@"🤖" forState:UIControlStateNormal];
+    aiBtn.titleLabel.font = [UIFont systemFontOfSize:18];
+    aiBtn.layer.cornerRadius = 16;
+    aiBtn.layer.shadowColor = [UIColor blackColor].CGColor;
+    aiBtn.layer.shadowOffset = CGSizeMake(0, 2);
+    aiBtn.layer.shadowOpacity = 0.3;
+    aiBtn.layer.shadowRadius = 4;
+    [topview addSubview:aiBtn];
 
     //: UIView *contentView = [[UIView alloc]initWithFrame:CGRectMake(0, (44.0f + [UIDevice vg_statusBarHeight])+10, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-(44.0f + [UIDevice vg_statusBarHeight]))];
     UIView *contentView = [[UIView alloc]initWithFrame:CGRectMake(0, (44.0f + [UIDevice clear])+10, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-(44.0f + [UIDevice clear]))];
@@ -475,6 +503,13 @@ BubbleData kStr_bubbleAtValue = (BubbleData){200, (Byte []){231, 174, 186, 161, 
     RangeMaxViewController *vc = [[RangeMaxViewController alloc]init];
     //: [self.navigationController pushViewController:vc animated:YES];
     [self.navigationController pushViewController:vc animated:YES];
+}
+
+// 打开AI助手
+-(void)openAIAssistant
+{
+    AIAssistantViewController *aiVC = [[AIAssistantViewController alloc] init];
+    [self.navigationController pushViewController:aiVC animated:YES];
 }
 
 //: - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
