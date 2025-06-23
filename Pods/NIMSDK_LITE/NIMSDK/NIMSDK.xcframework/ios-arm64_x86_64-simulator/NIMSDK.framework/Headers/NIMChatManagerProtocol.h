@@ -14,6 +14,8 @@
 @class NIMRevokeMessageNotification;
 @class NIMTeamMessageReceiptDetail;
 @class NIMRevokeMessageOption;
+@class NIMMessageAIStreamStopParams;
+@class NIMMessageAIRegenParams;
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -55,6 +57,17 @@ typedef void(^NIMQueryReceiptDetailBlock)(NSError * __nullable error,NIMTeamMess
  */
 typedef void(^NIMChatManagerBlock)(NSError * __nullable error);
 
+/**
+ * 停止流式输出操作完成回调
+ * @param error      错误,如果成功则error为nil
+ */
+typedef void(^NIMStopAIStreamMessageBlock)(NSError * __nullable error);
+
+/**
+ *  操作完成回调
+ * @param error      错误,如果成功则error为nil
+ */
+typedef void(^NIMRegenAIMessageBlock)(NSError * __nullable error);
 
 /**
  *  聊天委托
@@ -142,6 +155,15 @@ typedef void(^NIMChatManagerBlock)(NSError * __nullable error);
  */
 - (void)fetchMessageAttachment:(NIMMessage *)message
           didCompleteWithError:(nullable NSError *)error;
+
+/**
+ * 更新消息在线同步通知
+ * 更新消息多端同步通知
+ * 更新消息漫游通知
+ *
+ * - Parameter messages: 被修改的消息列表
+ */
+- (void)onReceiveMessagesModified:(NSArray <NIMMessage *>*)messages;
 
 @end
 
@@ -392,6 +414,23 @@ typedef void(^NIMChatManagerBlock)(NSError * __nullable error);
  *  @return 正在传输的消息进度,如果消息不在传输,则返回0
  */
 - (float)messageTransportProgress:(NIMMessage *)message;
+
+/**
+ *  停止传输消息的进度 (发送/接受附件)
+ */
+- (void)stopAIStreamMessage:(NIMMessage *)message
+                     params:(NIMMessageAIStreamStopParams *)params
+                 completion:(NIMStopAIStreamMessageBlock)completion;
+
+/**
+ * 重新输出数字人消息
+ *
+ * @param message 需要重新输出的数字人消息
+ * @param params 确定重新输出的操作类型
+ */
+- (void)regenAIMessage:(NIMMessage *)message
+                params:(NIMMessageAIRegenParams *)params
+            completion:(NIMRegenAIMessageBlock)completion;
 
 /**
  *  添加聊天委托

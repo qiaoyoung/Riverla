@@ -213,6 +213,16 @@ typedef NS_ENUM(NSInteger, NIMLocalErrorCode) {
      *   和设置冲突
      */
     NIMLocalErrorCodeSettingConflictError = 28,
+    
+    /**
+     *   错误使用
+     */
+    NIMLocalErrorCodeMisuse = 29,
+    
+    /**
+     *  资源不存在
+     */
+    NIMLocalErrorCodeResourceNotExist = 30,
 };
 
 

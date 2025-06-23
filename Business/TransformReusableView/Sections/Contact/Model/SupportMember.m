@@ -41,8 +41,7 @@ PinData kStr_intervalData = (PinData){189, (Byte []){243, 233, 248, 238, 254, 21
 
 //userId和Vcname必有一个有值，根据有值的状态push进不同的页面
 
-//: - (NSString *)vcName{
-- (NSString *)statusDataText{
+- (NSString *)vcName{
     //: return nil;
     return nil;
 }
@@ -82,8 +81,7 @@ PinData kStr_intervalData = (PinData){189, (Byte []){243, 233, 248, 238, 254, 21
     }
 }
 
-//: - (NSString *)userId{
-- (NSString *)timeWith{
+-(NSString *)userId{
     //: return self.info.infoId;
     return self.info.infoId;
 }
@@ -118,8 +116,8 @@ PinData kStr_intervalData = (PinData){189, (Byte []){243, 233, 248, 238, 254, 21
     return NO;
 }
 
-//: - (id)sortKey {
-- (id)keyAt {
+- (id)sortKey {
+//- (id)keyAt {
     //: return [[NTESSpellingCenter sharedCenter] spellingForString:self.info.showName].shortSpelling;
     return [[CommentCenter find] chalkLineText:self.info.showName].shortSpelling;
 }

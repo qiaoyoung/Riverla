@@ -1439,6 +1439,7 @@
 		7FA68B460F5DC5F5BDB312C44D7C1963 /* SDWebImageFLPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImageFLPlugin; path = SDWebImageFLPlugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEC749A64C7EBBA5D93C236560EC733 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/Core/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		80580768A0F5DA6F344A09A32C33A5EC /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		817050BE268D4D3FBCA7C1FBD24DEB26 /* UMAPM.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UMAPM.xcframework; path = UMAPM_2.0.4/UMAPM.xcframework; sourceTree = "<group>"; };
 		8273329D40FC3DA944A38BA38CA305CB /* NSAttributedString+YYText.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YYText.m"; path = "YYText/Utility/NSAttributedString+YYText.m"; sourceTree = "<group>"; };
 		82B3611D8508A201DAC33EB0AC7B7AC3 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
 		82B48C6F84CEF03610C9F4AF615B6DEA /* SDMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDMemoryCache.m; path = SDWebImage/Core/SDMemoryCache.m; sourceTree = "<group>"; };
@@ -1514,7 +1515,6 @@
 		93755E0B5D99B4BE404D11FF195D6BB5 /* FUSticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FUSticker.h; path = FURenderKit.framework/Headers/FUSticker.h; sourceTree = "<group>"; };
 		94976DC4363AF75167B544580D2CC2E7 /* SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageGraphics.h; path = SDWebImage/Core/SDImageGraphics.h; sourceTree = "<group>"; };
 		94CEF4C99E1C5E7438B7216049365867 /* NIMSDK_LITE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NIMSDK_LITE.debug.xcconfig; sourceTree = "<group>"; };
-		955E8A1ACAA33D8343ABFFDA0384980E /* UMAPM.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UMAPM.xcframework; path = UMAPM_2.0.3/UMAPM.xcframework; sourceTree = "<group>"; };
 		9729081E9C175D50BC19C97DC4402F58 /* YYTextTransaction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYTextTransaction.m; path = YYText/Utility/YYTextTransaction.m; sourceTree = "<group>"; };
 		97BE451D21EBBCB72C1FFAD44EF0F3F3 /* IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
 		97EFA22508A988D141473D54FA6696F6 /* UIScrollView+KMNavigationBarTransition_internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+KMNavigationBarTransition_internal.h"; path = "KMNavigationBarTransition/UIScrollView+KMNavigationBarTransition_internal.h"; sourceTree = "<group>"; };
@@ -2375,14 +2375,6 @@
 			path = "../Target Support Files/UCZProgressView";
 			sourceTree = "<group>";
 		};
-		31A42862F79C4BA9D03F35C30D00809F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				955E8A1ACAA33D8343ABFFDA0384980E /* UMAPM.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		321DA99A575DFBDC833CC81C65C4B926 /* Bugly */ = {
 			isa = PBXGroup;
 			children = (
@@ -2559,7 +2551,7 @@
 		412536876D205473C2C5DAB7E02EB30B /* UMAPM */ = {
 			isa = PBXGroup;
 			children = (
-				31A42862F79C4BA9D03F35C30D00809F /* Frameworks */,
+				6A8ABDB7FD0F447EB2968B370D77B644 /* Frameworks */,
 				6B63F31E7A82F5F536DB0ACDF855D802 /* Support Files */,
 			);
 			name = UMAPM;
@@ -2852,6 +2844,14 @@
 			);
 			name = SDWebImage;
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		6A8ABDB7FD0F447EB2968B370D77B644 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817050BE268D4D3FBCA7C1FBD24DEB26 /* UMAPM.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		6B63F31E7A82F5F536DB0ACDF855D802 /* Support Files */ = {

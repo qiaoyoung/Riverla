@@ -117,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/UMAPM/UMAPM_2.0.3/UMAPM.xcframework" "UMAPM" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/UMAPM/UMAPM_2.0.4/UMAPM.xcframework" "UMAPM" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 

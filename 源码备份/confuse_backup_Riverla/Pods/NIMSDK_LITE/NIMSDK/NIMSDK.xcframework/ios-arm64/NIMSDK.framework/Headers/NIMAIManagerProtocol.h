@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 @class NIMAIUser;
 @class NIMProxyAICallAntispamConfig;
 @class NIMAIModelCallResult;
+@class NIMAIRAGInfo;
+@class NIMAIModelStreamCallResult;
+@class NIMAIModelStreamCallStopParams;
 
 @protocol NIMAIListDelegate;
 
@@ -24,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 typedef void(^NIMGetAlUserListBlock)(NSError * __nullable error,NSArray <NIMAIUser *> * _Nullable result);
 /// Al数字人请求代理接口的回调
 typedef void(^NIMProxyAIModelCallBlock)(NSError * __nullable error);
+/// Al数字人停止
+typedef void(^NIMStopAIModelStreamCallBlock)(NSError * __nullable error);
 
 /// 大模型类型
 typedef NS_ENUM(NSInteger, NIMAIModelType) {
@@ -44,6 +49,21 @@ typedef NS_ENUM(NSInteger, NIMAIModelRoleType) {
     NIMAIModelRoleTypeSystem,
     NIMAIModelRoleTypeUser,
     NIMAIModelRoleTypeAssistant
+};
+
+/// 数字人流式消息状态
+typedef NS_ENUM(NSInteger, NIMAIModelStreamCallStatus) {
+    /// 非流式状态
+    NIM_AI_MODEL_STREAM_CALL_STATUS_NONE = 0,
+    
+    /// 停止输出
+    NIM_AI_MODEL_STREAM_CALL_STATUS_CANCEL = 2,
+    
+    /// 输出完成
+    NIM_AI_MODEL_STREAM_CALL_STATUS_GENERATED = 4,
+    
+    /// 服务器异常终止
+    NIM_AI_MODEL_STREAM_CALL_STATUS_ABORTED = 5,
 };
 
 @protocol NIMAIManager <NSObject>
@@ -68,6 +88,15 @@ typedef NS_ENUM(NSInteger, NIMAIModelRoleType) {
                 completion:(NIMProxyAIModelCallBlock)completion;
 
 
+/**
+ * 停止流式输出
+ *
+ *  @param params   接口入参
+ *  @param completion  完成后的回调
+ */
+- (void)stopAIModelStreamCall:(NIMAIModelStreamCallStopParams *)params
+                   completion:(NIMStopAIModelStreamCallBlock)completion;
+
 
 /**
 * 添加数字人监听器
@@ -87,6 +116,7 @@ typedef NS_ENUM(NSInteger, NIMAIModelRoleType) {
 
 // Al数字人监听
 @protocol NIMAIListDelegate <NSObject>
+@optional
 
 /**
  *  AI透传接口的响应的回调
@@ -94,6 +124,13 @@ typedef NS_ENUM(NSInteger, NIMAIModelRoleType) {
  *  @param data  响应内容
  */
 - (void)onProxyAIModelCall:(NIMAIModelCallResult *)data;
+
+/**
+ *  AI 透传接口的流式响应的回调
+ *  流式过程中回调此方法，流式结束后还是会统一调用onProxyAIModelCall方法
+ *  @param data 本次响应的结构体
+ */
+- (void)onProxyAIModelStreamCall:(NIMAIModelStreamCallResult *)data;
 
 @end
 
@@ -175,6 +212,9 @@ typedef NS_ENUM(NSInteger, NIMAIModelRoleType) {
 
 /// AI 透传接口的反垃圾配置
 @property(nullable,nonatomic,strong) NIMProxyAICallAntispamConfig *antispamConfig;
+
+/// 是否是流式响应，默认NO
+@property(nonatomic,assign,readwrite) BOOL aiStream;
 @end
 
 @interface NIMAIModelConfig : NSObject
@@ -240,6 +280,85 @@ typedef NS_ENUM(NSInteger, NIMAIModelRoleType) {
 
 /// AI响应的状态码
 @property(nonatomic,assign) NSInteger code;
+
+/// 数字人回复内容的引用资源列表
+@property (nonatomic, strong) NSArray<NIMAIRAGInfo *> *aiRAGs;
+
+/// 回复的时间戳
+@property (nonatomic, assign) NSTimeInterval timestamp;
+
+/// 是否是流式响应，默认false
+@property (nonatomic, assign) BOOL aiStream;
+
+/// 数字人流式响应状态
+@property (nonatomic, assign) NIMAIModelStreamCallStatus aiStreamStatus;
+
+@end
+
+/// 透传协议流式分片信息
+@interface NIMAIModelStreamCallChunk : NSObject
+
+/// 数字人流式回复分片文本
+@property (nonatomic, copy) NSString *content;
+
+/// 数字人流式回复当前分片时间
+@property (nonatomic, assign) NSTimeInterval chunkTime;
+
+/// 类型，当前仅支持0表示文本
+@property (nonatomic, assign) NSInteger type;
+
+/// 分片序号，从0开始
+@property (nonatomic, assign) NSInteger index;
+
+@end
+
+/// 流式回复内容
+@interface NIMAIModelStreamCallContent : NSObject
+
+/// 数字人流式回复分片组装好的文本
+@property (nonatomic, copy, readonly) NSString *msg;
+
+/// 类型，当前仅支持0表示文本
+@property (nonatomic, assign, readonly) NSInteger type;
+
+/// 数字人流式回复最近一个分片
+@property (nonatomic, strong, readonly) NIMAIModelStreamCallChunk *lastChunk;
+
+@end
+
+/// 透传接口的 AI 流式回复的结构体
+@interface NIMAIModelStreamCallResult : NSObject
+
+/// AI 响应的状态码
+@property (nonatomic, assign, readonly) NSInteger code;
+
+/// 数字人的 accountId
+@property (nonatomic, copy, readonly) NSString *accountId;
+
+/// 本次响应的标识
+@property (nonatomic, copy, readonly) NSString *requestId;
+
+/// 请求 AI 的回复
+@property (nonatomic, strong, readonly) NIMAIModelStreamCallContent *content;
+
+/// 数字人回复内容的引用资源列表
+/// 第一个分片才下发
+@property (nonatomic, copy, readonly) NSArray<NIMAIRAGInfo *> *aiRAGs;
+
+/// 分片的时间戳
+@property (nonatomic, assign, readonly) NSTimeInterval timestamp;
+
+@end
+
+/// 停止透传接口的 AI 流式回复
+@interface NIMAIModelStreamCallStopParams : NSObject
+
+/// 机器人账号ID
+/// AIUser对应的账号ID
+@property (nonatomic, copy) NSString *accountId;
+
+/// 请求id
+@property (nonatomic, copy) NSString *requestId;
 
 @end
 

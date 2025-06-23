@@ -328,6 +328,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) BOOL enableCompass;
 
+/**
+ * 启用发送消息短超时， 默认NO
+ * @discussion 如果需要开启，需要在SDK初始化之前配置
+ */
+@property (nonatomic, assign) BOOL enableSendMsgShortTimeout;
+
 @end
 
 
