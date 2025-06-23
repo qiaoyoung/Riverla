@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>decoratorSave</key>
+    <string>DecodeCalmSlice</string>
+    <key>attachPlainImplementSlice</key>
+    <string>MarshLibraryResetHide</string>
+    <key>strongShowParseValidator</key>
+    <string>MatrixRemoteTransformApplyValidator</string>
+    <key>hideReferenceFitDense</key>
+    <string>LoadEnableCleanSmart</string>
+</dict>
+</plist>

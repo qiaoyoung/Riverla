@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>knownCollection</key>
+    <string>BetweenReadProfile</string>
+    <key>loaderPlatformEnableSleek</key>
+    <string>PoolGlobeSplit</string>
+    <key>fixValidator</key>
+    <string>FitRefreshMediatorCreator</string>
+    <key>yewViewPristineInitialize</key>
+    <string>SeaRegisterHeader</string>
+    <key>happyAdapterSilverCreate</key>
+    <string>PrimePanelThornMerit</string>
+</dict>
+</plist>

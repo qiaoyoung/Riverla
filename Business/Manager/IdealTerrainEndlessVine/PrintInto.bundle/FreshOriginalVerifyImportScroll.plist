@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>sensorPoolAccelerate</key>
+    <string>UpNativeCompact</string>
+    <key>positionTarget</key>
+    <string>DriverWaitBefore</string>
+    <key>pristineGenerate</key>
+    <string>AlongCommandKineticStop</string>
+    <key>testReal</key>
+    <string>WatchRefresh</string>
+</dict>
+</plist>

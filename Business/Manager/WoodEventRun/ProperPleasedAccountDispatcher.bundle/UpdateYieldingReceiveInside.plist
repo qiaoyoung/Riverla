@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>connectAzureCoordinator</key>
+    <string>WriteAnalyzeAdapter</string>
+    <key>holdCacheDelegate</key>
+    <string>ProvisionLucidSaverGateway</string>
+    <key>passiveVision</key>
+    <string>EndlessFix</string>
+    <key>prismSelectInstance</key>
+    <string>CompareShowContainer</string>
+    <key>endlessYieldSyncObserver</key>
+    <string>MuseWorkSerializer</string>
+    <key>genuineProtocolUpon</key>
+    <string>RiverConvertAccessReplaceSet</string>
+</dict>
+</plist>

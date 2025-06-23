@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>proxyWithout</key>
+    <string>SilentPositionBetweenPool</string>
+    <key>nobleBrokerNear</key>
+    <string>PlanetArrayRecord</string>
+    <key>wingModel</key>
+    <string>FixMultiplyInsideMain</string>
+    <key>overFormatterWeb</key>
+    <string>ReferenceDetectEncode</string>
+</dict>
+</plist>

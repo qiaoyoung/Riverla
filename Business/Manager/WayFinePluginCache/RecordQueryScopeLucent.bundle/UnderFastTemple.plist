@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>pushRapidsDelegate</key>
+    <string>PastMakeLoader</string>
+    <key>canvasFormatter</key>
+    <string>SwiftPlayEntry</string>
+    <key>crestEqualPush</key>
+    <string>InBackupHeight</string>
+    <key>ledgerOwnerAround</key>
+    <string>ElementViewBindTarget</string>
+    <key>engineDisplayHub</key>
+    <string>ProviderOriginFacade</string>
+</dict>
+</plist>

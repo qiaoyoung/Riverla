@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>mapExtensionDense</key>
+    <string>HistoryLaunchOrigin</string>
+    <key>vitalStack</key>
+    <string>InstanceOrigin</string>
+    <key>absoluteFlukeStartType</key>
+    <string>AssignStackBelowAdd</string>
+    <key>replaceRegionDirect</key>
+    <string>RegistrySweetFancy</string>
+</dict>
+</plist>

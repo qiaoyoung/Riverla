@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>decoratorLaneReliableBehind</key>
+    <string>HiveStackPack</string>
+    <key>restoreLucent</key>
+    <string>CoralStack</string>
+    <key>viaPolicy</key>
+    <string>ExtensionFactoryReleaseConnect</string>
+    <key>journeyObserverCreate</key>
+    <string>SmartInitializeSaver</string>
+    <key>centerCreatorTryStrong</key>
+    <string>ModuleConvertClean</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>forceGroupRefreshMild</key>
+    <string>DenseAgentStructure</string>
+    <key>removeBrokerGraceful</key>
+    <string>TacticStateSense</string>
+    <key>stopDispatcher</key>
+    <string>ProviderPushFlukeTrim</string>
+    <key>themeCivic</key>
+    <string>FirthLoaderBrief</string>
+    <key>mildFill</key>
+    <string>VerseDrawPositionMediatorPack</string>
+    <key>observerBetween</key>
+    <string>DataSourceAcuteSensorDeserializer</string>
+</dict>
+</plist>

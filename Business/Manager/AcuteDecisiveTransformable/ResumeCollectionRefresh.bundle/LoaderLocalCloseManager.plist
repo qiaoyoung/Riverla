@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>modelApplyCelestial</key>
+    <string>TrainBuoyantSafePlay</string>
+    <key>sliceImport</key>
+    <string>SaveFreeDecodeValidator</string>
+    <key>extensionInsideRapidsPassive</key>
+    <string>AcceptAboveBuilderWordTool</string>
+    <key>extractVisitorView</key>
+    <string>BoardSkyGenericDeepParse</string>
+</dict>
+</plist>

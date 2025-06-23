@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>fetchTransformableIdle</key>
+    <string>ProviderKnownReportRegister</string>
+    <key>dispatcherRestResumeAgile</key>
+    <string>GetSurfLegacyRegister</string>
+    <key>eliteRadarPool</key>
+    <string>AssignGrandMatch</string>
+    <key>playNookSoftVisitor</key>
+    <string>ProcessAgainstDecodeCompare</string>
+    <key>providerPieceWildSet</key>
+    <string>StartReliefMap</string>
+</dict>
+</plist>

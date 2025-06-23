@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>beforeSteamMediator</key>
+    <string>InformationCreator</string>
+    <key>onyxProvider</key>
+    <string>QuirkReplace</string>
+    <key>pearlManager</key>
+    <string>SoundViewHide</string>
+    <key>testHeightCoordinator</key>
+    <string>QuirkUpdateHelperConnect</string>
+    <key>byFilter</key>
+    <string>UponDramaticInitializeCoherent</string>
+    <key>bindViewTribeDecent</key>
+    <string>ExtensionApplyBuilderModify</string>
+</dict>
+</plist>

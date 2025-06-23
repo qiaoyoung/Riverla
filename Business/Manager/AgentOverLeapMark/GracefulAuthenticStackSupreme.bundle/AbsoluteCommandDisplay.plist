@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>helperRemove</key>
+    <string>InvitingOpen</string>
+    <key>proxyIdleBeneath</key>
+    <string>SplitTreasureResumeClean</string>
+    <key>safeRouteLaunch</key>
+    <string>BeneathCliffReliableSaver</string>
+    <key>factoryWindowAddDiscrete</key>
+    <string>CoordinatorRusticGentle</string>
+    <key>majorCompatibleRelay</key>
+    <string>OrchardThenTorchThroughout</string>
+    <key>properSupremeHeader</key>
+    <string>PoolSliceInstance</string>
+</dict>
+</plist>

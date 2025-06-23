@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>pieceEngineRegister</key>
+    <string>ThroughGridRegister</string>
+    <key>greenExtractSenseEngine</key>
+    <string>ObjectInsightToToward</string>
+    <key>sortComplex</key>
+    <string>TestHazeBold</string>
+    <key>warmImplement</key>
+    <string>RunPoolBright</string>
+    <key>protocolGravePetal</key>
+    <string>TaskReferenceResetGrave</string>
+    <key>creatorCloudDrawLean</key>
+    <string>AroundHoldForceTerse</string>
+    <key>strikeArrayInsertLoose</key>
+    <string>OptionListClientIn</string>
+</dict>
+</plist>

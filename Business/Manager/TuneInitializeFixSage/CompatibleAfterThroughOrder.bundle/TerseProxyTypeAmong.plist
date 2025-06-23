@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>warySensorAfter</key>
+    <string>HumorFilterEngine</string>
+    <key>graveTrigger</key>
+    <string>PackageLayoutCommandProfileTrigger</string>
+    <key>panelFilter</key>
+    <string>TestTruthAlongDecorator</string>
+    <key>extensionGigantic</key>
+    <string>ViaAdapterWindow</string>
+    <key>extensionCentralDuring</key>
+    <string>ValleyFeature</string>
+    <key>cancelCollection</key>
+    <string>FreeBriskLandscapeHarmonic</string>
+    <key>upwardSteelHandler</key>
+    <string>SplashBrowserLedger</string>
+    <key>reservoirHumaneObserver</key>
+    <string>StateInstanceAlcoveFit</string>
+</dict>
+</plist>

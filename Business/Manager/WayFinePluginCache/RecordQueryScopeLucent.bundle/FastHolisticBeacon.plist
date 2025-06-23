@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>slipBroad</key>
+    <string>InitializeEncodeMatch</string>
+    <key>filterZephyr</key>
+    <string>UponPast</string>
+    <key>sendAccurate</key>
+    <string>BadgeSwiftOutsideTo</string>
+    <key>wordFactory</key>
+    <string>ThornQuirkFormatterCoordinator</string>
+    <key>openLotusUrbanTool</key>
+    <string>FixWanderSolidResetSkill</string>
+    <key>serializerWriteCache</key>
+    <string>VisitorAcrossSearchDriver</string>
+    <key>loaderDurableWrite</key>
+    <string>LoaderVastCalculateBuild</string>
+    <key>driverExecuteCareful</key>
+    <string>CancelSearchEngineAssign</string>
+    <key>appendSuperSyncArray</key>
+    <string>GenerateAmidList</string>
+</dict>
+</plist>

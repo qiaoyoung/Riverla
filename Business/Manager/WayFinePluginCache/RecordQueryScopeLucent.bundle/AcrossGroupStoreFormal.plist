@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>coordinatorTransform</key>
+    <string>ClearMediaSelect</string>
+    <key>reflectAlongThickBroker</key>
+    <string>PieceAdapterSubmitPlanet</string>
+    <key>nearCanvasHelperStable</key>
+    <string>ForwardInitialize</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>visitorUnderInitialType</key>
+    <string>JungleReplace</string>
+    <key>scrollDraw</key>
+    <string>PaintHasty</string>
+    <key>goodStyle</key>
+    <string>MoveLineDelegateSound</string>
+    <key>macroGroup</key>
+    <string>OptionGlacierType</string>
+    <key>onSmart</key>
+    <string>SensorCloseSpeakMystic</string>
+    <key>pauseReliable</key>
+    <string>KiteAssetFixFirm</string>
+    <key>storyEncode</key>
+    <string>StrengthDesertSend</string>
+    <key>moveQueryLoader</key>
+    <string>WaitPeakDurableExtensionRestore</string>
+</dict>
+</plist>

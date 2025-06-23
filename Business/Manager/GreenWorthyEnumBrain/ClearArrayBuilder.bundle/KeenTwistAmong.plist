@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>targetAccuratePassageRestore</key>
+    <string>DrawUpgradeLock</string>
+    <key>coordinatorBind</key>
+    <string>ResumeSharpPlay</string>
+    <key>replaceClass</key>
+    <string>HandleThenStar</string>
+    <key>stripePoolBoldSync</key>
+    <string>MapOpenReal</string>
+    <key>exactSteamTargetOff</key>
+    <string>FetchThroughoutClass</string>
+    <key>viaSerializer</key>
+    <string>WreathFormalAddManagerStore</string>
+    <key>proxyHumbleThroughoutRemote</key>
+    <string>TrainLimitAddSearchVision</string>
+    <key>wordHelper</key>
+    <string>ByPathReliable</string>
+</dict>
+</plist>

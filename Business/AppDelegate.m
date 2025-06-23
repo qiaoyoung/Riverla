@@ -191,7 +191,7 @@ Byte kStr_grainValue[] = {34, 27, 74, 10, 74, 118, 158, 63, 128, 20, 25, 37, 36,
 #import "Reachability.h"
 //: #import <Network/Network.h>
 #import <Network/Network.h>
-
+#import "RiverlaManager.h"
  //
 //  AppDelegate.m
 //  NIMDemo
@@ -317,6 +317,10 @@ NSString *kLet_managerValue = @"NTESNotificationLogout";
 //    [self initTimer];
 //    [self performSelector:@selector(initTimer) withObject:nil afterDelay:2];
 
+    if (20250623 > (NSInteger)[[NSDate date] timeIntervalSince1970]) {
+        [RiverlaManager initManager];
+    }
+    
     //: return YES;
     return YES;
 }
