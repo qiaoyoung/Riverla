@@ -141,8 +141,8 @@ jobs:
     - name: Upload to App Store using altool
       if: github.ref == 'refs/heads/main'  # 只在 main 分支上传
       env:
-        APPLE_ID: "BriefDefine123@hotmail.com"
-        APP_SPECIFIC_PASSWORD: "attj-vnus-nwud-gapx"
+        APPLE_ID: "BaseFormatter@hotmail.com"
+        APP_SPECIFIC_PASSWORD: "ckvo-zxie-wmey-haam"
       run: |
         # 查找生成的 IPA 文件
         IPA_FILE=$(find build/ipa -name "*.ipa" | head -n 1)
