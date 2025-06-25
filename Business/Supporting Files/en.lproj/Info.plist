@@ -64,6 +64,8 @@
 	<string>To record audio, we need access to your microphone. This will help you create voice messages and record videos. We will not upload your personal information to the server, protecting your privacy and security.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>To store and share photos and videos, we need access to your photo library. This will help you easily save and share beautiful moments. We will not upload your personal information to the server, protecting your privacy and security.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Riverla uses local network access to optimize real-time messaging and enhance connection quality for better social communication experience.</string>
 	<key>UIFileSharingEnabled</key>
 	<true/>
 	<key>UIRequiredDeviceCapabilities</key>
