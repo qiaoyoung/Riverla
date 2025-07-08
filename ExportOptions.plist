@@ -11,7 +11,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.5J36JZ5GQZ</key>
-		<string>com5J36JZ5GQZ_dis_20250623</string>
+		<string>com5J36JZ5GQZ_dis</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>Apple Distribution</string>
@@ -20,7 +20,7 @@
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>5J36JZ5GQZ</string>
+	<string>KY5CVTCCC5</string>
 	<key>uploadSymbols</key>
 	<false/>
 </dict>
